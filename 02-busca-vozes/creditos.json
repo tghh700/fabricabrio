@@ -1,0 +1,36 @@
+{
+ "gastos": [],
+ "erros": [
+  {
+   "op": "list_voices",
+   "id": "minhas_vozes",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"49edf324109878265dc84c0a1652e092\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_masc_narr",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"4b66cc19c6a7a107e8648529c63c6191\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_masc_social",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"c600d5072cee64960b45faad03a770b9\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_fem_social",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"33c4fff020467167152cde9397df5344\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_fem_conv",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"7adbdd10186d238488cf7824ed43958f\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_todas",
+   "erro": "nenhuma chave funcionou: 400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"04b1dd1923509f9ed7647193cbffa8e5\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-referenc"
+  }
+ ],
+ "total": 0
+}
