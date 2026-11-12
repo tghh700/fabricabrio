@@ -22,6 +22,7 @@ jobs:
           IG_TOKEN_FIBRA: ${{ secrets.IG_TOKEN_FIBRA }}
           IG_TOKEN_DIAUM: ${{ secrets.IG_TOKEN_DIAUM }}
           IG_ID_BRIO: "17841418207775427"
+          IG_ID_DIAUM: "17841456016332755"
         run: python scripts/teste_instagram.py
       - name: Gravar resultado no D1
         working-directory: worker
