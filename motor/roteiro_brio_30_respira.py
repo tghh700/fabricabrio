@@ -1,0 +1,8 @@
+# brio-30-respiracao — extra 13/11 (BRIO 12/dia)
+TITLE='[serious] Perde força no meio do agachamento? Pode ser a sua respiração.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_30_respira_tight.mp3','starts':[0.125, 3.482, 7.667, 11.158, 15.149, 19.19, 25.212, 31.159]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'PERDE FORÇA', 't2': 'NO MEIO?', 'text': '[serious] Perde força no meio do agachamento? Pode ser a sua respiração.'}, {'vis': 'erro', 'k': '', 't1': 'SOLTA O AR', 't2': 'NA DESCIDA.', 'text': 'Muita gente solta o ar enquanto desce. O tronco amolece, e a barra afunda.'}, {'vis': 'puxa', 'k': '', 't1': 'PUXA O AR', 't2': 'ANTES.', 'text': 'Faz o contrário: antes de descer, puxa o ar fundo, pra barriga.'}, {'vis': 'trava', 'k': '', 't1': 'TRAVA', 't2': 'O ABDÔMEN.', 'text': 'Trava o abdômen como se fosse levar um soco. Isso vira um cinto natural.'}, {'vis': 'solta', 'k': '', 't1': 'SOLTA', 't2': 'NO FINAL.', 'text': 'Desce e sobe segurando, e solta o ar só perto do final da subida.'}, {'vis': 'longa', 'k': '', 't1': 'SÉRIE LONGA?', 't2': 'RESPIRA EM CIMA.', 'text': '[confident] Em série longa, respira de novo lá em cima, a cada repetição. Se você tem pressão alta, fala com seu médico antes.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'AR, TRAVA, DESCE.', 'text': 'Resumindo: ar pra barriga, abdômen travado, desce e sobe firme. A mesma carga fica mais leve.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'FIRME.', 'text': 'Comenta FIRME que eu te mando como registrar seu agachamento no Bríu e ver a carga subir. Link na bio.', 'marks': {'ponte': 0.792, 'fixa': 4.396}}]
