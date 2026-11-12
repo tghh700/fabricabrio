@@ -1,78 +1,12 @@
 {
- "nome": "04-teste-vozes",
+ "nome": "05-pilotos-narrados",
  "ops": [
   {
-   "op": "add_shared",
-   "public_user_id": "a56d3da1faab6fa7a219b97da2513f8e61cff99744777c0e87c6bb20f87de9e2",
-   "voice_id": "7lu3ze7orhWaNeSPowWx",
-   "name": "fab-lucas"
-  },
-  {
-   "op": "add_shared",
-   "public_user_id": "a8bd1dcde4b6ea0dd9afbaa58bccd2be2e1f42277cb01a60bd7e5352ad26f731",
-   "voice_id": "dX7gRq1dIvLTgUaWpEFn",
-   "name": "fab-rafael"
-  },
-  {
-   "op": "add_shared",
-   "public_user_id": "1c0b68a5e123491fc0393ad8803be48babd782a807a13f01ee420955c7293f32",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
-   "name": "fab-will"
-  },
-  {
-   "op": "add_shared",
-   "public_user_id": "c6b5b17b1c22a279d69e71dd86da01e8ad40f328d3cb725b62e7c8f8c7b5e066",
-   "voice_id": "ORgG8rwdAiMYRug8RJwR",
-   "name": "fab-anaalice"
-  },
-  {
-   "op": "add_shared",
-   "public_user_id": "cbc071de297fa325a7542bb199021a93e5c96233bbf48599dfa083e6498aa76d",
-   "voice_id": "PznTnBc8X6pvixs9UkQm",
-   "name": "fab-dani"
-  },
-  {
-   "op": "add_shared",
-   "public_user_id": "4a19cd68f5f2e5172b5eddbfaafdb226726e0b4035e27e952df6bbac94b8aada",
-   "voice_id": "ohZOfA9iwlZ5nOsoY7LB",
-   "name": "fab-roberta"
-  },
-  {
    "op": "tts",
-   "id": "fibra_gancho_lucas",
-   "voice_id": "7lu3ze7orhWaNeSPowWx",
-   "model_id": "eleven_v4",
-   "text": "[curious] Aquela queimação no fim da série? Não é o que te contaram. Todo mundo culpa o ácido lático. Mas o lactato, na real, vira combustível.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
-   },
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_gancho_rafael",
-   "voice_id": "dX7gRq1dIvLTgUaWpEFn",
-   "model_id": "eleven_v4",
-   "text": "[curious] Aquela queimação no fim da série? Não é o que te contaram. Todo mundo culpa o ácido lático. Mas o lactato, na real, vira combustível.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
-   },
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_gancho_will",
+   "id": "fibra_p1",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Aquela queimação no fim da série? Não é o que te contaram. Todo mundo culpa o ácido lático. Mas o lactato, na real, vira combustível.",
+   "text": "[curious] Aquela queimação no fim da série? Não é o que te contaram. Todo mundo culpa o ácido lático. Mas o lactato, na real, vira combustível. A queimação vem de outra coisa: íons de hidrogênio se acumulando dentro da fibra. O músculo fica mais ácido, e os nervos avisam: tá pesado. E isso some em poucos minutos depois que você para. A dor do dia seguinte é outra história. São microlesões, não ácido. [matter-of-fact] O segredo: a queimação mostra que a fibra trabalhou. Mas ela só cresce se a carga sobe. Comenta CARGA que eu te mando como acompanhar a sua no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -80,65 +14,21 @@
     "use_speaker_boost": true,
     "speed": 1.08
    },
+   "timestamps": true,
    "seed": 7
   },
   {
    "op": "tts",
-   "id": "diaum_gancho_anaalice",
-   "voice_id": "ORgG8rwdAiMYRug8RJwR",
-   "model_id": "eleven_v4",
-   "text": "[warm] \"Tenho vergonha de ir pra academia.\" Eu sei. Todo mundo já sentiu isso. Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.05
-   },
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "diaum_gancho_dani",
+   "id": "diaum_p1",
    "voice_id": "PznTnBc8X6pvixs9UkQm",
    "model_id": "eleven_v4",
-   "text": "[warm] \"Tenho vergonha de ir pra academia.\" Eu sei. Todo mundo já sentiu isso. Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.05
-   },
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "diaum_gancho_roberta",
-   "voice_id": "ohZOfA9iwlZ5nOsoY7LB",
-   "model_id": "eleven_v4",
-   "text": "[warm] \"Tenho vergonha de ir pra academia.\" Eu sei. Todo mundo já sentiu isso. Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.05
-   },
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio25_v4",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[confident] Como saber se você está evoluindo, sem depender do espelho nem da balança? O espelho engana. Você se vê todo dia, e não percebe as mudanças pequenas. E a balança mistura tudo: água, comida, músculo e gordura no mesmo número. Primeiro sinal: a carga sobe. Mesmo exercício, mesmas repetições, mais peso que no mês passado. Segundo sinal: mais repetições com o mesmo peso. Isso também é evolução. Terceiro sinal: a fita métrica. Braço, coxa e cintura medidos uma vez por mês. Quarto sinal: uma foto por mês, mesma luz e mesma posição. Lado a lado, a diferença aparece. [serious] O segredo de tudo isso é um só: comparar. E pra comparar, você precisa ter anotado antes. Se em um mês nada mudou, não desiste. Ajusta uma coisa no treino e mede de novo. [excited] E o quinto sinal é o mais gostoso: a roupa. A camiseta apertando no braço e a calça folgando na cintura. Comenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "text": "[warm] \"Tenho vergonha de ir pra academia.\" Eu sei. Todo mundo já sentiu isso. Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série. Então começa pequeno: três dias na semana, quarenta minutos. Escolhe quatro exercícios fáceis e repete eles por um mês. Nas primeiras semanas, vai num horário mais vazio. E anota tudo: o peso, as repetições, como você se sentiu. [encouraging] No dia trinta, você olha pra trás e vê o quanto mudou. Comenta DIA UM se hoje é o seu primeiro dia, e anota ele no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
    "voice_settings": {
     "stability": 0.45,
-    "similarity_boost": 0.8,
+    "similarity_boost": 0.75,
     "style": 0.0,
     "use_speaker_boost": true,
-    "speed": 1.1
+    "speed": 1.05
    },
    "timestamps": true,
    "seed": 7
