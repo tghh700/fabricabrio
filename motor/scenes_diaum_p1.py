@@ -117,7 +117,9 @@ def dia30(c, t, d, b):
         p = ease_out(prog(t, 0.3 * d, 0.4))
         harrow(c, 420, 1150, 600, 1150, p, t, 710, MARGIN, 8)
         if p > 0.5:
-            stick(c, 800, FLOOR, 0.92, "flex", t, 720, mood="happy")
+            up = int(t * 2) % 2
+            stick(c, 800, FLOOR, 0.92, "curl_up" if up else "curl_down", t, 720, face=1, mood="happy")
+            dumbbell(c, 815, FLOOR - 455 if up else FLOOR - 300, 0.45, t, 725)
             highlight(c, 715, 745, 220, 60, prog(t, 0.45 * d, 0.3))
             hand(c, "dia 30", 730, 790, 64, INK, p)
         tally(c, LEFT + 20, 620, 30, t, 730, prog(t, 0.2, d * 0.7), 60)

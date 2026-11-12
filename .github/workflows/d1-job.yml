@@ -1,0 +1,40 @@
+name: d1-job
+on:
+  push:
+    branches: [main]
+    paths: ["jobs/d1.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: d1-job
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Gravar no D1 e ler o estado
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+        run: python scripts/d1_job.py
+      - name: Publicar estado no branch previas
+        run: |
+          RUN="$(python -c "import json;print(json.load(open('jobs/d1.json'))['nome'])")"
+          mkdir -p /tmp/out && cp saida/estado.json /tmp/out/
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          git fetch --depth 1 origin previas
+          git checkout -B previas FETCH_HEAD
+          mkdir -p "d1/$RUN" && cp /tmp/out/estado.json "d1/$RUN/" && cp /tmp/out/estado.json d1/estado_atual.json
+          git add -A && git commit -qm "d1: $RUN" && git push origin previas

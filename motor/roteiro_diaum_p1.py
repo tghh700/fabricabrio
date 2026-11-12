@@ -2,5 +2,5 @@ THEME='diaum'
 VOICE=None
 BPM=100
 BED_VOL=0.6
-NARRATION={'file':'audio/diaum_p1.mp3','align':'audio/diaum_p1.json'}
+NARRATION={'file':'audio/diaum_p1_tight.mp3','starts':[0.108, 4.715, 9.75, 13.387, 17.074, 19.394, 23.362, 26.764]}  # v4 + apertar
 BEATS=[{'vis': 'hook', 't1': '"TENHO VERGONHA', 't2': 'DE IR."', 'text': '[warm] "Tenho vergonha de ir pra academia." Eu sei. Todo mundo já sentiu isso.'}, {'vis': 'ninguem', 't1': 'NINGUÉM', 't2': 'TÁ OLHANDO.', 'text': 'Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série.'}, {'vis': 'pequeno', 't1': 'COMEÇA', 't2': 'PEQUENO.', 'text': 'Então começa pequeno: três dias na semana, quarenta minutos.'}, {'vis': 'quatro', 't1': '4 EXERCÍCIOS.', 't2': '1 MÊS.', 'text': 'Escolhe quatro exercícios fáceis e repete eles por um mês.'}, {'vis': 'horario', 't1': 'HORÁRIO', 't2': 'VAZIO.', 'text': 'Nas primeiras semanas, vai num horário mais vazio.'}, {'vis': 'anota', 't1': 'ANOTA', 't2': 'TUDO.', 'text': 'E anota tudo: o peso, as repetições, como você se sentiu.'}, {'vis': 'dia30', 't1': 'DIA 1', 't2': 'VS DIA 30.', 'text': '[encouraging] No dia trinta, você olha pra trás e vê o quanto mudou.'}, {'vis': 'cta', 't1': 'COMENTA', 't2': 'DIA UM.', 'text': 'Comenta DIA UM se hoje é o seu primeiro dia, e anota ele no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.'}]

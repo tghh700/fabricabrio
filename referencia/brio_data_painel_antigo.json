@@ -1,0 +1,3985 @@
+{
+ "updated": "2026-11-10 16:03",
+ "schema": "Agentes diários: acrescentar vídeos no início de channels[i].videos, pesquisas no início de channels[i].research, e marcar ideias usadas.",
+ "channels": [
+  {
+   "id": "fioterra",
+   "name": "FIO TERRA",
+   "tagline": "PAUSADO · Elétrica e casa sem enrolação",
+   "accent": "#FABA1A",
+   "logo": "marca/fioterra.png",
+   "about": "Shorts animados (bonecos gordinhos, fundo escuro, título Anton branco + amarelo) com dicas de elétrica e manutenção de casa, sempre no padrão brasileiro (NBR 14136 / NBR 5410). Voz: Marcio (ElevenLabs), narração inteira numa chamada só.",
+   "formula": "Gancho provocativo → causa/teste → passo a passo com 'O SEGREDO' → quando chamar profissional → 'manda pra quem…' ou 'salva'. Duração mínima: 60 s (monetização).",
+   "videos": [
+    {
+     "id": "fioterra-06-geladeira-borracha",
+     "date": "2026-11-08",
+     "title": "Uma folha de papel revela se sua geladeira rouba energia",
+     "hook": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste.",
+     "file": "videos/fioterra-06-geladeira-borracha.mp4",
+     "duration": 32.2,
+     "status": "pronto",
+     "post_at": "2026-11-10 19:30",
+     "hashtags": [
+      "#fioterra",
+      "#dicasdecasa",
+      "#economiadeenergia",
+      "#geladeira",
+      "#contadeluz"
+     ],
+     "caption": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste. 👇\n\n#fioterra #dicasdecasa #economiadeenergia #geladeira #contadeluz",
+     "script": [
+      {
+       "k": "TESTE DE 10 SEGUNDOS",
+       "t1": "UMA FOLHA",
+       "t2": "DENUNCIA SUA GELADEIRA.",
+       "text": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste."
+      },
+      {
+       "k": "O TESTE",
+       "t1": "FECHA A PORTA",
+       "t2": "NA FOLHA.",
+       "text": "Abre a porta, coloca uma folha na borracha e fecha. Agora puxa a folha devagar."
+      },
+      {
+       "k": "O RESULTADO",
+       "t1": "SAIU FÁCIL?",
+       "t2": "TÁ VAZANDO.",
+       "text": "Se ela prende, tá vedando. Se sai fácil, sem resistência nenhuma, o ar gelado tá escapando por ali."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "TESTA",
+       "t2": "EM VOLTA TODA.",
+       "text": "O segredo é testar em vários pontos: em cima, embaixo e dos dois lados. O vazamento costuma ficar num canto só."
+      },
+      {
+       "k": "O PREJUÍZO",
+       "t1": "O MOTOR",
+       "t2": "NÃO DESCANSA.",
+       "text": "Com a borracha furada, o motor quase não desliga. Junta gelo, e a conta de luz sobe todo mês."
+      },
+      {
+       "k": "A SOLUÇÃO",
+       "t1": "LIMPA OU",
+       "t2": "TROCA.",
+       "text": "Limpa a borracha com água e sabão neutro. Ressecada ou rasgada? Troca, que é barato. Salva esse teste."
+      }
+     ],
+     "note": "Tema com melhor evidência do lote (584 mil). Sem risco elétrico.",
+     "chars": 570,
+     "captions": {
+      "youtube": {
+       "titulo": "Uma folha de papel revela se sua geladeira rouba energia #shorts #fioterra #geladeira",
+       "descricao": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #geladeira"
+      },
+      "tiktok": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #geladeira #contadeluz #dicasdecasa #eletrica #economiadeenergia",
+      "instagram": "Uma folha de papel revela se a sua geladeira tá roubando energia. Faz esse teste.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #geladeira #contadeluz #dicasdecasa #economiadeenergia"
+     }
+    },
+    {
+     "id": "fioterra-07-filtro-de-linha",
+     "date": "2026-11-08",
+     "title": "Seu filtro de linha talvez não filtre nada",
+     "hook": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada.",
+     "file": "videos/fioterra-07-filtro-de-linha.mp4",
+     "duration": 33.2,
+     "status": "pronto",
+     "post_at": "2026-11-10 21:30",
+     "hashtags": [
+      "#fioterra",
+      "#eletrica",
+      "#eletricaresidencial",
+      "#filtrodelinha",
+      "#dps"
+     ],
+     "caption": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada. 👇\n\n#fioterra #eletrica #eletricaresidencial #filtrodelinha #dps",
+     "script": [
+      {
+       "k": "CUIDADO",
+       "t1": "SEU FILTRO DE LINHA",
+       "t2": "PODE SER ENFEITE.",
+       "text": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada."
+      },
+      {
+       "k": "POR DENTRO",
+       "t1": "MUITO FILTRO",
+       "t2": "É SÓ EXTENSÃO.",
+       "text": "Muito filtro barato, por dentro, é só uma extensão com botão e luzinha. Não tem proteção nenhuma."
+      },
+      {
+       "k": "O QUE PROTEGE",
+       "t1": "PROCURA",
+       "t2": "\"DPS\".",
+       "text": "O que segura um pico de energia é o dê-pê-esse, o protetor contra surtos. Procura isso escrito na caixa."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "SEM TERRA,",
+       "t2": "NÃO FUNCIONA.",
+       "text": "O segredo: o protetor joga o surto pro fio terra. Sem terra ligado na tomada, ele quase não funciona."
+      },
+      {
+       "k": "NÃO LIGA",
+       "t1": "APARELHO",
+       "t2": "PESADO.",
+       "text": "E nunca liga ar-condicionado, micro-ondas ou aquecedor no filtro. Ele não aguenta essa corrente."
+      },
+      {
+       "k": "EM TEMPESTADE",
+       "t1": "TIRA DA",
+       "t2": "TOMADA.",
+       "text": "Contra raio, nada protege cem por cento. Tempestade forte? Tira da tomada. Manda pra quem confia no filtro."
+      }
+     ],
+     "note": "Ressalva: sem terra o DPS quase não funciona; aparelho pesado fora do filtro; tempestade = tirar da tomada.",
+     "chars": 579,
+     "captions": {
+      "youtube": {
+       "titulo": "Seu filtro de linha talvez não filtre nada #shorts #fioterra #filtrodelinha",
+       "descricao": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #filtrodelinha"
+      },
+      "tiktok": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #filtrodelinha #dps #dicasdecasa #eletrica #eletricaresidencial",
+      "instagram": "Esse filtro de linha que protege sua TV? Talvez ele não proteja nada.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #filtrodelinha #dps #eletrica #eletricaresidencial"
+     }
+    },
+    {
+     "id": "fioterra-08-led-fantasma",
+     "date": "2026-11-08",
+     "title": "Desligou e a lâmpada LED continua acesa?",
+     "hook": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação.",
+     "file": "videos/fioterra-08-led-fantasma.mp4",
+     "duration": 32.9,
+     "status": "pronto",
+     "post_at": "2026-11-11 08:00",
+     "hashtags": [
+      "#fioterra",
+      "#eletrica",
+      "#eletricaresidencial",
+      "#lampadaled",
+      "#interruptor"
+     ],
+     "caption": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação. 👇\n\n#fioterra #eletrica #eletricaresidencial #lampadaled #interruptor",
+     "script": [
+      {
+       "k": "LUZ FANTASMA",
+       "t1": "DESLIGOU E",
+       "t2": "CONTINUA ACESA?",
+       "text": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação."
+      },
+      {
+       "k": "O QUE É",
+       "t1": "SOBRA UM",
+       "t2": "FIOZINHO DE ENERGIA.",
+       "text": "O LED acende com quase nada. Um fiozinho de energia que vaza pela fiação já faz ele brilhar."
+      },
+      {
+       "k": "A CAUSA",
+       "t1": "INTERRUPTOR",
+       "t2": "NO FIO ERRADO.",
+       "text": "A causa mais comum: o interruptor corta o neutro, e não a fase. A lâmpada fica sempre com energia."
+      },
+      {
+       "k": "O PERIGO",
+       "t1": "CHOQUE MESMO",
+       "t2": "DESLIGADA.",
+       "text": "E aí mora o perigo: você troca a lâmpada achando que tá desligada, e leva choque."
+      },
+      {
+       "k": "OUTRAS CAUSAS",
+       "t1": "INTERRUPTOR",
+       "t2": "COM LUZINHA.",
+       "text": "Pode ser também interruptor com luz de localização, ou fio muito comprido do lado de outro."
+      },
+      {
+       "k": "O CERTO",
+       "t1": "INTERRUPTOR",
+       "t2": "NA FASE.",
+       "text": "O certo é o interruptor cortar a fase. Pra mexer, desliga o disjuntor ou chama um eletricista. Manda pra quem tem luz fantasma."
+      }
+     ],
+     "note": "Assunto em alta na imprensa (\"luz fantasma\"). Ressalva: desligar o disjuntor ou chamar eletricista.",
+     "chars": 572,
+     "captions": {
+      "youtube": {
+       "titulo": "Desligou e a lâmpada LED continua acesa? #shorts #fioterra #lampadaled",
+       "descricao": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #lampadaled"
+      },
+      "tiktok": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #lampadaled #interruptor #dicasdecasa #eletrica #eletricaresidencial",
+      "instagram": "Desligou o interruptor e o LED continua aceso, fraquinho? Isso tem explicação.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #lampadaled #interruptor #eletrica #eletricaresidencial"
+     }
+    },
+    {
+     "id": "fioterra-09-disjuntor-chuveiro",
+     "date": "2026-11-08",
+     "title": "Disjuntor do chuveiro caindo? Não troca por um maior",
+     "hook": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio.",
+     "file": "videos/fioterra-09-disjuntor-chuveiro.mp4",
+     "duration": 34.5,
+     "status": "pronto",
+     "post_at": "2026-11-11 12:30",
+     "hashtags": [
+      "#fioterra",
+      "#eletrica",
+      "#eletricaresidencial",
+      "#chuveiro",
+      "#disjuntor"
+     ],
+     "caption": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio. 👇\n\n#fioterra #eletrica #eletricaresidencial #chuveiro #disjuntor",
+     "script": [
+      {
+       "k": "PARE",
+       "t1": "DISJUNTOR CAINDO?",
+       "t2": "NÃO TROCA POR UM MAIOR.",
+       "text": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio."
+      },
+      {
+       "k": "A CONTA",
+       "t1": "7500 W PUXA",
+       "t2": "MUITA CORRENTE.",
+       "text": "Um chuveiro de sete mil e quinhentos watts, em duzentos e vinte, puxa uns trinta e quatro ampères."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "FIO FINO",
+       "t2": "ESQUENTA.",
+       "text": "Fio fino demais esquenta, derrete a capa e pode pegar fogo dentro da parede."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "O DISJUNTOR",
+       "t2": "PROTEGE O FIO.",
+       "text": "O segredo: o disjuntor protege o fio. Ele cai justamente pra fiação não derreter."
+      },
+      {
+       "k": "O CERTO",
+       "t1": "OLHA O",
+       "t2": "MANUAL.",
+       "text": "Olha o manual. Nesse caso, normalmente pede fio de seis milímetros e disjuntor de quarenta ampères, com dê-erre."
+      },
+      {
+       "k": "SEGURANÇA",
+       "t1": "CHAMA UM",
+       "t2": "ELETRICISTA.",
+       "text": "Fio escurecido ou cheiro de queimado? Desliga o disjuntor e chama um eletricista. Manda pra quem tem chuveiro forte."
+      }
+     ],
+     "note": "7500 W/220 V ≈ 34 A; fio 6 mm² + disjuntor 40 A + DR conforme manual (NBR 5410). Ressalva: chamar eletricista.",
+     "chars": 570,
+     "captions": {
+      "youtube": {
+       "titulo": "Disjuntor do chuveiro caindo? Não troca por um maior #shorts #fioterra #chuveiro",
+       "descricao": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #chuveiro"
+      },
+      "tiktok": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #chuveiro #disjuntor #dicasdecasa #eletrica #eletricaresidencial",
+      "instagram": "O disjuntor do chuveiro vive caindo? Não troca por um maior. Esse erro queima fio.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #chuveiro #disjuntor #eletrica #eletricaresidencial"
+     }
+    },
+    {
+     "id": "fioterra-05-ar-condicionado",
+     "date": "2026-11-08",
+     "title": "Você liga o ar-condicionado do jeito que mais gasta",
+     "hook": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido.",
+     "file": "videos/fioterra-05-ar-condicionado.mp4",
+     "duration": 30.3,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#arcondicionado",
+      "#contadeluz",
+      "#economiadeenergia",
+      "#verao"
+     ],
+     "caption": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido. 👇\n\n#fioterra #arcondicionado #contadeluz #economiadeenergia #verao",
+     "script": [
+      {
+       "k": "VERÃO CHEGANDO",
+       "t1": "VOCÊ LIGA O AR",
+       "t2": "DO JEITO ERRADO.",
+       "text": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido."
+      },
+      {
+       "k": "O ERRO",
+       "t1": "LIGAR NO",
+       "t2": "17 GRAUS.",
+       "text": "Colocar no dezessete não gela mais rápido. O aparelho só trabalha mais tempo, e a conta sobe."
+      },
+      {
+       "k": "O CERTO",
+       "t1": "23 A 24",
+       "t2": "GRAUS.",
+       "text": "O ideal é vinte e três a vinte e quatro graus. Fica confortável e gasta bem menos."
+      },
+      {
+       "k": "O ESQUECIDO",
+       "t1": "FILTRO",
+       "t2": "SUJO.",
+       "text": "Outro vilão: filtro sujo. O ar sai fraco, e o aparelho se mata pra gelar. Lava com água, a cada mês."
+      },
+      {
+       "k": "O BÁSICO",
+       "t1": "PORTA",
+       "t2": "FECHADA.",
+       "text": "E porta e janela fechadas. Senão você tá refrigerando a rua."
+      },
+      {
+       "k": "SEGURANÇA",
+       "t1": "NADA DE",
+       "t2": "EXTENSÃO.",
+       "text": "E ar-condicionado nunca na extensão ou no benjamim. Ele precisa de tomada própria. Manda pra quem dorme no dezessete."
+      }
+     ],
+     "note": "Tema sazonal subindo (verão).",
+     "chars": 532,
+     "post_at": "2026-11-09 19:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Você liga o ar-condicionado do jeito que mais gasta #shorts #fioterra #arcondicionado",
+       "descricao": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #arcondicionado"
+      },
+      "tiktok": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #arcondicionado #contadeluz #dicasdecasa #eletrica #economiadeenergia",
+      "instagram": "Você liga o ar-condicionado do jeito que mais gasta luz. E nem gela mais rápido.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #arcondicionado #contadeluz #economiadeenergia #verao"
+     }
+    },
+    {
+     "id": "fioterra-04-ralo-cheiro",
+     "date": "2026-11-08",
+     "title": "Cheiro de esgoto no banheiro? 10 segundos",
+     "hook": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos.",
+     "file": "videos/fioterra-04-ralo-cheiro.mp4",
+     "duration": 30.5,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#cheirodeesgoto",
+      "#banheiro",
+      "#dicasdecasa",
+      "#manutencaoresidencial"
+     ],
+     "caption": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos. 👇\n\n#fioterra #cheirodeesgoto #banheiro #dicasdecasa #manutencaoresidencial",
+     "script": [
+      {
+       "k": "CHEIRO DE ESGOTO?",
+       "t1": "RESOLVE EM",
+       "t2": "10 SEGUNDOS.",
+       "text": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "O RALO",
+       "t2": "TEM UMA BARREIRA.",
+       "text": "Todo ralo tem um segredo: uma pocinha de água lá embaixo, que bloqueia o cheiro do esgoto."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "RALO POUCO USADO",
+       "t2": "SECA.",
+       "text": "Ralo pouco usado seca. Sem a água, o cheiro sobe direto pra sua casa."
+      },
+      {
+       "k": "A SOLUÇÃO",
+       "t1": "JOGA UM",
+       "t2": "BALDE D'ÁGUA.",
+       "text": "A solução: joga um balde de água no ralo. Pronto, a barreira volta."
+      },
+      {
+       "k": "SE CONTINUAR",
+       "t1": "LIMPA",
+       "t2": "O CABELO.",
+       "text": "Continuou? Tira a tampa e limpa o cabelo e a sujeira acumulada. Ou coloca um ralo anti odor."
+      },
+      {
+       "k": "CUIDADO",
+       "t1": "NÃO MISTURA",
+       "t2": "PRODUTO.",
+       "text": "E nunca mistura água sanitária com outro produto de limpeza. Manda pra quem tá sofrendo com esse cheiro."
+      }
+     ],
+     "note": "Tema com vídeo de 6,8 mi de views.",
+     "chars": 498,
+     "post_at": "2026-11-09 08:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Cheiro de esgoto no banheiro? 10 segundos #shorts #fioterra #cheirodeesgoto",
+       "descricao": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #cheirodeesgoto"
+      },
+      "tiktok": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #cheirodeesgoto #banheiro #dicasdecasa #eletrica #manutencaoresidencial",
+      "instagram": "Cheiro de esgoto no banheiro? Na maioria das vezes, resolve em dez segundos.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #cheirodeesgoto #banheiro #dicasdecasa #manutencaoresidencial"
+     }
+    },
+    {
+     "id": "fioterra-03-vaso-vazando",
+     "date": "2026-11-08",
+     "title": "Seu vaso está jogando dinheiro no esgoto",
+     "hook": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta.",
+     "file": "videos/fioterra-03-vaso-vazando.mp4",
+     "duration": 27.9,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#vazamento",
+      "#contadeagua",
+      "#encanador",
+      "#dicasdecasa"
+     ],
+     "caption": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta. 👇\n\n#fioterra #vazamento #contadeagua #encanador #dicasdecasa",
+     "script": [
+      {
+       "k": "CONTA DE ÁGUA ALTA?",
+       "t1": "SEU VASO TÁ",
+       "t2": "JOGANDO DINHEIRO FORA.",
+       "text": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta."
+      },
+      {
+       "k": "O TESTE",
+       "t1": "PAPEL",
+       "t2": "NA PAREDE.",
+       "text": "Faz o teste: encosta um papel higiênico seco na parede de dentro do vaso, logo abaixo da borda."
+      },
+      {
+       "k": "O RESULTADO",
+       "t1": "MOLHOU?",
+       "t2": "TÁ VAZANDO.",
+       "text": "Molhou sozinho? A água tá descendo direto, sem parar."
+      },
+      {
+       "k": "CULPADO 1",
+       "t1": "VEDAÇÃO",
+       "t2": "GASTA.",
+       "text": "O culpado mais comum é a vedação gasta lá no fundo da caixa. É uma borrachinha barata."
+      },
+      {
+       "k": "CULPADO 2",
+       "t1": "BOIA",
+       "t2": "DESREGULADA.",
+       "text": "O outro é a boia desregulada. A água tem que parar abaixo do cano do ladrão."
+      },
+      {
+       "k": "ANTES DE MEXER",
+       "t1": "FECHA O",
+       "t2": "REGISTRO.",
+       "text": "Antes de mexer, fecha o registro. Troca a vedação, regula a boia, e acabou o vazamento. Salva pra fazer hoje."
+      }
+     ],
+     "note": "",
+     "chars": 495,
+     "post_at": "2026-11-09 21:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Seu vaso está jogando dinheiro no esgoto #shorts #fioterra #vazamento",
+       "descricao": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #vazamento"
+      },
+      "tiktok": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #vazamento #contadeagua #dicasdecasa #eletrica #encanador",
+      "instagram": "Seu vaso sanitário pode estar jogando dinheiro no esgoto, e você nem escuta.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #vazamento #contadeagua #encanador #dicasdecasa"
+     }
+    },
+    {
+     "id": "fioterra-02-tomada-quente",
+     "date": "2026-11-08",
+     "title": "Tomada quente não é normal",
+     "hook": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio.",
+     "file": "videos/fioterra-02-tomada-quente.mp4",
+     "duration": 32.1,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#eletricaresidencial",
+      "#tomada",
+      "#segurancaeletrica",
+      "#dicasdecasa"
+     ],
+     "caption": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio. 👇\n\n#fioterra #eletricaresidencial #tomada #segurancaeletrica #dicasdecasa",
+     "script": [
+      {
+       "k": "ALERTA",
+       "t1": "TOMADA QUENTE",
+       "t2": "NÃO É NORMAL.",
+       "text": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio."
+      },
+      {
+       "k": "CAUSA 1",
+       "t1": "MAU",
+       "t2": "CONTATO.",
+       "text": "A causa número um é mau contato: tomada velha, frouxa, ou parafuso solto atrás."
+      },
+      {
+       "k": "CAUSA 2",
+       "t1": "APARELHO FORTE",
+       "t2": "NA TOMADA FRACA.",
+       "text": "A causa dois: aparelho forte numa tomada de dez ampères. Air fryer, micro-ondas, aquecedor."
+      },
+      {
+       "k": "CAUSA 3",
+       "t1": "ADAPTADOR",
+       "t2": "FORÇADO.",
+       "text": "E a três: adaptador forçando um plugue grosso numa tomada fina."
+      },
+      {
+       "k": "O SINAL",
+       "t1": "PLUGUE",
+       "t2": "ESCURECIDO.",
+       "text": "O sinal de alerta é o plugue ou a tomada escurecida. Se tá assim, já tá derretendo por dentro."
+      },
+      {
+       "k": "O QUE FAZER",
+       "t1": "DESLIGA E",
+       "t2": "TROCA.",
+       "text": "Desliga o disjuntor e troca a tomada. Se o fio atrás também tiver queimado, chama um eletricista. Manda pra quem usa air fryer no benjamim."
+      }
+     ],
+     "note": "",
+     "chars": 541,
+     "post_at": "2026-11-09 17:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Tomada quente não é normal #shorts #fioterra #tomada",
+       "descricao": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #tomada"
+      },
+      "tiktok": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #tomada #segurancaeletrica #dicasdecasa #eletrica #eletricaresidencial",
+      "instagram": "Encostou na tomada e tava quente? Isso não é normal. E pode virar incêndio.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #tomada #segurancaeletrica #eletricaresidencial #dicasdecasa"
+     }
+    },
+    {
+     "id": "fioterra-01-relogio-de-luz",
+     "date": "2026-11-08",
+     "title": "Conta de luz alta? Faz esse teste no relógio",
+     "hook": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia.",
+     "file": "videos/fioterra-01-relogio-de-luz.mp4",
+     "duration": 31.4,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#contadeluz",
+      "#economiadeenergia",
+      "#eletrica",
+      "#dicasdecasa"
+     ],
+     "caption": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia. 👇\n\n#fioterra #contadeluz #economiadeenergia #eletrica #dicasdecasa",
+     "script": [
+      {
+       "k": "CONTA ALTA?",
+       "t1": "FAZ ESSE TESTE",
+       "t2": "ANTES DE RECLAMAR.",
+       "text": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia."
+      },
+      {
+       "k": "PASSO 1",
+       "t1": "TIRA TUDO",
+       "t2": "DA TOMADA.",
+       "text": "Tira tudo da tomada. Tudo mesmo, até a geladeira. Mas deixa os disjuntores ligados."
+      },
+      {
+       "k": "PASSO 2",
+       "t1": "OLHA O",
+       "t2": "RELÓGIO.",
+       "text": "Agora vai no relógio de luz. Se a luzinha continua piscando, ou o número continua subindo, tem energia indo embora."
+      },
+      {
+       "k": "PASSO 3",
+       "t1": "UM DISJUNTOR",
+       "t2": "POR VEZ.",
+       "text": "Pra achar o culpado, desliga um disjuntor por vez. O que fizer o relógio parar, é o circuito com problema."
+      },
+      {
+       "k": "O VILÃO",
+       "t1": "FUGA DE",
+       "t2": "CORRENTE.",
+       "text": "Geralmente é fuga de corrente: fio descascado ou umidade. Você paga por uma energia que vaza pela parede."
+      },
+      {
+       "k": "ATENÇÃO",
+       "t1": "NUNCA ABRA",
+       "t2": "O RELÓGIO.",
+       "text": "Nunca abre o relógio, ele é da distribuidora. Achou fuga? Chama um eletricista. Salva esse teste."
+      }
+     ],
+     "note": "Tema com vídeo de 1,29 mi de views.",
+     "chars": 577,
+     "post_at": "2026-11-09 12:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Conta de luz alta? Faz esse teste no relógio #shorts #fioterra #contadeluz",
+       "descricao": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #contadeluz"
+      },
+      "tiktok": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #contadeluz #dicasdecasa #eletrica #economiadeenergia",
+      "instagram": "Sua conta de luz veio alta? Faz esse teste antes de culpar a companhia.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #contadeluz #economiadeenergia #eletrica #dicasdecasa"
+     }
+    },
+    {
+     "id": "fioterra-00c-teste-dr",
+     "date": "2026-11-08",
+     "title": "Tem um botão na sua casa que salva sua vida",
+     "hook": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta.",
+     "file": "videos/fioterra-00c-teste-dr.mp4",
+     "duration": 43.4,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#segurancaeletrica",
+      "#quadrodeluz",
+      "#eletricista",
+      "#dicasdecasa"
+     ],
+     "caption": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta. 👇\n\n#fioterra #segurancaeletrica #quadrodeluz #eletricista #dicasdecasa",
+     "script": [
+      {
+       "k": "TESTE DE 2 SEGUNDOS",
+       "t1": "TEM UM BOTÃO",
+       "t2": "QUE SALVA SUA VIDA.",
+       "text": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta."
+      },
+      {
+       "k": "ONDE FICA",
+       "t1": "NO QUADRO",
+       "t2": "DE LUZ.",
+       "text": "Abre o quadro de luz e procura um disjuntor diferente, com um botãozinho escrito T."
+      },
+      {
+       "k": "O NOME",
+       "t1": "ISSO É O",
+       "t2": "DR.",
+       "text": "Isso é o dê-erre. Ele vigia se tem corrente escapando. Tipo, passando pelo seu corpo."
+      },
+      {
+       "k": "VELOCIDADE",
+       "t1": "DESLIGA EM",
+       "t2": "FRAÇÃO DE SEGUNDO.",
+       "text": "Se escapar, ele desliga tudo numa fração de segundo. Antes do choque virar tragédia."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "ELE PODE",
+       "t2": "TRAVAR.",
+       "text": "O problema: com o tempo, o mecanismo pode travar. E você nem fica sabendo."
+      },
+      {
+       "k": "O TESTE",
+       "t1": "APERTA",
+       "t2": "O T.",
+       "text": "Por isso, aperta o botão T. Ele tem que desarmar na hora."
+      },
+      {
+       "k": "DESARMOU?",
+       "t1": "TÁ",
+       "t2": "FUNCIONANDO.",
+       "text": "Desarmou? Tá funcionando. Religa, e repete uma vez por mês."
+      },
+      {
+       "k": "NÃO DESARMOU?",
+       "t1": "CHAMA UM",
+       "t2": "ELETRICISTA.",
+       "text": "Não desarmou? Seu dê-erre tá com defeito. Chama um eletricista."
+      },
+      {
+       "k": "NEM TEM DR?",
+       "t1": "AÍ É",
+       "t2": "MAIS GRAVE.",
+       "text": "E se nem tiver dê-erre no quadro, é mais grave. A norma exige em banheiro, cozinha e área de serviço."
+      },
+      {
+       "k": "COMPARTILHA",
+       "t1": "MANDA PRA",
+       "t2": "SUA MÃE.",
+       "text": "Manda pra sua mãe. Ela com certeza nunca apertou esse botão."
+      }
+     ],
+     "note": "Versão antiga: sem marca d'água, voz gerada por frase.",
+     "chars": 734,
+     "post_at": "2026-11-10 17:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Tem um botão na sua casa que salva sua vida #shorts #fioterra #segurancaeletrica",
+       "descricao": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #segurancaeletrica"
+      },
+      "tiktok": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #segurancaeletrica #quadrodeluz #dicasdecasa #eletrica #eletricista",
+      "instagram": "Tem um botão na sua casa que salva sua vida. E quase ninguém aperta.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #segurancaeletrica #quadrodeluz #eletricista #dicasdecasa"
+     }
+    },
+    {
+     "id": "fioterra-00b-resistencia-chuveiro",
+     "date": "2026-11-08",
+     "title": "Seu chuveiro gelou? Não é o chuveiro.",
+     "hook": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro.",
+     "file": "videos/fioterra-00b-resistencia-chuveiro.mp4",
+     "duration": 44.0,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#chuveiro",
+      "#resistencia",
+      "#banhoquente",
+      "#dicasdecasa"
+     ],
+     "caption": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro. 👇\n\n#fioterra #chuveiro #resistencia #banhoquente #dicasdecasa",
+     "script": [
+      {
+       "k": "BANHO GELADO",
+       "t1": "SEU CHUVEIRO GELOU?",
+       "t2": "NÃO É O CHUVEIRO.",
+       "text": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro."
+      },
+      {
+       "k": "O CULPADO",
+       "t1": "É A",
+       "t2": "RESISTÊNCIA.",
+       "text": "É a resistência. E trocar custa menos que uma pizza."
+      },
+      {
+       "k": "PASSO 1",
+       "t1": "DESLIGA O",
+       "t2": "DISJUNTOR.",
+       "text": "Primeiro: desliga o disjuntor do chuveiro. Só fechar o registro não adianta."
+      },
+      {
+       "k": "PASSO 2",
+       "t1": "ABRE O",
+       "t2": "CHUVEIRO.",
+       "text": "Desenrosca a parte de baixo e olha a resistência."
+      },
+      {
+       "k": "O SINAL",
+       "t1": "FIO",
+       "t2": "PARTIDO.",
+       "text": "Tá vendo o fio partido? Pronto. Achou o problema."
+      },
+      {
+       "k": "ATENÇÃO",
+       "t1": "MESMO MODELO.",
+       "t2": "MESMA VOLTAGEM.",
+       "text": "Compra uma igual: mesmo modelo e mesma voltagem, cento e vinte e sete ou duzentos e vinte. Tá escrito no chuveiro."
+      },
+      {
+       "k": "PASSO 3",
+       "t1": "ENCAIXA",
+       "t2": "E FECHA.",
+       "text": "Encaixa a nova sem forçar, e fecha tudo."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "ÁGUA",
+       "t2": "PRIMEIRO.",
+       "text": "Agora o segredo que queima resistência nova: abre a água antes de ligar a energia. Sem água, ela queima em segundos."
+      },
+      {
+       "k": "PASSO 4",
+       "t1": "AGORA SIM,",
+       "t2": "LIGA.",
+       "text": "Água correndo? Aí sim, liga o disjuntor. Fio da ligação derretido? Aí é eletricista."
+      },
+      {
+       "k": "SALVA AÍ",
+       "t1": "SALVA ESSE VÍDEO",
+       "t2": "PRO PRÓXIMO BANHO FRIO.",
+       "text": "Salva esse vídeo. Você vai precisar dele no próximo banho frio."
+      }
+     ],
+     "note": "Versão antiga: sem marca d'água, voz gerada por frase.",
+     "chars": 709,
+     "post_at": "2026-11-10 12:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Seu chuveiro gelou? Não é o chuveiro. #shorts #fioterra #chuveiro",
+       "descricao": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro.\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #chuveiro"
+      },
+      "tiktok": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro. 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #chuveiro #resistencia #dicasdecasa #eletrica #banhoquente",
+      "instagram": "Seu chuveiro gelou do nada? Calma. Quase sempre, não é o chuveiro.\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #chuveiro #resistencia #banhoquente #dicasdecasa"
+     }
+    },
+    {
+     "id": "fioterra-00a-trocar-tomada",
+     "date": "2026-11-08",
+     "title": "Você é homem e não sabe trocar uma tomada?",
+     "hook": "Você é homem e não sabe trocar uma tomada?",
+     "file": "videos/fioterra-00a-trocar-tomada.mp4",
+     "duration": 35.6,
+     "status": "pronto",
+     "hashtags": [
+      "#fioterra",
+      "#eletricista",
+      "#tomada",
+      "#facavocemesmo",
+      "#dicasdecasa"
+     ],
+     "caption": "Você é homem e não sabe trocar uma tomada? 👇\n\n#fioterra #eletricista #tomada #facavocemesmo #dicasdecasa",
+     "script": [
+      {
+       "k": "TESTE RÁPIDO",
+       "t1": "VOCÊ É HOMEM E",
+       "t2": "NÃO SABE TROCAR UMA TOMADA?",
+       "text": "Você é homem e não sabe trocar uma tomada?"
+      },
+      {
+       "k": "PASSO A PASSO",
+       "t1": "RELAXA.",
+       "t2": "40 SEGUNDOS.",
+       "text": "Relaxa. Em quarenta segundos você aprende."
+      },
+      {
+       "k": "PASSO 1",
+       "t1": "DESLIGA O",
+       "t2": "DISJUNTOR.",
+       "text": "Primeiro: desliga o disjuntor. Sem isso, nem encosta."
+      },
+      {
+       "k": "PASSO 2",
+       "t1": "TESTA",
+       "t2": "ANTES.",
+       "text": "Testa com a chave de teste. Acendeu? Ainda tem energia."
+      },
+      {
+       "k": "PASSO 3",
+       "t1": "TIRA O",
+       "t2": "ESPELHO.",
+       "text": "Tira o espelho, solta os parafusos e puxa a tomada pra fora."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "TIRA",
+       "t2": "FOTO.",
+       "text": "Agora o segredo: tira foto de onde cada fio tava."
+      },
+      {
+       "k": "VERDE",
+       "t1": "VERDE É",
+       "t2": "TERRA.",
+       "text": "Verde, ou verde e amarelo, é o terra. Vai no buraco do meio."
+      },
+      {
+       "k": "AZUL CLARO",
+       "t1": "AZUL É",
+       "t2": "NEUTRO.",
+       "text": "Azul claro é o neutro. O outro é a fase."
+      },
+      {
+       "k": "PASSO 4",
+       "t1": "APERTA",
+       "t2": "FIRME.",
+       "text": "Encaixa, aperta firme, e dá aquela puxadinha pra ver se prendeu."
+      },
+      {
+       "k": "PASSO 5",
+       "t1": "LIGA E",
+       "t2": "TESTA.",
+       "text": "Fecha, liga o disjuntor e testa. Fio derretido? Aí chama um eletricista."
+      },
+      {
+       "k": "SEM DESCULPA",
+       "t1": "MANDA PRA QUEM",
+       "t2": "AINDA CHAMA O VIZINHO.",
+       "text": "Agora não tem mais desculpa. Manda pra quem ainda chama o vizinho."
+      }
+     ],
+     "note": "Versão antiga: sem marca d'água.",
+     "chars": 603,
+     "post_at": "2026-11-10 08:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Você é homem e não sabe trocar uma tomada? #shorts #fioterra #eletricista",
+       "descricao": "Você é homem e não sabe trocar uma tomada?\nSalva esse vídeo e manda pra quem precisa.\n\n#shorts #fioterra #eletricista"
+      },
+      "tiktok": "Você é homem e não sabe trocar uma tomada? 👇\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #eletricista #tomada #dicasdecasa #eletrica #facavocemesmo",
+      "instagram": "Você é homem e não sabe trocar uma tomada?\n\nSalva esse vídeo e manda pra quem precisa.\n\n#fioterra #eletricista #tomada #facavocemesmo #dicasdecasa"
+     }
+    }
+   ],
+   "research": [
+    {
+     "date": "2026-11-08",
+     "title": "Lote 2: temas de elétrica e casa (banco de ideias + o que está em alta na imprensa)",
+     "summary": "O YouTube bloqueou a leitura direta de resultados nesta execução (robots), então os temas vieram do banco de ideias com evidência de views registrada na pesquisa de 08/11, cruzada com buscas web de hoje: \"luz fantasma\" do LED, teste da folha na geladeira e filtro de linha/DPS estão com várias matérias recentes em portais (O Povo, Tupi, Estado de Minas, Olhar Digital, Canaltech).",
+     "items": [
+      {
+       "tema": "Borracha da geladeira (teste da folha)",
+       "gancho": "Uma folha de papel revela se sua geladeira rouba energia.",
+       "evidencia": "584 mil; 399 mil; 334 mil (pesquisa 08/11) + matérias recentes (Estado de Minas ago/2026, O Povo, Diario de PE)",
+       "usado": true
+      },
+      {
+       "tema": "Filtro de linha 'de enfeite' (DPS)",
+       "gancho": "Seu filtro de linha talvez não filtre nada.",
+       "evidencia": "443 mil (jun/2026); 341 mil; 329 mil (pesquisa 08/11) + guias de compra 2026 (Canaltech, TecMundo)",
+       "usado": true
+      },
+      {
+       "tema": "LED aceso fraco com interruptor desligado",
+       "gancho": "Desligou e o LED continua aceso?",
+       "evidencia": "324 mil; 156 mil; 118 mil (pesquisa 08/11) + onda de matérias \"luz fantasma\" (Tupi, O Povo, Itatiaia, Correio, Gazeta SP)",
+       "usado": true
+      },
+      {
+       "tema": "Fio/disjuntor do chuveiro 7500 W",
+       "gancho": "Disjuntor do chuveiro caindo? Não troca por um maior.",
+       "evidencia": "238 mil; 185 mil (ago/2026); longo de 1,18 mi (pesquisa 08/11)",
+       "usado": true
+      },
+      {
+       "tema": "Carregador e standby gastam?",
+       "gancho": "Tirar o carregador da tomada economiza?",
+       "evidencia": "227 mil (pesquisa 08/11)",
+       "usado": false
+      }
+     ],
+     "patterns": [
+      "Teste caseiro de 10 segundos",
+      "\"Não faça X\" (contraintuitivo)",
+      "Fenômeno com nome (\"luz fantasma\")",
+      "Objeto comum que \"não serve pra nada\""
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "title": "Temas de elétrica e casa que estão performando (YouTube, ~40 buscas)",
+     "summary": "No filtro 'este mês' o nicho tem pouco volume; os shorts que viralizam são perenes (2023–2025) e continuam no topo. Fórmula vencedora: sintoma do espectador → causa escondida → teste visual simples → solução → quando chamar profissional.",
+     "items": [
+      {
+       "tema": "Teste do relógio de luz",
+       "gancho": "Sua conta veio alta? Faz esse teste antes de culpar a companhia.",
+       "evidencia": "1,29 mi; 422 mil; 288 mil; 265 mil",
+       "usado": true
+      },
+      {
+       "tema": "Fio do chuveiro 7500 W x bitola",
+       "gancho": "Seu chuveiro de 7500 W está num fio fino demais?",
+       "evidencia": "238 mil; 185 mil (ago/2026); longo de 1,18 mi em 2 semanas",
+       "usado": false
+      },
+      {
+       "tema": "Tomada/plugue esquentando",
+       "gancho": "Tomada quente NÃO é normal.",
+       "evidencia": "511 mil; 231 mil; dezenas de shorts recentes",
+       "usado": true
+      },
+      {
+       "tema": "LED aceso fraco com interruptor desligado",
+       "gancho": "Desligou e a lâmpada continua acesa?",
+       "evidencia": "324 mil; 156 mil; 118 mil",
+       "usado": false
+      },
+      {
+       "tema": "Filtro de linha 'de enfeite' (DPS)",
+       "gancho": "Seu filtro de linha talvez não filtre nada.",
+       "evidencia": "443 mil (jun/2026); 341 mil; 329 mil",
+       "usado": false
+      },
+      {
+       "tema": "Carregador e standby gastam?",
+       "gancho": "Tirar o carregador da tomada economiza?",
+       "evidencia": "227 mil",
+       "usado": false
+      },
+      {
+       "tema": "Caixa acoplada vazando",
+       "gancho": "Seu vaso está jogando dinheiro no esgoto.",
+       "evidencia": "2,4 mi; 1,53 mi; 1,08 mi",
+       "usado": true
+      },
+      {
+       "tema": "Ralo com cheiro de esgoto",
+       "gancho": "Cheiro de esgoto resolve em 10 segundos.",
+       "evidencia": "6,8 mi; 306 mil; 205 mil",
+       "usado": true
+      },
+      {
+       "tema": "Ar-condicionado no verão",
+       "gancho": "Você liga o ar do jeito que mais gasta.",
+       "evidencia": "1,2 mi; 862 mil; rankings de 140–193 mil nas últimas semanas",
+       "usado": true
+      },
+      {
+       "tema": "Borracha da geladeira (teste da folha)",
+       "gancho": "Uma folha de papel revela se sua geladeira rouba energia.",
+       "evidencia": "584 mil; 399 mil; 334 mil",
+       "usado": false
+      }
+     ],
+     "patterns": [
+      "'N ERROS que 9X% não sabem'",
+      "'Pare / todo mundo comete esse erro'",
+      "Condição + teste: 'Se X, faça este teste'",
+      "Pergunta técnica de sim/não (gera comentário discordando)",
+      "Segredo de profissional",
+      "Desmascarar ('a fraude dos...')",
+      "'NÃO é normal / não ignore este sinal'"
+     ]
+    }
+   ],
+   "ideas": [
+    "Carregador na tomada gasta?",
+    "Chave verão/inverno: por que queima",
+    "Interruptor paralelo (ligar a luz de 2 lugares)",
+    "Qual disjuntor é de qual cômodo",
+    "Torneira pingando: troca do reparo",
+    "Desentupir pia: mito ou verdade",
+    "Mofo que sempre volta",
+    "Furar azulejo sem trincar",
+    "Bucha certa pra TV na parede",
+    "Teste da espuma no gás",
+    "Plugue do micro-ondas não entra (10 A x 20 A)",
+    "Instalar ventilador de teto",
+    "Disjuntor desarmando sozinho: as 3 causas",
+    "Tomada sem terra: o que fazer"
+   ],
+   "slots": [
+    "08:00",
+    "12:30",
+    "17:30",
+    "19:30",
+    "21:30"
+   ],
+   "slots_note": "Canal pausado desde 09/11 (foco total no BRIO). Os vídeos já agendados continuam na fila. Casa e elétrica: almoço e fim do dia, quando a pessoa está em casa."
+  },
+  {
+   "id": "brio",
+   "name": "BRIO",
+   "tagline": "Treino com números, não com achismo",
+   "accent": "#FF4D2E",
+   "logo": "",
+   "brand": "brio",
+   "about": "Shorts de treino (mesma estética, destaque coral #FF4D2E e lilás #C9B8FF) que terminam com chamada para o app BRIO. Chamada padrão: 'Registre e acompanhe seus treinos gratuitamente. Link na bio.' Funções citáveis: registro série a série, carga da última vez, cronômetro de descanso, aviso de quando subir a carga, gráficos de evolução e recordes, ficha que cabe no tempo disponível.",
+   "formula": "Acusação/pergunta na 1ª linha → erro → porquê em 1 frase → correção → 'como medir' → BRIO. Duração: de preferência 60 s ou mais.",
+   "videos": [
+    {
+     "id": "brio-26-joelho-ponta-pe",
+     "date": "2026-11-09",
+     "title": "O joelho pode passar da ponta do pé no agachamento?",
+     "hook": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito.",
+     "gatilho": "Time joelho pode passar ou time não pode? Comenta.",
+     "gatilho_tipo": 4,
+     "file": "videos/brio-26-joelho-ponta-pe.mp4",
+     "duration": 55.3,
+     "status": "pronto",
+     "post_at": "2026-11-13 22:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#agachamento",
+      "#mitoouverdade"
+     ],
+     "caption": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito. 👇\nTime joelho pode passar ou time não pode? Comenta.\n\n#brio #academia #musculacao #agachamento #mitoouverdade",
+     "script": [
+      {
+       "k": "",
+       "t1": "O JOELHO",
+       "t2": "PODE PASSAR?",
+       "text": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito."
+      },
+      {
+       "k": "",
+       "t1": "O MITO",
+       "t2": "JOELHO PRA TRÁS.",
+       "text": "A ideia era proteger o joelho, travando ele atrás da ponta do pé."
+      },
+      {
+       "k": "",
+       "t1": "O CORPO",
+       "t2": "NÃO FUNCIONA ASSIM.",
+       "text": "Só que pra descer fundo, com o tronco em pé, o joelho naturalmente vai pra frente."
+      },
+      {
+       "k": "",
+       "t1": "O PROBLEMA",
+       "t2": "A LOMBAR PAGA.",
+       "text": "Quando você trava o joelho, o tronco deita pra frente, e quem paga é a lombar e o quadril."
+      },
+      {
+       "k": "",
+       "t1": "NO DIA A DIA",
+       "t2": "VOCÊ JÁ FAZ.",
+       "text": "E no dia a dia você já faz isso. Subir escada e sentar no chão passam o joelho da ponta do pé."
+      },
+      {
+       "k": "",
+       "t1": "O QUE IMPORTA",
+       "t2": "O PÉ INTEIRO NO CHÃO.",
+       "text": "O que importa é o pé inteiro no chão, o calcanhar firme, e o joelho na direção dos dedos."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "CONTROLE.",
+       "text": "O segredo é controle: descer devagar, sem deixar o joelho cair pra dentro."
+      },
+      {
+       "k": "",
+       "t1": "ATENÇÃO",
+       "t2": "SE DOER.",
+       "text": "Mas se o seu joelho dói, a regra muda. Diminui a amplitude e procura um fisioterapeuta."
+      },
+      {
+       "k": "",
+       "t1": "E A CARGA",
+       "t2": "SOBE DEVAGAR.",
+       "text": "E a carga sobe aos poucos, só quando a técnica estiver firme em todas as repetições."
+      },
+      {
+       "k": "",
+       "t1": "A BASE",
+       "t2": "PÉS NA LARGURA.",
+       "text": "Os pés ficam mais ou menos na largura dos ombros, com as pontas um pouco pra fora. Ajusta até ficar confortável."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SEU TIME.",
+       "text": "Time joelho pode passar ou time não pode? Comenta. No Bríu você registra cada série do seu agachamento. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Mito clássico do banco de ideias (pesquisa 08/11); assunto recorrente em matérias de agachamento (Correio Braziliense, O Povo). Formato mito gerou comentários no canal. Gatilho tipo 4 (enquete). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1049,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "O joelho pode passar da ponta do pé no agachamento? #shorts #brio #agachamento",
+       "descricao": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito.\nTime joelho pode passar ou time não pode? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #agachamento"
+      },
+      "tiktok": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito. 👇\nTime joelho pode passar ou time não pode? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #agachamento #mitoouverdade #gymtok #academia #treino",
+      "instagram": "Te disseram que o joelho nunca pode passar da ponta do pé no agachamento? Vamos ver isso direito.\n\nTime joelho pode passar ou time não pode? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #agachamento #mitoouverdade #academia #musculacao"
+     }
+    },
+    {
+     "id": "brio-25-evoluindo",
+     "date": "2026-11-09",
+     "title": "Como saber se você está evoluindo (sem espelho nem balança)",
+     "hook": "Como saber se você está evoluindo, sem depender do espelho nem da balança?",
+     "gatilho": "Comenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.",
+     "gatilho_tipo": 2,
+     "file": "videos/brio-25-evoluindo.mp4",
+     "duration": 55.7,
+     "status": "pronto",
+     "post_at": "2026-11-13 20:30",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#evolucao",
+      "#progressaodecarga"
+     ],
+     "caption": "Como saber se você está evoluindo, sem depender do espelho nem da balança? 👇\nComenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.\n\n#brio #academia #hipertrofia #evolucao #progressaodecarga",
+     "script": [
+      {
+       "k": "",
+       "t1": "ESTÁ",
+       "t2": "EVOLUINDO?",
+       "text": "Como saber se você está evoluindo, sem depender do espelho nem da balança?"
+      },
+      {
+       "k": "",
+       "t1": "O ESPELHO",
+       "t2": "ENGANA.",
+       "text": "O espelho engana. Você se vê todo dia, e não percebe as mudanças pequenas."
+      },
+      {
+       "k": "",
+       "t1": "A BALANÇA",
+       "t2": "TAMBÉM.",
+       "text": "E a balança mistura tudo: água, comida, músculo e gordura no mesmo número."
+      },
+      {
+       "k": "",
+       "t1": "SINAL 1",
+       "t2": "A CARGA SOBE.",
+       "text": "Primeiro sinal: a carga sobe. Mesmo exercício, mesmas repetições, mais peso que no mês passado."
+      },
+      {
+       "k": "",
+       "t1": "SINAL 2",
+       "t2": "MAIS REPETIÇÕES.",
+       "text": "Segundo sinal: mais repetições com o mesmo peso. Isso também é evolução."
+      },
+      {
+       "k": "",
+       "t1": "SINAL 3",
+       "t2": "A FITA MÉTRICA.",
+       "text": "Terceiro sinal: a fita métrica. Braço, coxa e cintura medidos uma vez por mês."
+      },
+      {
+       "k": "",
+       "t1": "SINAL 4",
+       "t2": "FOTO DO MÊS.",
+       "text": "Quarto sinal: uma foto por mês, mesma luz e mesma posição. Lado a lado, a diferença aparece."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "COMPARAR.",
+       "text": "O segredo de tudo isso é um só: comparar. E pra comparar, você precisa ter anotado antes."
+      },
+      {
+       "k": "",
+       "t1": "SE NADA MUDOU",
+       "t2": "AJUSTA.",
+       "text": "Se em um mês nada mudou, não desiste. Ajusta uma coisa no treino e mede de novo."
+      },
+      {
+       "k": "",
+       "t1": "SINAL 5",
+       "t2": "A ROUPA.",
+       "text": "E o quinto sinal é o mais gostoso: a roupa. A camiseta apertando no braço e a calça folgando na cintura."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SUBIU.",
+       "text": "Comenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Desempenho real do canal: os vídeos sobre medir evolução foram os que mais renderam (Instagram, 09/11). Tema ligado direto ao app. Gatilho tipo 2 (palavra-chave + desafio). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 978,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Como saber se você está evoluindo (sem espelho nem balança) #shorts #brio #evolucao",
+       "descricao": "Como saber se você está evoluindo, sem depender do espelho nem da balança?\nComenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #evolucao"
+      },
+      "tiktok": "Como saber se você está evoluindo, sem depender do espelho nem da balança? 👇\nComenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #evolucao #progressaodecarga #gymtok #academia #treino",
+      "instagram": "Como saber se você está evoluindo, sem depender do espelho nem da balança?\n\nComenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #evolucao #progressaodecarga #academia #hipertrofia"
+     }
+    },
+    {
+     "id": "brio-24-tempo-de-treino",
+     "date": "2026-11-09",
+     "title": "Quanto tempo de treino por dia é suficiente?",
+     "hook": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa.",
+     "gatilho": "Comenta quantos minutos você tem pra treinar por dia.",
+     "gatilho_tipo": 1,
+     "file": "videos/brio-24-tempo-de-treino.mp4",
+     "duration": 51.6,
+     "status": "pronto",
+     "post_at": "2026-11-13 18:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#dicasdetreino",
+      "#treinorapido",
+      "#rotina"
+     ],
+     "caption": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa. 👇\nComenta quantos minutos você tem pra treinar por dia.\n\n#brio #academia #dicasdetreino #treinorapido #rotina",
+     "script": [
+      {
+       "k": "",
+       "t1": "SÓ TEM",
+       "t2": "40 MINUTOS?",
+       "text": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa."
+      },
+      {
+       "k": "",
+       "t1": "O MITO",
+       "t2": "QUANTO MAIS, MELHOR.",
+       "text": "O mito é achar que quanto mais tempo na academia, mais músculo você ganha."
+      },
+      {
+       "k": "",
+       "t1": "A VERDADE",
+       "t2": "SÉRIES BOAS.",
+       "text": "O que faz crescer são as séries boas, perto do limite. Não o tempo que você passa lá dentro."
+      },
+      {
+       "k": "",
+       "t1": "QUANTO BASTA",
+       "t2": "QUARENTA MINUTOS.",
+       "text": "Pra muita gente, uns quarenta minutos bem feitos, três ou quatro vezes na semana, já funcionam."
+      },
+      {
+       "k": "",
+       "t1": "ONDE SE PERDE",
+       "t2": "CELULAR E CONVERSA.",
+       "text": "O tempo que sobra se perde no celular, na conversa e esperando aparelho."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "CHEGAR COM PLANO.",
+       "text": "O segredo é chegar sabendo o que vai fazer, com os exercícios e as cargas já definidos."
+      },
+      {
+       "k": "",
+       "t1": "O DESCANSO",
+       "t2": "CRONOMETRADO.",
+       "text": "E descansar com cronômetro. Dois minutos nos grandes, um nos pequenos. Sem sumir."
+      },
+      {
+       "k": "",
+       "t1": "SEM TEMPO?",
+       "t2": "PRIORIZA.",
+       "text": "Dia corrido? Faz só os exercícios principais. Um treino curto é melhor do que nenhum."
+      },
+      {
+       "k": "",
+       "t1": "O QUE MANDA",
+       "t2": "CONSTÂNCIA.",
+       "text": "No final, quem tem resultado é quem vai toda semana, e não quem faz um treino gigante de vez em quando."
+      },
+      {
+       "k": "",
+       "t1": "A ORDEM",
+       "t2": "GRANDES PRIMEIRO.",
+       "text": "E a ordem ajuda: primeiro os exercícios grandes, com você descansado. Os pequenos ficam pro final."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SEUS MINUTOS.",
+       "text": "Comenta quantos minutos você tem pra treinar por dia. O Bríu monta o treino que cabe nesse tempo. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Sinal: Correio24horas jan/2025 (mitos e verdades sobre exercício e massa muscular); tema ligado direto à função de treino no tempo disponível do app. Gatilho tipo 1 (comenta número). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1035,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Quanto tempo de treino por dia é suficiente? #shorts #brio #treinorapido",
+       "descricao": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa.\nComenta quantos minutos você tem pra treinar por dia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #treinorapido"
+      },
+      "tiktok": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa. 👇\nComenta quantos minutos você tem pra treinar por dia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinorapido #rotina #gymtok #academia #treino",
+      "instagram": "Você acha que precisa de duas horas de academia pra ter resultado? Não precisa.\n\nComenta quantos minutos você tem pra treinar por dia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinorapido #rotina #academia #dicasdetreino"
+     }
+    },
+    {
+     "id": "brio-23-braco-triceps",
+     "date": "2026-11-09",
+     "title": "Por que seu braço não cresce (e não é o bíceps)",
+     "hook": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado.",
+     "gatilho": "Salva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.",
+     "gatilho_tipo": 5,
+     "file": "videos/brio-23-braco-triceps.mp4",
+     "duration": 53.5,
+     "status": "pronto",
+     "post_at": "2026-11-13 12:00",
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#musculacao",
+      "#triceps",
+      "#braco"
+     ],
+     "caption": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado. 👇\nSalva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.\n\n#brio #hipertrofia #musculacao #triceps #braco",
+     "script": [
+      {
+       "k": "",
+       "t1": "BRAÇO",
+       "t2": "NÃO CRESCE?",
+       "text": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado."
+      },
+      {
+       "k": "",
+       "t1": "O FOCO",
+       "t2": "SÓ BÍCEPS.",
+       "text": "Quase todo mundo foca no bíceps. É o músculo da frente, o que aparece no espelho."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "É O TRÍCEPS.",
+       "text": "Só que a maior parte do braço é tríceps, o músculo de trás."
+      },
+      {
+       "k": "",
+       "t1": "TRÊS PARTES",
+       "t2": "TRÊS CABEÇAS.",
+       "text": "Ele tem três partes, e uma delas trabalha melhor com o braço acima da cabeça."
+      },
+      {
+       "k": "",
+       "t1": "O EXERCÍCIO",
+       "t2": "ACIMA DA CABEÇA.",
+       "text": "Por isso, inclui um tríceps com o braço lá em cima, como o francês ou o tríceps na polia por trás."
+      },
+      {
+       "k": "",
+       "t1": "E MAIS",
+       "t2": "EMPURRAR.",
+       "text": "E não esquece os exercícios de empurrar, como supino e mergulho. Eles também pegam o tríceps."
+      },
+      {
+       "k": "",
+       "t1": "QUANTO",
+       "t2": "SÉRIES NA SEMANA.",
+       "text": "Uma boa base é umas dez séries de tríceps por semana, divididas em dois dias."
+      },
+      {
+       "k": "",
+       "t1": "CUIDADO",
+       "t2": "COTOVELO.",
+       "text": "Sentiu o cotovelo reclamar? Diminui o peso, e troca por uma variação que não doa."
+      },
+      {
+       "k": "",
+       "t1": "COMO SABER",
+       "t2": "FITA MÉTRICA.",
+       "text": "E pra saber se está crescendo, mede o braço com fita uma vez por mês, sempre do mesmo jeito."
+      },
+      {
+       "k": "",
+       "t1": "PACIÊNCIA",
+       "t2": "BRAÇO DEMORA.",
+       "text": "E paciência: braço é um músculo pequeno, e cresce devagar. Meio centímetro em alguns meses já é ótimo."
+      },
+      {
+       "k": "",
+       "t1": "SALVA",
+       "t2": "PRO TREINO.",
+       "text": "Salva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez. Registra tudo no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Banco de ideias (pesquisa 08/11); sinal recente de interesse em \"treina e não cresce\" (Correio24horas e O Povo, out/2026). Gatilho tipo 5 (salva e volta). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1046,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Por que seu braço não cresce (e não é o bíceps) #shorts #brio #triceps",
+       "descricao": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado.\nSalva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #triceps"
+      },
+      "tiktok": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado. 👇\nSalva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #triceps #braco #gymtok #academia #treino",
+      "instagram": "Seu braço não cresce, mesmo fazendo rosca toda semana? Talvez você esteja treinando o músculo errado.\n\nSalva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #triceps #braco #hipertrofia #musculacao"
+     }
+    },
+    {
+     "id": "brio-22-erros-iniciante",
+     "date": "2026-11-09",
+     "title": "5 erros de quem começou na academia agora",
+     "hook": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante.",
+     "gatilho": "Manda pra quem começou na academia esse mês.",
+     "gatilho_tipo": 3,
+     "file": "videos/brio-22-erros-iniciante.mp4",
+     "duration": 57.0,
+     "status": "pronto",
+     "post_at": "2026-11-13 07:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#iniciantenaacademia",
+      "#errosnaacademia",
+      "#dicasdetreino"
+     ],
+     "caption": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante. 👇\nManda pra quem começou na academia esse mês.\n\n#brio #academia #iniciantenaacademia #errosnaacademia #dicasdetreino",
+     "script": [
+      {
+       "k": "",
+       "t1": "COMEÇOU",
+       "t2": "AGORA?",
+       "text": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 1",
+       "t2": "TROCAR TODA SEMANA.",
+       "text": "Erro um: trocar o treino toda semana. Sem repetir, você nunca sabe se está evoluindo."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 2",
+       "t2": "COPIAR O MAIS FORTE.",
+       "text": "Erro dois: copiar o treino do mais forte da academia. Ele está em outra fase."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 3",
+       "t2": "PESO ANTES DA TÉCNICA.",
+       "text": "Erro três: colocar peso antes de aprender o movimento. Primeiro a técnica, depois a carga."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 4",
+       "t2": "PULAR PERNA.",
+       "text": "Erro quatro: pular o treino de perna. É a maior parte do seu corpo, e a que mais gasta energia."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 5",
+       "t2": "NÃO ANOTAR.",
+       "text": "Erro cinco: não anotar nada. Na semana seguinte, você não lembra a carga nem as repetições."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "O BÁSICO.",
+       "text": "O segredo do começo é sem graça: poucos exercícios, bem feitos, repetidos por semanas."
+      },
+      {
+       "k": "",
+       "t1": "O PRIMEIRO MÊS",
+       "t2": "APRENDER.",
+       "text": "No primeiro mês, o objetivo é aprender os movimentos e criar o hábito de ir."
+      },
+      {
+       "k": "",
+       "t1": "DÚVIDA?",
+       "t2": "PERGUNTA.",
+       "text": "E se tiver dúvida no movimento, pede ajuda pro professor da academia. Ninguém nasce sabendo."
+      },
+      {
+       "k": "",
+       "t1": "BÔNUS",
+       "t2": "COMPARAR COM OS OUTROS.",
+       "text": "E um erro bônus: se comparar com quem treina há anos. Compara só com você mesmo, do mês passado."
+      },
+      {
+       "k": "",
+       "t1": "MANDA",
+       "t2": "PRA QUEM COMEÇOU.",
+       "text": "Manda pra quem começou na academia esse mês. No Bríu, cada série fica anotada. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Sinal: Correio24horas set/2025 (dicas para iniciantes no treino de força) e matérias de out/2026 sobre erros que travam resultado; formato lista de erros funciona no canal. Gatilho tipo 3 (manda pro amigo). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1012,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "5 erros de quem começou na academia agora #shorts #brio #errosnaacademia",
+       "descricao": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante.\nManda pra quem começou na academia esse mês.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #errosnaacademia"
+      },
+      "tiktok": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante. 👇\nManda pra quem começou na academia esse mês.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #errosnaacademia #gymtok #academia #treino #iniciantenaacademia",
+      "instagram": "Começou na academia agora? Esses cinco erros atrasam quase todo iniciante.\n\nManda pra quem começou na academia esse mês.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #errosnaacademia #academia #iniciantenaacademia #dicasdetreino"
+     }
+    },
+    {
+     "id": "brio-21-sem-carga",
+     "date": "2026-11-09",
+     "title": "Dá pra ganhar músculo sem peso?",
+     "hook": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente.",
+     "gatilho": "Time academia ou time treino em casa? Comenta.",
+     "gatilho_tipo": 4,
+     "file": "videos/brio-21-sem-carga.mp4",
+     "duration": 57.9,
+     "status": "pronto",
+     "post_at": "2026-11-12 22:00",
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#treinoemcasa",
+      "#pesodocorpo",
+      "#calistenia"
+     ],
+     "caption": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente. 👇\nTime academia ou time treino em casa? Comenta.\n\n#brio #hipertrofia #treinoemcasa #pesodocorpo #calistenia",
+     "script": [
+      {
+       "k": "",
+       "t1": "SEM PESO",
+       "t2": "DÁ MÚSCULO?",
+       "text": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente."
+      },
+      {
+       "k": "",
+       "t1": "A RESPOSTA",
+       "t2": "SIM, DÁ.",
+       "text": "Dá sim. O músculo não sabe se a força vem de uma barra ou do seu próprio corpo."
+      },
+      {
+       "k": "",
+       "t1": "A CONDIÇÃO",
+       "t2": "PERTO DO LIMITE.",
+       "text": "A condição é a mesma da academia: levar a série perto do limite, sem sobrar muita repetição."
+      },
+      {
+       "k": "",
+       "t1": "O PROBLEMA",
+       "t2": "FICA FÁCIL.",
+       "text": "O problema é que o corpo fica forte rápido, e vinte flexões viram fácil demais."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "DEIXAR MAIS DIFÍCIL.",
+       "text": "O segredo é deixar mais difícil. Pé no alto na flexão, uma perna só no agachamento."
+      },
+      {
+       "k": "",
+       "t1": "OUTRO TRUQUE",
+       "t2": "MAIS DEVAGAR.",
+       "text": "Outro truque: descer bem devagar, e segurar alguns segundos na parte de baixo."
+      },
+      {
+       "k": "",
+       "t1": "O LIMITE",
+       "t2": "PERNA E COSTAS.",
+       "text": "O mais difícil sem peso é perna e costas. Pra isso, uma mochila cheia ou uma barra fixa ajudam muito."
+      },
+      {
+       "k": "",
+       "t1": "E A ACADEMIA?",
+       "t2": "É MAIS FÁCIL.",
+       "text": "A academia facilita, porque é só colocar mais peso. Mas não é obrigatória pra começar."
+      },
+      {
+       "k": "",
+       "t1": "O QUE CONTA",
+       "t2": "PROGREDIR.",
+       "text": "Em casa ou na academia, o que conta é a mesma coisa: progredir um pouco a cada semana."
+      },
+      {
+       "k": "",
+       "t1": "PRA COMEÇAR",
+       "t2": "TRÊS EXERCÍCIOS.",
+       "text": "Pra começar em casa: flexão, agachamento e remada com mochila. Três séries de cada, perto do limite."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SEU TIME.",
+       "text": "Time academia ou time treino em casa? Comenta. No Bríu dá pra registrar as repetições de qualquer treino. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Sinal recente: Olhar Digital 20/04/2026 (parciais com peso do corpo) e Correio24horas (\"ganhar músculos treinando sem carga\"). Gatilho tipo 4 (enquete). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1043,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Dá pra ganhar músculo sem peso? #shorts #brio #treinoemcasa",
+       "descricao": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente.\nTime academia ou time treino em casa? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #treinoemcasa"
+      },
+      "tiktok": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente. 👇\nTime academia ou time treino em casa? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinoemcasa #pesodocorpo #gymtok #academia #treino",
+      "instagram": "Dá pra ganhar músculo sem pegar em peso nenhum? A resposta surpreende muita gente.\n\nTime academia ou time treino em casa? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinoemcasa #pesodocorpo #hipertrofia #calistenia"
+     }
+    },
+    {
+     "id": "brio-20-deload",
+     "date": "2026-11-09",
+     "title": "Semana leve: o descanso que faz a carga subir",
+     "hook": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir.",
+     "gatilho": "Comenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.",
+     "gatilho_tipo": 2,
+     "file": "videos/brio-20-deload.mp4",
+     "duration": 56.2,
+     "status": "pronto",
+     "post_at": "2026-11-12 20:30",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#deload",
+      "#recuperacao"
+     ],
+     "caption": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir. 👇\nComenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.\n\n#brio #academia #hipertrofia #deload #recuperacao",
+     "script": [
+      {
+       "k": "",
+       "t1": "PEGAR LEVE",
+       "t2": "É FRAQUEZA?",
+       "text": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir."
+      },
+      {
+       "k": "",
+       "t1": "O CANSAÇO",
+       "t2": "ACUMULA.",
+       "text": "Semana após semana de treino pesado, o cansaço vai acumulando, mesmo quando você não percebe."
+      },
+      {
+       "k": "",
+       "t1": "OS SINAIS",
+       "t2": "PRESTA ATENÇÃO.",
+       "text": "Os sinais: carga parada, articulação reclamando, sono pior e zero vontade de treinar."
+      },
+      {
+       "k": "",
+       "t1": "O QUE É",
+       "t2": "SEMANA LEVE.",
+       "text": "A semana leve é simples: você treina, mas com menos séries e menos peso que o normal."
+      },
+      {
+       "k": "",
+       "t1": "COMO FAZER",
+       "t2": "METADE DAS SÉRIES.",
+       "text": "Um jeito comum: corta mais ou menos metade das séries, e tira um pouco do peso. Nada de ir até o limite."
+      },
+      {
+       "k": "",
+       "t1": "QUANDO",
+       "t2": "A CADA ALGUMAS SEMANAS.",
+       "text": "Muita gente faz a cada quatro a oito semanas, ou quando os sinais aparecem."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "A VOLTA.",
+       "text": "O segredo aparece na volta: o corpo descansado, e a carga voltando a subir."
+      },
+      {
+       "k": "",
+       "t1": "O MEDO",
+       "t2": "\"VOU PERDER TUDO.\"",
+       "text": "E não, você não perde músculo em uma semana leve. Você só deixa o corpo se recuperar."
+      },
+      {
+       "k": "",
+       "t1": "INICIANTE",
+       "t2": "PODE ESPERAR.",
+       "text": "Se você começou há pouco, nem precisa ainda. Isso é mais pra quem treina pesado há meses."
+      },
+      {
+       "k": "",
+       "t1": "NA SEMANA LEVE",
+       "t2": "VOCÊ SE SENTE BEM.",
+       "text": "Na semana leve é normal sair do treino achando que fez pouco. É exatamente essa a ideia."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "LEVE.",
+       "text": "Comenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Sinal recente: Metrópoles (\"pegar leve na academia é fraqueza?\") e estudo sobre deload ativo (sci-sport). Gatilho tipo 2 (palavra-chave + desafio). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1047,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Semana leve: o descanso que faz a carga subir #shorts #brio #deload",
+       "descricao": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir.\nComenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #deload"
+      },
+      "tiktok": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir. 👇\nComenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #deload #recuperacao #gymtok #academia #treino",
+      "instagram": "Pegar leve uma semana inteira na academia parece fraqueza. Mas pode ser o que faz a sua carga voltar a subir.\n\nComenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #deload #recuperacao #academia #hipertrofia"
+     }
+    },
+    {
+     "id": "brio-19-plato-supino",
+     "date": "2026-11-09",
+     "title": "Travou no supino? 3 saídas pra voltar a subir",
+     "hook": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples.",
+     "gatilho": "Comenta há quantas semanas o seu supino não sobe.",
+     "gatilho_tipo": 1,
+     "file": "videos/brio-19-plato-supino.mp4",
+     "duration": 55.9,
+     "status": "pronto",
+     "post_at": "2026-11-12 18:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#supino",
+      "#plato"
+     ],
+     "caption": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples. 👇\nComenta há quantas semanas o seu supino não sobe.\n\n#brio #academia #musculacao #supino #plato",
+     "script": [
+      {
+       "k": "",
+       "t1": "SUPINO",
+       "t2": "TRAVOU?",
+       "text": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples."
+      },
+      {
+       "k": "",
+       "t1": "O PLATÔ",
+       "t2": "ACONTECE COM TODOS.",
+       "text": "Travar acontece com todo mundo. O corpo se acostuma, e o mesmo treino para de dar resultado."
+      },
+      {
+       "k": "",
+       "t1": "SAÍDA 1",
+       "t2": "MAIS REPETIÇÕES.",
+       "text": "Saída um: mantém o peso e busca mais repetições. Quando passar da sua meta, sobe o peso."
+      },
+      {
+       "k": "",
+       "t1": "SAÍDA 2",
+       "t2": "MAIS SÉRIES.",
+       "text": "Saída dois: acrescenta uma ou duas séries de peito na semana. Às vezes falta volume, não força."
+      },
+      {
+       "k": "",
+       "t1": "SAÍDA 3",
+       "t2": "SEMANA LEVE.",
+       "text": "Saída três: faz uma semana mais leve. Cansaço acumulado também trava a carga."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "A TÉCNICA.",
+       "text": "E o segredo que quase ninguém olha: a técnica. Pés firmes, escápulas juntas, barra descendo no peito."
+      },
+      {
+       "k": "",
+       "t1": "TAMBÉM CONTA",
+       "t2": "SONO E COMIDA.",
+       "text": "Sono ruim e comida pouca também seguram o supino. Não adianta mudar só o treino."
+      },
+      {
+       "k": "",
+       "t1": "O ERRO",
+       "t2": "MUDAR TUDO.",
+       "text": "O erro é mudar tudo de uma vez. Aí você não sabe o que funcionou."
+      },
+      {
+       "k": "",
+       "t1": "A REGRA",
+       "t2": "UMA COISA POR VEZ.",
+       "text": "Muda uma coisa por vez, por umas três semanas, e compara os números."
+      },
+      {
+       "k": "",
+       "t1": "PACIÊNCIA",
+       "t2": "TAMBÉM CONTA.",
+       "text": "E tem paciência. Às vezes a carga para duas semanas e volta a subir sozinha na terceira."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "AS SEMANAS.",
+       "text": "Comenta há quantas semanas o seu supino não sobe. No Bríu você vê no gráfico onde ele travou. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Sinal recente: Correio24horas out/2026 (\"treina pesado e não ganha massa: 5 erros que travam resultados\"); continuação natural de \"Quando subir a carga\". Gatilho tipo 1 (comenta número). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1006,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Travou no supino? 3 saídas pra voltar a subir #shorts #brio #supino",
+       "descricao": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples.\nComenta há quantas semanas o seu supino não sobe.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #supino"
+      },
+      "tiktok": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples. 👇\nComenta há quantas semanas o seu supino não sobe.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #supino #plato #gymtok #academia #treino",
+      "instagram": "Seu supino está travado no mesmo peso há semanas? Tem três saídas, e uma é bem simples.\n\nComenta há quantas semanas o seu supino não sobe.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #supino #plato #academia #musculacao"
+     }
+    },
+    {
+     "id": "brio-18-supino-10kg",
+     "date": "2026-11-09",
+     "title": "Quanto tempo pro supino subir 10 kg?",
+     "hook": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede.",
+     "gatilho": "Salva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.",
+     "gatilho_tipo": 5,
+     "file": "videos/brio-18-supino-10kg.mp4",
+     "duration": 55.4,
+     "status": "pronto",
+     "post_at": "2026-11-12 12:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#supino",
+      "#progressaodecarga"
+     ],
+     "caption": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede. 👇\nSalva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.\n\n#brio #academia #musculacao #supino #progressaodecarga",
+     "script": [
+      {
+       "k": "",
+       "t1": "SUPINO",
+       "t2": "+10 KG?",
+       "text": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede."
+      },
+      {
+       "k": "",
+       "t1": "INICIANTE",
+       "t2": "SOBE RÁPIDO.",
+       "text": "Se você é iniciante, a carga sobe rápido. Em poucos meses, dez quilos a mais é bem comum."
+      },
+      {
+       "k": "",
+       "t1": "POR QUÊ",
+       "t2": "O CORPO APRENDE.",
+       "text": "Isso acontece porque o corpo está aprendendo o movimento. Cada semana você fica mais eficiente."
+      },
+      {
+       "k": "",
+       "t1": "QUEM JÁ TREINA",
+       "t2": "SOBE DEVAGAR.",
+       "text": "Já quem treina há anos sobe bem mais devagar. Dez quilos podem levar um ano ou mais."
+      },
+      {
+       "k": "",
+       "t1": "E ISSO",
+       "t2": "É NORMAL.",
+       "text": "E isso é normal. Quanto mais perto do seu limite, menor fica cada passo."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "PASSOS PEQUENOS.",
+       "text": "O segredo é subir em passos pequenos. Um quilo de cada lado, ou uma repetição a mais."
+      },
+      {
+       "k": "",
+       "t1": "O ERRO",
+       "t2": "PULAR ETAPAS.",
+       "text": "O erro é tentar pular etapas. Peso alto demais, repetição pela metade, e o supino trava."
+      },
+      {
+       "k": "",
+       "t1": "A CONTA",
+       "t2": "UM POUCO TODA SEMANA.",
+       "text": "Faz a conta: meio quilo a mais por semana já dá mais de vinte quilos em um ano."
+      },
+      {
+       "k": "",
+       "t1": "O QUE FALTA",
+       "t2": "MEDIR.",
+       "text": "Só que pra saber se está subindo, você precisa saber a carga de hoje, e a da semana passada."
+      },
+      {
+       "k": "",
+       "t1": "E NA PERNA",
+       "t2": "SOBE MAIS.",
+       "text": "E na perna a carga costuma subir mais rápido que no supino, porque os músculos são maiores."
+      },
+      {
+       "k": "",
+       "t1": "SALVA",
+       "t2": "E VOLTA.",
+       "text": "Salva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu. O Bríu guarda o gráfico. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Série aprovada pelo usuário a partir do desempenho real de \"Quanto tempo até ver resultado\" e \"Quando subir a carga\" (Instagram, 09/11). Gatilho tipo 5 (salva e volta). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1054,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Quanto tempo pro supino subir 10 kg? #shorts #brio #supino",
+       "descricao": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede.\nSalva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #supino"
+      },
+      "tiktok": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede. 👇\nSalva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #supino #progressaodecarga #gymtok #academia #treino",
+      "instagram": "Quanto tempo leva pra subir dez quilos no supino? Depende de uma coisa que quase ninguém mede.\n\nSalva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #supino #progressaodecarga #academia #musculacao"
+     }
+    },
+    {
+     "id": "brio-17-amplitude-alongada",
+     "date": "2026-11-09",
+     "title": "A parte do movimento que você corta é a que mais faz crescer",
+     "hook": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer.",
+     "gatilho": "Manda pro seu parceiro de treino que só faz meia repetição.",
+     "gatilho_tipo": 3,
+     "file": "videos/brio-17-amplitude-alongada.mp4",
+     "duration": 56.1,
+     "status": "pronto",
+     "post_at": "2026-11-12 07:00",
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#dicasdetreino",
+      "#amplitude",
+      "#tecnica"
+     ],
+     "caption": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer. 👇\nManda pro seu parceiro de treino que só faz meia repetição.\n\n#brio #hipertrofia #dicasdetreino #amplitude #tecnica",
+     "script": [
+      {
+       "k": "",
+       "t1": "VOCÊ CORTA",
+       "t2": "A MELHOR PARTE.",
+       "text": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer."
+      },
+      {
+       "k": "",
+       "t1": "O ERRO",
+       "t2": "MEIA REPETIÇÃO.",
+       "text": "Muita gente faz só a metade de cima do movimento, onde é mais fácil e cabe mais peso."
+      },
+      {
+       "k": "",
+       "t1": "O QUE OS ESTUDOS",
+       "t2": "APONTAM.",
+       "text": "Só que estudos recentes apontam: o músculo cresce muito quando trabalha bem alongado."
+      },
+      {
+       "k": "",
+       "t1": "ALONGADO",
+       "t2": "É EMBAIXO.",
+       "text": "Alongado é a parte de baixo. No supino, a barra perto do peito. Na rosca, o braço quase esticado."
+      },
+      {
+       "k": "",
+       "t1": "NO AGACHAMENTO",
+       "t2": "DESCE BEM.",
+       "text": "No agachamento, é a descida funda. É ali que o glúteo e a coxa mais trabalham."
+      },
+      {
+       "k": "",
+       "t1": "O TRUQUE",
+       "t2": "PARCIAL EMBAIXO.",
+       "text": "Tem até um truque: no fim da série, quando cansar, faz meias repetições na parte de baixo."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "DESCE DEVAGAR.",
+       "text": "O segredo é descer devagar e controlar embaixo, sem quicar e sem soltar o peso."
+      },
+      {
+       "k": "",
+       "t1": "O PREÇO",
+       "t2": "MENOS PESO.",
+       "text": "O preço é tirar um pouco do peso. O ego reclama, mas o músculo agradece."
+      },
+      {
+       "k": "",
+       "t1": "CUIDADO",
+       "t2": "SEM DOR.",
+       "text": "Sentiu dor na articulação nessa posição? Diminui a amplitude, e procura um profissional."
+      },
+      {
+       "k": "",
+       "t1": "OUTROS",
+       "t2": "EXEMPLOS.",
+       "text": "Na cadeira flexora, o joelho bem esticado. No crucifixo, os braços bem abertos. Sempre a parte mais difícil."
+      },
+      {
+       "k": "",
+       "t1": "MANDA",
+       "t2": "PRO PARCEIRO.",
+       "text": "Manda pro seu parceiro de treino que só faz meia repetição. No Bríu, vocês veem quem sobe a carga primeiro. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Pesquisa 08/11: 4,9 mi views em 4 semanas (EN), quase nada em PT. Sinal recente: Olhar Digital 20/04/2026 (repetições parciais), artigos da Legion, BarBend e RP. Gatilho tipo 3 (manda pro amigo). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1039,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "A parte do movimento que você corta é a que mais faz crescer #shorts #brio #amplitude",
+       "descricao": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer.\nManda pro seu parceiro de treino que só faz meia repetição.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #amplitude"
+      },
+      "tiktok": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer. 👇\nManda pro seu parceiro de treino que só faz meia repetição.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #amplitude #tecnica #gymtok #academia #treino",
+      "instagram": "A parte do movimento que você corta pode ser a que mais faz o músculo crescer.\n\nManda pro seu parceiro de treino que só faz meia repetição.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #amplitude #tecnica #hipertrofia #dicasdetreino"
+     }
+    },
+    {
+     "id": "brio-16-abdominal",
+     "date": "2026-11-09",
+     "title": "Abdominal todo dia não tira barriga",
+     "hook": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali.",
+     "gatilho": "Time abdominal todo dia ou time treino completo? Comenta.",
+     "gatilho_tipo": 4,
+     "file": "videos/brio-16-abdominal.mp4",
+     "duration": 54.7,
+     "status": "pronto",
+     "post_at": "2026-11-11 22:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#emagrecimento",
+      "#abdominal",
+      "#barriga"
+     ],
+     "caption": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali. 👇\nTime abdominal todo dia ou time treino completo? Comenta.\n\n#brio #academia #emagrecimento #abdominal #barriga",
+     "script": [
+      {
+       "k": "",
+       "t1": "ABDOMINAL",
+       "t2": "TODO DIA?",
+       "text": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali."
+      },
+      {
+       "k": "",
+       "t1": "O MITO",
+       "t2": "QUEIMAR NO LUGAR.",
+       "text": "O mito é achar que treinar uma região queima a gordura daquela região."
+      },
+      {
+       "k": "",
+       "t1": "COMO FUNCIONA",
+       "t2": "O CORPO TODO.",
+       "text": "O corpo tira gordura do corpo todo, na ordem que ele quer. Você não escolhe de onde sai."
+      },
+      {
+       "k": "",
+       "t1": "O ABDÔMEN",
+       "t2": "JÁ EXISTE.",
+       "text": "E o abdômen trincado você já tem. Ele só está escondido embaixo da gordura."
+      },
+      {
+       "k": "",
+       "t1": "O QUE SECA",
+       "t2": "TOTAL DO DIA.",
+       "text": "O que seca a barriga é o total do dia: comer um pouco menos do que você gasta, com constância."
+      },
+      {
+       "k": "",
+       "t1": "O QUE AJUDA",
+       "t2": "MUSCULAÇÃO.",
+       "text": "A musculação ajuda muito. Você gasta energia e mantém o músculo enquanto perde gordura."
+      },
+      {
+       "k": "",
+       "t1": "E MAIS",
+       "t2": "ANDAR MAIS.",
+       "text": "Somar passos no dia também ajuda. Caminhar é simples e conta muito no final da semana."
+      },
+      {
+       "k": "",
+       "t1": "ENTÃO PARO?",
+       "t2": "NÃO. DOSA.",
+       "text": "Então para o abdominal? Não. Ele fortalece o tronco. Só não precisa ser todo dia."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "PACIÊNCIA.",
+       "text": "O segredo é paciência. A barriga costuma ser a última a sair, e a primeira a voltar."
+      },
+      {
+       "k": "",
+       "t1": "A PROVA",
+       "t2": "NA FITA.",
+       "text": "E pra ver se a barriga está diminuindo, usa a fita métrica na cintura, uma vez por semana, no mesmo horário."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SEU TIME.",
+       "text": "Time abdominal todo dia ou time treino completo? Comenta. No Bríu você monta um treino que cabe no seu tempo. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Mito clássico do banco de ideias; sinal recente: O Povo (\"barriga teimosa não exige dieta maluca\"). Gatilho tipo 4 (enquete). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1039,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Abdominal todo dia não tira barriga #shorts #brio #emagrecimento",
+       "descricao": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali.\nTime abdominal todo dia ou time treino completo? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #emagrecimento"
+      },
+      "tiktok": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali. 👇\nTime abdominal todo dia ou time treino completo? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #emagrecimento #abdominal #gymtok #academia #treino",
+      "instagram": "Você faz abdominal todo dia pra secar a barriga? Isso quase não mexe na gordura dali.\n\nTime abdominal todo dia ou time treino completo? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #emagrecimento #abdominal #academia #barriga"
+     }
+    },
+    {
+     "id": "brio-15-erros-fora",
+     "date": "2026-11-09",
+     "title": "Treina pesado e não cresce? O erro está fora da academia",
+     "hook": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia.",
+     "gatilho": "Comenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.",
+     "gatilho_tipo": 2,
+     "file": "videos/brio-15-erros-fora.mp4",
+     "duration": 57.9,
+     "status": "pronto",
+     "post_at": "2026-11-11 20:30",
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#musculacao",
+      "#sono",
+      "#proteina"
+     ],
+     "caption": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia. 👇\nComenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.\n\n#brio #hipertrofia #musculacao #sono #proteina",
+     "script": [
+      {
+       "k": "",
+       "t1": "TREINA PESADO",
+       "t2": "E NÃO CRESCE?",
+       "text": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia."
+      },
+      {
+       "k": "",
+       "t1": "UMA HORA",
+       "t2": "NA ACADEMIA.",
+       "text": "A academia é uma hora do seu dia. O músculo é construído nas outras vinte e três."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 1",
+       "t2": "DORMIR POUCO.",
+       "text": "Erro um: dormir pouco. Com cinco horas de sono, você recupera menos e rende menos no próximo treino."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 2",
+       "t2": "POUCA PROTEÍNA.",
+       "text": "Erro dois: pouca proteína. Sem matéria-prima, o músculo não tem com o que crescer."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 3",
+       "t2": "COMER POUCO.",
+       "text": "Erro três: comer pouco no geral. Quem quer ganhar massa e vive com fome trava rápido."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 4",
+       "t2": "O FIM DE SEMANA.",
+       "text": "Erro quatro: a semana certinha, e o fim de semana que desfaz tudo, com festa e noite virada."
+      },
+      {
+       "k": "",
+       "t1": "ERRO 5",
+       "t2": "ESTRESSE ALTO.",
+       "text": "Erro cinco: estresse alto todo dia. Ele piora o sono, a fome e a vontade de treinar."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "O BÁSICO BEM FEITO.",
+       "text": "O segredo não tem nada de mágico: sono, comida e treino bem feitos, por meses seguidos."
+      },
+      {
+       "k": "",
+       "t1": "O TESTE",
+       "t2": "COMPARE OS TREINOS.",
+       "text": "Faz o teste: compara o treino depois de uma noite boa com o treino depois de uma noite ruim."
+      },
+      {
+       "k": "",
+       "t1": "O AJUSTE",
+       "t2": "UM POR VEZ.",
+       "text": "O ajuste mais fácil é começar pelo sono. Meia hora a mais por noite já muda o seu próximo treino."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SONO.",
+       "text": "Comenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Tema com sinal recente: Correio24horas out/2026 (\"treina pesado e não ganha massa: 5 erros\") e O Povo (\"seis erros fora e dentro da academia\"). Gatilho tipo 2 (palavra-chave + desafio). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1055,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Treina pesado e não cresce? O erro está fora da academia #shorts #brio #sono",
+       "descricao": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia.\nComenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #sono"
+      },
+      "tiktok": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia. 👇\nComenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #sono #proteina #gymtok #academia #treino",
+      "instagram": "Você treina pesado e não cresce? Talvez o problema esteja fora da academia.\n\nComenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #sono #proteina #hipertrofia #musculacao"
+     }
+    },
+    {
+     "id": "brio-14-jejum",
+     "date": "2026-11-09",
+     "title": "Treinar em jejum queima mais gordura?",
+     "hook": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso.",
+     "gatilho": "Comenta quantas vezes você treinou essa semana.",
+     "gatilho_tipo": 1,
+     "file": "videos/brio-14-jejum.mp4",
+     "duration": 57.0,
+     "status": "pronto",
+     "post_at": "2026-11-11 18:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#emagrecimento",
+      "#treinoemjejum",
+      "#mitoouverdade"
+     ],
+     "caption": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso. 👇\nComenta quantas vezes você treinou essa semana.\n\n#brio #academia #emagrecimento #treinoemjejum #mitoouverdade",
+     "script": [
+      {
+       "k": "",
+       "t1": "TREINO EM JEJUM",
+       "t2": "SECA MAIS?",
+       "text": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso."
+      },
+      {
+       "k": "",
+       "t1": "A IDEIA",
+       "t2": "SEM COMIDA, USA GORDURA.",
+       "text": "A ideia é simples: sem comida no corpo, você usaria mais gordura como energia."
+      },
+      {
+       "k": "",
+       "t1": "O QUE É VERDADE",
+       "t2": "DURANTE O TREINO.",
+       "text": "E durante o treino, isso até acontece. Você usa um pouco mais de gordura naquela hora."
+      },
+      {
+       "k": "",
+       "t1": "MAS NO DIA",
+       "t2": "O CORPO COMPENSA.",
+       "text": "Só que no resto do dia o corpo compensa. Quando os estudos comparam o total, o resultado é parecido."
+      },
+      {
+       "k": "",
+       "t1": "O QUE DECIDE",
+       "t2": "O TOTAL DO DIA.",
+       "text": "O que decide se você emagrece é o total do dia: o quanto você come e o quanto você gasta."
+      },
+      {
+       "k": "",
+       "t1": "O RISCO",
+       "t2": "TREINO MAIS FRACO.",
+       "text": "E tem um risco: sem comer, muita gente rende menos na musculação, e faz menos série boa."
+      },
+      {
+       "k": "",
+       "t1": "PRA QUEM",
+       "t2": "FUNCIONA.",
+       "text": "Se você se sente bem em jejum e treina forte assim, pode continuar. É questão de preferência."
+      },
+      {
+       "k": "",
+       "t1": "ATENÇÃO",
+       "t2": "TONTURA NÃO.",
+       "text": "Mas se der tontura, fraqueza ou enjoo, come alguma coisa antes. Ninguém precisa sofrer pra emagrecer."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "CONSTÂNCIA.",
+       "text": "O segredo que funciona de verdade é treinar várias vezes por semana, todas as semanas."
+      },
+      {
+       "k": "",
+       "t1": "E DEPOIS",
+       "t2": "COME BEM.",
+       "text": "E treinando em jejum ou não, depois do treino come direito, com proteína. É aí que o músculo se recupera."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "QUANTOS TREINOS.",
+       "text": "Comenta quantas vezes você treinou essa semana. Não sabe? No Bríu fica tudo registrado. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Tema recorrente na mídia: Tua Saúde 13/07/2026, Band, A Gazeta out/2026. Gatilho tipo 1 (comenta número). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1079,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Treinar em jejum queima mais gordura? #shorts #brio #emagrecimento",
+       "descricao": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso.\nComenta quantas vezes você treinou essa semana.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #emagrecimento"
+      },
+      "tiktok": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso. 👇\nComenta quantas vezes você treinou essa semana.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #emagrecimento #treinoemjejum #gymtok #academia #treino",
+      "instagram": "Treinar em jejum queima mais gordura? Muita gente acorda cedo e vai sem comer por causa disso.\n\nComenta quantas vezes você treinou essa semana.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #emagrecimento #treinoemjejum #academia #mitoouverdade"
+     }
+    },
+    {
+     "id": "brio-13-repeticoes",
+     "date": "2026-11-09",
+     "title": "Quantas repetições pra crescer? Não é só 8 a 12",
+     "hook": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto.",
+     "gatilho": "Salva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.",
+     "gatilho_tipo": 5,
+     "file": "videos/brio-13-repeticoes.mp4",
+     "duration": 58.9,
+     "status": "reserva",
+     "post_at": null,
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#dicasdetreino",
+      "#repeticoes",
+      "#ciencianotreino"
+     ],
+     "caption": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto. 👇\nSalva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.\n\n#brio #hipertrofia #dicasdetreino #repeticoes #ciencianotreino",
+     "script": [
+      {
+       "k": "",
+       "t1": "8 A 12",
+       "t2": "REPETIÇÕES?",
+       "text": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto."
+      },
+      {
+       "k": "",
+       "t1": "A REGRA",
+       "t2": "QUE TODO MUNDO REPETE.",
+       "text": "Oito a doze virou regra de academia. Funciona, mas não é a única faixa que funciona."
+      },
+      {
+       "k": "",
+       "t1": "O QUE OS ESTUDOS",
+       "t2": "MOSTRAM.",
+       "text": "Os estudos mostram que de seis até umas trinta repetições, o músculo cresce de forma parecida."
+      },
+      {
+       "k": "",
+       "t1": "A CONDIÇÃO",
+       "t2": "PERTO DO LIMITE.",
+       "text": "A condição é uma só: terminar a série perto do limite, com no máximo umas três repetições sobrando."
+      },
+      {
+       "k": "",
+       "t1": "SÉRIE LONGA",
+       "t2": "QUEIMA MAIS.",
+       "text": "Com peso leve e muita repetição, a série cansa e queima mais. Mas o músculo trabalha do mesmo jeito."
+      },
+      {
+       "k": "",
+       "t1": "SÉRIE CURTA",
+       "t2": "PESA NA ARTICULAÇÃO.",
+       "text": "Com peso alto e poucas repetições, você ganha mais força, mas cansa mais a articulação."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "MISTURAR.",
+       "text": "O segredo é misturar. Exercícios grandes com menos repetições, e os pequenos com mais."
+      },
+      {
+       "k": "",
+       "t1": "EXEMPLO",
+       "t2": "NA PRÁTICA.",
+       "text": "Agachamento com seis a dez. Elevação lateral com quinze a vinte. Tudo levado perto do limite."
+      },
+      {
+       "k": "",
+       "t1": "O QUE MANDA",
+       "t2": "É PROGREDIR.",
+       "text": "E em qualquer faixa, o que faz crescer é progredir. Uma repetição a mais, ou um pouco mais de peso."
+      },
+      {
+       "k": "",
+       "t1": "E O DESCANSO",
+       "t2": "ACOMPANHA.",
+       "text": "E o descanso acompanha: série curta e pesada pede mais descanso, série longa e leve pede menos."
+      },
+      {
+       "k": "",
+       "t1": "SALVA",
+       "t2": "E TESTA.",
+       "text": "Salva pro próximo treino, testa uma série mais longa e volta pra comentar como foi. Anota cada série no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Tema com cobertura alta: Correio Braziliense 20/10/2025 (repete a regra 8–12), Tribuna de Jundiaí, Olhar Digital 15/04/2026. Gancho contraria a regra repetida na mídia. Gatilho tipo 5 (salva e volta). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas. · 11/11: virou reserva (o horário de 12:00 foi para \"Treina há 1 ano\").",
+     "chars": 1106,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Quantas repetições pra crescer? Não é só 8 a 12 #shorts #brio #repeticoes",
+       "descricao": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto.\nSalva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #repeticoes"
+      },
+      "tiktok": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto. 👇\nSalva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #repeticoes #ciencianotreino #gymtok #academia #treino",
+      "instagram": "Te disseram que pra crescer tem que ser de oito a doze repetições? Isso está incompleto.\n\nSalva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #repeticoes #ciencianotreino #hipertrofia #dicasdetreino"
+     }
+    },
+    {
+     "id": "brio-12-parou-2-semanas",
+     "date": "2026-11-09",
+     "title": "Parou 2 semanas de treino: quanto você perde?",
+     "hook": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra.",
+     "gatilho": "Manda pro seu amigo que parou de treinar e acha que perdeu tudo.",
+     "gatilho_tipo": 3,
+     "file": "videos/brio-12-parou-2-semanas.mp4",
+     "duration": 54.6,
+     "status": "pronto",
+     "post_at": "2026-11-11 07:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#memoriamuscular",
+      "#voltarparaacademia"
+     ],
+     "caption": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra. 👇\nManda pro seu amigo que parou de treinar e acha que perdeu tudo.\n\n#brio #academia #musculacao #memoriamuscular #voltarparaacademia",
+     "script": [
+      {
+       "k": "",
+       "t1": "FICOU SEM",
+       "t2": "TREINAR?",
+       "text": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra."
+      },
+      {
+       "k": "",
+       "t1": "O MEDO",
+       "t2": "\"PERDI TUDO.\"",
+       "text": "Viagem, gripe, trabalho. A pessoa para duas semanas e volta achando que jogou meses fora."
+      },
+      {
+       "k": "",
+       "t1": "A FORÇA",
+       "t2": "QUASE NÃO CAI.",
+       "text": "Nas primeiras semanas parado, a força quase não cai. O que você construiu continua lá."
+      },
+      {
+       "k": "",
+       "t1": "O MÚSCULO",
+       "t2": "PARECE MENOR.",
+       "text": "O músculo pode parecer mais murcho. Isso é menos água e energia guardada, e volta rápido."
+      },
+      {
+       "k": "",
+       "t1": "O SEGREDO",
+       "t2": "MEMÓRIA MUSCULAR.",
+       "text": "O segredo se chama memória muscular. Recuperar o que você já teve é bem mais rápido do que construir do zero."
+      },
+      {
+       "k": "",
+       "t1": "A VOLTA",
+       "t2": "SEM PRESSA.",
+       "text": "Na volta, começa com uns setenta por cento da carga de antes. Em poucos treinos você chega lá."
+      },
+      {
+       "k": "",
+       "t1": "O ERRO",
+       "t2": "VOLTAR COM TUDO.",
+       "text": "O erro é voltar com tudo no primeiro dia. Aí vem dor forte, e você para de novo."
+      },
+      {
+       "k": "",
+       "t1": "E SE FOR",
+       "t2": "MAIS TEMPO?",
+       "text": "Parou mais de um mês? Você perde mais, sim. Mas a volta continua mais rápida que a primeira vez."
+      },
+      {
+       "k": "",
+       "t1": "O PROBLEMA",
+       "t2": "LEMBRAR A CARGA.",
+       "text": "O problema é que quase ninguém lembra qual era a carga antes de parar."
+      },
+      {
+       "k": "",
+       "t1": "O PLANO",
+       "t2": "PRA VOLTAR.",
+       "text": "O plano de volta é simples: primeira semana leve, segunda semana quase normal, terceira semana de volta às suas cargas."
+      },
+      {
+       "k": "",
+       "t1": "MANDA",
+       "t2": "PRO AMIGO.",
+       "text": "Manda pro seu amigo que parou de treinar e acha que perdeu tudo. No Bríu a última carga fica salva. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Série aprovada pelo usuário. Tema em alta: UNILAD Tech 25/02/2026 (Mike Israetel no Diary of a CEO) e blog de Jeff Nippard sobre perda muscular. Gatilho tipo 3 (manda pro amigo). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1081,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Parou 2 semanas de treino: quanto você perde? #shorts #brio #memoriamuscular",
+       "descricao": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra.\nManda pro seu amigo que parou de treinar e acha que perdeu tudo.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #memoriamuscular"
+      },
+      "tiktok": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra. 👇\nManda pro seu amigo que parou de treinar e acha que perdeu tudo.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #memoriamuscular #voltarparaacademia #gymtok #academia #treino",
+      "instagram": "Ficou duas semanas sem treinar e acha que perdeu tudo? Calma, a conta é outra.\n\nManda pro seu amigo que parou de treinar e acha que perdeu tudo.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #memoriamuscular #voltarparaacademia #academia #musculacao"
+     }
+    },
+    {
+     "id": "brio-11-creatina",
+     "date": "2026-11-09",
+     "title": "Creatina: o que é mito e o que é verdade",
+     "hook": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade.",
+     "gatilho": "Time creatina todo dia ou time só no dia de treino? Comenta.",
+     "gatilho_tipo": 4,
+     "file": "videos/brio-11-creatina.mp4",
+     "duration": 59.6,
+     "status": "pronto",
+     "post_at": "2026-11-10 22:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#creatina",
+      "#suplementacao"
+     ],
+     "caption": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade. 👇\nTime creatina todo dia ou time só no dia de treino? Comenta.\n\n#brio #academia #hipertrofia #creatina #suplementacao",
+     "script": [
+      {
+       "k": "",
+       "t1": "CREATINA",
+       "t2": "ENGORDA?",
+       "text": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade."
+      },
+      {
+       "k": "",
+       "t1": "O QUE É",
+       "t2": "CREATINA.",
+       "text": "A creatina é uma substância que o seu corpo já produz, e que também vem da carne e do peixe."
+      },
+      {
+       "k": "",
+       "t1": "O QUE ELA FAZ",
+       "t2": "MAIS ENERGIA RÁPIDA.",
+       "text": "No músculo, ela ajuda a fazer força curta e intensa. Dá aquela repetição a mais no fim da série."
+      },
+      {
+       "k": "",
+       "t1": "MITO 1",
+       "t2": "\"ELA INCHA.\"",
+       "text": "Mito um: ela incha. A água que ela puxa vai pra dentro do músculo, não pra barriga."
+      },
+      {
+       "k": "",
+       "t1": "A BALANÇA",
+       "t2": "SOBE UM POUCO.",
+       "text": "Por isso a balança pode subir um ou dois quilos no começo. Isso é água no músculo, não gordura."
+      },
+      {
+       "k": "",
+       "t1": "MITO 2",
+       "t2": "\"PRECISA CICLAR.\"",
+       "text": "Mito dois: precisa ciclar. Os estudos usam a creatina todo dia, sem pausa, e funciona bem assim."
+      },
+      {
+       "k": "",
+       "t1": "A DOSE",
+       "t2": "3 A 5 GRAMAS.",
+       "text": "A dose mais usada é de três a cinco gramas por dia. Todo dia, inclusive no dia sem treino."
+      },
+      {
+       "k": "",
+       "t1": "MITO 3",
+       "t2": "\"ELA FAZ TUDO.\"",
+       "text": "Mito três: ela faz o trabalho por você. Sem treino e sem progressão de carga, ela não faz milagre."
+      },
+      {
+       "k": "",
+       "t1": "ATENÇÃO",
+       "t2": "FALA COM UM PROFISSIONAL.",
+       "text": "E se você tem problema nos rins, ou qualquer dúvida de saúde, fala com seu médico antes."
+      },
+      {
+       "k": "",
+       "t1": "QUE HORA",
+       "t2": "TANTO FAZ.",
+       "text": "E a hora de tomar quase não importa. Antes, depois do treino ou no café da manhã. O que conta é tomar todo dia."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "SEU TIME.",
+       "text": "Time creatina todo dia ou time só no dia de treino? Comenta. Com o Bríu, você vê se a sua carga subiu de verdade. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Tema com cobertura alta e recorrente em 2025–2026 (Olhar Digital 16/06/2026 e 03/06/2025, Correio24horas set/2025, SBT News). Gatilho tipo 4 (enquete). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1114,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "Creatina: o que é mito e o que é verdade #shorts #brio #creatina",
+       "descricao": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade.\nTime creatina todo dia ou time só no dia de treino? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #creatina"
+      },
+      "tiktok": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade. 👇\nTime creatina todo dia ou time só no dia de treino? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #creatina #suplementacao #gymtok #academia #treino",
+      "instagram": "Creatina engorda, dá retenção e precisa ciclar? Vamos separar o mito da verdade.\n\nTime creatina todo dia ou time só no dia de treino? Comenta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #creatina #suplementacao #academia #hipertrofia"
+     }
+    },
+    {
+     "id": "brio-10-30-dias",
+     "date": "2026-11-09",
+     "title": "O que muda no seu corpo em 30 dias de treino",
+     "hook": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia.",
+     "gatilho": "Comenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.",
+     "gatilho_tipo": 2,
+     "file": "videos/brio-10-30-dias.mp4",
+     "duration": 58.4,
+     "status": "pronto",
+     "post_at": "2026-11-10 20:30",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#iniciantenaacademia",
+      "#30diasdetreino",
+      "#resultado"
+     ],
+     "caption": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia. 👇\nComenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.\n\n#brio #academia #iniciantenaacademia #30diasdetreino #resultado",
+     "script": [
+      {
+       "k": "",
+       "t1": "30 DIAS DE",
+       "t2": "TREINO. E AGORA?",
+       "text": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia."
+      },
+      {
+       "k": "",
+       "t1": "DIA 1",
+       "t2": "TUDO É NOVO.",
+       "text": "Dia um. Você não sabe a carga, não sabe a ordem, e sai achando que fez pouco."
+      },
+      {
+       "k": "",
+       "t1": "DIA 3",
+       "t2": "A DOR CHEGA.",
+       "text": "Dia três. Aparece aquela dor nas pernas, nos braços. Ela é normal e passa em poucos dias."
+      },
+      {
+       "k": "",
+       "t1": "DIA 7",
+       "t2": "O CORPO APRENDE.",
+       "text": "Dia sete. O movimento já sai mais firme. É o seu cérebro aprendendo a usar o músculo."
+      },
+      {
+       "k": "",
+       "t1": "DIA 14",
+       "t2": "A FORÇA SOBE.",
+       "text": "Dia catorze. A carga que pesava no começo agora sobe fácil. Essa é a primeira vitória."
+      },
+      {
+       "k": "",
+       "t1": "O ESPELHO",
+       "t2": "AINDA NÃO MUDOU.",
+       "text": "Mas o espelho ainda não mudou. E é aqui que muita gente desiste, achando que não funciona."
+      },
+      {
+       "k": "",
+       "t1": "DIA 30",
+       "t2": "MAIS FORTE.",
+       "text": "Dia trinta. Você está mais forte, mais firme no movimento, e com o treino virando hábito."
+      },
+      {
+       "k": "",
+       "t1": "O MÚSCULO",
+       "t2": "VEM DEPOIS.",
+       "text": "O músculo que aparece no espelho vem depois, com meses de constância. O segredo é não parar agora."
+      },
+      {
+       "k": "",
+       "t1": "A PROVA",
+       "t2": "ESTÁ NOS NÚMEROS.",
+       "text": "A prova de que está funcionando não está no espelho. Está na carga, que sobe semana a semana."
+      },
+      {
+       "k": "",
+       "t1": "O HÁBITO",
+       "t2": "VALE MAIS.",
+       "text": "E tem uma coisa que vale mais que qualquer músculo no primeiro mês: o hábito de ir, mesmo nos dias sem vontade."
+      },
+      {
+       "k": "",
+       "t1": "COMENTA",
+       "t2": "DIA UM.",
+       "text": "Comenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Lote adiantado 09/11 (limite semanal). Evidência: Série aprovada pelo usuário a partir do desempenho real de \"Quanto tempo até ver resultado\" (1.977 views em 8 h, 10 envios, 9 salvos no Instagram). Gatilho tipo 2 (palavra-chave + desafio). · 10/11: narração enxugada (pausas curtas, gancho 8% mais rápido) e sobreposições corrigidas.",
+     "chars": 1073,
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu na narração desde o roteiro"
+     },
+     "captions": {
+      "youtube": {
+       "titulo": "O que muda no seu corpo em 30 dias de treino #shorts #brio #30diasdetreino",
+       "descricao": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia.\nComenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #30diasdetreino"
+      },
+      "tiktok": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia. 👇\nComenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #30diasdetreino #resultado #gymtok #academia #treino",
+      "instagram": "Trinta dias de academia. O que muda de verdade no seu corpo? Vou te mostrar dia por dia.\n\nComenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #30diasdetreino #resultado #academia #iniciantenaacademia"
+     }
+    },
+    {
+     "id": "brio-06-elevacao-lateral",
+     "date": "2026-11-08",
+     "title": "Você faz elevação lateral errado (e o ombro não cresce)",
+     "hook": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado.",
+     "file": "videos/brio-06-elevacao-lateral.mp4",
+     "duration": 36.1,
+     "status": "pronto",
+     "post_at": "2026-11-10 07:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#elevacaolateral",
+      "#ombro"
+     ],
+     "caption": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado. 👇\n\n#brio #academia #musculacao #elevacaolateral #ombro",
+     "script": [
+      {
+       "k": "PARE COM ESSE ERRO",
+       "t1": "ELEVAÇÃO LATERAL",
+       "t2": "ERRADA.",
+       "text": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado."
+      },
+      {
+       "k": "ERRO 1",
+       "t1": "PESO DEMAIS,",
+       "t2": "CORPO BALANÇANDO.",
+       "text": "Erro um: halter pesado demais. Você balança, e quem sobe o peso é o impulso, não o ombro."
+      },
+      {
+       "k": "ERRO 2",
+       "t1": "OMBRO",
+       "t2": "NA ORELHA.",
+       "text": "Erro dois: subir encolhendo o ombro até a orelha. Aí quem trabalha é o trapézio."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "LEVA O COTOVELO,",
+       "t2": "NÃO A MÃO.",
+       "text": "O segredo: pensa em levar o cotovelo pra fora, e não a mão. Braço um pouco à frente do corpo."
+      },
+      {
+       "k": "ATÉ ONDE",
+       "t1": "ATÉ A ALTURA",
+       "t2": "DO OMBRO.",
+       "text": "Sobe até a altura do ombro e desce devagar, controlando. Com menos peso, o ombro sente muito mais."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "MENOS PESO,",
+       "t2": "MAIS OMBRO.",
+       "text": "Baixou o peso pra fazer certo? No Bríu você registra série a série e vê a carga voltar a subir no gráfico. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Melhor evidência do lote (2,3 mi; 2,2 mi). CTA: registro série a série + gráfico. · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 581,
+     "captions": {
+      "youtube": {
+       "titulo": "Você faz elevação lateral errado (e o ombro não cresce) #shorts #brio #elevacaolateral",
+       "descricao": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #elevacaolateral"
+      },
+      "tiktok": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #elevacaolateral #ombro #gymtok #academia #treino",
+      "instagram": "Seu ombro não cresce? Talvez você esteja fazendo a elevação lateral errado.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #elevacaolateral #ombro #academia #musculacao"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-09-mesmo-musculo",
+     "date": "2026-11-08",
+     "title": "Treinar o mesmo músculo todo dia: pode?",
+     "hook": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim.",
+     "file": "videos/brio-09-mesmo-musculo.mp4",
+     "duration": 35.3,
+     "status": "pronto",
+     "post_at": "2026-11-10 12:00",
+     "hashtags": [
+      "#brio",
+      "#hipertrofia",
+      "#dicasdetreino",
+      "#frequenciadetreino",
+      "#volumedetreino"
+     ],
+     "caption": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim. 👇\n\n#brio #hipertrofia #dicasdetreino #frequenciadetreino #volumedetreino",
+     "script": [
+      {
+       "k": "A DÚVIDA",
+       "t1": "MESMO MÚSCULO",
+       "t2": "TODO DIA?",
+       "text": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "MÚSCULO CRESCE",
+       "t2": "NO DESCANSO.",
+       "text": "O treino pesado cria o estímulo. O músculo se recupera e cresce nos dias seguintes."
+      },
+      {
+       "k": "O QUE IMPORTA",
+       "t1": "SÉRIES",
+       "t2": "NA SEMANA.",
+       "text": "O que mais pesa é o total de séries boas na semana. Uma boa base é umas dez séries por músculo."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "DUAS VEZES",
+       "t2": "POR SEMANA.",
+       "text": "O segredo: dividir essas séries em dois dias. Você chega mais descansado e cada série rende mais."
+      },
+      {
+       "k": "E SE NÃO DER?",
+       "t1": "UMA VEZ",
+       "t2": "TAMBÉM FUNCIONA.",
+       "text": "Só dá pra treinar cada músculo uma vez? Funciona também, desde que o volume esteja lá."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "TREINO NO SEU",
+       "t2": "TEMPO.",
+       "text": "No Bríu o treino cabe no tempo que você tem, e você registra cada série pra ver a evolução. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "CTA: treino no tempo disponível + registro série a série. · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 566,
+     "captions": {
+      "youtube": {
+       "titulo": "Treinar o mesmo músculo todo dia: pode? #shorts #brio #frequenciadetreino",
+       "descricao": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #frequenciadetreino"
+      },
+      "tiktok": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #frequenciadetreino #volumedetreino #gymtok #academia #treino",
+      "instagram": "Treinar o mesmo músculo todo dia faz crescer mais rápido? Não é bem assim.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #frequenciadetreino #volumedetreino #hipertrofia #dicasdetreino"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-08-cardio",
+     "date": "2026-11-08",
+     "title": "Cardio está matando seu ganho de massa?",
+     "hook": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso.",
+     "file": "videos/brio-08-cardio.mp4",
+     "duration": 33.3,
+     "status": "pronto",
+     "post_at": "2026-11-10 18:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#cardio",
+      "#treinoconcorrente"
+     ],
+     "caption": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso. 👇\n\n#brio #academia #hipertrofia #cardio #treinoconcorrente",
+     "script": [
+      {
+       "k": "MITO OU VERDADE",
+       "t1": "CARDIO MATA",
+       "t2": "SEU MÚSCULO?",
+       "text": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso."
+      },
+      {
+       "k": "O QUE A CIÊNCIA DIZ",
+       "t1": "NA DOSE CERTA,",
+       "t2": "NÃO ATRAPALHA.",
+       "text": "As revisões de estudos mostram: na dose certa, o cardio quase não atrapalha o crescimento do músculo."
+      },
+      {
+       "k": "E AINDA",
+       "t1": "CORAÇÃO",
+       "t2": "AGRADECE.",
+       "text": "E ainda ajuda o coração, o fôlego e a recuperação entre as séries."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "MUSCULAÇÃO",
+       "t2": "PRIMEIRO.",
+       "text": "O segredo é a ordem: musculação primeiro, cardio depois. Ou em horários separados, se der."
+      },
+      {
+       "k": "A ESCOLHA",
+       "t1": "BIKE OU",
+       "t2": "CAMINHADA.",
+       "text": "Prefere bike ou caminhada inclinada, que cansam menos a perna. E não exagera no volume."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "VÊ SE A CARGA",
+       "t2": "CONTINUA SUBINDO.",
+       "text": "Quer ter certeza? Registra no Bríu e confere no gráfico se sua carga continua subindo. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Base: revisões sobre treino concorrente (efeito de interferência pequeno). CTA: gráfico de evolução. · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\". · 10/11: narração remontada e enxugada (começo mais rápido), sem gastar crédito.",
+     "chars": 548,
+     "captions": {
+      "youtube": {
+       "titulo": "Cardio está matando seu ganho de massa? #shorts #brio #cardio",
+       "descricao": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #cardio"
+      },
+      "tiktok": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #cardio #treinoconcorrente #gymtok #academia #treino",
+      "instagram": "Cardio mata o seu ganho de massa? Muita gente foge da esteira por causa disso.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #cardio #treinoconcorrente #academia #hipertrofia"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-07-ego-lifting",
+     "date": "2026-11-08",
+     "title": "O ego está roubando seu músculo",
+     "hook": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo.",
+     "file": "videos/brio-07-ego-lifting.mp4",
+     "duration": 34.0,
+     "status": "pronto",
+     "post_at": "2026-11-09 22:00",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#egolifting",
+      "#tecnica"
+     ],
+     "caption": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo. 👇\n\n#brio #academia #musculacao #egolifting #tecnica",
+     "script": [
+      {
+       "k": "SEJA SINCERO",
+       "t1": "O EGO TÁ ROUBANDO",
+       "t2": "SEU MÚSCULO.",
+       "text": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo."
+      },
+      {
+       "k": "O QUE ACONTECE",
+       "t1": "MEIA",
+       "t2": "REPETIÇÃO.",
+       "text": "Com peso demais, a repetição vira meia repetição. O corpo dá um tranco, e o músculo trabalha pouco."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "O MÚSCULO-ALVO",
+       "t2": "NEM SENTE.",
+       "text": "Quem levanta é a lombar, o impulso, a articulação. E é aí que aparece a lesão."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "DESCE EM",
+       "t2": "2 SEGUNDOS.",
+       "text": "O segredo: escolhe um peso que você consegue descer em uns dois segundos, com amplitude completa."
+      },
+      {
+       "k": "A REGRA",
+       "t1": "CARGA SE",
+       "t2": "CONQUISTA.",
+       "text": "Carga não se coloca, se conquista. Fez todas as repetições bem feitas? Aí sim, sobe um pouco."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "SOBE NA",
+       "t2": "HORA CERTA.",
+       "text": "O Bríu mostra a carga da última vez e avisa quando é hora de subir. Sem chute, sem ego. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "CTA: carga da última vez + aviso de quando subir a carga. · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 561,
+     "captions": {
+      "youtube": {
+       "titulo": "O ego está roubando seu músculo #shorts #brio #egolifting",
+       "descricao": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #egolifting"
+      },
+      "tiktok": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #egolifting #tecnica #gymtok #academia #treino",
+      "instagram": "Você coloca peso pra impressionar? O ego tá roubando o seu músculo.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #egolifting #tecnica #academia #musculacao"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-05-quando-subir-carga",
+     "date": "2026-11-08",
+     "title": "Quando subir a carga? A regra que quase ninguém usa",
+     "hook": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa.",
+     "file": "videos/brio-05-quando-subir-carga.mp4",
+     "duration": 33.1,
+     "status": "postado",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#progressaodecarga",
+      "#treinodehipertrofia"
+     ],
+     "caption": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa. 👇\nComenta quantas repetições você fez no seu último supino.\n\n#brio #academia #hipertrofia #progressaodecarga #treinodehipertrofia",
+     "script": [
+      {
+       "k": "PARE DE CHUTAR",
+       "t1": "QUANDO SUBIR",
+       "t2": "A CARGA?",
+       "text": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa."
+      },
+      {
+       "k": "O NOME",
+       "t1": "DUPLA",
+       "t2": "PROGRESSÃO.",
+       "text": "Chama dupla progressão. Primeiro você sobe as repetições, depois sobe o peso."
+      },
+      {
+       "k": "EXEMPLO",
+       "t1": "SUPINO COM",
+       "t2": "60 QUILOS.",
+       "text": "Exemplo: supino com sessenta quilos. Hoje você fez seis repetições."
+      },
+      {
+       "k": "AS SEMANAS",
+       "t1": "MESMO PESO,",
+       "t2": "MAIS REPETIÇÃO.",
+       "text": "Semana que vem, mesmo peso, tenta sete. Depois oito."
+      },
+      {
+       "k": "A REGRA",
+       "t1": "BATEU 8?",
+       "t2": "SOBE O PESO.",
+       "text": "Bateu oito repetições bem feitas? Sobe um pouquinho o peso, e recomeça nas repetições."
+      },
+      {
+       "k": "COMENTA",
+       "t1": "COMENTA SUAS",
+       "t2": "REPETIÇÕES.",
+       "text": "Comenta quantas repetições você fez no seu último supino. Não lembra? Então você não sabe a hora de subir. O Bríu guarda sua última carga e te avisa. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\". · 09/11 13h: final trocado — gatilho tipo 1 (comenta repetições) + ponte 'O Bríu guarda sua última carga e te avisa' + frase fixa; pronúncia 'Bríu' (opção 3 escolhida pelo usuário). Narração = original até 20,4 s + final novo (211 créditos).",
+     "chars": 704,
+     "post_at": "2026-11-09 12:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Quando subir a carga? A regra que quase ninguém usa #shorts #brio #progressaodecarga",
+       "descricao": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa.\nComenta quantas repetições você fez no seu último supino.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #progressaodecarga"
+      },
+      "tiktok": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa. 👇\nComenta quantas repetições você fez no seu último supino.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #progressaodecarga #treinodehipertrofia #gymtok #academia #treino",
+      "instagram": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa.\n\nComenta quantas repetições você fez no seu último supino.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #progressaodecarga #treinodehipertrofia #academia #hipertrofia"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu (opção 3) — final regravado em 09/11 13h e conferido por transcrição"
+     },
+     "gatilho": "Comenta quantas repetições você fez no seu último supino.",
+     "gatilho_tipo": 1,
+     "metrics": [
+      {
+       "rede": "instagram",
+       "medido_em": "2026-11-09 15:00",
+       "horas_no_ar": 3,
+       "views": 199,
+       "curtidas": 7,
+       "comentarios": 0,
+       "republicados": 0,
+       "envios": 0,
+       "salvos": 0
+      }
+     ]
+    },
+    {
+     "id": "brio-04-descanso",
+     "date": "2026-11-08",
+     "title": "Você descansa ou some entre as séries?",
+     "hook": "Seja sincero: você descansa entre as séries, ou some no celular?",
+     "file": "videos/brio-04-descanso.mp4",
+     "duration": 30.9,
+     "status": "pronto",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#descansoentreseries",
+      "#dicasdetreino"
+     ],
+     "caption": "Seja sincero: você descansa entre as séries, ou some no celular? 👇\n\n#brio #academia #musculacao #descansoentreseries #dicasdetreino",
+     "script": [
+      {
+       "k": "SEJA SINCERO",
+       "t1": "VOCÊ DESCANSA",
+       "t2": "OU SOME?",
+       "text": "Seja sincero: você descansa entre as séries, ou some no celular?"
+      },
+      {
+       "k": "DESCANSO CURTO",
+       "t1": "POUCO DESCANSO",
+       "t2": "ROUBA REPETIÇÃO.",
+       "text": "Descanso curto demais faz a próxima série render menos repetições."
+      },
+      {
+       "k": "DESCANSO LONGO",
+       "t1": "MUITO DESCANSO",
+       "t2": "ESFRIA O TREINO.",
+       "text": "E descanso demais esfria o treino, e você sai da academia depois de duas horas."
+      },
+      {
+       "k": "A REGRA",
+       "t1": "2 A 3 MINUTOS",
+       "t2": "NOS GRANDES.",
+       "text": "A regra prática: dois a três minutos nos exercícios grandes, como agachamento e supino. Um a dois minutos nos menores."
+      },
+      {
+       "k": "O VILÃO",
+       "t1": "O CELULAR",
+       "t2": "NÃO TEM RELÓGIO.",
+       "text": "O problema é que no celular cinco minutos parecem um."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "DESCANSO NO",
+       "t2": "CRONÔMETRO.",
+       "text": "No Bríu o cronômetro de descanso aparece na tela entre uma série e outra. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 488,
+     "post_at": "2026-11-09 20:30",
+     "captions": {
+      "youtube": {
+       "titulo": "Você descansa ou some entre as séries? #shorts #brio #descansoentreseries",
+       "descricao": "Seja sincero: você descansa entre as séries, ou some no celular?\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #descansoentreseries"
+      },
+      "tiktok": "Seja sincero: você descansa entre as séries, ou some no celular? 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #descansoentreseries #gymtok #academia #treino #musculacao",
+      "instagram": "Seja sincero: você descansa entre as séries, ou some no celular?\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #descansoentreseries #academia #musculacao #dicasdetreino"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-03-tempo-resultado",
+     "date": "2026-11-08",
+     "title": "Quanto tempo até ver resultado na academia?",
+     "hook": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração.",
+     "file": "videos/brio-03-tempo-resultado.mp4",
+     "duration": 30.3,
+     "status": "postado",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#resultadonaacademia",
+      "#iniciantenaacademia",
+      "#evolucao"
+     ],
+     "caption": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração. 👇\n\n#brio #academia #resultadonaacademia #iniciantenaacademia #evolucao",
+     "script": [
+      {
+       "k": "A PERGUNTA DE TODO MUNDO",
+       "t1": "QUANTO TEMPO PRA",
+       "t2": "VER RESULTADO?",
+       "text": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração."
+      },
+      {
+       "k": "SEMANAS 1 A 4",
+       "t1": "A FORÇA SOBE",
+       "t2": "PRIMEIRO.",
+       "text": "Nas primeiras semanas a força sobe rápido. É o seu cérebro aprendendo a usar o músculo."
+      },
+      {
+       "k": "SEMANAS 6 A 8",
+       "t1": "O MÚSCULO",
+       "t2": "COMEÇA A CRESCER.",
+       "text": "O músculo começa a crescer de verdade lá pela sexta, oitava semana."
+      },
+      {
+       "k": "MESES",
+       "t1": "O ESPELHO",
+       "t2": "DEMORA MAIS.",
+       "text": "Só que pro espelho mostrar, leva meses. E é aí que muita gente desiste."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "OS NÚMEROS",
+       "t2": "MOSTRAM ANTES.",
+       "text": "O segredo: os números mostram antes do espelho. Carga subindo é músculo vindo."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "VÊ SUA EVOLUÇÃO",
+       "t2": "ANTES DO ESPELHO.",
+       "text": "No Bríu você vê sua evolução no gráfico, semana a semana. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "Tema com vídeo de 3,2 mi de views. · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 488,
+     "post_at": "2026-11-09 07:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Quanto tempo até ver resultado na academia? #shorts #brio #resultadonaacademia",
+       "descricao": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #resultadonaacademia"
+      },
+      "tiktok": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #resultadonaacademia #evolucao #gymtok #academia #treino",
+      "instagram": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #resultadonaacademia #evolucao #academia #iniciantenaacademia"
+     },
+     "pronuncia": {
+      "status": "no ar",
+      "nota": "postado 09/11 07:00 com \"Brío\""
+     },
+     "metrics": [
+      {
+       "rede": "instagram",
+       "medido_em": "2026-11-09 15:00",
+       "horas_no_ar": 8,
+       "views": 1977,
+       "curtidas": 66,
+       "comentarios": 0,
+       "republicados": 2,
+       "envios": 10,
+       "salvos": 9
+      }
+     ]
+    },
+    {
+     "id": "brio-02-falha-toda-serie",
+     "date": "2026-11-08",
+     "title": "Treinar até a falha em toda série está te atrasando",
+     "hook": "Você vai até a falha em toda série? Isso pode estar te atrasando.",
+     "file": "videos/brio-02-falha-toda-serie.mp4",
+     "duration": 34.6,
+     "status": "pronto",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#treinoatefalha",
+      "#dicasdetreino"
+     ],
+     "caption": "Você vai até a falha em toda série? Isso pode estar te atrasando. 👇\n\n#brio #academia #hipertrofia #treinoatefalha #dicasdetreino",
+     "script": [
+      {
+       "k": "CUIDADO",
+       "t1": "FALHA EM",
+       "t2": "TODA SÉRIE?",
+       "text": "Você vai até a falha em toda série? Isso pode estar te atrasando."
+      },
+      {
+       "k": "O PROBLEMA",
+       "t1": "CANSAÇO",
+       "t2": "ACUMULA.",
+       "text": "Ir até a falha cansa muito mais. A próxima série já começa fraca, e o treino inteiro rende menos."
+      },
+      {
+       "k": "O QUE A CIÊNCIA DIZ",
+       "t1": "1 A 3 REPETIÇÕES",
+       "t2": "SOBRANDO.",
+       "text": "Os estudos mostram: parar com uma a três repetições sobrando dá um crescimento muito parecido."
+      },
+      {
+       "k": "QUANDO USAR",
+       "t1": "FALHA SÓ",
+       "t2": "NO FINAL.",
+       "text": "Quer usar a falha? Deixa pra última série, ou pros exercícios menores."
+      },
+      {
+       "k": "ATENÇÃO, INICIANTE",
+       "t1": "VOCÊ ERRA",
+       "t2": "A CONTA.",
+       "text": "E se você é iniciante, cuidado: quase todo mundo acha que chegou no limite, e ainda tinha repetição sobrando."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "ANOTA CADA",
+       "t2": "SÉRIE.",
+       "text": "Por isso anota cada série. No Bríu você registra repetição por repetição e vê se tá evoluindo. Registre e acompanhe seus treinos gratuitamente. Link na bio."
+      }
+     ],
+     "note": "09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 09/11: fechamento trocado para \"Registre e acompanhe seus treinos gratuitamente\".",
+     "chars": 564,
+     "post_at": "2026-11-09 18:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Treinar até a falha em toda série está te atrasando #shorts #brio #treinoatefalha",
+       "descricao": "Você vai até a falha em toda série? Isso pode estar te atrasando.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #treinoatefalha"
+      },
+      "tiktok": "Você vai até a falha em toda série? Isso pode estar te atrasando. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinoatefalha #gymtok #academia #treino #hipertrofia",
+      "instagram": "Você vai até a falha em toda série? Isso pode estar te atrasando.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #treinoatefalha #academia #hipertrofia #dicasdetreino"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase do nome regravada em 09/11 15h30 (do cache, 0 crédito) e conferida por transcrição"
+     }
+    },
+    {
+     "id": "brio-01-dor-no-dia-seguinte",
+     "date": "2026-11-08",
+     "title": "Dor no dia seguinte não prova que o treino foi bom",
+     "hook": "Acordou todo dolorido e achou que o treino foi bom? Isso não prova nada.",
+     "file": "videos/brio-01-dor-no-dia-seguinte.mp4",
+     "duration": 31.2,
+     "status": "postado",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#dormuscular",
+      "#mitosdaacademia"
+     ],
+     "caption": "Acordou todo dolorido e achou que o treino foi bom? Isso não prova nada. 👇\n\n#brio #academia #musculacao #dormuscular #mitosdaacademia",
+     "script": [
+      {
+       "k": "MITO OU VERDADE",
+       "t1": "ACORDOU TODO",
+       "t2": "DOLORIDO?",
+       "text": "Acordou todo dolorido e achou que o treino foi bom? Isso não prova nada."
+      },
+      {
+       "k": "DE ONDE VEM",
+       "t1": "DOR É",
+       "t2": "NOVIDADE.",
+       "text": "Essa dor aparece quando o músculo faz algo novo, principalmente na hora de descer o peso."
+      },
+      {
+       "k": "O DETALHE",
+       "t1": "A DOR SOME.",
+       "t2": "O MÚSCULO CRESCE.",
+       "text": "Com o tempo o corpo se acostuma. A dor some, e o músculo continua crescendo do mesmo jeito."
+      },
+      {
+       "k": "O ERRO",
+       "t1": "CAÇAR DOR",
+       "t2": "ATRASA TUDO.",
+       "text": "Quem caça dor troca de treino toda semana, e nunca dá tempo de progredir em nada."
+      },
+      {
+       "k": "O QUE MEDE",
+       "t1": "CARGA E REPETIÇÃO",
+       "t2": "SUBINDO.",
+       "text": "O que prova evolução é simples: mais carga ou mais repetições, semana após semana."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "PARA DE MEDIR",
+       "t2": "PELA DOR.",
+       "text": "Para de medir pela dor. No Bríu você registra o treino e vê sua carga subindo no gráfico. É grátis pra registrar. Link na bio."
+      }
+     ],
+     "note": "09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido.",
+     "chars": 541,
+     "post_at": "2026-11-08 18:00",
+     "posted_at": "2026-11-08 18:00",
+     "pronuncia": {
+      "status": "no ar",
+      "nota": "já postado; áudio com a pronúncia antiga"
+     },
+     "metrics": [
+      {
+       "rede": "instagram",
+       "medido_em": "2026-11-09 15:00",
+       "horas_no_ar": 20,
+       "views": 1277,
+       "curtidas": 53,
+       "comentarios": 2,
+       "republicados": 0,
+       "envios": 6,
+       "salvos": 3
+      }
+     ]
+    },
+    {
+     "id": "brio-00-treina-1-ano",
+     "date": "2026-11-08",
+     "title": "Treina há 1 ano e o shape não mudou?",
+     "hook": "Treina há um ano e o shape não mudou nada? Calma. Não é genética.",
+     "file": "videos/brio-00-treina-1-ano.mp4",
+     "duration": 36.4,
+     "status": "pronto",
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#hipertrofia",
+      "#iniciantenaacademia",
+      "#dicasdetreino"
+     ],
+     "caption": "Treina há um ano e o shape não mudou nada? Calma. Não é genética. 👇\n\n#brio #academia #hipertrofia #iniciantenaacademia #dicasdetreino",
+     "script": [
+      {
+       "k": "SEM RESULTADO",
+       "t1": "TREINA HÁ 1 ANO",
+       "t2": "E NÃO MUDOU NADA?",
+       "text": "Treina há um ano e o shape não mudou nada? Calma. Não é genética."
+      },
+      {
+       "k": "ERRO 1",
+       "t1": "MESMO PESO",
+       "t2": "TODA SEMANA.",
+       "text": "Erro um: você levanta o mesmo peso toda semana. Se o corpo não é desafiado, ele não tem motivo pra crescer."
+      },
+      {
+       "k": "A REGRA",
+       "t1": "UM POUQUINHO",
+       "t2": "A MAIS.",
+       "text": "A regra é simples: uma repetição a mais, ou um quilo a mais. Toda semana."
+      },
+      {
+       "k": "ERRO 2",
+       "t1": "METADE DO",
+       "t2": "MOVIMENTO.",
+       "text": "Erro dois: meia repetição pra caber mais peso na barra. O músculo cresce na amplitude, não no ego."
+      },
+      {
+       "k": "ERRO 3",
+       "t1": "TREINA MUITO,",
+       "t2": "DORME POUCO.",
+       "text": "Erro três: treina pesado e dorme cinco horas. O músculo cresce no descanso, não na academia."
+      },
+      {
+       "k": "O SEGREDO",
+       "t1": "QUEM EVOLUI",
+       "t2": "ANOTA TUDO.",
+       "text": "E o segredo de quem evolui de verdade: anota cada treino. Sem anotar, você treina no escuro."
+      },
+      {
+       "k": "LINK NA BIO",
+       "t1": "PARA DE TREINAR",
+       "t2": "NO ESCURO.",
+       "text": "Quer parar de treinar no escuro? Baixa o Bríu. O link tá na bio."
+      }
+     ],
+     "note": "Piloto no tema amarelo antigo — reserva (não agendado). · 09/11: frase com \"BRIO\" regravada (pronúncia \"Bríô\"), resto do áudio mantido. · 11/11: saiu da reserva para hoje 12:00; nome corrigido para \"Bríu\".",
+     "chars": 591,
+     "post_at": "2026-11-11 12:00",
+     "captions": {
+      "youtube": {
+       "titulo": "Treina há 1 ano e o shape não mudou? #shorts #brio #academia",
+       "descricao": "Treina há um ano e o shape não mudou nada? Calma. Não é genética.\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO: link no perfil do canal.\n\n#shorts #brio #academia"
+      },
+      "tiktok": "Treina há um ano e o shape não mudou nada? Calma. Não é genética. 👇\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #gymtok #academia #treino #hipertrofia #iniciantenaacademia",
+      "instagram": "Treina há um ano e o shape não mudou nada? Calma. Não é genética.\n\nSalva pro próximo treino e manda pro seu parceiro de academia.\nRegistre e acompanhe seus treinos gratuitamente no BRIO. Link na bio.\n\n#brio #academia #hipertrofia #iniciantenaacademia #dicasdetreino"
+     },
+     "pronuncia": {
+      "status": "ok",
+      "nota": "Bríu — frase final regravada 11/11 (do cache, 0 crédito)"
+     }
+    }
+   ],
+   "research": [
+    {
+     "date": "2026-11-09",
+     "title": "Lote adiantado (10 a 13/11): temas e evidências",
+     "summary": "Para economizar o limite semanal, 17 vídeos foram feitos de uma vez em 09/11. Evidência: desempenho real do canal (série \"quanto tempo/linha do tempo\") e cobertura recente na imprensa. A busca não trouxe contagem de views de shorts; onde não há número, está marcado como sinal.",
+     "items": [
+      {
+       "tema": "O que muda no seu corpo em 30 dias de treino",
+       "gancho": "Comenta DIA UM se você começou essa semana, e anota a carga no Bríu pra comparar no dia trinta.",
+       "evidencia": "Série aprovada pelo usuário a partir do desempenho real de \"Quanto tempo até ver resultado\" (1.977 views em 8 h, 10 envios, 9 salvos no Instagram).",
+       "usado": true
+      },
+      {
+       "tema": "Creatina: o que é mito e o que é verdade",
+       "gancho": "Time creatina todo dia ou time só no dia de treino? Comenta.",
+       "evidencia": "Tema com cobertura alta e recorrente em 2025–2026 (Olhar Digital 16/06/2026 e 03/06/2025, Correio24horas set/2025, SBT News).",
+       "usado": true
+      },
+      {
+       "tema": "Parou 2 semanas de treino: quanto você perde?",
+       "gancho": "Manda pro seu amigo que parou de treinar e acha que perdeu tudo.",
+       "evidencia": "Série aprovada pelo usuário. Tema em alta: UNILAD Tech 25/02/2026 (Mike Israetel no Diary of a CEO) e blog de Jeff Nippard sobre perda muscular.",
+       "usado": true
+      },
+      {
+       "tema": "Quantas repetições pra crescer? Não é só 8 a 12",
+       "gancho": "Salva pro próximo treino, testa uma série mais longa e volta pra comentar como foi.",
+       "evidencia": "Tema com cobertura alta: Correio Braziliense 20/10/2025 (repete a regra 8–12), Tribuna de Jundiaí, Olhar Digital 15/04/2026. Gancho contraria a regra repetida na mídia.",
+       "usado": true
+      },
+      {
+       "tema": "Treinar em jejum queima mais gordura?",
+       "gancho": "Comenta quantas vezes você treinou essa semana.",
+       "evidencia": "Tema recorrente na mídia: Tua Saúde 13/07/2026, Band, A Gazeta out/2026.",
+       "usado": true
+      },
+      {
+       "tema": "Treina pesado e não cresce? O erro está fora da academia",
+       "gancho": "Comenta SONO se você dorme menos de sete horas, e anota no Bríu como rende o treino depois de uma noite boa.",
+       "evidencia": "Tema com sinal recente: Correio24horas out/2026 (\"treina pesado e não ganha massa: 5 erros\") e O Povo (\"seis erros fora e dentro da academia\").",
+       "usado": true
+      },
+      {
+       "tema": "Abdominal todo dia não tira barriga",
+       "gancho": "Time abdominal todo dia ou time treino completo? Comenta.",
+       "evidencia": "Mito clássico do banco de ideias; sinal recente: O Povo (\"barriga teimosa não exige dieta maluca\").",
+       "usado": true
+      },
+      {
+       "tema": "A parte do movimento que você corta é a que mais faz crescer",
+       "gancho": "Manda pro seu parceiro de treino que só faz meia repetição.",
+       "evidencia": "Pesquisa 08/11: 4,9 mi views em 4 semanas (EN), quase nada em PT. Sinal recente: Olhar Digital 20/04/2026 (repetições parciais), artigos da Legion, BarBend e RP.",
+       "usado": true
+      },
+      {
+       "tema": "Quanto tempo pro supino subir 10 kg?",
+       "gancho": "Salva, anota o seu supino de hoje e volta aqui daqui a um mês pra comentar quanto subiu.",
+       "evidencia": "Série aprovada pelo usuário a partir do desempenho real de \"Quanto tempo até ver resultado\" e \"Quando subir a carga\" (Instagram, 09/11).",
+       "usado": true
+      },
+      {
+       "tema": "Travou no supino? 3 saídas pra voltar a subir",
+       "gancho": "Comenta há quantas semanas o seu supino não sobe.",
+       "evidencia": "Sinal recente: Correio24horas out/2026 (\"treina pesado e não ganha massa: 5 erros que travam resultados\"); continuação natural de \"Quando subir a carga\".",
+       "usado": true
+      },
+      {
+       "tema": "Semana leve: o descanso que faz a carga subir",
+       "gancho": "Comenta LEVE se você nunca fez uma semana leve, e marca no Bríu a carga antes e depois.",
+       "evidencia": "Sinal recente: Metrópoles (\"pegar leve na academia é fraqueza?\") e estudo sobre deload ativo (sci-sport).",
+       "usado": true
+      },
+      {
+       "tema": "Dá pra ganhar músculo sem peso?",
+       "gancho": "Time academia ou time treino em casa? Comenta.",
+       "evidencia": "Sinal recente: Olhar Digital 20/04/2026 (parciais com peso do corpo) e Correio24horas (\"ganhar músculos treinando sem carga\").",
+       "usado": true
+      },
+      {
+       "tema": "5 erros de quem começou na academia agora",
+       "gancho": "Manda pra quem começou na academia esse mês.",
+       "evidencia": "Sinal: Correio24horas set/2025 (dicas para iniciantes no treino de força) e matérias de out/2026 sobre erros que travam resultado; formato lista de erros funciona no canal.",
+       "usado": true
+      },
+      {
+       "tema": "Por que seu braço não cresce (e não é o bíceps)",
+       "gancho": "Salva pro próximo treino de braço e volta pra comentar quantas séries de tríceps você fez.",
+       "evidencia": "Banco de ideias (pesquisa 08/11); sinal recente de interesse em \"treina e não cresce\" (Correio24horas e O Povo, out/2026).",
+       "usado": true
+      },
+      {
+       "tema": "Quanto tempo de treino por dia é suficiente?",
+       "gancho": "Comenta quantos minutos você tem pra treinar por dia.",
+       "evidencia": "Sinal: Correio24horas jan/2025 (mitos e verdades sobre exercício e massa muscular); tema ligado direto à função de treino no tempo disponível do app.",
+       "usado": true
+      },
+      {
+       "tema": "Como saber se você está evoluindo (sem espelho nem balança)",
+       "gancho": "Comenta SUBIU se a sua carga subiu esse mês, e confere no gráfico do Bríu.",
+       "evidencia": "Desempenho real do canal: os vídeos sobre medir evolução foram os que mais renderam (Instagram, 09/11). Tema ligado direto ao app.",
+       "usado": true
+      },
+      {
+       "tema": "O joelho pode passar da ponta do pé no agachamento?",
+       "gancho": "Time joelho pode passar ou time não pode? Comenta.",
+       "evidencia": "Mito clássico do banco de ideias (pesquisa 08/11); assunto recorrente em matérias de agachamento (Correio Braziliense, O Povo). Formato mito gerou comentários no canal.",
+       "usado": true
+      }
+     ],
+     "patterns": [
+      "Pergunta de iniciante + linha do tempo",
+      "Mito que contraria o senso comum",
+      "Regra prática com números",
+      "Gatilho final em rodízio de 5 tipos"
+     ]
+    },
+    {
+     "date": "2026-11-09",
+     "title": "Desempenho real no Instagram (primeiros números)",
+     "summary": "Medido em 09/11 às 15h (dados corrigidos pelo usuário). \"Quanto tempo até ver resultado\" é o destaque: ≈247 views/h e o maior número de envios e salvos. \"Dor no dia seguinte\" chegou a 1.277 views em 20 h (≈64/h), com 2 comentários. \"Quando subir a carga\" tinha só 3 h no ar (199 views, ≈66/h): cedo demais para julgar. Amostra pequena: tratar como sinal, não como regra.",
+     "items": [
+      {
+       "tema": "Quanto tempo até ver resultado na academia?",
+       "gancho": "Quanto tempo leva pra ver resultado na academia? A resposta vai te poupar muita frustração.",
+       "evidencia": "Instagram: 1.977 views em 8 h · 66 curtidas · 2 republicações · 10 envios · 9 salvos",
+       "usado": true
+      },
+      {
+       "tema": "Dor no dia seguinte não prova que o treino foi bom",
+       "gancho": "Acordou todo dolorido e achou que o treino foi bom? Isso não prova nada.",
+       "evidencia": "Instagram: 1.277 views em 20 h · 53 curtidas · 2 comentários · 6 envios · 3 salvos",
+       "usado": true
+      },
+      {
+       "tema": "Quando subir a carga? A regra que quase ninguém usa",
+       "gancho": "Você sobe a carga no chute? Tem uma regra simples, e quase ninguém usa.",
+       "evidencia": "Instagram: 199 views em 3 h · 7 curtidas (cedo para avaliar)",
+       "usado": true
+      }
+     ],
+     "patterns": [
+      "Pergunta que todo iniciante faz (\"quanto tempo até ver resultado?\")",
+      "Expectativa x realidade com linha do tempo (semanas/meses) rende envios e salvos",
+      "Mito que contraria o senso comum (\"dor não prova nada\") gera comentários",
+      "Medir a evolução é a ponte natural para o app"
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "title": "Lote 2: temas de treino (banco de ideias + consenso científico)",
+     "summary": "Sem acesso direto aos resultados do YouTube nesta execução; os temas vieram dos itens com evidência de views registrados em 08/11 e foram checados contra revisões recentes (treino concorrente: FAPESP/Poder360; volume semanal e frequência: revisões de Schoenfeld e matérias de 2026).",
+     "items": [
+      {
+       "tema": "Erro na elevação lateral",
+       "gancho": "Você faz elevação lateral errado.",
+       "evidencia": "2,3 mi; 2,2 mi; 1,3 mi em 4 semanas (pesquisa 08/11)",
+       "usado": true
+      },
+      {
+       "tema": "Frequência: mesmo músculo todo dia",
+       "gancho": "Treinar o mesmo músculo todo dia: pode?",
+       "evidencia": "898 mil; 302 mil (pesquisa 08/11) + séries/semana 69 mil; 55 mil",
+       "usado": true
+      },
+      {
+       "tema": "Cardio atrapalha a hipertrofia?",
+       "gancho": "Cardio está matando seu ganho de massa?",
+       "evidencia": "585 mil; 233 mil (pesquisa 08/11) + estudo FAPESP repercutido (Poder360, Metrópoles)",
+       "usado": true
+      },
+      {
+       "tema": "Ego lifting",
+       "gancho": "O ego está roubando seu músculo.",
+       "evidencia": "411 mil; 384 mil (pesquisa 08/11)",
+       "usado": true
+      },
+      {
+       "tema": "Amplitude alongada",
+       "gancho": "A parte do movimento que você corta é a que mais faz crescer.",
+       "evidencia": "4,9 mi em 4 semanas (EN); quase nada em PT (pesquisa 08/11)",
+       "usado": false
+      }
+     ],
+     "patterns": [
+      "\"PARE com esse erro\"",
+      "Mito ou verdade",
+      "Pergunta de sim/não",
+      "\"O segredo\" no meio do vídeo"
+     ]
+    },
+    {
+     "date": "2026-11-08",
+     "title": "Temas de treino que estão performando (YouTube)",
+     "summary": "Roteiro típico dos virais: acusação na 1ª linha → erro mostrado → porquê em 1 frase → correção → como medir. O 'como medir' é o encaixe natural do BRIO.",
+     "items": [
+      {
+       "tema": "Dor no dia seguinte não prova treino bom",
+       "gancho": "Acordou todo dolorido? Isso não prova nada.",
+       "evidencia": "1 mi (Cariani); 271 mil; 260 mil",
+       "usado": true
+      },
+      {
+       "tema": "Falha em toda série",
+       "gancho": "Você vai até a falha em toda série?",
+       "evidencia": "750 mil",
+       "usado": true
+      },
+      {
+       "tema": "Quanto tempo até ver resultado",
+       "gancho": "Quanto tempo leva pra ver resultado?",
+       "evidencia": "3,2 mi (Muzy); 571 mil; 406 mil",
+       "usado": true
+      },
+      {
+       "tema": "Descanso entre séries",
+       "gancho": "Você descansa ou some entre as séries?",
+       "evidencia": "147 mil; 79 mil",
+       "usado": true
+      },
+      {
+       "tema": "Séries por semana",
+       "gancho": "Quantas séries por semana pra crescer?",
+       "evidencia": "69 mil; 69 mil; 55 mil",
+       "usado": false
+      },
+      {
+       "tema": "Erro em um exercício (ex.: elevação lateral)",
+       "gancho": "Você faz elevação lateral errado.",
+       "evidencia": "2,3 mi; 2,2 mi; 1,3 mi em 4 semanas",
+       "usado": false
+      },
+      {
+       "tema": "Ego lifting",
+       "gancho": "O ego está roubando seu músculo.",
+       "evidencia": "411 mil; 384 mil",
+       "usado": false
+      },
+      {
+       "tema": "Amplitude alongada",
+       "gancho": "A parte do movimento que você corta é a que mais faz crescer.",
+       "evidencia": "4,9 mi em 4 semanas (EN); quase nada em PT",
+       "usado": false
+      },
+      {
+       "tema": "Cardio atrapalha a hipertrofia?",
+       "gancho": "Cardio está matando seu ganho de massa?",
+       "evidencia": "585 mil; 233 mil",
+       "usado": false
+      },
+      {
+       "tema": "Frequência e divisão",
+       "gancho": "Treinar o mesmo músculo todo dia: pode?",
+       "evidencia": "898 mil; 302 mil",
+       "usado": false
+      }
+     ],
+     "patterns": [
+      "'PARE com esse ERRO no [exercício]'",
+      "'Porquê seu [músculo] NÃO cresce'",
+      "Pergunta direta: 'Posso…? Precisa…? Quanto tempo…?'",
+      "Hipótese extrema: 'E se você…'",
+      "Acusação: 'você está fazendo errado'",
+      "Autoridade: 'segundo a ciência'",
+      "Tier list de erros de iniciante"
+     ]
+    }
+   ],
+   "ideas": [
+    "O que acontece se você parar 2 semanas",
+    "Quanto de proteína por dia (sem exagero)",
+    "Supino: onde a barra deve tocar",
+    "Repetição isométrica dá tanta massa quanto a completa?",
+    "O treino dos anos 80 que ainda funciona",
+    "Musculação, cardio ou os dois?",
+    "Quanto peso subir de cada vez",
+    "Leg press substitui o agachamento?"
+   ],
+   "slots": [
+    "07:00",
+    "12:00",
+    "18:00",
+    "20:30",
+    "22:00"
+   ],
+   "slots_note": "Público de academia rende cedo, no almoço e à noite.",
+   "posts": [
+    {
+     "id": "brio-img-01-treino-inteligente",
+     "type": "imagem",
+     "title": "Treino inteligente para a vida real",
+     "file": "imagens/brio-img-01-treino-inteligente.jpg",
+     "post_at": "2026-11-10 09:30",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Treino bom não é o mais difícil. É o que cabe na sua rotina.",
+     "gatilho": "Quantos dias por semana você treina hoje? Comenta o número.",
+     "gatilho_tipo": 1,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#treino",
+      "#rotinadetreino",
+      "#appdetreino",
+      "#hipertrofia"
+     ],
+     "caption": "Treino bom não é o mais difícil. É o que cabe na sua rotina.\n\nO BRIO organiza seu plano, mostra o treino do dia e guarda sua evolução de carga, volume e recordes. Menos atrito, mais consistência.\n\nQuantos dias por semana você treina hoje? Comenta o número.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #treino #rotinadetreino #appdetreino #hipertrofia",
+     "captions": {
+      "instagram": "Treino bom não é o mais difícil. É o que cabe na sua rotina.\n\nO BRIO organiza seu plano, mostra o treino do dia e guarda sua evolução de carga, volume e recordes. Menos atrito, mais consistência.\n\nQuantos dias por semana você treina hoje? Comenta o número.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #treino #rotinadetreino #appdetreino #hipertrofia",
+      "tiktok": "Treino bom não é o mais difícil. É o que cabe na sua rotina. 👇\nQuantos dias por semana você treina hoje? Comenta o número.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #treino #rotinadetreino #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    },
+    {
+     "id": "brio-img-02-sinais-subir-carga",
+     "type": "imagem",
+     "title": "3 sinais de que está na hora de aumentar a carga",
+     "file": "imagens/brio-img-02-sinais-subir-carga.jpg",
+     "post_at": "2026-11-10 15:00",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Ainda está com a mesma carga de um mês atrás? Confere os 3 sinais.",
+     "gatilho": "Salva pra conferir no próximo treino e manda pro parceiro que treina com a mesma carga há meses.",
+     "gatilho_tipo": 2,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#progressaodecarga",
+      "#hipertrofia",
+      "#dicasdetreino",
+      "#treino"
+     ],
+     "caption": "Ainda está com a mesma carga de um mês atrás? Confere os 3 sinais.\n\n1. As últimas séries ficaram fáceis.\n2. Você bateu as repetições com folga.\n3. A técnica continua sólida até o fim da série.\nProgressão com controle vale mais que aumento aleatório.\n\nSalva pra conferir no próximo treino e manda pro parceiro que treina com a mesma carga há meses.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #progressaodecarga #hipertrofia #dicasdetreino #treino",
+     "captions": {
+      "instagram": "Ainda está com a mesma carga de um mês atrás? Confere os 3 sinais.\n\n1. As últimas séries ficaram fáceis.\n2. Você bateu as repetições com folga.\n3. A técnica continua sólida até o fim da série.\nProgressão com controle vale mais que aumento aleatório.\n\nSalva pra conferir no próximo treino e manda pro parceiro que treina com a mesma carga há meses.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #progressaodecarga #hipertrofia #dicasdetreino #treino",
+      "tiktok": "Ainda está com a mesma carga de um mês atrás? Confere os 3 sinais. 👇\nSalva pra conferir no próximo treino e manda pro parceiro que treina com a mesma carga há meses.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #progressaodecarga #hipertrofia #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    },
+    {
+     "id": "brio-img-03-sem-tempo",
+     "type": "imagem",
+     "title": "Sem tempo para treinar? Talvez o problema seja o plano",
+     "file": "imagens/brio-img-03-sem-tempo.jpg",
+     "post_at": "2026-11-11 09:30",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Sem tempo para treinar? Talvez o problema não seja o tempo, seja o plano.",
+     "gatilho": "Quanto tempo você tem pra treinar por dia? Comenta: 30, 45 ou 60 min.",
+     "gatilho_tipo": 4,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#semtempo",
+      "#treinorapido",
+      "#rotina",
+      "#musculacao",
+      "#constancia"
+     ],
+     "caption": "Sem tempo para treinar? Talvez o problema não seja o tempo, seja o plano.\n\nQuando o treino não cabe na rotina, a constância some. O melhor treino é o que você consegue sustentar: no BRIO você monta a semana no tempo que tem e já abre o app sabendo o treino do dia.\n\nQuanto tempo você tem pra treinar por dia? Comenta: 30, 45 ou 60 min.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #semtempo #treinorapido #rotina #musculacao #constancia",
+     "captions": {
+      "instagram": "Sem tempo para treinar? Talvez o problema não seja o tempo, seja o plano.\n\nQuando o treino não cabe na rotina, a constância some. O melhor treino é o que você consegue sustentar: no BRIO você monta a semana no tempo que tem e já abre o app sabendo o treino do dia.\n\nQuanto tempo você tem pra treinar por dia? Comenta: 30, 45 ou 60 min.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #semtempo #treinorapido #rotina #musculacao #constancia",
+      "tiktok": "Sem tempo para treinar? Talvez o problema não seja o tempo, seja o plano. 👇\nQuanto tempo você tem pra treinar por dia? Comenta: 30, 45 ou 60 min.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #semtempo #treinorapido #rotina #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    },
+    {
+     "id": "brio-img-04-tudo-em-um-lugar",
+     "type": "imagem",
+     "title": "Treino, progresso e acompanhamento em um só lugar",
+     "file": "imagens/brio-img-04-tudo-em-um-lugar.jpg",
+     "post_at": "2026-11-11 15:00",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Ficha no papel, carga no bloco de notas e progresso na memória? Junta tudo num lugar só.",
+     "gatilho": "Onde você anota seu treino hoje: papel, bloco de notas ou na cabeça? Comenta.",
+     "gatilho_tipo": 4,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#appdetreino",
+      "#fichadetreino",
+      "#treino",
+      "#evolucao"
+     ],
+     "caption": "Ficha no papel, carga no bloco de notas e progresso na memória? Junta tudo num lugar só.\n\nTreino do dia, meta da semana e insights da sua evolução no mesmo app. Você abre, vê o que fazer e acompanha se está evoluindo.\n\nOnde você anota seu treino hoje: papel, bloco de notas ou na cabeça? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #appdetreino #fichadetreino #treino #evolucao",
+     "captions": {
+      "instagram": "Ficha no papel, carga no bloco de notas e progresso na memória? Junta tudo num lugar só.\n\nTreino do dia, meta da semana e insights da sua evolução no mesmo app. Você abre, vê o que fazer e acompanha se está evoluindo.\n\nOnde você anota seu treino hoje: papel, bloco de notas ou na cabeça? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #appdetreino #fichadetreino #treino #evolucao",
+      "tiktok": "Ficha no papel, carga no bloco de notas e progresso na memória? Junta tudo num lugar só. 👇\nOnde você anota seu treino hoje: papel, bloco de notas ou na cabeça? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #appdetreino #fichadetreino #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    },
+    {
+     "id": "brio-img-05-semana-organizada",
+     "type": "imagem",
+     "title": "Sua semana organizada para só abrir e treinar",
+     "file": "imagens/brio-img-05-semana-organizada.jpg",
+     "post_at": "2026-11-12 09:30",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Chegou na academia e não sabe o que treinar hoje? Isso acaba aqui.",
+     "gatilho": "Qual é a sua divisão hoje: ABC, ABCD ou fullbody? Comenta.",
+     "gatilho_tipo": 4,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#divisaodetreino",
+      "#treinoabc",
+      "#musculacao",
+      "#hipertrofia",
+      "#treino"
+     ],
+     "caption": "Chegou na academia e não sabe o que treinar hoje? Isso acaba aqui.\n\nPlano atual, histórico e o treino certo no dia certo. A divisão da semana fica pronta no BRIO e você só abre e treina.\n\nQual é a sua divisão hoje: ABC, ABCD ou fullbody? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #divisaodetreino #treinoabc #musculacao #hipertrofia #treino",
+     "captions": {
+      "instagram": "Chegou na academia e não sabe o que treinar hoje? Isso acaba aqui.\n\nPlano atual, histórico e o treino certo no dia certo. A divisão da semana fica pronta no BRIO e você só abre e treina.\n\nQual é a sua divisão hoje: ABC, ABCD ou fullbody? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #divisaodetreino #treinoabc #musculacao #hipertrofia #treino",
+      "tiktok": "Chegou na academia e não sabe o que treinar hoje? Isso acaba aqui. 👇\nQual é a sua divisão hoje: ABC, ABCD ou fullbody? Comenta.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #divisaodetreino #treinoabc #musculacao #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    },
+    {
+     "id": "brio-img-06-enxergue-os-dados",
+     "type": "imagem",
+     "title": "Evoluir fica mais fácil quando você enxerga os dados",
+     "file": "imagens/brio-img-06-enxergue-os-dados.jpg",
+     "post_at": "2026-11-12 15:00",
+     "status": "pronto",
+     "formato": "1086×1448 (3:4) · feed do Instagram e modo foto do TikTok",
+     "hook": "Você sabe dizer quanto sua carga subiu nos últimos 3 meses?",
+     "gatilho": "Comenta seu recorde no agachamento. Vamos ver quem puxa mais.",
+     "gatilho_tipo": 1,
+     "hashtags": [
+      "#brio",
+      "#academia",
+      "#musculacao",
+      "#recordepessoal",
+      "#evolucao",
+      "#hipertrofia",
+      "#treino"
+     ],
+     "caption": "Você sabe dizer quanto sua carga subiu nos últimos 3 meses?\n\nVolume por semana, recordes pessoais e insights para ajustar o treino com mais inteligência. Quando você vê o número, fica fácil saber o que ajustar.\n\nComenta seu recorde no agachamento. Vamos ver quem puxa mais.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #recordepessoal #evolucao #hipertrofia #treino",
+     "captions": {
+      "instagram": "Você sabe dizer quanto sua carga subiu nos últimos 3 meses?\n\nVolume por semana, recordes pessoais e insights para ajustar o treino com mais inteligência. Quando você vê o número, fica fácil saber o que ajustar.\n\nComenta seu recorde no agachamento. Vamos ver quem puxa mais.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #recordepessoal #evolucao #hipertrofia #treino",
+      "tiktok": "Você sabe dizer quanto sua carga subiu nos últimos 3 meses? 👇\nComenta seu recorde no agachamento. Vamos ver quem puxa mais.\nRegistre e acompanhe seus treinos gratuitamente. Link na bio.\n\n#brio #academia #musculacao #recordepessoal #evolucao #gymtok"
+     },
+     "date": "2026-11-09",
+     "note": "Arte enviada pelo dono do canal. Horário fora dos slots de vídeo (09:30 e 15:00)."
+    }
+   ],
+   "post_slots": [
+    "09:30",
+    "15:00"
+   ],
+   "post_slots_note": "Imagens: meio da manhã e meio da tarde, entre os vídeos. Não usar os horários de vídeo."
+  }
+ ],
+ "automation": {
+  "active": true,
+  "summary": "Lote de 17 vídeos (10 a 13/11) feito em 09/11 · próxima produção: sáb 14/11 04:01",
+  "details": "Uma tarefa agendada roda todo dia às 23:17 (horário de Brasília) e produz 4 a 5 shorts do BRIO de 1 min ou mais (o FIO TERRA está pausado): pesquisa temas em alta, aplica o Playbook de qualidade, escreve os roteiros, gera a narração no ElevenLabs, anima, revisa, define hashtags, legenda e horário, e publica aqui. Um agente separado roda toda semana e atualiza o Playbook de qualidade (pesquisa em inglês sobre roteiros, ganchos e retenção com IA).",
+  "last_run": "2026-11-09 15:46 · 17 vídeos do BRIO adiantados (10/11 20:30 até 13/11 22:00), ≈17.800 caracteres"
+ },
+ "timezone": "America/Bahia (horário de Brasília)"
+}
