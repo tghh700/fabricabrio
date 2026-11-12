@@ -6,10 +6,10 @@ Este repositório é só código. Roteiros, pauta, métricas e tarefas ficam no 
 | perfil | Instagram | vídeos/dia | território |
 |---|---|---|---|
 | brio | @briotreino | 12 | técnica, erros, progressão |
-| fibra | @fibratreino | 1 (aquecimento) | o que acontece dentro do corpo |
-| diaum | @diaumtreino | 1 (aquecimento) | começar, hábito, iniciantes |
+| fibra | @fibratreino | 2 (só estoque) | o que acontece dentro do corpo |
+| diaum | @diaumtreino | 2 (só estoque) | começar, hábito, iniciantes |
 
-Escala desde 12/11 (decisão do usuário): BRIO 12/dia; FIBRA e DIA UM 1/dia cada enquanto as contas novas aquecem, usando o estoque já pronto (não produzir vídeo novo para eles enquanto houver estoque agendado). Volta a 5/3 quando um post de cada perfil passar de ~300 views — só com aval do usuário. A escala fica em `config.escala` no D1.
+Escala desde 12/11 (decisão do usuário): BRIO 12/dia; FIBRA e DIA UM 2/dia cada, usando SÓ o estoque já pronto. NÃO produzir vídeo novo para FIBRA nem DIA UM até o usuário liberar — se o estoque acabar, eles ficam sem post e o resumo avisa. Volta a 5/3 quando um post de cada perfil passar de ~300 views — só com aval do usuário. A escala fica em `config.escala` no D1.
 
 ## Regras fixas
 - Nunca imprimir, commitar ou gravar no D1 um token, chave ou segredo.

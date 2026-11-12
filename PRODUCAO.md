@@ -10,11 +10,11 @@ cd <repo fabricabrio> && git pull -q && bash motor/instalar.sh
 O render roda dentro de `motor/` (`python3 build2s.py ...` para BRIO, `python3 build3.py ...` para FIBRA e DIA UM). Saída em `motor/out/`.
 
 ## 1. Quanto produzir (para AMANHÃ)
-- Escala atual (`config.escala`, desde 12/11): **BRIO 12/dia**; **FIBRA 1/dia e DIA UM 1/dia** (aquecimento das contas novas). FIBRA e DIA UM usam o estoque já agendado; só produza vídeo novo para eles quando faltar post para os próximos 2 dias.
+- Escala atual (`config.escala`, desde 12/11): **BRIO 12/dia**; **FIBRA 2/dia e DIA UM 2/dia só com o estoque já agendado**. **Não produza vídeo novo para FIBRA nem DIA UM** até o usuário liberar; quando o estoque acabar, só avise no resumo.
 - Desconte o que já está agendado para amanhã (ver estado no passo 2).
 - Horários (Brasília; no D1 grave em **UTC = BRT + 3 h**):
   - BRIO: 07:00, 08:30, 10:00, 11:30, 12:30, 14:00, 15:30, 17:00, 18:30, 19:30, 20:30, 22:00
-  - FIBRA: 19:00 · DIA UM: 19:30
+  - FIBRA: 12:30, 19:00 · DIA UM: 11:30, 19:30
 
 ## 2. Ler o estado (posts, métricas, temas, cliques)
 Escreva `jobs/d1.json` = `{"nome": "estado-AAAAMMDD-HHMM", "videos": []}`, commit e push na `main`. O workflow **d1-job** grava `d1/estado_atual.json` no branch `previas` (~1 min):
