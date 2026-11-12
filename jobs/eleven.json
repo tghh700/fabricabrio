@@ -1,12 +1,28 @@
 {
- "nome": "08-fibra-finais",
+ "nome": "09-producao-1311",
  "ops": [
   {
    "op": "tts",
-   "id": "fibra_p1_final",
+   "id": "brio_27_rosca",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Se a sua rosca tá assim, para. Joga o tronco pra trás, balança o quadril, e o peso sobe no embalo. Quem levanta é a lombar e o ombro. O bíceps só pega carona. Primeiro: cola o cotovelo do lado do corpo, e deixa ele parado. Depois: sobe em um segundo, e desce contando três. [confident] Vai precisar tirar peso. Tudo bem: com menos carga, o bíceps trabalha mais. Resumindo: se o corpo balança, o peso tá alto demais. Cotovelo parado, descida lenta, e aí sim você sobe a carga. Comenta ROSCA que eu te mando como registrar a carga da sua rosca no Bríu e ver ela subir sem roubar. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_07_gordura",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[warm] Então, da próxima vez que queimar, não para com medo do ácido. É só o sinal de que a série tá valendo. Comenta CARGA que eu te mando como anotar sua carga no Bríu e ver ela subir mês a mês. Link na bio.",
+   "text": "[curious] Você perde gordura pela respiração. Não é pelo suor. O suor é só água, pra esfriar o corpo. Pra usar a gordura, a célula quebra ela junto com oxigênio. Sobra gás carbônico e água. Oitenta e quatro por cento sai no ar que você solta. O resto sai como água: urina, suor e respiração. [matter-of-fact] Mas respirar mais rápido não adianta. Quem manda é o gasto: músculo trabalhando, treino após treino. [warm] Então, camiseta encharcada não mede nada. O que conta é treinar forte toda semana, sem falhar. Comenta PULMÃO que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -19,10 +35,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_02_pump_final",
+   "id": "fibra_08_barra",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[warm] Resumindo: o pump é bom sinal, mas não é a medida. Quem mostra se você cresceu é a carga, mês a mês. Comenta PUMP que eu te mando como acompanhar sua carga no Bríu. Link na bio.",
+   "text": "[curious] Uma barra fixa. Cinco músculos trabalhando. O principal é o grande dorsal: puxa o braço pra baixo e alarga as costas. O bíceps e o braquial dobram o cotovelo. Por isso o braço também cresce. Romboides e trapézio, entre as escápulas, puxam o ombro pra trás. E o antebraço segura tudo. Sem pegada, a série acaba antes. [matter-of-fact] Palma virada pra você? Mais bíceps. Palma pra frente? Mais costas. [warm] Resumindo: barra é costas, braço e pegada num exercício só. Se só cabe um no treino, coloca esse. Comenta BARRA que eu te mando como registrar suas repetições no Bríu e ver quantas a mais saem a cada semana. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -35,10 +51,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_03_tremor_final",
+   "id": "fibra_09_enjoo",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[warm] Então, se tremeu na última repetição, a série foi bem feita. Só não deixa a técnica desmontar pra terminar. Comenta TREMI que eu te mando como registrar essas séries no Bríu. Link na bio.",
+   "text": "[curious] Aquele enjoo no meio do treino de perna? Perna é o maior grupo muscular. E músculo trabalhando pede muito sangue. Pra isso, o corpo tira sangue do que não é urgente: estômago e intestino. Em treino intenso, o fluxo ali cai até oitenta por cento. Com comida pesada parada ali, vem o enjoo. [matter-of-fact] Pra evitar: come leve uma a duas horas antes, descansa mais entre as séries e bebe água aos goles. Se for frequente, procura um médico. [warm] Então: o enjoo é sangue indo pra perna. Ajusta comida e descanso, e treina sem passar mal. Comenta PERNA que eu te mando como registrar seu treino no Bríu e receber orientação depois. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -51,32 +67,80 @@
   },
   {
    "op": "tts",
-   "id": "fibra_05_agacha_final",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "id": "diaum_06_prancha",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
    "model_id": "eleven_v4",
-   "text": "[warm] Por isso o agachamento é tão completo: numa descida só, você treina a perna inteira e ainda firma o tronco. Comenta AGACHO que eu te mando como registrar seu agachamento no Bríu. Link na bio.",
+   "text": "[warm] Não aguenta nem dez segundos de prancha? Normal. Prancha é força de abdômen, e ela se constrói por níveis. Nível um: com os joelhos no chão. Corpo reto do joelho até a cabeça. Nível dois: prancha completa, nos pés. Barriga firme, sem deixar o quadril cair. Nível três: na prancha, tira um pé do chão por alguns segundos, e troca. A regra pra subir: quando fizer três vezes trinta segundos com o corpo reto, passa pro próximo. [encouraging] Então: começa no joelho sem vergonha, e sobe quando os trinta segundos ficarem fáceis. Comenta PRANCHA que eu te mando como registrar suas séries no Bríu e ver sua evolução. Link na bio.",
    "voice_settings": {
-    "stability": 0.5,
+    "stability": 0.45,
     "similarity_boost": 0.75,
     "style": 0.0,
     "use_speaker_boost": true,
-    "speed": 1.08
+    "speed": 1.05
    },
    "timestamps": true,
    "seed": 7
   },
   {
    "op": "tts",
-   "id": "fibra_06_caibra_final",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "id": "diaum_04_aparelhos",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
    "model_id": "eleven_v4",
-   "text": "[warm] Resumindo: cãibra no treino é mais nervo cansado do que falta de potássio. Respeita o volume, que ela aparece bem menos. Comenta CÃIBRA que eu te mando como controlar o volume das suas séries no Bríu. Link na bio.",
+   "text": "[warm] \"Eu não sei usar os aparelhos.\" Ninguém nasce sabendo. Quase todo aparelho tem um desenho do lado, mostrando o movimento e o músculo. Antes de começar, regula o banco: o eixo do aparelho na altura da sua articulação. Começa no peso mais leve e faz umas dez repetições, só pra sentir. E pergunta pro professor. É literalmente o trabalho dele. No começo, escolhe três aparelhos e repete eles a semana toda. [encouraging] Então: desenho, banco, peso leve e uma pergunta. Em duas semanas, você usa sem pensar. Comenta APARELHO que eu te mando como anotar o peso de cada aparelho no Bríu, pra não esquecer no próximo treino. Link na bio.",
    "voice_settings": {
-    "stability": 0.5,
+    "stability": 0.45,
     "similarity_boost": 0.75,
     "style": 0.0,
     "use_speaker_boost": true,
-    "speed": 1.08
+    "speed": 1.05
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_07_preguica",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] Bateu aquela preguiça na hora de ir? Normal. A parte mais difícil do treino é sair de casa, não o treino. Então deixa a mochila pronta na porta, na noite anterior. Uma decisão a menos. Faz o combinado dos dez minutos: vai, treina dez minutos, e se quiser, volta. Quase sempre, quando chega lá, você fica e termina. E coloca o treino na agenda, como compromisso, com hora certa. [encouraging] Resumindo: não espera a vontade aparecer. Deixa tudo pronto e só começa. Quem começa, termina. Comenta FUI quando voltar do treino de hoje, e registra ele no Bríu pra acompanhar sua evolução. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.05
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_05_magro",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] \"Tenho dezenove, sou magro e quero ganhar massa.\" Dá pra mudar sim. E o plano é mais simples do que parece. Treino de força três vezes por semana, com o básico: agachamento, supino e remada. Toda semana, tenta um pouquinho mais de peso, ou uma repetição a mais. Na comida: proteína em todas as refeições, e um lanche a mais por dia. Sobe na balança uma vez por semana. Se não mexeu em um mês, come mais um pouco. [encouraging] Resumindo: treino de força, comida a mais e paciência. Mês a mês, o corpo responde. Comenta MASSA que eu te mando como registrar suas séries no Bríu e acompanhar a carga subindo. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.05
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_08_semana2",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] A segunda semana é a que mais derruba. A empolgação acaba, e o resultado ainda não apareceu. O erro é começar grande demais: cinco dias, uma hora, dieta perfeita. Começa pequeno: dois ou três dias, quarenta minutos. Dá pra manter até numa semana ruim. E troca a meta: em vez de perder dez quilos, a meta é não faltar. Faltou um dia? Não zera tudo. Só não falta dois seguidos. [encouraging] Então: pequeno, frequente e sem drama. A semana três chega, e ela é bem mais leve. Comenta FICO se dessa vez você passa da segunda semana, e registra cada treino no Bríu pra ver tudo que já fez. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.05
    },
    "timestamps": true,
    "seed": 7

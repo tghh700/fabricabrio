@@ -31,4 +31,4 @@ jobs:
           mkdir -p /tmp/m && cp -r saida/midia /tmp/m/ && rm -rf saida midia.sql
           git fetch --depth 1 origin previas && git checkout -B previas FETCH_HEAD
           rm -rf midia saida midia.sql && cp -r /tmp/m/midia midia
-          git add -A && git commit -qm "midia publicada" && git push origin previas
+          git add -A && (git diff --cached --quiet || (git commit -qm "midia publicada" && git push origin previas))
