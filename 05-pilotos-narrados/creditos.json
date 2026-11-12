@@ -1,0 +1,18 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_p1",
+   "caracteres": 631,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_p1",
+   "caracteres": 602,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 1233
+}
