@@ -179,13 +179,15 @@ async function publicador(env) {
 // ------------------------------------------------------------------ métricas (a cada ~hora, só posts de até 7 dias)
 async function metricas(env) {
   const agora = new Date();
-  if (agora.getUTCMinutes() >= 5) return; // roda só na primeira passada de cada hora
+  const forcar = (await getConfig(env, "metricas_forcar")) === "1";
+  if (agora.getUTCMinutes() >= 5 && !forcar) return; // roda só na primeira passada de cada hora
+  if (forcar) await setConfig(env, "metricas_forcar", "0");
   const posts = (await env.DB.prepare(
     "SELECT id, perfil, ig_media_id FROM posts WHERE status = 'publicado' AND publicado_em >= datetime('now', '-7 days') LIMIT 40"
   ).all()).results || [];
   for (const p of posts) {
     const r = await graph("GET", `${p.ig_media_id}/insights`, token(env, p.perfil), { metric: "views,reach,likes,comments,saved,shares,ig_reels_avg_watch_time" });
-    if (!r.ok) continue;
+    if (!r.ok) { await setConfig(env, "metricas_erro", JSON.stringify({ post: p.id, erro: r.j.error || r.j }).slice(0, 600)); continue; }
     const m = Object.fromEntries((r.j.data || []).map((x) => [x.name, (x.values && x.values[0] && x.values[0].value) || 0]));
     await env.DB.prepare(
       "INSERT OR REPLACE INTO metricas (post_id, coletado_em, views, alcance, curtidas, comentarios, salvamentos, compartilhamentos, tempo_medio_ms) VALUES (?, strftime('%Y-%m-%d %H:00', 'now'), ?, ?, ?, ?, ?, ?, ?)"
