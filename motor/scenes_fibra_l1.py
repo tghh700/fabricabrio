@@ -392,3 +392,97 @@ VIS = dict(
 )
 SFX = {k: ([(0.0, "boom"), ("0.4", "pop")] if k.endswith("hook") else SFX_CTA if k.endswith("cta") else [(0.0, "whoosh"), ("0.5d", "pop")])
        for k in VIS}
+
+
+# ----------------------------------------------------------------- CÃIBRA
+def leg_calf(c, x, y, s, cramp, t, p=1.0):
+    """panturrilha de perfil (canela + pé); cramp 0..1 contrai a panturrilha e aponta o pé"""
+    c.save(); c.translate(x, y); c.scale(s, s)
+    capsule(c, 0, -420, 0, 0, 70, p)  # canela
+    foot = math.radians(lerp(0, 35, cramp))
+    fx, fy = 220 * math.cos(foot), 220 * math.sin(foot)
+    capsule(c, 0, 0, fx, fy, 56, p)  # pé
+    bulge = lerp(1.0, 1.35, cramp)
+    shake = math.sin(t * 45) * 5 * cramp
+    ellipse(c, -52 + shake, -260, 50 * bulge, 150, 0, mix(NAVY2, PINK, 0.25 + 0.75 * cramp), p, CYAN)
+    c.restore()
+
+
+def c_hook(c, t, d, b):
+    with Cam(c, t, punch=0.08, cy=CY):
+        cr = clamp(prog(t, 0.2, 0.4))
+        leg_calf(c, 420, 1300, 1.2, cr, t, ease_out(prog(t, 0, 0.3)))
+        callout(c, 360, 970, 560, 760, "CÃIBRA", ease_out(prog(t, 0.35, 0.5)), PINK, 40)
+
+
+def c_mito(c, t, d, b):
+    with Cam(c, t, punch=0.05, cy=CY):
+        p = ease_out(prog(t, 0, 0.35))
+        panel(c, LEFT + 20, 720, RIGHT - LEFT - 40, 170, p)
+        draw_text(c, "SÓ POTÁSSIO?", LEFT + 70, 840, 92, INK, TITLE, p)
+        x = ease_out(prog(t, 0.35, 0.3))
+        if x > 0:
+            cap_line(c, LEFT + 50, 808, LEFT + 50 + 640 * x, 808, PINK, 12)
+        q = ease_out(prog(t, 0.4 * d, 0.4))
+        if q > 0:
+            for i, (lab, v) in enumerate((("ELETRÓLITOS", 0.25), ("FADIGA DO NERVO", 0.85))):
+                y = 1060 + i * 150
+                mono(c, lab, LEFT + 20, y, 30, MUTED, q)
+                rrect(c, LEFT + 20, y + 20, RIGHT - LEFT - 40, 34, 17, NAVY2, q)
+                rrect(c, LEFT + 20, y + 20, (RIGHT - LEFT - 40) * v * q, 34, 17, PINK if i else LINE, q)
+            mono(c, "PESO DA EVIDÊNCIA", LEFT + 20, 1400, 26, MUTED, q)
+
+
+def c_nervo(c, t, d, b):
+    with Cam(c, t, punch=0.05, cy=CY):
+        brain(c, 250, 820, 0.8, glow=0.4)
+        n = 1 + int(5 * ease(prog(t, 0.2 * d, 0.5 * d)))
+        cap_line(c, 320, 880, 760, 1150, CYAN, 4)
+        for k in range(n):
+            f = (t * 1.8 + k / n) % 1
+            disk(c, lerp(320, 760, f), lerp(880, 1150, f), 11, PINK)
+        fiber(c, 560, 1250, 400, 170, ease_out(prog(t, 0, 0.35)), acid=0.3, t=t)
+        mono(c, f"DISPAROS/S: {n * 12}", LEFT + 20, 1420, 32, PINK, ease_out(prog(t, 0.2, 0.3)))
+
+
+def c_trava(c, t, d, b):
+    with Cam(c, t, punch=0.07, cy=CY):
+        leg_calf(c, 420, 1300, 1.2, 1.0, t)
+        if prog(t, 0.3 * d, 0.2) > 0:
+            chip(c, "CONTRAÇÃO TRAVADA", 700, 900, PINK, NAVY, 40, ease_out(prog(t, 0.3 * d, 0.3)))
+
+
+def c_alonga(c, t, d, b):
+    with Cam(c, t, punch=0.05, cy=CY):
+        cr = 1 - ease(prog(t, 0.15, d * 0.6))
+        c.save(); c.translate(420, 1300); c.restore()
+        leg_calf(c, 420, 1300, 1.2, cr * 0.9 - 0.25 * (1 - cr), t)
+        harc = ease_out(prog(t, 0.1, 0.4))
+        c.new_path(); c.arc(680, 1300, 150, -1.2, -1.2 + 1.0 * harc); rgb(c, CYAN); c.set_line_width(6); c.stroke()
+        mono(c, "PÉ PRA CIMA, DEVAGAR", 600, 1120, 28, CYAN, ease_out(prog(t, 0.2, 0.3)))
+        if cr < 0.15:
+            chip(c, "SOLTOU", 760, 1420, GOOD, NAVY, 40, ease_out(prog(t, 0.75 * d, 0.3)))
+
+
+def c_evita(c, t, d, b):
+    with Cam(c, t, punch=0.05, cy=CY):
+        p = ease_out(prog(t, 0, 0.3))
+        mono(c, "SÉRIES POR SEMANA", LEFT + 20, 780, 30, MUTED, p)
+        vals = [3, 4, 5, 6]
+        for i, v in enumerate(vals):
+            q = ease_out(prog(t, 0.15 + i * 0.15, 0.3))
+            bh = 70 * v * q
+            rrect(c, LEFT + 40 + i * 120, 1250 - bh, 80, bh, 8, CYAN, q)
+        mono(c, "AOS POUCOS", LEFT + 40, 1310, 30, CYAN, ease_out(prog(t, 0.6, 0.3)))
+        q2 = ease_out(prog(t, 0.35 * d, 0.3))
+        rrect(c, 640, 1250 - 70 * 8 * q2, 110, 70 * 8 * q2, 8, PINK, q2)
+        rrect(c, 640, 1250 - 70 * 3 * q2, 110, 70 * 3 * q2, 8, LINE, q2)
+        if q2 > 0.5:
+            cap_line(c, 600, 700, 800, 1260, PINK, 10)
+            cap_line(c, 800, 700, 600, 1260, PINK, 10)
+            mono(c, "3 → 8", 695, 1310, 30, PINK, q2, align="center")
+
+
+VIS.update(c_hook=c_hook, c_mito=c_mito, c_nervo=c_nervo, c_trava=c_trava, c_alonga=c_alonga, c_evita=c_evita, c_cta=cta_factory("CÃIBRA"))
+SFX.update({k: ([(0.0, "boom"), ("0.4", "pop")] if k.endswith("hook") else SFX_CTA if k.endswith("cta") else [(0.0, "whoosh"), ("0.5d", "pop")])
+            for k in VIS if k.startswith("c_")})
