@@ -69,7 +69,7 @@ for b in BEATS:
 
 ## 7. QA — 7 portões (nada vai ao ar sem passar)
 1. Anti-repetição: tema canônico novo; gancho não repete a fórmula do vídeo anterior do mesmo perfil.
-2. Roteiro: faixa de caracteres, 1ª frase ≤ 8 palavras, frase fixa exata, só funções reais, "Bríu" na fala.
+2. Roteiro e legenda: faixa de caracteres, 1ª frase ≤ 8 palavras, frase fixa exata, só funções reais, "Bríu" só na fala; legenda, DM e tela com "Brio" (`grep -i "br[íi]u"` na legenda tem que dar vazio).
 3. Cenas: tudo entre y 250 e 1570 e com 120 px livres à direita; textos cabem na caixa.
 4. Arquivo: `python3 qa_video.py out/<id>.mp4 --starts <starts>` (resolução, codec, 15–60 s, tela preta, congelado > 3 s, buraco de áudio, volume).
 5. Áudio: ouça/inspecione o alinhamento — "Bríu" e números certos; nenhuma palavra cortada.
@@ -86,6 +86,7 @@ Falhou → conserte e repita. Na 3ª falha do mesmo vídeo, descarte-o, registre
   "duracao_s": 34.2, "dm_texto": "opcional, com {link}", "agendado_para": "2026-11-13 11:30:00"}],
  "creditos": [{"video_id": "fibra-07-xxx", "quantidade": 590}]}
 ```
+   **Nunca copie a fala do roteiro para a legenda sem trocar "Bríu" por "Brio"** — "Bríu" é só a pronúncia; na escrita (legenda, DM, tela, hashtags) é sempre "Brio". O d1-job e o Worker corrigem se escapar, mas isso conta como falha do portão 2.
    Legenda: gancho + 👇, linha do gatilho com a palavra-chave ("Comenta X que eu te mando no direct ..."), 4–6 hashtags (a 1ª é a do perfil: #brio, #fibratreino, #diaumtreino). Escreva "Brio", nunca "Bríu".
 3. Push → workflow **d1-job** grava e devolve `d1/<nome>/estado.json` com `relatorio.gravados` e `relatorio.recusados`. Corrija os recusados.
 4. O Worker publica sozinho no horário (cria o contêiner 20 min antes). Posts com `status='erro'` aparecem no estado: investigue e reagende.

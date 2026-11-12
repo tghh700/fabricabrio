@@ -8,10 +8,18 @@ Lê jobs/d1.json:
   }
 Regras checadas antes de gravar: tema canônico não pode existir em outro perfil; arquivo tem que existir no branch midia.
 Sempre grava o estado (posts, métricas, temas, cliques) em saida/estado.json."""
-import json, os, subprocess, sys, urllib.request
+import json, os, re, subprocess, sys, urllib.request
 
 DB = "fabrica-brio"
 RAW = "https://raw.githubusercontent.com/tghh700/fabricabrio/midia/"
+
+
+BRIU = re.compile(r"br[íi]u", re.I)
+
+
+def escrita(txt):
+    """'Bríu' é só pronúncia (narração). Na escrita é sempre 'Brio'."""
+    return BRIU.sub(lambda m: "BRIO" if m.group(0).isupper() else "Brio", txt) if isinstance(txt, str) else txt
 
 
 def q(v):
@@ -59,6 +67,9 @@ def main():
             rel["recusados"].append({"id": v["id"], "motivo": f"tema já usado no perfil {temas[tema]}"}); continue
         if not existe_midia(v["arquivo"]):
             rel["recusados"].append({"id": v["id"], "motivo": "arquivo não está no branch midia"}); continue
+        for campo in ("legenda", "dm_texto", "gancho", "hashtags"):
+            if isinstance(v.get(campo), str) and BRIU.search(v[campo]):
+                v[campo] = escrita(v[campo]); rel.setdefault("corrigidos_briu", []).append(f"{v['id']}.{campo}")
         cols = ["id", "perfil", "tema_canonico", "gancho", "gatilho_tipo", "palavra_chave", "arquivo", "legenda", "hashtags", "duracao_s", "dm_texto"]
         sql.append("INSERT OR REPLACE INTO videos (" + ",".join(cols) + ",status) VALUES (" + ",".join(q(v.get(c)) for c in cols) + ",'pronto');")
         if v.get("agendado_para"):

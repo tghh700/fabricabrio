@@ -12,6 +12,8 @@ const GRAPH = "https://graph.facebook.com/v25.0";
 const RAW = "https://raw.githubusercontent.com/tghh700/fabricabrio/midia/";
 const PERFIS = new Set(["brio", "fibra", "diaum"]);
 
+// "Bríu" é só a pronúncia usada na narração; na escrita é sempre "Brio".
+const escrita = (s) => (s || "").replace(/br[íi]u/gi, (m) => (m === m.toUpperCase() ? "BRIO" : "Brio"));
 const token = (env, perfil) => ({ brio: env.IG_TOKEN_BRIO, fibra: env.IG_TOKEN_FIBRA, diaum: env.IG_TOKEN_DIAUM })[perfil];
 
 async function getConfig(env, chave) {
@@ -70,7 +72,7 @@ async function responderComentario(env, perfil, igId, comentario, mediaId) {
   if (!kw || !norm(comentario.text).includes(kw)) return "nao_bateu";
   const base = (await getConfig(env, "worker_url")) || "";
   const link = `${base}/c/${perfil}/${post.video_id}?o=dm`;
-  const texto = (post.dm_texto || "Aqui tá o link do Brio 👇 Registre e acompanhe seus treinos de graça: {link}").replace("{link}", link);
+  const texto = escrita(post.dm_texto || "Aqui tá o link do Brio 👇 Registre e acompanhe seus treinos de graça: {link}").replace("{link}", link);
   const dm = await graph("POST", `${igId}/messages`, tok, {
     recipient: JSON.stringify({ comment_id: comentario.id }),
     message: JSON.stringify({ text: texto }),
@@ -144,7 +146,7 @@ async function publicador(env) {
     const c = contas[p.perfil];
     if (!c || !c.ig_user_id || c.pausado) continue;
     const r = await graph("POST", `${c.ig_user_id}/media`, token(env, p.perfil), {
-      media_type: "REELS", video_url: `${base}/v/${p.arquivo}`, caption: p.legenda || "", share_to_feed: "true",
+      media_type: "REELS", video_url: `${base}/v/${p.arquivo}`, caption: escrita(p.legenda), share_to_feed: "true",
     });
     if (r.ok) await env.DB.prepare("UPDATE posts SET status = 'contêiner', container_id = ?, erro = NULL WHERE id = ?").bind(r.j.id, p.id).run();
     else await env.DB.prepare("UPDATE posts SET status = 'erro', erro = ? WHERE id = ?").bind(JSON.stringify(r.j.error || r.j).slice(0, 500), p.id).run();
