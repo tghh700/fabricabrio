@@ -1,0 +1,13 @@
+name = "fabrica-brio"
+main = "src/index.js"
+compatibility_date = "2026-11-01"
+workers_dev = true
+
+[[d1_databases]]
+binding = "DB"
+database_name = "fabrica-brio"
+database_id = "fcbe426b-fb97-4d47-a218-6c1eacb25460"
+
+[vars]
+SITE = "https://briotreino.app"
+CAMPANHA = "sprint_nov26"

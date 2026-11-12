@@ -1,0 +1,35 @@
+name: deploy-worker
+on:
+  push:
+    branches: [main]
+    paths: ["worker/**", ".github/workflows/deploy-worker.yml"]
+  workflow_dispatch:
+
+jobs:
+  deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Deploy do Worker e segredos
+        working-directory: worker
+        env:
+          CLOUDFLARE_API_TOKEN: ${{ secrets.CLOUDFLARE_API_TOKEN }}
+          CLOUDFLARE_ACCOUNT_ID: ${{ secrets.CLOUDFLARE_ACCOUNT_ID }}
+          IG_TOKEN_BRIO: ${{ secrets.IG_TOKEN_BRIO }}
+          IG_TOKEN_FIBRA: ${{ secrets.IG_TOKEN_FIBRA }}
+          IG_TOKEN_DIAUM: ${{ secrets.IG_TOKEN_DIAUM }}
+          META_APP_SECRET: ${{ secrets.META_APP_SECRET }}
+        run: |
+          set -o pipefail
+          npx --yes wrangler@4 deploy 2>&1 | tee deploy.log
+          for s in IG_TOKEN_BRIO IG_TOKEN_FIBRA IG_TOKEN_DIAUM META_APP_SECRET; do
+            printf '%s' "${!s}" | npx --yes wrangler@4 secret put "$s"
+          done
+          URL=$(grep -oE 'https://[a-zA-Z0-9.-]+\.workers\.dev' deploy.log | head -1 || true)
+          echo "URL do Worker: $URL"
+          if [ -n "$URL" ]; then
+            npx --yes wrangler@4 d1 execute fabrica-brio --remote --command "INSERT INTO config (chave, valor) VALUES ('worker_url', '$URL') ON CONFLICT(chave) DO UPDATE SET valor=excluded.valor, atualizado_em=datetime('now')"
+          fi
