@@ -64,10 +64,8 @@ def main():
         sc.VIS[b["vis"]](c, t, d, b)
         if mod.THEME == "fibra":
             T_.headline(c, t, b.get("t1", ""), b.get("t2", ""), b.get("fig"))
-            T_.watermark(c); T_.progress(c, T, total)
         else:
             T_.headline(c, t, b.get("t1", ""), b.get("t2", ""))
-            T_.watermark(c); T_.progress(c, T, total, T)
 
     if "--stills" in sys.argv:
         sd = os.path.join(OUT, name + "_stills"); os.makedirs(sd, exist_ok=True)

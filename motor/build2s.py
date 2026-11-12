@@ -86,12 +86,7 @@ def draw(c, sc, it, T, total):
     sc.VIS[b["vis"]](c, t, d, b)
     c.restore()
     E.headline(c, t, "", b.get("t1", ""), b.get("t2", ""))  # sem kicker (pedido do usuário, 09/11)
-    if BRAND == "brio":
-        E.brio_mark(c, 96, 1530, 0.32, trail=False); E.brio_wordmark(c, 140, 1543, 30, E.LILAC, align="left")
-    elif BRAND: E.watermark(c, BRAND)
-    # barra de progresso dentro da área visível
-    E.rrect(c, 60, 1562, (W - 200), 8, 4, (1, 1, 1), 0.12)
-    E.rrect(c, 60, 1562, (W - 200) * min(1, T / total), 8, 4, E.YEL, 0.95)
+    # sem logo e sem barra de progresso no rodapé (pedido do usuário em 12/11: a faixa competia com a legenda do Reels)
 
 BRAND = None
 def main():
