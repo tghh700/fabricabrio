@@ -43,7 +43,9 @@ def call(method, path, body=None, params=None):
         except urllib.error.HTTPError as e:
             msg = limpa(e.read().decode(errors="ignore")[:400])
             last = f"{e.code} {msg}"
-            if e.code in (401, 402, 403, 429) or "quota" in msg.lower() or "credit" in msg.lower():
+            low = msg.lower()
+            if (e.code in (401, 402, 403, 429) or "quota" in low or "credit" in low
+                    or "invalid_api_key" in low or "authentication_error" in low):
                 print(f"chave {i + 1}: sem crédito/permissão ({e.code}), tentando a próxima", flush=True)
                 continue
             raise RuntimeError(last)
