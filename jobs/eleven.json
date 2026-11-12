@@ -1,12 +1,12 @@
 {
- "nome": "05-pilotos-narrados",
+ "nome": "06-lote-extra-1211",
  "ops": [
   {
    "op": "tts",
-   "id": "fibra_p1",
+   "id": "fibra_02_pump",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Aquela queimação no fim da série? Não é o que te contaram. Todo mundo culpa o ácido lático. Mas o lactato, na real, vira combustível. A queimação vem de outra coisa: íons de hidrogênio se acumulando dentro da fibra. O músculo fica mais ácido, e os nervos avisam: tá pesado. E isso some em poucos minutos depois que você para. A dor do dia seguinte é outra história. São microlesões, não ácido. [matter-of-fact] O segredo: a queimação mostra que a fibra trabalhou. Mas ela só cresce se a carga sobe. Comenta CARGA que eu te mando como acompanhar a sua no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "text": "[curious] Braço inchado depois do treino? Não é músculo novo. Quando você contrai, as veias que levam o sangue embora ficam apertadas. O sangue continua chegando, e o líquido vaza pra dentro e em volta das fibras. Os resíduos da contração puxam ainda mais água pra lá. Em uma ou duas horas, o inchaço vai embora. [matter-of-fact] O pump mostra que o músculo trabalhou. Mas o crescimento de verdade vem semana a semana, com a carga subindo. Comenta PUMP que eu te mando como acompanhar sua evolução no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -19,10 +19,74 @@
   },
   {
    "op": "tts",
-   "id": "diaum_p1",
+   "id": "fibra_03_tremor",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] A perna treme no fim da série? É o seu cérebro. Cada músculo é comandado por grupos de fibras, cada grupo ligado a um nervo. No começo da série, poucos grupos trabalham juntos, num ritmo suave. Quando eles cansam, o cérebro chama grupos novos, e o comando fica desencontrado. Esse liga e desliga fora de ritmo é o tremor. [matter-of-fact] Normalmente não é perigo. É sinal de que você chegou perto do limite, onde o estímulo é maior. Comenta TREMI que eu te mando como registrar suas séries no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_04_neural",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Sua força subiu, mas o músculo não mudou? Tem explicação. Nas primeiras semanas, quem evolui primeiro é o sistema nervoso. Ele aprende a ativar mais fibras ao mesmo tempo. E a mandar o comando mais rápido e mais coordenado. Por isso a carga sobe antes do espelho mudar. [matter-of-fact] O músculo cresce depois, com semanas de treino constante. Não desiste no primeiro mês. Comenta FORÇA que eu te mando como acompanhar sua evolução no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_05_agacha",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Um agachamento. Pelo menos quatro músculos trabalhando. Na frente da coxa, o quadríceps estica o joelho na subida. Atrás, o glúteo abre o quadril e te empurra pra cima. Na parte de dentro da coxa, os adutores ajudam o glúteo lá embaixo. E o abdômen e a lombar seguram o tronco firme o tempo todo. [matter-of-fact] Quanto mais fundo você desce, com controle, mais glúteo e adutores entram no jogo. Comenta AGACHO que eu te mando como registrar suas séries no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_02_idade",
    "voice_id": "PznTnBc8X6pvixs9UkQm",
    "model_id": "eleven_v4",
-   "text": "[warm] \"Tenho vergonha de ir pra academia.\" Eu sei. Todo mundo já sentiu isso. Mas a verdade é que quase ninguém tá olhando pra você. Cada um tá preocupado com a própria série. Então começa pequeno: três dias na semana, quarenta minutos. Escolhe quatro exercícios fáceis e repete eles por um mês. Nas primeiras semanas, vai num horário mais vazio. E anota tudo: o peso, as repetições, como você se sentiu. [encouraging] No dia trinta, você olha pra trás e vê o quanto mudou. Comenta DIA UM se hoje é o seu primeiro dia, e anota ele no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "text": "[warm] \"Tenho quarenta anos e nunca treinei.\" Dá tempo? Dá sim. O músculo responde ao treino em qualquer idade. Até depois dos setenta. Começa com o próprio corpo: agachamento na cadeira, flexão na parede, remada com elástico. Duas ou três vezes por semana já bastam no primeiro mês. Vai devagar na carga e capricha no movimento. Se tiver algum problema de saúde, passa no médico antes. [encouraging] E anota cada treino. Daqui a um mês, você vai ver que ficou mais forte. Comenta COMECEI se você vai começar essa semana, e anota seu primeiro treino no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.05
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_03_flexao",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] Não consegue fazer nem uma flexão? Normal. Começa por aqui. Nível um: flexão na parede. Mãos na parede, desce o peito devagar. Nível dois: mãos num banco ou numa mesa firme. Fica mais pesado. Nível três: joelhos no chão e o corpo reto, da cabeça ao joelho. Quando fizer três séries de doze, passa pro próximo nível. [encouraging] Em poucas semanas, a primeira flexão no chão aparece. Comenta NÍVEL e o número do seu, e anota suas séries no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.",
    "voice_settings": {
     "stability": 0.45,
     "similarity_boost": 0.75,
