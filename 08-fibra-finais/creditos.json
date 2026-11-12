@@ -1,0 +1,36 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_p1_final",
+   "caracteres": 209,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_02_pump_final",
+   "caracteres": 184,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_03_tremor_final",
+   "caracteres": 194,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_05_agacha_final",
+   "caracteres": 198,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_06_caibra_final",
+   "caracteres": 220,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 1005
+}
