@@ -1,0 +1,48 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_gancho_lucas",
+   "caracteres": 143,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_gancho_rafael",
+   "caracteres": 143,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_gancho_will",
+   "caracteres": 143,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_gancho_anaalice",
+   "caracteres": 176,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_gancho_dani",
+   "caracteres": 176,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_gancho_roberta",
+   "caracteres": 176,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio25_v4",
+   "caracteres": 1010,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 1967
+}
