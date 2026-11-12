@@ -5,9 +5,11 @@ Este repositório é só código. Roteiros, pauta, métricas e tarefas ficam no 
 ## Perfis
 | perfil | Instagram | vídeos/dia | território |
 |---|---|---|---|
-| brio | @briotreino | 18 | técnica, erros, progressão |
-| fibra | @fibratreino | 12 | o que acontece dentro do corpo |
-| diaum | @diaumtreino | 10 | começar, hábito, iniciantes |
+| brio | @briotreino | 8 | técnica, erros, progressão |
+| fibra | @fibratreino | 5 ou 3 (alterna com diaum) | o que acontece dentro do corpo |
+| diaum | @diaumtreino | 5 ou 3 (alterna com fibra) | começar, hábito, iniciantes |
+
+Sprint: 8 dias, 16 vídeos/dia (128 no total). Em dia ímpar do sprint: diaum 5, fibra 3; em dia par: fibra 5, diaum 3. A escala fica em `config.escala` no D1.
 
 ## Regras fixas
 - Nunca imprimir, commitar ou gravar no D1 um token, chave ou segredo.
