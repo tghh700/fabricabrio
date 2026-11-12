@@ -1,0 +1,30 @@
+{
+ "gastos": [
+  {
+   "id": "brio_28_desenv",
+   "caracteres": 616,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_29_aquece",
+   "caracteres": 578,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_30_respira",
+   "caracteres": 674,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_31_punho",
+   "caracteres": 597,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 2465
+}
