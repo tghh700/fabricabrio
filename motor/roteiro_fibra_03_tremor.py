@@ -1,0 +1,7 @@
+# fibra_03_tremor — lote extra 12/11
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_03_tremor_tight.mp3','starts':[0.133, 3.005, 7.346, 11.182, 15.566, 18.519, 23.451]}
+BEATS=[{'vis': 't_hook', 't1': 'PERNA', 't2': 'TREMENDO?', 'text': '[curious] A perna treme no fim da série? É o seu cérebro.', 'fig': 'FIG. 01 — TREMOR'}, {'vis': 't_equipes', 't1': 'FIBRAS EM', 't2': 'EQUIPES.', 'text': 'Cada músculo é comandado por grupos de fibras, cada grupo ligado a um nervo.', 'fig': 'FIG. 02 — UNIDADES MOTORAS'}, {'vis': 't_liso', 't1': 'NO COMEÇO', 't2': 'TUDO LISO.', 'text': 'No começo da série, poucos grupos trabalham juntos, num ritmo suave.', 'fig': 'FIG. 03 — SINAL'}, {'vis': 't_reforco', 't1': 'CANSOU?', 't2': 'CHAMA REFORÇO.', 'text': 'Quando eles cansam, o cérebro chama grupos novos, e o comando fica desencontrado.', 'fig': 'FIG. 04 — RECRUTAMENTO'}, {'vis': 't_treme', 't1': 'O TREMOR', 't2': 'É ISSO.', 'text': 'Esse liga e desliga fora de ritmo é o tremor.', 'fig': 'FIG. 05 — FADIGA'}, {'vis': 't_limite', 't1': 'PERTO', 't2': 'DO LIMITE.', 'text': '[matter-of-fact] Normalmente não é perigo. É sinal de que você chegou perto do limite, onde o estímulo é maior.', 'fig': 'FIG. 06 — ESTÍMULO'}, {'vis': 't_cta', 't1': 'COMENTA', 't2': 'TREMI.', 'text': 'Comenta TREMI que eu te mando como registrar suas séries no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.', 'fig': 'FIG. 07 — PROTOCOLO'}]

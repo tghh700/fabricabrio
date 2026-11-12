@@ -1,0 +1,7 @@
+# fibra_05_agacha — lote extra 12/11
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_05_agacha_tight.mp3','starts':[0.067, 3.395, 6.961, 10.222, 14.25, 17.943, 22.841]}
+BEATS=[{'vis': 'a_hook', 't1': 'UM MOVIMENTO.', 't2': '4 MÚSCULOS.', 'text': '[curious] Um agachamento. Pelo menos quatro músculos trabalhando.', 'fig': 'FIG. 01 — AGACHAMENTO'}, {'vis': 'a_quad', 't1': 'QUADRÍCEPS', 't2': 'ESTICA O JOELHO.', 'text': 'Na frente da coxa, o quadríceps estica o joelho na subida.', 'fig': 'FIG. 02 — QUADRÍCEPS'}, {'vis': 'a_gluteo', 't1': 'GLÚTEO', 't2': 'EMPURRA O QUADRIL.', 'text': 'Atrás, o glúteo abre o quadril e te empurra pra cima.', 'fig': 'FIG. 03 — GLÚTEO MÁXIMO'}, {'vis': 'a_adutor', 't1': 'ADUTORES', 't2': 'AJUDAM NO FUNDO.', 'text': 'Na parte de dentro da coxa, os adutores ajudam o glúteo lá embaixo.', 'fig': 'FIG. 04 — ADUTORES'}, {'vis': 'a_tronco', 't1': 'O TRONCO', 't2': 'SEGURA TUDO.', 'text': 'E o abdômen e a lombar seguram o tronco firme o tempo todo.', 'fig': 'FIG. 05 — CORE'}, {'vis': 'a_fundo', 't1': 'MAIS FUNDO,', 't2': 'MAIS GLÚTEO.', 'text': '[matter-of-fact] Quanto mais fundo você desce, com controle, mais glúteo e adutores entram no jogo.', 'fig': 'FIG. 06 — AMPLITUDE'}, {'vis': 'a_cta', 't1': 'COMENTA', 't2': 'AGACHO.', 'text': 'Comenta AGACHO que eu te mando como registrar suas séries no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.', 'fig': 'FIG. 07 — PROTOCOLO'}]

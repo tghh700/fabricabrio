@@ -1,0 +1,7 @@
+# fibra_04_neural — lote extra 12/11
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_04_neural_tight.mp3','starts':[0.08, 3.918, 7.568, 10.287, 13.089, 15.516, 20.584]}
+BEATS=[{'vis': 'n_hook', 't1': 'FORÇA SOBE,', 't2': 'MÚSCULO NÃO?', 'text': '[curious] Sua força subiu, mas o músculo não mudou? Tem explicação.', 'fig': 'FIG. 01 — 1º MÊS'}, {'vis': 'n_cerebro', 't1': 'PRIMEIRO', 't2': 'O CÉREBRO.', 'text': 'Nas primeiras semanas, quem evolui primeiro é o sistema nervoso.', 'fig': 'FIG. 02 — SISTEMA NERVOSO'}, {'vis': 'n_ativa', 't1': 'MAIS FIBRAS', 't2': 'LIGADAS.', 'text': 'Ele aprende a ativar mais fibras ao mesmo tempo.', 'fig': 'FIG. 03 — ATIVAÇÃO'}, {'vis': 'n_sinal', 't1': 'SINAL', 't2': 'MAIS RÁPIDO.', 'text': 'E a mandar o comando mais rápido e mais coordenado.', 'fig': 'FIG. 04 — COMANDO'}, {'vis': 'n_espelho', 't1': 'CARGA ANTES', 't2': 'DO ESPELHO.', 'text': 'Por isso a carga sobe antes do espelho mudar.', 'fig': 'FIG. 05 — FORÇA × TAMANHO'}, {'vis': 'n_tamanho', 't1': 'DEPOIS', 't2': 'O TAMANHO.', 'text': '[matter-of-fact] O músculo cresce depois, com semanas de treino constante. Não desiste no primeiro mês.', 'fig': 'FIG. 06 — HIPERTROFIA'}, {'vis': 'n_cta', 't1': 'COMENTA', 't2': 'FORÇA.', 'text': 'Comenta FORÇA que eu te mando como acompanhar sua evolução no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.', 'fig': 'FIG. 07 — PROTOCOLO'}]

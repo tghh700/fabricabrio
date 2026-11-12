@@ -1,0 +1,7 @@
+# fibra_02_pump — lote extra 12/11
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_02_pump_tight.mp3','starts':[0.08, 3.22, 7.24, 11.871, 15.116, 17.562, 23.779]}
+BEATS=[{'vis': 'p_hook', 't1': 'BRAÇO', 't2': 'INCHADO?', 'text': '[curious] Braço inchado depois do treino? Não é músculo novo.', 'fig': 'FIG. 01 — PUMP'}, {'vis': 'p_veia', 't1': 'O SANGUE', 't2': 'FICA PRESO.', 'text': 'Quando você contrai, as veias que levam o sangue embora ficam apertadas.', 'fig': 'FIG. 02 — VEIAS'}, {'vis': 'p_plasma', 't1': 'O LÍQUIDO', 't2': 'ENTRA NA FIBRA.', 'text': 'O sangue continua chegando, e o líquido vaza pra dentro e em volta das fibras.', 'fig': 'FIG. 03 — PLASMA'}, {'vis': 'p_agua', 't1': 'E PUXA', 't2': 'MAIS ÁGUA.', 'text': 'Os resíduos da contração puxam ainda mais água pra lá.', 'fig': 'FIG. 04 — METABÓLITOS'}, {'vis': 'p_some', 't1': 'SOME EM', 't2': '1 A 2 HORAS.', 'text': 'Em uma ou duas horas, o inchaço vai embora.', 'fig': 'FIG. 05 — DEPOIS'}, {'vis': 'p_fica', 't1': 'O QUE FICA', 't2': 'É A CARGA.', 'text': '[matter-of-fact] O pump mostra que o músculo trabalhou. Mas o crescimento de verdade vem semana a semana, com a carga subindo.', 'fig': 'FIG. 06 — SOBRECARGA'}, {'vis': 'p_cta', 't1': 'COMENTA', 't2': 'PUMP.', 'text': 'Comenta PUMP que eu te mando como acompanhar sua evolução no Bríu. Registre e acompanhe seus treinos gratuitamente. Link na bio.', 'fig': 'FIG. 07 — PROTOCOLO'}]
