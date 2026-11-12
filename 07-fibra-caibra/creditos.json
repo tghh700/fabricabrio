@@ -1,0 +1,12 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_06_caibra",
+   "caracteres": 579,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 579
+}
