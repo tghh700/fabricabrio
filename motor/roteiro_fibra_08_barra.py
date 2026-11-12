@@ -1,0 +1,9 @@
+# fibra_08_barra — produção 13/11 · músculos que trabalham na barra fixa
+# formato: diagrama do músculo em cada movimento (6×, 21 contas)
+# fonte: Youdas JW et al. J Strength Cond Res 2010;24(12):3404-14 (pegada supinada ativa mais bíceps; pronada, mais trapézio inferior)
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_08_barra_tight.mp3','starts':[0.063, 3.008, 6.905, 10.642, 14.19, 17.712, 21.497, 27.298]}
+BEATS=[{'vis': 'b_hook', 't1': 'BARRA FIXA:', 't2': '5 MÚSCULOS.', 'text': '[curious] Uma barra fixa. Cinco músculos trabalhando.', 'fig': 'FIG. 01 — BARRA FIXA'}, {'vis': 'b_dorsal', 't1': '1. GRANDE', 't2': 'DORSAL.', 'text': 'O principal é o grande dorsal: puxa o braço pra baixo e alarga as costas.', 'fig': 'FIG. 02 — 1. GRANDE'}, {'vis': 'b_biceps', 't1': '2 E 3. BÍCEPS', 't2': 'E BRAQUIAL.', 'text': 'O bíceps e o braquial dobram o cotovelo. Por isso o braço também cresce.', 'fig': 'FIG. 03 — 2 E 3. BÍCEPS'}, {'vis': 'b_romboide', 't1': '4. ROMBOIDES', 't2': 'E TRAPÉZIO.', 'text': 'Romboides e trapézio, entre as escápulas, puxam o ombro pra trás.', 'fig': 'FIG. 04 — 4. ROMBOIDES'}, {'vis': 'b_antebraco', 't1': '5. ANTEBRAÇO', 't2': 'NA PEGADA.', 'text': 'E o antebraço segura tudo. Sem pegada, a série acaba antes.', 'fig': 'FIG. 05 — 5. ANTEBRAÇO'}, {'vis': 'b_pegada', 't1': 'A PEGADA', 't2': 'MUDA O FOCO.', 'text': '[matter-of-fact] Palma virada pra você? Mais bíceps. Palma pra frente? Mais costas.', 'fig': 'FIG. 06 — A PEGADA'}, {'vis': 'b_conc', 't1': 'RESUMINDO:', 't2': '1 BARRA, 5 MÚSCULOS.', 'text': '[warm] Resumindo: barra é costas, braço e pegada num exercício só. Se só cabe um no treino, coloca esse.', 'fig': 'FIG. 07 — RESUMINDO'}, {'vis': 'b_cta', 't1': 'COMENTA', 't2': 'BARRA.', 'text': 'Comenta BARRA que eu te mando como registrar suas repetições no Bríu e ver quantas a mais saem a cada semana. Link na bio.', 'fig': 'FIG. 08 — COMENTA'}]

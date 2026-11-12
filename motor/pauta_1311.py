@@ -3,7 +3,7 @@ P = {}
 P['brio_27_rosca'] = dict(perfil='brio', hora='22:00', tema='rosca direta com balanço do tronco (erro encenado e correção)', palavra='ROSCA', formato='encenar repetição errada e corrigir (20×)',
  beats=[
   ('hook', 'SUA ROSCA', 'TÁ ASSIM?', '[serious] Se a sua rosca tá assim, para.'),
-  ('erro', 'O EMBALO', 'FAZ O TRABALHO.', 'Joga o tronco pra trás, balança o quadril, e o peso sobe no embalo.'),
+  ('erro', 'O EMBALO', 'FAZ A FORÇA.', 'Joga o tronco pra trás, balança o quadril, e o peso sobe no embalo.'),
   ('carona', 'O BÍCEPS', 'PEGA CARONA.', 'Quem levanta é a lombar e o ombro. O bíceps só pega carona.'),
   ('cotovelo', 'COTOVELO', 'PARADO.', 'Primeiro: cola o cotovelo do lado do corpo, e deixa ele parado.'),
   ('desce', 'DESCE EM', '3 SEGUNDOS.', 'Depois: sobe em um segundo, e desce contando três.'),

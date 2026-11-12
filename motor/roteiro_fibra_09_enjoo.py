@@ -1,0 +1,9 @@
+# fibra_09_enjoo — produção 13/11 · enjoo no treino de perna: o sangue sai da digestão
+# formato: nomear a sensação exata (23×)
+# fonte: Peters HP et al. Gut 2001;48:435-9 e van Wijck K et al. 2012 (fluxo esplâncnico cai até ~80% em exercício intenso)
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_09_enjoo_tight.mp3','starts':[0.125, 2.045, 6.215, 10.185, 13.41, 15.983, 23.269, 28.42]}
+BEATS=[{'vis': 'e_hook', 't1': 'ENJOO NO', 't2': 'TREINO DE PERNA?', 'text': '[curious] Aquele enjoo no meio do treino de perna?', 'fig': 'FIG. 01 — ENJOO NO'}, {'vis': 'e_sangue', 't1': 'PERNA PEDE', 't2': 'MUITO SANGUE.', 'text': 'Perna é o maior grupo muscular. E músculo trabalhando pede muito sangue.', 'fig': 'FIG. 02 — PERNA PEDE'}, {'vis': 'e_desvio', 't1': 'O SANGUE', 't2': 'SAI DA BARRIGA.', 'text': 'Pra isso, o corpo tira sangue do que não é urgente: estômago e intestino.', 'fig': 'FIG. 03 — O SANGUE'}, {'vis': 'e_oitenta', 't1': 'ATÉ −80%', 't2': 'NA DIGESTÃO.', 'text': 'Em treino intenso, o fluxo ali cai até oitenta por cento.', 'fig': 'FIG. 04 — ATÉ −80%'}, {'vis': 'e_parada', 't1': 'DIGESTÃO', 't2': 'PARADA.', 'text': 'Com comida pesada parada ali, vem o enjoo.', 'fig': 'FIG. 05 — DIGESTÃO'}, {'vis': 'e_evita', 't1': 'COMO', 't2': 'EVITAR.', 'text': '[matter-of-fact] Pra evitar: come leve uma a duas horas antes, descansa mais entre as séries e bebe água aos goles. Se for frequente, procura um médico.', 'fig': 'FIG. 06 — COMO'}, {'vis': 'e_conc', 't1': 'RESUMINDO:', 't2': 'SANGUE NA PERNA.', 'text': '[warm] Então: o enjoo é sangue indo pra perna. Ajusta comida e descanso, e treina sem passar mal.', 'fig': 'FIG. 07 — RESUMINDO'}, {'vis': 'e_cta', 't1': 'COMENTA', 't2': 'PERNA.', 'text': 'Comenta PERNA que eu te mando como registrar seu treino no Bríu e receber orientação depois. Link na bio.', 'fig': 'FIG. 08 — COMENTA'}]

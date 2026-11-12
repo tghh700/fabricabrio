@@ -1,0 +1,9 @@
+# fibra_07_gordura — produção 13/11 · para onde vai a gordura: sai pela respiração, não pelo suor
+# formato: crença popular errada na 1ª frase (9×)
+# fonte: Meerman R, Brown AJ. When somebody loses weight, where does the fat go? BMJ 2014;349:g7257 (84% como CO2, 16% como água)
+THEME='fibra'
+VOICE=None
+BPM=112
+BED_VOL=0.7
+NARRATION={'file':'audio/fibra_07_gordura_tight.mp3','starts':[0.075, 2.32, 5.2, 8.635, 13.077, 16.382, 21.892, 27.088]}
+BEATS=[{'vis': 'g_hook', 't1': 'GORDURA SAI', 't2': 'PELO PULMÃO.', 'text': '[curious] Você perde gordura pela respiração.', 'fig': 'FIG. 01 — GORDURA SAI'}, {'vis': 'g_suor', 't1': 'NÃO É', 't2': 'O SUOR.', 'text': 'Não é pelo suor. O suor é só água, pra esfriar o corpo.', 'fig': 'FIG. 02 — NÃO É'}, {'vis': 'g_quebra', 't1': 'A CÉLULA', 't2': 'QUEBRA.', 'text': 'Pra usar a gordura, a célula quebra ela junto com oxigênio.', 'fig': 'FIG. 03 — A CÉLULA'}, {'vis': 'g_co2', 't1': '84% VIRA', 't2': 'GÁS CARBÔNICO.', 'text': 'Sobra gás carbônico e água. Oitenta e quatro por cento sai no ar que você solta.', 'fig': 'FIG. 04 — 84% VIRA'}, {'vis': 'g_agua', 't1': '16% VIRA', 't2': 'ÁGUA.', 'text': 'O resto sai como água: urina, suor e respiração.', 'fig': 'FIG. 05 — 16% VIRA'}, {'vis': 'g_gasto', 't1': 'QUEM MANDA', 't2': 'É O GASTO.', 'text': '[matter-of-fact] Mas respirar mais rápido não adianta. Quem manda é o gasto: músculo trabalhando, treino após treino.', 'fig': 'FIG. 06 — QUEM MANDA'}, {'vis': 'g_conc', 't1': 'RESUMINDO:', 't2': 'SUOR NÃO MEDE.', 'text': '[warm] Então, camiseta encharcada não mede nada. O que conta é treinar forte toda semana, sem falhar.', 'fig': 'FIG. 07 — RESUMINDO'}, {'vis': 'g_cta', 't1': 'COMENTA', 't2': 'PULMÃO.', 'text': 'Comenta PULMÃO que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.', 'fig': 'FIG. 08 — COMENTA'}]

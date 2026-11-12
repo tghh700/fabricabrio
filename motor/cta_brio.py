@@ -69,7 +69,7 @@ def _trigger(c, t, t_end, kind, text):
         plane(c, lerp(620, 900, pa), lerp(1250, 1150 - math.sin(pa * math.pi) * 80, pa), 1.0, YEL)
     chunky(c, 260 if kind != "send" else 300, FLOOR_Y + 40, 0.72, pose_mix("idle", "point_up", prog(t, 0.2, 0.3)), face=1)
 
-def cta_brio(c, t, d, b, kind="bubble", text="", app_title="", app_lines=(), app_big=None, app_big_label="", chart=False):
+def cta_brio(c, t, d, b, kind="bubble", text="", app_title="", app_lines=(), app_big=None, app_big_label="", chart=False, lines=("REGISTRE E ACOMPANHE SEUS", "TREINOS GRATUITAMENTE")):
     mk = b.get("marks", {}); off = 0.08
     t_app = mk.get("ponte", d * 0.4) + off; t_fix = mk.get("fixa", d * 0.6) + off
     with Cam(c, t, punch=0.10):
@@ -107,8 +107,8 @@ def cta_brio(c, t, d, b, kind="bubble", text="", app_title="", app_lines=(), app
             c.restore()
             if t > t_fix:
                 pf = prog(t, t_fix, 0.35)
-                draw_text(c, "REGISTRE E ACOMPANHE SEUS", 540, 1630, 34, WHITE, "Space Mono", pf, align="center", spacing=2)
-                draw_text(c, "TREINOS GRATUITAMENTE", 540, 1675, 34, WHITE, "Space Mono", pf, align="center", spacing=2)
+                for i, ln in enumerate(lines[:2]):
+                    draw_text(c, ln, 540, 1630 + i * 45, 34, WHITE, "Space Mono", pf, align="center", spacing=2)
                 chip(c, "LINK NA BIO", 540, 1775, YEL, INK, 66, t=t, start=t_fix + 0.5)
 
 def cta_sfx(b, kind="bubble"):
