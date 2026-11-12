@@ -497,6 +497,9 @@ def conclusao_factory(items):
             panel(c, LEFT + 10, 700, RIGHT - LEFT - 20, 640, p, CYAN)
             mono(c, "CONCLUSÃO", LEFT + 50, 770, 30, CYAN, p)
             dline(c, LEFT + 50, 800, RIGHT - 50, 800, LINE, 2, (6, 8), p)
+            sy = 820 + (t * 160) % 500  # linha de leitura (laudo) descendo devagar: evita quadro parado
+            cap_line(c, LEFT + 30, sy, RIGHT - 30, sy, CYAN, 2, 0.25 * p)
+            fibra_icon(c, RIGHT - 90, 765, 0.32, p, t, pulse=True)
             n = len(items)
             for i, (txt, ok) in enumerate(items):
                 q = ease_out(prog(t, 0.15 + i * (d * 0.6 / n), 0.35))
