@@ -11,3 +11,6 @@ database_id = "fcbe426b-fb97-4d47-a218-6c1eacb25460"
 [vars]
 SITE = "https://briotreino.app"
 CAMPANHA = "sprint_nov26"
+
+[triggers]
+crons = ["*/5 * * * *"]
