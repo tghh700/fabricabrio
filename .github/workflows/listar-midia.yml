@@ -28,7 +28,7 @@ jobs:
         run: |
           git config user.name "fabrica-bot"
           git config user.email "fabrica-bot@users.noreply.github.com"
-          mkdir -p /tmp/m && cp -r saida/midia /tmp/m/
+          mkdir -p /tmp/m && cp -r saida/midia /tmp/m/ && rm -rf saida midia.sql
           git fetch --depth 1 origin previas && git checkout -B previas FETCH_HEAD
-          rm -rf midia && cp -r /tmp/m/midia midia
+          rm -rf midia saida midia.sql && cp -r /tmp/m/midia midia
           git add -A && git commit -qm "midia publicada" && git push origin previas
