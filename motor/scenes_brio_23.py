@@ -72,9 +72,16 @@ def three(c, t, d, b):
 def overhead(c, t, d, b):
     with Cam(c, t, punch=0.06):
         u = 0.5 + 0.5 * math.sin(t * 3.2)
-        pose = pose_mix("point_up", "scratch", u * 0.55)
-        hx, hy = chunky(c, 330, FLOOR_Y, 0.9, pose, face=1)
-        dumbbell(c, hx, hy - 20, 0.9, 1.57)
+        # tríceps francês: braço fica vertical e o cotovelo dobra levando o halter para TRÁS da cabeça
+        pose = pose_mix((-12, 25, 176, 0, -10, 6, 12, 6), (-12, 25, 176, 128, -10, 6, 12, 6), u)
+        # mão: calcula antes para desenhar o halter atrás do corpo quando ele passa por trás da cabeça
+        if u > 0.45:
+            c.push_group(); hx, hy = chunky(c, 330, FLOOR_Y, 0.9, pose, face=1); c.pop_group()
+            dumbbell(c, hx - 25, hy, 0.9, 0.0)
+            chunky(c, 330, FLOOR_Y, 0.9, pose, face=1)
+        else:
+            hx, hy = chunky(c, 330, FLOOR_Y, 0.9, pose, face=1)
+            dumbbell(c, hx, hy, 0.9, 0.0)
         arrow(c, 330, 925, 330, 990, YEL, 10, p=prog(t, 0.3, 0.3))
         txt(c, "FRANCÊS", 330, 900, 44, YEL, prog(t, 0.3, 0.3))
         # polia por trás

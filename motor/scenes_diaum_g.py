@@ -40,15 +40,18 @@ def plank(c, t, kind, seed, shake=0.0):
     wob = shake * 2.5 * math.sin(t * 30)
     if kind == "joelho":
         L, ax = 420, 330
-        ang = math.degrees(math.asin(clamp(212 * 0.97 / L))) + wob
-        pushup(c, ax, FLOOR, L, ang, (ax + L * math.cos(math.radians(ang)) + 8, FLOOR), t, seed, "happy", knees=True)
+        ang = math.degrees(math.asin(clamp(222 / L))) + wob  # braço esticado (prancha alta)
+        pushup(c, ax, FLOOR, L, ang, (ax + L * math.cos(math.radians(ang)) + 4, FLOOR), t, seed, "happy", knees=True)
         return ax, ang, L
     L, ax = 600, 150
-    ang = math.degrees(math.asin(clamp(212 * 0.97 / L))) + wob
+    ang = math.degrees(math.asin(clamp(222 / L))) + wob  # braço esticado (prancha alta)
     if kind == "um_pe":
+        # perna levantada sai do QUADRIL e sobe para trás, alinhada com o corpo
         up = 0.5 + 0.5 * math.sin(t * 2.2)
-        hline(c, seg(ax + 170, FLOOR - 75, ax - 20, FLOOR - 110 - 110 * up, 3), INK, 9, t, seed + 50)
-    pushup(c, ax, FLOOR, L, ang, (ax + L * math.cos(math.radians(ang)) + 8, FLOOR), t, seed, "happy" if not shake else None)
+        a = math.radians(ang)
+        hx, hy = ax + 0.45 * L * math.cos(a), FLOOR - 0.45 * L * math.sin(a)
+        hline(c, seg(hx, hy, ax - 10, FLOOR - 60 - 90 * up, 3), INK, 9, t, seed + 50)
+    pushup(c, ax, FLOOR, L, ang, (ax + L * math.cos(math.radians(ang)) + 4, FLOOR), t, seed, "happy" if not shake else None)
     return ax, ang, L
 
 

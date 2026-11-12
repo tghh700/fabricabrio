@@ -39,14 +39,16 @@ def bench_lifter(c, x, y, s, u, plate=1.0, col=None, shake=0.0):
     # corpo
     cap_line(c, 60, -285, 330, -285, L_BODY, 100)
     poly(c, [(330, -285), (500, -330), (520, -60)], L_FRONT, 52)
-    disk(c, -20, -300, 62, L_BODY)
-    sh = (90, -290); hy = -290 - 110 - 170 * u
-    hand = (90 + shake, hy)
-    poly(c, [sh, (90, (sh[1] + hy) / 2), hand], L_FRONT, 44)
-    r = 110 * plate
+    disk(c, -40, -300, 62, L_BODY)
+    # barra sobre o peito (embaixo) e sobre os ombros (em cima); a anilha não cobre o rosto
+    sh = (110, -290); bx = lerp(170, 125, u); hy = -290 - 120 - 160 * u
+    hand = (bx + shake, hy)
+    el = ((sh[0] + hand[0]) / 2 + 60 * (1 - u), (sh[1] + hy) / 2 + 10)
+    poly(c, [sh, el, hand], L_FRONT, 44)
+    r = min(95, 85 * plate)
     disk(c, hand[0], hand[1], r, col); disk(c, hand[0], hand[1], r * 0.62, mix(col, INK, 0.35)); disk(c, hand[0], hand[1], r * 0.18, (0.75, 0.76, 0.8))
     c.restore()
-    return (x + (90 + shake) * s, y + hy * s)
+    return (x + (bx + shake) * s, y + hy * s)
 
 def steps(c, x0, y0, n, w, hstep, a, col=None, p=1.0, grow=1.0):
     """degraus crescentes"""

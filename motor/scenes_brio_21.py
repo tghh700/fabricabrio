@@ -16,7 +16,10 @@ def pushup(c, x, y, s, u, feet_up=0.0, col=None):
     sh = (-190, sy - 20); ft = (fx, fy - 30)
     cap_line(c, sh[0], sh[1], ft[0], ft[1], L_BODY, 90)
     disk(c, sh[0] - 70, sh[1] - 25, 58, L_BODY)
-    cap_line(c, sh[0], sh[1], -190, 0, L_FRONT, 38)
+    # braço com cotovelo: dobra para trás (lado dos pés) quando desce
+    el = (-190 + 70 * u, (sh[1] + 0) / 2)
+    poly(c, [sh, el, (-190, 0)], L_FRONT, 38)
+    cap_line(c, -300, 6, 640, 6, (1, 1, 1), 4, 0.25)  # chão
     c.restore()
 
 def hook(c, t, d, b):
@@ -83,7 +86,9 @@ def harder(c, t, d, b):
         # agachamento 1 perna
         draw_text(c, "UMA PERNA SÓ", 540, 1290, 52, YEL, "Anton", prog(t, d * 0.45, 0.3), align="center")
         if t > d * 0.45:
-            pose = pose_mix("idle", "squat_deep", 0.5 + 0.5 * math.sin((t - d * 0.45) * 2.4))
+            # agachamento numa perna só (pistol): perna de apoio dobra, a outra vai à frente, braços à frente
+            pistol = (80, 0, 85, 0, 90, 0, 85, -115)
+            pose = pose_mix((-12, 25, 14, 30, 60, 0, 12, 6), pistol, 0.5 + 0.5 * math.sin((t - d * 0.45) * 2.4))
             chunky(c, 540, 1800, 0.6, pose, t=t)
             tag(c, 840, 1500, "1 PERNA", CARD, WHITE, 44, back_out(prog(t, d * 0.55, 0.3)))
 
