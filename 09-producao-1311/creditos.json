@@ -1,0 +1,60 @@
+{
+ "gastos": [
+  {
+   "id": "brio_27_rosca",
+   "caracteres": 600,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_07_gordura",
+   "caracteres": 617,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_08_barra",
+   "caracteres": 638,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_09_enjoo",
+   "caracteres": 655,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_06_prancha",
+   "caracteres": 633,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_04_aparelhos",
+   "caracteres": 639,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_07_preguica",
+   "caracteres": 603,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_05_magro",
+   "caracteres": 625,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_08_semana2",
+   "caracteres": 604,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 5614
+}
