@@ -15,6 +15,7 @@ Sprint: 8 dias, 16 vídeos/dia (128 no total). Em dia ímpar do sprint: diaum 5,
 - Nunca imprimir, commitar ou gravar no D1 um token, chave ou segredo.
 - Nunca o mesmo vídeo ou tema canônico em dois perfis.
 - Narração: "Bríu" na fala; na escrita, "Brio" — legenda, DM, hashtags e texto na tela NUNCA levam "Bríu" (o Worker e o d1-job corrigem, mas é erro).
+- Todo vídeo tem conclusão antes do CTA. O CTA cita o Brio e termina em "Link na bio.", mas a frase é livre (não há frase fixa).
 - Só citar funções reais do app (registrar séries, acompanhar evolução, orientação após o treino).
 - Nada vai ao ar sem passar pelos 7 portões de QA (ver docs do projeto).
 

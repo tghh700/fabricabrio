@@ -35,7 +35,8 @@ Use `estado.metricas` para decidir a pauta: formatos com views acima da média d
 ## 4. Roteiro (30–40 s)
 - 480–620 caracteres de narração. 1ª frase com até 8 palavras, gancho nos 2 primeiros segundos.
 - 7 a 9 beats (`t1`/`t2` curtos na tela; `text` = fala).
-- Final: gatilho específico com **palavra-chave em MAIÚSCULAS** (é ela que dispara a DM com o link) + frase-ponte para uma função real do app + fixa "Registre e acompanhe seus treinos gratuitamente. Link na bio."
+- **Conclusão antes do CTA (obrigatória, regra do usuário em 12/11):** o vídeo não pode terminar no meio do raciocínio e pular pro anúncio. Antes do CTA vem um beat de conclusão (1–2 frases: "Resumindo/Então..." amarrando a ideia e dizendo o que a pessoa faz com isso). No FIBRA, a cena `conclusao_factory` (quadro "CONCLUSÃO" com 3 ✓).
+- Final: gatilho específico com **palavra-chave em MAIÚSCULAS** (é ela que dispara a DM com o link) + menção ao Brio ligada ao tema, com uma função real do app + "Link na bio." **Não existe frase fixa**: "Registre e acompanhe seus treinos gratuitamente" é só um exemplo; adapte ao vídeo (ex.: "Comenta PUMP que eu te mando como acompanhar sua carga no Bríu. Link na bio."). Na tela, use `cta_flex(palavra, linhas)` com linhas adaptadas.
 - Funções reais do app: registrar séries, acompanhar evolução, orientação após o treino. Nada além disso.
 - Narração escreve "Bríu"; tela e legenda escrevem "Brio". Sem promessa médica. FIBRA: anote a fonte de cada afirmação científica no comentário do roteiro.
 
@@ -71,7 +72,7 @@ for b in BEATS:
 
 ## 7. QA — 7 portões (nada vai ao ar sem passar)
 1. Anti-repetição: tema canônico novo; gancho não repete a fórmula do vídeo anterior do mesmo perfil.
-2. Roteiro e legenda: faixa de caracteres, 1ª frase ≤ 8 palavras, frase fixa exata, só funções reais, "Bríu" só na fala; legenda, DM e tela com "Brio" (`grep -i "br[íi]u"` na legenda tem que dar vazio).
+2. Roteiro e legenda: faixa de caracteres, 1ª frase ≤ 8 palavras, conclusão antes do CTA, CTA menciona o Brio e termina em "Link na bio.", só funções reais, "Bríu" só na fala; legenda, DM e tela com "Brio" (`grep -i "br[íi]u"` na legenda tem que dar vazio).
 3. Cenas: tudo entre y 250 e 1570 e com 120 px livres à direita; textos cabem na caixa.
 4. Arquivo: `python3 qa_video.py out/<id>.mp4 --starts <starts>` (resolução, codec, 15–60 s, tela preta, congelado > 3 s, buraco de áudio, volume).
 5. Áudio: ouça/inspecione o alinhamento — "Bríu" e números certos; nenhuma palavra cortada.

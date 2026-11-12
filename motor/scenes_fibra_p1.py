@@ -124,3 +124,8 @@ SFX = {
     "segredo": [(0.0, "whoosh"), ("0.45d", "clack"), ("0.6d", "clack")],
     "cta": [(0.0, "whoosh"), ("0.15", "pop"), ("0.55d", "ding")],
 }
+
+
+# finais novos (12/11): conclusão + CTA flexível
+from scenes_fibra_l1 import registrar_final  # noqa: E402
+registrar_final(VIS, SFX, "fibra_p1", "")

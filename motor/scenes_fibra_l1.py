@@ -486,3 +486,54 @@ def c_evita(c, t, d, b):
 VIS.update(c_hook=c_hook, c_mito=c_mito, c_nervo=c_nervo, c_trava=c_trava, c_alonga=c_alonga, c_evita=c_evita, c_cta=cta_factory("CÃIBRA"))
 SFX.update({k: ([(0.0, "boom"), ("0.4", "pop")] if k.endswith("hook") else SFX_CTA if k.endswith("cta") else [(0.0, "whoosh"), ("0.5d", "pop")])
             for k in VIS if k.startswith("c_")})
+
+
+# ----------------------------------------------------------------- finais (12/11): conclusão + CTA flexível
+def conclusao_factory(items):
+    """quadro de conclusão no estilo laudo: cada item aparece com ✓ ciano"""
+    def f(c, t, d, b):
+        with Cam(c, t, punch=0.05, cy=CY):
+            p = ease_out(prog(t, 0, 0.3))
+            panel(c, LEFT + 10, 700, RIGHT - LEFT - 20, 640, p, CYAN)
+            mono(c, "CONCLUSÃO", LEFT + 50, 770, 30, CYAN, p)
+            dline(c, LEFT + 50, 800, RIGHT - 50, 800, LINE, 2, (6, 8), p)
+            n = len(items)
+            for i, (txt, ok) in enumerate(items):
+                q = ease_out(prog(t, 0.15 + i * (d * 0.6 / n), 0.35))
+                if q <= 0:
+                    continue
+                y = 900 + i * 140
+                col = CYAN if ok else PINK
+                c.new_path(); c.arc(LEFT + 80, y - 12, 28, 0, 6.3); rgb(c, col, q); c.set_line_width(4); c.stroke()
+                poly(c, [(LEFT + 66, y - 12), (LEFT + 77, y), (LEFT + 96, y - 26)], col, 5, q)
+                font(c, MONO, 34)
+                draw_text(c, txt, LEFT + 130, y, 34, INK, MONO, q)
+    return f
+
+
+def cta_flex(word, lines):
+    def cta(c, t, d, b):
+        with Cam(c, t, punch=0.05, cy=CY):
+            p = ease_out(prog(t, 0, 0.35))
+            fibra_icon(c, W / 2 - 40, 790, 2.2 * back_out(p) if p > 0 else 0.01, 1.0, t, pulse=True)
+            chip(c, "COMENTA  " + word, W / 2 - 40, 1010, PINK, NAVY, 64, ease_out(prog(t, 0.15, 0.35)))
+            q = ease_out(prog(t, 0.35 * d, 0.4))
+            for i, ln in enumerate(lines):
+                mono(c, ln, W / 2 - 40, 1150 + i * 46, 32, INK, q, align="center")
+            chip(c, "LINK NA BIO", W / 2 - 40, 1310, CYAN, NAVY, 56, ease_out(prog(t, 0.55 * d, 0.35)))
+    return cta
+
+
+FINAIS = {'fibra_p1': ([('QUEIMAÇÃO = H+, NÃO ÁCIDO LÁTICO', True), ('PASSA EM MINUTOS', True), ('CRESCER = CARGA SUBINDO', True)], ['ANOTE SUA CARGA NO BRIO', 'E VEJA ELA SUBIR'], 'CARGA'), 'fibra_02_pump': ([('PUMP = LÍQUIDO, NÃO MÚSCULO', True), ('SOME EM 1 A 2 HORAS', True), ('A MEDIDA É A CARGA', True)], ['ACOMPANHE SUA CARGA NO BRIO', 'SEMANA A SEMANA'], 'PUMP'), 'fibra_03_tremor': ([('TREMOR = FIBRAS SE REVEZANDO', True), ('PERTO DO LIMITE = ESTÍMULO', True), ('TÉCNICA EM PRIMEIRO', True)], ['REGISTRE CADA SÉRIE NO BRIO', 'E VEJA ATÉ ONDE CHEGOU'], 'TREMI'), 'fibra_05_agacha': ([('QUADRÍCEPS + GLÚTEO', True), ('ADUTORES + CORE', True), ('1 EXERCÍCIO, PERNA INTEIRA', True)], ['REGISTRE SEU AGACHAMENTO NO BRIO', 'E ACOMPANHE A CARGA'], 'AGACHO'), 'fibra_06_caibra': ([('CAUSA: NERVO CANSADO', True), ('NA HORA: ALONGA DEVAGAR', True), ('PREVINE: VOLUME AOS POUCOS', True)], ['CONTROLE SUAS SÉRIES NO BRIO', 'E SUBA O VOLUME AOS POUCOS'], 'CÃIBRA')}
+
+
+def registrar_final(vis, sfx, chave, prefixo):
+    conc, linhas, palavra = FINAIS[chave]
+    vis[prefixo + "conc"] = conclusao_factory(conc)
+    vis[prefixo + "cta2"] = cta_flex(palavra.rstrip(".").upper(), linhas)
+    sfx[prefixo + "conc"] = [(0.0, "whoosh"), ("0.3", "tick"), ("0.5d", "tick")]
+    sfx[prefixo + "cta2"] = SFX_CTA
+
+
+for _k, _p in (("fibra_02_pump", "p_"), ("fibra_03_tremor", "t_"), ("fibra_05_agacha", "a_"), ("fibra_06_caibra", "c_")):
+    registrar_final(VIS, SFX, _k, _p)
