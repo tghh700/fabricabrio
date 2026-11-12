@@ -1,0 +1,42 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_02_pump",
+   "caracteres": 568,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_03_tremor",
+   "caracteres": 571,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_04_neural",
+   "caracteres": 513,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_05_agacha",
+   "caracteres": 535,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_02_idade",
+   "caracteres": 620,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_03_flexao",
+   "caracteres": 514,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 3321
+}
