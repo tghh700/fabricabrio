@@ -29,6 +29,7 @@ Use `estado.metricas` para decidir a pauta: formatos com views acima da média d
 - Cada vídeo precisa de **evidência** (formato com 2×+ a média de contas do nicho, ou um dos nossos que performou). Sem evidência, não gaste crédito.
 - Mix: 60% variações do que performou em nós, 30% formatos modelados ainda não testados, 10% experimento.
 - Território: BRIO = técnica, erros, progressão · FIBRA = o que acontece dentro do corpo · DIA UM = começar, hábito, vergonha, idade.
+- **Antes de fechar a pauta, compare com o que já foi ao ar**: rode o workflow `listar-midia` (push em `jobs/listar.txt`) e leia `midia/<perfil>.json` no branch `previas` (legendas completas de tudo que está publicado) e os roteiros em `referencia/brio_data_painel_antigo.json`. Não pode repetir vídeo nem a ideia central de um vídeo já postado em qualquer perfil (ex.: "força sobe antes do músculo" já saiu no BRIO 03 e 10).
 - `tema_canonico` curto e único: **nunca** repetir um tema que exista em `estado.temas` (qualquer perfil). O d1-job recusa tema repetido de outro perfil.
 
 ## 4. Roteiro (30–40 s)
