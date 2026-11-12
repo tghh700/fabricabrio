@@ -67,6 +67,6 @@ def longa(c, t, d, b):
 
 
 conc = conc_cards(("AR PRA BARRIGA", "ABDÔMEN TRAVADO", "DESCE E SOBE FIRME", "SOLTA NO FINAL"))
-cta = cta_factory("FIRME", "CARGA · AGACHAMENTO", [("60 KG × 8", WHITE), ("65 KG × 8", None)], ("REGISTRE SEU AGACHAMENTO", "E VEJA A CARGA SUBIR"))
+cta = cta_factory("FIRME", "AGACHAMENTO", [("60 KG × 8", WHITE), ("65 KG × 8", None)], ("REGISTRE SEU AGACHAMENTO", "E VEJA A CARGA SUBIR"))
 VIS = {"hook": hook, "erro": erro, "puxa": puxa, "trava": trava, "solta": solta, "longa": longa, "conc": conc, "cta": cta}
 SFX = sfx_for(VIS, BEAT_CTA)

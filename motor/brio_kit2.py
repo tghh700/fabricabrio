@@ -99,3 +99,60 @@ def sfx_for(vis_names, beat_cta):
         else:
             out[k] = SFX_BASE.get(k, [(0.0, "whoosh"), ("0.45d", "pop")])
     return out
+
+
+# ------------------------------------------------------------------ desenvolvimento em 3 planos (12/11)
+def front_presser(c, x, s, u, hip=0.0, ring=None):
+    """boneco de FRENTE (plano frontal) fazendo desenvolvimento com barra.
+    u 0..1: barra na altura do ombro -> braços estendidos acima da cabeça. hip: quadril avança (vira para a câmera como inclinação)."""
+    fy = FLOOR_Y
+    shadow(c, x, fy + 4, 200 * s)
+    hipy = fy - 300 * s; shy = fy - 560 * s
+    tilt = 0.0  # vista frontal: o quadril à frente aparece só no quadro lateral
+    # pernas
+    for sd in (-1, 1):
+        cap_line(c, x + sd * 45 * s + tilt * 0.3, hipy, x + sd * 55 * s, fy - 10 * s, L_BACK, 62 * s)
+    # tronco (afina na cintura) e cabeça
+    rrect(c, x - 95 * s + tilt, shy - 20 * s, 190 * s, (hipy - shy) + 50 * s, 60 * s, L_BODY)
+    disk(c, x + tilt * 1.2, shy - 95 * s, 70 * s, L_BODY)
+    if ring is not None:
+        c.new_path(); c.arc(x + tilt, hipy - 70 * s, 110 * s, 0, 2 * math.pi); rgb(c, ring, 0.9); c.set_line_width(10); c.stroke()
+    # braços: ombro -> cotovelo (para fora) -> mão
+    hy = lerp(shy + 40 * s, shy - 330 * s, ease(u))
+    for sd in (-1, 1):
+        sx = x + tilt + sd * 95 * s
+        hx = x + tilt * 1.2 + sd * 150 * s
+        ex = sx + sd * lerp(95, 40, ease(u)) * s; ey = lerp(shy + 70 * s, shy - 150 * s, ease(u))
+        cap_line(c, sx, shy + 5 * s, ex, ey, L_FRONT, 52 * s)
+        cap_line(c, ex, ey, hx, hy, L_FRONT, 46 * s)
+    # barra com anilhas
+    bx = x + tilt * 1.2
+    cap_line(c, bx - 290 * s, hy, bx + 290 * s, hy, STEEL, 14 * s)
+    for sd in (-1, 1):
+        rrect(c, bx + sd * 250 * s - 18 * s, hy - 70 * s, 36 * s, 140 * s, 9 * s, PLATE)
+        rrect(c, bx + sd * 290 * s - 14 * s, hy - 52 * s, 28 * s, 104 * s, 8 * s, PLATE)
+    return bx, hy
+
+
+def spine_inset(c, x, y, arch, t, p=1.0, ok=None):
+    """quadro "VISTA LATERAL": perfil simplificado com a coluna. arch 0 = reta, 1 = lombar arqueada (quadril à frente)."""
+    if p <= 0:
+        return
+    card(c, x, y, 340, 470, CARD, p)
+    draw_text(c, "VISTA LATERAL", x, y - 255, 26, GREY, "Space Mono", p, align="center", spacing=2)
+    c.save(); c.translate(x, y); c.scale(1.25, 1.25); c.translate(-x, -y)
+    col = ok if ok is not None else mix(GRN, RED, arch)
+    # pés -> quadril -> ombros -> cabeça; o quadril vai à frente e o tronco inclina para trás quando arqueia
+    fx, fy = x - 10, y + 150
+    hx, hy = x + 45 * arch, y + 20
+    sx, sy = x - 60 * arch, y - 90
+    cap_line(c, fx, fy, hx, hy, L_BACK, 26, p)
+    pts = []
+    for i in range(13):
+        f = i / 12
+        bow = math.sin(f * math.pi) * 45 * arch
+        pts.append((lerp(hx, sx, f) + bow, lerp(hy, sy, f)))
+    poly(c, pts, col, 14, p)
+    disk(c, sx - 5 * arch, sy - 40, 30, L_BODY, p)
+    cap_line(c, sx, sy, sx + 10, sy - 120 + 20 * arch, L_FRONT, 18, p)  # braço para cima
+    c.restore()

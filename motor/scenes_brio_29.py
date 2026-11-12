@@ -58,7 +58,7 @@ def pronto(c, t, d, b):
 
 
 conc = conc_cards(("50% × 10", "70% × 5", "85% × 2", "AÍ A PESADA"))
-cta = cta_factory("AQUECE", "AQUECIMENTO · SUPINO", [("30 KG × 10", WHITE), ("42 KG × 5", WHITE), ("51 KG × 2", None)], ("REGISTRE O AQUECIMENTO", "NO BRIO"))
+cta = cta_factory("AQUECE", "AQUECIMENTO", [("30 KG × 10", WHITE), ("42 KG × 5", WHITE), ("51 KG × 2", None)], ("REGISTRE O AQUECIMENTO", "NO BRIO"))
 VIS = {"hook": hook, "risco": risco, "s1": stamp(1, "50% × 10"), "s2": stamp(2, "70% × 5"), "s3": stamp(3, "85% × 2"), "pronto": pronto, "conc": conc, "cta": cta}
 SFX = sfx_for(VIS, BEAT_CTA)
 for k in ("s1", "s2", "s3"):

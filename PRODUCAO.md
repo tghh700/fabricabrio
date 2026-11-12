@@ -65,6 +65,8 @@ for b in BEATS:
 - BRIO: `roteiro_<id>.py` + `scenes_<id>.py` no padrão de `roteiro_brio_25v4.py` / `scenes_brio_25v4.py`, render com `build2s.py` (área segura automática).
 - FIBRA / DIA UM: padrão de `roteiro_fibra_p1.py`/`scenes_fibra_p1.py` e `roteiro_diaum_p1.py`/`scenes_diaum_p1.py`, render com `build3.py`.
 - **Sem logo e sem barra de progresso no rodapé** (o usuário vetou em 12/11: compete com a legenda do Reels). Os builders já não desenham; não recoloque.
+- **Plano certo para cada movimento:** se o movimento não fica claro de perfil (ex.: desenvolvimento, elevação, abdução), desenhe de frente (`front_presser` em `brio_kit2.py`) e mostre o que só aparece de lado num quadro "VISTA LATERAL" (`spine_inset`). Nunca deixe um movimento anatomicamente errado só porque o boneco é de perfil.
+- **Texto dentro do celular do CTA:** `app_title` com no máximo ~15 caracteres (ex.: "DESENVOLVIMENTO", "AGACHAMENTO"); o `cta_brio` reduz a fonte se passar, mas confira no quadro do CTA que nada sai da tela do celular.
 - Siga `motor/GUIA_ANIMACAO.md`. O que fica na frente é desenhado por último; nada atravessa texto; sem quadradinho/kicker no topo.
 - Força/evolução: boneco fazendo rosca com halter (`curl_up`/`curl_down` + `dumbbell`) ou carga subindo. **Não** use pose de braço atrás da cabeça.
 - Teste rápido: `python3 build3.py roteiro_x scenes_x --stills` (2 quadros por beat) antes do render completo.

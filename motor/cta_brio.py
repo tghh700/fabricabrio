@@ -86,13 +86,24 @@ def cta_brio(c, t, d, b, kind="bubble", text="", app_title="", app_lines=(), app
             brio_wordmark(c, px - 40, py - 228, 46, LILAC, align="left")
             p1 = ease_out(prog(tt, 0.2, 0.35))
             if p1 > 0 and app_title:
-                draw_text(c, app_title, px - 125, py - 150, 24, GREY, "Space Mono", p1, spacing=2)
+                # cabe na tela do celular (largura útil ~280 px): reduz a fonte se o título for longo
+                sz = 24
+                while sz > 14:
+                    font(c, "Space Mono", sz); w = c.text_extents(app_title).x_advance + 2 * len(app_title)
+                    if w <= 280: break
+                    sz -= 1
+                draw_text(c, app_title, px - 140, py - 150, sz, GREY, "Space Mono", p1, spacing=2 if sz >= 20 else 1)
             for i, (ln, col) in enumerate(app_lines):
                 pl = ease_out(prog(tt, 0.3 + i * 0.18, 0.3))
                 if pl <= 0: continue
                 y = py - 110 + i * 62
                 rrect(c, px - 140, y - 24, 280, 52, 12, CARD, pl)
-                draw_text(c, ln, px - 120, y + 14, 32, col or WHITE, "Anton", pl)
+                fs = 32
+                while fs > 20:
+                    font(c, "Anton", fs)
+                    if c.text_extents(ln).x_advance <= 250: break
+                    fs -= 1
+                draw_text(c, ln, px - 120, y + 14, fs, col or WHITE, "Anton", pl)
             if chart:
                 chart_up(c, px - 130, py + 40, 260, 150, ease_out(prog(tt, 0.4, 1.0)), YEL)
             if app_big:
