@@ -1,0 +1,46 @@
+name: eleven-job
+on:
+  push:
+    branches: [main]
+    paths: ["jobs/eleven.json"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+concurrency:
+  group: eleven-job
+  cancel-in-progress: false
+
+jobs:
+  rodar:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-python@v5
+        with:
+          python-version: "3.12"
+      - name: Executar pedido ao ElevenLabs (chaves nunca impressas)
+        env:
+          ELEVENLABS_API_KEY: ${{ secrets.ELEVENLABS_API_KEY }}
+          ELEVENLABS_API_KEY_2: ${{ secrets.ELEVENLABS_API_KEY_2 }}
+          ELEVENLABS_API_KEY_3: ${{ secrets.ELEVENLABS_API_KEY_3 }}
+        run: python scripts/eleven_job.py
+      - name: Publicar resultado no branch previas
+        run: |
+          RUN="$(python -c "import json;print(json.load(open('jobs/eleven.json'))['nome'])")"
+          mkdir -p /tmp/out && cp -r saida/* /tmp/out/
+          git config user.name "fabrica-bot"
+          git config user.email "fabrica-bot@users.noreply.github.com"
+          if git ls-remote --exit-code --heads origin previas >/dev/null 2>&1; then
+            git fetch --depth 1 origin previas
+            git checkout -B previas FETCH_HEAD
+          else
+            git checkout --orphan previas
+            git rm -rf . -q || true
+          fi
+          rm -rf saida jobs scripts worker .github AGENTS.md CLAUDE.md .gitignore 2>/dev/null || true
+          mkdir -p "$RUN" && cp -r /tmp/out/* "$RUN"/
+          git add "$RUN"
+          git commit -q -m "previas: $RUN" || echo "nada novo"
+          git push origin previas
