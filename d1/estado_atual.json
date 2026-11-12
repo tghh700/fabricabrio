@@ -1,6 +1,6 @@
 {
  "relatorio": {
-  "nome": "estado-20261112-1115",
+  "nome": "estado-20261112-1651",
   "gravados": [],
   "recusados": []
  },
@@ -11,8 +11,18 @@
     "video_id": "brio-16-abdominal",
     "perfil": "brio",
     "agendado_para": "2026-11-12 15:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "apagado",
+    "permalink": "https://www.instagram.com/reel/DfpSvWihZ7n/",
+    "erro": "apagado pelo usuário: barra de rodapé",
+    "tema_canonico": "abdominal todo dia não tira barriga"
+   },
+   {
+    "id": 22,
+    "video_id": "brio-16-abdominal",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 15:32:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfpXXxboTjj/",
     "erro": null,
     "tema_canonico": "abdominal todo dia não tira barriga"
    },
@@ -25,6 +35,36 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "tempo de treino por dia"
+   },
+   {
+    "id": 16,
+    "video_id": "fibra-02-pump",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-12 18:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "pump: por que o músculo incha no treino"
+   },
+   {
+    "id": 17,
+    "video_id": "diaum-03-flexao",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-12 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "flexão para iniciantes em 3 níveis"
+   },
+   {
+    "id": 18,
+    "video_id": "fibra-03-tremor",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-12 19:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "tremor muscular no fim da série"
    },
    {
     "id": 3,
@@ -77,6 +117,26 @@
     "tema_canonico": "Dá pra ganhar músculo sem peso?"
    },
    {
+    "id": 23,
+    "video_id": "fibra-06-caibra",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "cãibra no treino: o que causa"
+   },
+   {
+    "id": 20,
+    "video_id": "diaum-02-idade",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 00:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "começar a treinar depois dos 40"
+   },
+   {
     "id": 6,
     "video_id": "brio-25-evoluindo",
     "perfil": "brio",
@@ -85,6 +145,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "Como saber se você está evoluindo (sem espelho nem balança)"
+   },
+   {
+    "id": 21,
+    "video_id": "fibra-05-agacha",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 02:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham no agachamento"
    },
    {
     "id": 9,
@@ -247,6 +317,48 @@
     "perfil": "diaum",
     "tema_canonico": "vergonha de ir pra academia",
     "status": "pronto"
+   },
+   {
+    "id": "fibra-02-pump",
+    "perfil": "fibra",
+    "tema_canonico": "pump: por que o músculo incha no treino",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-03-tremor",
+    "perfil": "fibra",
+    "tema_canonico": "tremor muscular no fim da série",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-04-neural",
+    "perfil": "fibra",
+    "tema_canonico": "adaptação neural: força antes do tamanho",
+    "status": "descartado"
+   },
+   {
+    "id": "fibra-05-agacha",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham no agachamento",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-02-idade",
+    "perfil": "diaum",
+    "tema_canonico": "começar a treinar depois dos 40",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-03-flexao",
+    "perfil": "diaum",
+    "tema_canonico": "flexão para iniciantes em 3 níveis",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-06-caibra",
+    "perfil": "fibra",
+    "tema_canonico": "cãibra no treino: o que causa",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -255,14 +367,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 3200
+    "total": 8105
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-12T14:05:28.000Z"
+    "valor": "2026-11-12T16:50:28.646Z"
    },
    {
     "chave": "escala",
