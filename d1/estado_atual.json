@@ -1,7 +1,17 @@
 {
  "relatorio": {
-  "nome": "estado-20261112-1651",
-  "gravados": [],
+  "nome": "agenda-20261113",
+  "gravados": [
+   "brio-27-rosca-embalo",
+   "fibra-07-gordura-pulmao",
+   "fibra-08-barra-musculos",
+   "fibra-09-enjoo-perna",
+   "diaum-06-prancha-niveis",
+   "diaum-04-aparelhos",
+   "diaum-07-preguica",
+   "diaum-05-magro-19",
+   "diaum-08-semana-dois"
+  ],
   "recusados": []
  },
  "estado": {
@@ -167,6 +177,16 @@
     "tema_canonico": "5 erros de quem começou na academia agora"
    },
    {
+    "id": 28,
+    "video_id": "diaum-06-prancha-niveis",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 11:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "prancha em 3 níveis para iniciante"
+   },
+   {
     "id": 10,
     "video_id": "brio-18-supino-10kg",
     "perfil": "brio",
@@ -175,6 +195,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "Quanto tempo pro supino subir 10 kg?"
+   },
+   {
+    "id": 29,
+    "video_id": "diaum-04-aparelhos",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "não sei usar os aparelhos da academia"
    },
    {
     "id": 11,
@@ -187,6 +217,16 @@
     "tema_canonico": "Travou no supino? 3 saídas pra voltar a subir"
    },
    {
+    "id": 25,
+    "video_id": "fibra-07-gordura-pulmao",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "para onde vai a gordura: sai pela respiração, não pelo suor"
+   },
+   {
     "id": 12,
     "video_id": "brio-23-braco-triceps",
     "perfil": "brio",
@@ -195,6 +235,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "Por que seu braço não cresce (e não é o bíceps)"
+   },
+   {
+    "id": 30,
+    "video_id": "diaum-07-preguica",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "preguiça na hora de sair pro treino"
    },
    {
     "id": 13,
@@ -217,6 +267,26 @@
     "tema_canonico": "O joelho pode passar da ponta do pé no agachamento?"
    },
    {
+    "id": 26,
+    "video_id": "fibra-08-barra-musculos",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham na barra fixa"
+   },
+   {
+    "id": 31,
+    "video_id": "diaum-05-magro-19",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "magro de 19 anos que quer ganhar massa: por onde começar"
+   },
+   {
     "id": 15,
     "video_id": "brio-13-repeticoes",
     "perfil": "brio",
@@ -225,6 +295,36 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "Quantas repetições pra crescer? Não é só 8 a 12"
+   },
+   {
+    "id": 27,
+    "video_id": "fibra-09-enjoo-perna",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-14 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "enjoo no treino de perna: o sangue sai da digestão"
+   },
+   {
+    "id": 32,
+    "video_id": "diaum-08-semana-dois",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-14 00:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "por que iniciantes desistem na segunda semana"
+   },
+   {
+    "id": 24,
+    "video_id": "brio-27-rosca-embalo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "rosca direta com balanço do tronco (erro encenado e correção)"
    }
   ],
   "temas": [
@@ -359,6 +459,60 @@
     "perfil": "fibra",
     "tema_canonico": "cãibra no treino: o que causa",
     "status": "pronto"
+   },
+   {
+    "id": "brio-27-rosca-embalo",
+    "perfil": "brio",
+    "tema_canonico": "rosca direta com balanço do tronco (erro encenado e correção)",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-07-gordura-pulmao",
+    "perfil": "fibra",
+    "tema_canonico": "para onde vai a gordura: sai pela respiração, não pelo suor",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-08-barra-musculos",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham na barra fixa",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-09-enjoo-perna",
+    "perfil": "fibra",
+    "tema_canonico": "enjoo no treino de perna: o sangue sai da digestão",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-06-prancha-niveis",
+    "perfil": "diaum",
+    "tema_canonico": "prancha em 3 níveis para iniciante",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-04-aparelhos",
+    "perfil": "diaum",
+    "tema_canonico": "não sei usar os aparelhos da academia",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-07-preguica",
+    "perfil": "diaum",
+    "tema_canonico": "preguiça na hora de sair pro treino",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-05-magro-19",
+    "perfil": "diaum",
+    "tema_canonico": "magro de 19 anos que quer ganhar massa: por onde começar",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-08-semana-dois",
+    "perfil": "diaum",
+    "tema_canonico": "por que iniciantes desistem na segunda semana",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -367,14 +521,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 8105
+    "total": 13719
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-12T16:50:28.646Z"
+    "valor": "2026-11-12T17:05:28.514Z"
    },
    {
     "chave": "escala",
