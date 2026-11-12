@@ -1,0 +1,36 @@
+{
+ "gastos": [],
+ "erros": [
+  {
+   "op": "list_voices",
+   "id": "minhas_vozes",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"38903a43a7d6ac30f8ad735c39ba040f\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_masc_narr",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"3171c7e4b6a9cc89627a5eeec049c387\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_masc_social",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"92fd590fd97e57a432dafb7179ecae0d\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_fem_social",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"92d23100da6e69902fd857febdc9f738\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_fem_conv",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"2cd3e768cb057df9e7dc638d0d20f3ce\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  },
+  {
+   "op": "search_shared",
+   "id": "pt_todas",
+   "erro": "400 {\"detail\":{\"type\":\"authentication_error\",\"code\":\"invalid_api_key\",\"message\":\"API key ID used as API key - only valid API keys can be used. API keys start with 'sk_' and are shown when the key is created or rotated.\",\"status\":\"api_key_id_used_as_api_key\",\"request_id\":\"0d06e88278c8dc6147cb5f0cae2d455f\",\"param\":\"api_key\",\"docs_url\":\"https://elevenlabs.io/docs/api-reference/authentication\"}}"
+  }
+ ],
+ "total": 0
+}
