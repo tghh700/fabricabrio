@@ -49,26 +49,29 @@ for perfil, ig in IDS.items():
 open("midia.sql", "w").write("\n".join(linhas) + "\n")
 
 
+def _get(path, tok):
+    try:
+        with urllib.request.urlopen("https://graph.facebook.com/v25.0/" + path + ("&" if "?" in path else "?") + urllib.parse.urlencode({"access_token": tok}), timeout=30) as r:
+            return json.loads(r.read().decode())
+    except urllib.error.HTTPError as e:
+        try:
+            return {"erro": json.loads(e.read().decode()).get("error", {}).get("message", "")[:160]}
+        except Exception:
+            return {"erro": f"HTTP {e.code}"}
+    except Exception as e:
+        return {"erro": type(e).__name__}
+
+
 def _diagnostico():
-    """Mostra o tipo do token e as permissões concedidas (nunca imprime o token)."""
-    for perfil in IDS:
+    """Tipo do token e permissões (nunca imprime o token)."""
+    for perfil, igid in IDS.items():
         tok = os.environ.get("IG_TOKEN_" + perfil.upper(), "")
         if not tok:
             print("diag", perfil, "sem token"); continue
-        q = urllib.parse.urlencode({"input_token": tok, "access_token": tok})
-        try:
-            with urllib.request.urlopen("https://graph.facebook.com/v25.0/debug_token?" + q, timeout=30) as r:
-                d = json.loads(r.read().decode()).get("data", {})
-            print("diag", perfil, "tipo=", d.get("type"), "app=", d.get("application"), "valido=", d.get("is_valid"),
-                  "expira=", d.get("expires_at"), "scopes=", d.get("scopes"))
-        except urllib.error.HTTPError as e:
-            try:
-                msg = json.loads(e.read().decode()).get("error", {}).get("message", "")[:160]
-            except Exception:
-                msg = f"HTTP {e.code}"
-            print("diag", perfil, "erro:", msg)
-        except Exception as e:
-            print("diag", perfil, "erro:", type(e).__name__)
+        me = _get("me?fields=id,name", tok)
+        perms = _get("me/permissions", tok)
+        ig = _get(igid + "?fields=username,followers_count", tok)
+        print("diag", perfil, "me=", me, "perms=", perms, "ig=", ig)
 
 
 _diagnostico()
