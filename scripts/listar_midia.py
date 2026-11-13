@@ -43,6 +43,10 @@ for perfil, ig in IDS.items():
         json.dump(completo, open(f"saida/midia/{perfil}.json", "w"), ensure_ascii=False, indent=1)
     except Exception as e:
         itens = [{"erro": type(e).__name__ + ": " + str(getattr(e, "code", ""))}]
+        try:
+            print("erro_lista", perfil, json.loads(e.read().decode()).get("error", {}).get("message", "")[:300])
+        except Exception:
+            print("erro_lista", perfil, type(e).__name__, str(e)[:200])
     print(perfil, len(itens))
     v = json.dumps(itens, ensure_ascii=False).replace("'", "''")
     linhas.append(f"INSERT INTO config (chave, valor) VALUES ('midia_{perfil}', '{v}') ON CONFLICT(chave) DO UPDATE SET valor=excluded.valor, atualizado_em=datetime('now');")
