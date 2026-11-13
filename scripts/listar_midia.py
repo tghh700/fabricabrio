@@ -47,3 +47,28 @@ for perfil, ig in IDS.items():
     v = json.dumps(itens, ensure_ascii=False).replace("'", "''")
     linhas.append(f"INSERT INTO config (chave, valor) VALUES ('midia_{perfil}', '{v}') ON CONFLICT(chave) DO UPDATE SET valor=excluded.valor, atualizado_em=datetime('now');")
 open("midia.sql", "w").write("\n".join(linhas) + "\n")
+
+
+def _diagnostico():
+    """Mostra o tipo do token e as permissões concedidas (nunca imprime o token)."""
+    for perfil in IDS:
+        tok = os.environ.get("IG_TOKEN_" + perfil.upper(), "")
+        if not tok:
+            print("diag", perfil, "sem token"); continue
+        q = urllib.parse.urlencode({"input_token": tok, "access_token": tok})
+        try:
+            with urllib.request.urlopen("https://graph.facebook.com/v25.0/debug_token?" + q, timeout=30) as r:
+                d = json.loads(r.read().decode()).get("data", {})
+            print("diag", perfil, "tipo=", d.get("type"), "app=", d.get("application"), "valido=", d.get("is_valid"),
+                  "expira=", d.get("expires_at"), "scopes=", d.get("scopes"))
+        except urllib.error.HTTPError as e:
+            try:
+                msg = json.loads(e.read().decode()).get("error", {}).get("message", "")[:160]
+            except Exception:
+                msg = f"HTTP {e.code}"
+            print("diag", perfil, "erro:", msg)
+        except Exception as e:
+            print("diag", perfil, "erro:", type(e).__name__)
+
+
+_diagnostico()
