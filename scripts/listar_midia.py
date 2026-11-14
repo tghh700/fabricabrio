@@ -76,6 +76,8 @@ def _diagnostico():
         perms = _get("me/permissions", tok)
         ig = _get(igid + "?fields=username,followers_count", tok)
         print("diag", perfil, "me=", me, "perms=", perms, "ig=", ig)
+        pg = _get("me/accounts?fields=name,instagram_business_account{username}", tok)
+        print("diag_paginas", perfil, [(x.get("name"), (x.get("instagram_business_account") or {}).get("username")) for x in pg.get("data", [])] if "data" in pg else pg)
 
 
 _diagnostico()
