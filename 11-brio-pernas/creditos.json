@@ -1,0 +1,12 @@
+{
+ "gastos": [
+  {
+   "id": "brio_38_pernas",
+   "caracteres": 643,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 643
+}
