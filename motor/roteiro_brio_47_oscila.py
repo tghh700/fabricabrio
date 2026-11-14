@@ -1,0 +1,8 @@
+# brio_47_oscila — lote 15/11 · força oscila de um treino pro outro: olhar a tendência
+TITLE='[matter-of-fact] Um treino fraco não é regressão.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_47_oscila_tight.mp3','starts':[0.134, 2.036, 5.619, 10.01, 13.612, 18.34, 24.303, 27.741]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'TREINO FRACO', 't2': 'NÃO É REGRESSÃO.', 'text': '[matter-of-fact] Um treino fraco não é regressão.'}, {'vis': 'varia', 'k': '', 't1': 'A FORÇA', 't2': 'VARIA.', 'text': 'A força varia de um treino pro outro. Num dia rende, no outro não.'}, {'vis': 'causas', 'k': '', 't1': 'SONO, COMIDA,', 't2': 'ESTRESSE.', 'text': 'Sono, comida, estresse, até o horário mudam o seu rendimento naquele dia.'}, {'vis': 'isolado', 'k': '', 't1': 'UM TREINO RUIM', 't2': 'NÃO DIZ NADA.', 'text': 'Por isso, um treino ruim isolado não diz nada sobre a sua evolução.'}, {'vis': 'tendencia', 'k': '', 't1': 'OLHA A', 't2': 'TENDÊNCIA.', 'text': 'O que importa é a tendência: compara as últimas quatro semanas com as quatro anteriores.'}, {'vis': 'alerta', 'k': '', 't1': 'CAIU 4 SEMANAS?', 't2': 'AÍ É SINAL.', 'text': '[serious] Agora, se a carga cai quatro semanas seguidas, aí é hora de rever sono, treino e descanso.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'JULGA PELO MÊS.', 'text': 'Resumindo: não julga o treino pelo dia. Julga pelo mês.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'OSCILA.', 'text': 'Comenta OSCILA que eu te mando como acompanhar sua evolução no Bríu, semana a semana, sem se assustar com um dia ruim. Link na bio.', 'marks': {'ponte': 0.679, 'fixa': 5.648}}]

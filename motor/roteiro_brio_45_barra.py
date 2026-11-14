@@ -1,0 +1,8 @@
+# brio_45_barra — lote 15/11 · primeira barra fixa: progressão com negativas
+TITLE='[serious] Não consegue fazer nem uma barra?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_45_barra_tight.mp3','starts':[0.075, 2.025, 6.382, 11.774, 15.987, 20.375, 23.162, 27.631]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'NEM UMA', 't2': 'BARRA?', 'text': '[serious] Não consegue fazer nem uma barra?'}, {'vis': 'normal', 'k': '', 't1': 'É O SEU', 't2': 'CORPO INTEIRO.', 'text': 'Normal. A barra levanta o seu corpo inteiro, e quase ninguém consegue de primeira.'}, {'vis': 'negativa', 'k': '', 't1': 'SOBE NO BANCO,', 't2': 'DESCE EM 5 SEGUNDOS.', 'text': 'O caminho é a negativa: sobe com um banco, e desce devagar, contando cinco segundos.'}, {'vis': 'pendura', 'k': '', 't1': 'FICA', 't2': 'PENDURADO.', 'text': 'Também vale ficar pendurado, com os braços esticados, segurando o máximo que der.'}, {'vis': 'semana', 'k': '', 't1': '3 A 5 DESCIDAS,', 't2': '2 A 3 VEZES NA SEMANA.', 'text': 'Faz isso duas ou três vezes por semana, com três a cinco descidas por vez.'}, {'vis': 'puxada', 'k': '', 't1': 'A PUXADA', 't2': 'AJUDA TAMBÉM.', 'text': '[matter-of-fact] E a puxada na máquina fortalece as costas enquanto isso.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'DESCE, DEPOIS SOBE.', 'text': 'Resumindo: primeiro você aprende a descer, depois a subir. A primeira barra vem.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'BARRA.', 'text': 'Comenta BARRA que eu te mando como registrar suas descidas no Bríu até a primeira barra. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 4.352}}]

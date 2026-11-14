@@ -1,0 +1,8 @@
+# brio_40_maquina — lote 15/11 · máquina constrói músculo igual a peso livre
+TITLE='[serious] Máquina dá músculo, sim.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_40_maquina_tight.mp3','starts':[0.151, 1.851, 5.427, 9.608, 13.463, 17.101, 21.183, 26.31]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MÁQUINA', 't2': 'DÁ MÚSCULO, SIM.', 'text': '[serious] Máquina dá músculo, sim.'}, {'vis': 'mito', 'k': '', 't1': 'SÓ BARRA E HALTER?', 't2': 'É MITO.', 'text': 'Muita gente acha que só barra e halter fazem crescer. Isso é mito.'}, {'vis': 'estudo', 'k': '', 't1': 'REVISÃO DE 2023:', 't2': 'GANHO PARECIDO.', 'text': 'Uma revisão de dois mil e vinte e três comparou os dois. O ganho de músculo foi parecido.'}, {'vis': 'vantagem', 'k': '', 't1': 'MÁQUINA: MAIS FÁCIL', 't2': 'IR PERTO DO LIMITE.', 'text': 'E a máquina é mais fácil de aprender e de levar perto do limite com segurança.'}, {'vis': 'livre', 'k': '', 't1': 'PESO LIVRE:', 't2': 'TREINA O EQUILÍBRIO.', 'text': 'O peso livre também é ótimo, e ainda treina equilíbrio e coordenação.'}, {'vis': 'ambos', 'k': '', 't1': 'USA', 't2': 'OS DOIS.', 'text': '[matter-of-fact] Então usa os dois. Escolhe o que você faz com boa técnica e consegue progredir.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'ESFORÇO E CARGA.', 'text': 'Resumindo: o músculo não sabe se é máquina ou barra. Ele sente esforço e carga subindo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'MÁQUINA.', 'text': 'Comenta MÁQUINA que eu te mando como registrar a carga de cada aparelho no Bríu e ver ela subir. Link na bio.', 'marks': {'ponte': 0.679, 'fixa': 4.552}}]

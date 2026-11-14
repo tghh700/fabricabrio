@@ -1,0 +1,8 @@
+# brio_41_dropset — lote 15/11 · drop set: tirar peso e continuar a série
+TITLE='[confident] Drop set economiza tempo de treino.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_41_dropset_tight.mp3','starts':[0.075, 2.252, 6.756, 12.077, 15.897, 19.666, 24.035, 29.107]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'DROP SET', 't2': 'ECONOMIZA TEMPO.', 'text': '[confident] Drop set economiza tempo de treino.'}, {'vis': 'como', 'k': '', 't1': 'TIRA PESO', 't2': 'E CONTINUA.', 'text': 'Você vai até quase não aguentar, tira um pouco de peso, e continua sem descansar.'}, {'vis': 'exemplo', 'k': '', 't1': 'EXEMPLO:', 't2': '14 KG, DEPOIS 10.', 'text': 'Exemplo: rosca com quatorze quilos até perto da falha. Troca pra dez e faz mais repetições.'}, {'vis': 'tempo', 'k': '', 't1': 'RESULTADO PARECIDO,', 't2': 'MENOS TEMPO.', 'text': 'Estudos mostram resultado parecido com séries normais, em menos tempo.'}, {'vis': 'ultima', 'k': '', 't1': 'SÓ NA', 't2': 'ÚLTIMA SÉRIE.', 'text': 'Por isso ele funciona melhor na última série do exercício, não em todas.'}, {'vis': 'isolado', 'k': '', 't1': 'MELHOR EM MÁQUINA', 't2': 'E ISOLADOS.', 'text': '[matter-of-fact] E prefira máquinas e isolados. No agachamento pesado, a técnica quebra.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'ATALHO DE TEMPO.', 'text': 'Resumindo: drop set é atalho pra quem tem pouco tempo. Uma vez por exercício, com técnica.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'DROP.', 'text': 'Comenta DROP que eu te mando como registrar cada etapa do seu drop set no Bríu. Link na bio.', 'marks': {'ponte': 0.793, 'fixa': 4.244}}]

@@ -1,1 +1,223 @@
-{"nome": "estado-20261114-1653", "videos": []}
+{
+ "nome": "agenda-20261115-brio",
+ "videos": [
+  {
+   "id": "brio-39-descida",
+   "perfil": "brio",
+   "tema_canonico": "controlar a descida do peso (fase excêntrica)",
+   "gancho": "Você deixa o peso cair?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "DESCIDA",
+   "arquivo": "brio/brio-39-descida.mp4",
+   "legenda": "Deixar o peso cair joga fora metade da repetição. 👇\nSobe firme, desce em 2 segundos, sempre controlado. Sem controle? O peso está alto demais.\n📲 Comenta DESCIDA que eu te mando no direct como registrar suas séries no Brio e ver a carga subir.\n\n#brio #musculacao #tecnica #academia #hipertrofia",
+   "hashtags": "#brio #musculacao #tecnica #academia #hipertrofia",
+   "duracao_s": 34.62,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 11:30:00"
+  },
+  {
+   "id": "brio-40-maquina",
+   "perfil": "brio",
+   "tema_canonico": "máquina constrói músculo igual a peso livre",
+   "gancho": "Máquina dá músculo, sim.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "MÁQUINA",
+   "arquivo": "brio/brio-40-maquina.mp4",
+   "legenda": "Máquina dá músculo, sim. 👇\nUma revisão de 2023 comparou máquina e peso livre: o ganho de músculo foi parecido. Usa os dois e faz a carga subir.\n📲 Comenta MÁQUINA que eu te mando no direct como registrar a carga de cada aparelho no Brio.\n\n#brio #musculacao #academia #hipertrofia #treino",
+   "hashtags": "#brio #musculacao #academia #hipertrofia #treino",
+   "duracao_s": 31.98,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 10:00:00"
+  },
+  {
+   "id": "brio-41-dropset",
+   "perfil": "brio",
+   "tema_canonico": "drop set: tirar peso e continuar a série",
+   "gancho": "Drop set economiza tempo de treino.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "DROP",
+   "arquivo": "brio/brio-41-dropset.mp4",
+   "legenda": "Drop set economiza tempo de treino. 👇\nAté perto da falha, tira peso e continua. Funciona melhor na última série, em máquina ou isolado.\n📲 Comenta DROP que eu te mando no direct como registrar cada etapa do seu drop set no Brio.\n\n#brio #dropset #musculacao #academia #hipertrofia",
+   "hashtags": "#brio #dropset #musculacao #academia #hipertrofia",
+   "duracao_s": 34.59,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 13:00:00"
+  },
+  {
+   "id": "brio-42-biset",
+   "perfil": "brio",
+   "tema_canonico": "bi-set para treinar o mesmo em menos tempo",
+   "gancho": "Dá pra treinar o mesmo em menos tempo.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "BISET",
+   "arquivo": "brio/brio-42-biset.mp4",
+   "legenda": "Dá pra treinar o mesmo em menos tempo. 👇\nBi-set: dois exercícios seguidos de músculos que não competem, e só depois o descanso.\n📲 Comenta BISET que eu te mando no direct como registrar seus pares de exercício no Brio, série por série.\n\n#brio #biset #treinorapido #musculacao #academia",
+   "hashtags": "#brio #biset #treinorapido #musculacao #academia",
+   "duracao_s": 34.04,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 23:30:00"
+  },
+  {
+   "id": "brio-43-lado",
+   "perfil": "brio",
+   "tema_canonico": "um lado mais forte que o outro: exercício unilateral",
+   "gancho": "Um braço mais forte que o outro?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "LADO",
+   "arquivo": "brio/brio-43-lado.mp4",
+   "legenda": "Um braço mais forte que o outro? É normal. 👇\nExercício de um lado só, começando pelo lado fraco, e o forte faz as mesmas repetições.\n📲 Comenta LADO que eu te mando no direct como registrar as repetições de cada lado no Brio.\n\n#brio #musculacao #unilateral #academia #treino",
+   "hashtags": "#brio #musculacao #unilateral #academia #treino",
+   "duracao_s": 32.08,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 14:30:00"
+  },
+  {
+   "id": "brio-44-menos",
+   "perfil": "brio",
+   "tema_canonico": "muitos exercícios para o mesmo músculo no mesmo treino",
+   "gancho": "Cinco exercícios de bíceps é exagero.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "MENOS",
+   "arquivo": "brio/brio-44-menos.mp4",
+   "legenda": "Cinco exercícios de bíceps no mesmo treino é exagero. 👇\nDepois de algumas séries duras, cada série a mais rende menos. O resto vai pra outro dia.\n📲 Comenta MENOS que eu te mando no direct como registrar suas séries no Brio e acompanhar sua evolução.\n\n#brio #biceps #musculacao #academia #hipertrofia",
+   "hashtags": "#brio #biceps #musculacao #academia #hipertrofia",
+   "duracao_s": 33.91,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 15:30:00"
+  },
+  {
+   "id": "brio-45-barra",
+   "perfil": "brio",
+   "tema_canonico": "primeira barra fixa: progressão com negativas",
+   "gancho": "Não consegue fazer nem uma barra?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "BARRA",
+   "arquivo": "brio/brio-45-barra.mp4",
+   "legenda": "Não consegue fazer nem uma barra? 👇\nComeça pela negativa: sobe com um banco e desce em 5 segundos. A primeira barra vem.\n📲 Comenta BARRA que eu te mando no direct como registrar suas descidas no Brio até a primeira barra.\n\n#brio #barrafixa #calistenia #academia #treino",
+   "hashtags": "#brio #barrafixa #calistenia #academia #treino",
+   "duracao_s": 33.18,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 17:00:00"
+  },
+  {
+   "id": "brio-46-musica",
+   "perfil": "brio",
+   "tema_canonico": "música no treino melhora o desempenho",
+   "gancho": "Treinar com fone te deixa mais forte?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "MÚSICA",
+   "arquivo": "brio/brio-46-musica.mp4",
+   "legenda": "Treinar com fone te deixa mais forte? 👇\nMais de 100 estudos: a música melhora o desempenho e o esforço parece menor. Mas quem faz o resultado é a carga.\n📲 Comenta MÚSICA que eu te mando no direct como registrar suas séries no Brio e ver se a carga está subindo.\n\n#brio #musica #treino #academia #musculacao",
+   "hashtags": "#brio #musica #treino #academia #musculacao",
+   "duracao_s": 32.68,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 20:00:00"
+  },
+  {
+   "id": "brio-47-oscila",
+   "perfil": "brio",
+   "tema_canonico": "força oscila de um treino pro outro: olhar a tendência",
+   "gancho": "Um treino fraco não é regressão.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "OSCILA",
+   "arquivo": "brio/brio-47-oscila.mp4",
+   "legenda": "Um treino fraco não é regressão. 👇\nA força varia de um dia pro outro. Compara as últimas 4 semanas com as 4 anteriores.\n📲 Comenta OSCILA que eu te mando no direct como acompanhar sua evolução no Brio, semana a semana.\n\n#brio #evolucao #musculacao #academia #treino",
+   "hashtags": "#brio #evolucao #musculacao #academia #treino",
+   "duracao_s": 34.59,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 21:30:00"
+  },
+  {
+   "id": "brio-48-cinto",
+   "perfil": "brio",
+   "tema_canonico": "cinto de musculação: quando usar",
+   "gancho": "Cinto na academia: precisa?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "CINTO",
+   "arquivo": "brio/brio-48-cinto.mp4",
+   "legenda": "Cinto na academia: precisa? 👇\nSó na série pesada de agachamento e terra. Primeiro aprende a travar o abdômen sem ele.\n📲 Comenta CINTO que eu te mando no direct como registrar suas séries pesadas no Brio.\n\n#brio #cinto #agachamento #musculacao #academia",
+   "hashtags": "#brio #cinto #agachamento #musculacao #academia",
+   "duracao_s": 33.28,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 22:30:00"
+  },
+  {
+   "id": "brio-49-pegada",
+   "perfil": "brio",
+   "tema_canonico": "a mão cansa antes das costas: pegada e strap",
+   "gancho": "Sua mão cansa antes das costas?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "PEGADA",
+   "arquivo": "brio/brio-49-pegada.mp4",
+   "legenda": "Sua mão cansa antes das costas? 👇\nNa remada e no terra pesado, o strap segura a barra e as costas trabalham até o fim.\n📲 Comenta PEGADA que eu te mando no direct como registrar sua remada no Brio e ver a carga subir.\n\n#brio #costas #remada #musculacao #academia",
+   "hashtags": "#brio #costas #remada #musculacao #academia",
+   "duracao_s": 33.6,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-16 01:00:00"
+  },
+  {
+   "id": "brio-50-puxar",
+   "perfil": "brio",
+   "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar",
+   "gancho": "Muito supino e pouca remada é erro.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "PUXAR",
+   "arquivo": "brio/brio-50-puxar.mp4",
+   "legenda": "Muito supino e pouca remada é erro. 👇\nPra cada série de empurrar, uma de puxar: supino com remada, desenvolvimento com puxada.\n📲 Comenta PUXAR que eu te mando no direct como registrar suas séries no Brio e conferir se empurrar e puxar estão empatados.\n\n#brio #costas #supino #musculacao #academia",
+   "hashtags": "#brio #costas #supino #musculacao #academia",
+   "duracao_s": 32.76,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-15 18:30:00"
+  }
+ ],
+ "creditos": [
+  {
+   "video_id": "brio-39-descida",
+   "quantidade": 647
+  },
+  {
+   "video_id": "brio-40-maquina",
+   "quantidade": 635
+  },
+  {
+   "video_id": "brio-41-dropset",
+   "quantidade": 638
+  },
+  {
+   "video_id": "brio-42-biset",
+   "quantidade": 630
+  },
+  {
+   "video_id": "brio-43-lado",
+   "quantidade": 593
+  },
+  {
+   "video_id": "brio-44-menos",
+   "quantidade": 642
+  },
+  {
+   "video_id": "brio-45-barra",
+   "quantidade": 625
+  },
+  {
+   "video_id": "brio-46-musica",
+   "quantidade": 626
+  },
+  {
+   "video_id": "brio-47-oscila",
+   "quantidade": 636
+  },
+  {
+   "video_id": "brio-48-cinto",
+   "quantidade": 609
+  },
+  {
+   "video_id": "brio-49-pegada",
+   "quantidade": 626
+  },
+  {
+   "video_id": "brio-50-puxar",
+   "quantidade": 610
+  }
+ ]
+}

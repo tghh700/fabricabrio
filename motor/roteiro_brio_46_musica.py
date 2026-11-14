@@ -1,0 +1,8 @@
+# brio_46_musica — lote 15/11 · música no treino melhora o desempenho
+TITLE='[curious] Treinar com fone te deixa mais forte?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_46_musica_tight.mp3','starts':[0.125, 2.164, 7.1, 10.208, 13.908, 17.233, 22.123, 26.929]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'FONE NO OUVIDO', 't2': 'DÁ MAIS FORÇA?', 'text': '[curious] Treinar com fone te deixa mais forte?'}, {'vis': 'estudos', 'k': '', 't1': 'MAIS DE 100', 't2': 'ESTUDOS.', 'text': 'Uma revisão com mais de cem estudos achou que a música melhora o desempenho no exercício.'}, {'vis': 'esforco', 'k': '', 't1': 'O ESFORÇO', 't2': 'PARECE MENOR.', 'text': 'Com música, o mesmo esforço parece um pouco mais leve.'}, {'vis': 'gosta', 'k': '', 't1': 'A QUE VOCÊ', 't2': 'GOSTA, ANIMADA.', 'text': 'E vale mais a música que você gosta, animada, na hora da série pesada.'}, {'vis': 'playlist', 'k': '', 't1': 'PLAYLIST', 't2': 'PRONTA ANTES.', 'text': 'Monta a playlist antes, pra não perder tempo escolhendo no meio do treino.'}, {'vis': 'pequena', 'k': '', 't1': 'AJUDA,', 't2': 'MAS NÃO FAZ MILAGRE.', 'text': '[matter-of-fact] Só não espera milagre. A diferença é pequena. Quem faz o resultado ainda é a carga.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'MÚSICA É TEMPERO.', 'text': 'Resumindo: música ajuda, mas é tempero. O prato principal é a carga subindo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'MÚSICA.', 'text': 'Comenta MÚSICA que eu te mando como registrar suas séries no Bríu e ver se a carga está subindo. Link na bio.', 'marks': {'ponte': 0.679, 'fixa': 4.522}}]

@@ -1,0 +1,8 @@
+# brio_44_menos — lote 15/11 · muitos exercícios para o mesmo músculo no mesmo treino
+TITLE='[serious] Cinco exercícios de bíceps é exagero.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_44_menos_tight.mp3','starts':[0.151, 2.544, 6.472, 10.676, 14.817, 19.089, 22.76, 28.33]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': '5 EXERCÍCIOS', 't2': 'DE BÍCEPS?', 'text': '[serious] Cinco exercícios de bíceps é exagero.'}, {'vis': 'rende', 'k': '', 't1': 'CADA SÉRIE EXTRA', 't2': 'RENDE MENOS.', 'text': 'Depois de algumas séries duras, cada série a mais rende cada vez menos.'}, {'vis': 'cansa', 'k': '', 't1': 'SÓ SOMA', 't2': 'CANSAÇO.', 'text': 'O músculo já está cansado. Você acumula cansaço e quase não soma estímulo.'}, {'vis': 'faixa', 'k': '', 't1': 'REFERÊNCIA:', 't2': 'ATÉ 6 A 8 SÉRIES.', 'text': 'Uma referência comum: seis a oito séries duras por músculo, no mesmo treino.'}, {'vis': 'divide', 'k': '', 't1': 'QUER MAIS?', 't2': 'OUTRO DIA.', 'text': 'Quer mais volume? Coloca em outro dia da semana, em vez de empilhar tudo num treino só.'}, {'vis': 'qualidade', 'k': '', 't1': 'BEM FEITO', 't2': 'VALE MAIS.', 'text': '[matter-of-fact] E dois exercícios bem feitos valem mais que cinco no automático.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'MAIS NÃO É MELHOR.', 'text': 'Resumindo: mais exercício não é mais músculo. Poucas séries duras, e o resto vai pra outro dia.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'MENOS.', 'text': 'Comenta MENOS que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.', 'marks': {'ponte': 0.604, 'fixa': 4.445}}]

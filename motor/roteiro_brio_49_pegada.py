@@ -1,0 +1,8 @@
+# brio_49_pegada — lote 15/11 · a mão cansa antes das costas: pegada e strap
+TITLE='[serious] Sua mão cansa antes das costas?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_49_pegada_tight.mp3','starts':[0.166, 2.026, 6.816, 10.349, 14.438, 18.621, 23.973, 27.792]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'A MÃO CANSA', 't2': 'ANTES DAS COSTAS?', 'text': '[serious] Sua mão cansa antes das costas?'}, {'vis': 'limita', 'k': '', 't1': 'A PEGADA', 't2': 'FALHA PRIMEIRO.', 'text': 'Na remada e no terra pesado, a pegada costuma falhar antes do músculo que você quer treinar.'}, {'vis': 'sobra', 'k': '', 't1': 'COSTAS', 't2': 'COM SOBRA.', 'text': 'Aí a série acaba cedo, e as costas ficam com repetições sobrando.'}, {'vis': 'strap', 'k': '', 't1': 'STRAP:', 't2': 'PRENDE NA BARRA.', 'text': 'A solução é a fita de pegada, o strap. Ela prende a mão na barra.'}, {'vis': 'quando', 'k': '', 't1': 'SÓ NAS SÉRIES', 't2': 'PESADAS DE PUXAR.', 'text': 'Usa só nas séries pesadas de puxar. No aquecimento e nas leves, mão livre.'}, {'vis': 'treina', 'k': '', 't1': 'TREINA A PEGADA', 't2': 'À PARTE.', 'text': '[matter-of-fact] E se quiser uma pegada mais forte, treina ela à parte: segura a barra parado, o máximo que aguentar.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'AS COSTAS DECIDEM.', 'text': 'Resumindo: não deixa a mão decidir quando acaba a série das costas.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'PEGADA.', 'text': 'Comenta PEGADA que eu te mando como registrar sua remada no Bríu e ver a carga subir. Link na bio.', 'marks': {'ponte': 0.83, 'fixa': 4.601}}]

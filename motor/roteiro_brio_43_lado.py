@@ -1,0 +1,8 @@
+# brio_43_lado — lote 15/11 · um lado mais forte que o outro: exercício unilateral
+TITLE='[curious] Um braço mais forte que o outro?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_43_lado_tight.mp3','starts':[0.075, 1.89, 5.458, 8.906, 12.679, 18.569, 21.101, 25.635]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'UM BRAÇO', 't2': 'MAIS FORTE?', 'text': '[curious] Um braço mais forte que o outro?'}, {'vis': 'normal', 'k': '', 't1': 'É NORMAL.', 't2': 'TODO MUNDO TEM.', 'text': 'Calma, isso é normal. Quase todo mundo tem um lado dominante.'}, {'vis': 'barra', 'k': '', 't1': 'NA BARRA,', 't2': 'O FORTE COMPENSA.', 'text': 'Na barra, o lado forte ajuda o fraco, e a diferença continua.'}, {'vis': 'halter', 'k': '', 't1': 'COM HALTER,', 't2': 'CADA LADO SOZINHO.', 'text': 'Com halter, ou um lado por vez, cada lado tem que levantar sozinho.'}, {'vis': 'fraco', 'k': '', 't1': 'COMEÇA PELO', 't2': 'LADO FRACO.', 'text': 'O truque: começa pelo lado fraco, e o forte faz o mesmo número de repetições. Nem uma a mais.'}, {'vis': 'tempo', 'k': '', 't1': 'A DIFERENÇA', 't2': 'DIMINUI.', 'text': '[matter-of-fact] Em algumas semanas, a diferença costuma diminuir.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'O FRACO DITA O RITMO.', 'text': 'Resumindo: inclui exercícios de um lado só, e deixa o lado fraco ditar o ritmo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'LADO.', 'text': 'Comenta LADO que eu te mando como registrar as repetições de cada lado no Bríu e acompanhar a diferença. Link na bio.', 'marks': {'ponte': 0.641, 'fixa': 5.294}}]

@@ -1,0 +1,8 @@
+# brio_39_descida — lote 15/11 · controlar a descida do peso (fase excêntrica)
+TITLE='[serious] Você deixa o peso cair?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_39_descida_tight.mp3','starts':[0.075, 1.304, 5.467, 9.379, 12.416, 16.159, 20.116, 23.324, 28.966]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'DEIXA O PESO', 't2': 'CAIR?', 'text': '[serious] Você deixa o peso cair?'}, {'vis': 'metade', 'k': '', 't1': 'A DESCIDA É', 't2': 'METADE DA REPETIÇÃO.', 'text': 'A descida é metade da repetição. E muita gente desperdiça essa metade.'}, {'vis': 'cai', 'k': '', 't1': 'PESO CAINDO,', 't2': 'GRAVIDADE TRABALHA.', 'text': 'Quando o peso cai rápido, quem trabalha é a gravidade, não o seu músculo.'}, {'vis': 'tranco', 'k': '', 't1': 'E O TRANCO', 't2': 'VAI PRA ARTICULAÇÃO.', 'text': 'E o tranco no final vai pra articulação, não pro músculo.'}, {'vis': 'conta', 'k': '', 't1': 'SOBE FIRME,', 't2': 'DESCE EM 2 SEGUNDOS.', 'text': 'O certo: sobe com firmeza e desce contando dois segundos.'}, {'vis': 'lento', 'k': '', 't1': 'NÃO É CÂMERA LENTA.', 't2': 'É CONTROLE.', 'text': '[matter-of-fact] Não precisa ser em câmera lenta. Precisa ser controlado, do começo ao fim.'}, {'vis': 'peso', 'k': '', 't1': 'SEM CONTROLE?', 't2': 'PESO ALTO DEMAIS.', 'text': 'Não consegue controlar a descida? O peso está alto demais pra hoje.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'VOCÊ CONTROLA.', 'text': 'Resumindo: quem manda na descida é você, não a gravidade. Dois segundos, sempre controlado.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'DESCIDA.', 'text': 'Comenta DESCIDA que eu te mando como registrar suas séries no Bríu e ver a carga subir. Link na bio.', 'marks': {'ponte': 0.868, 'fixa': 4.473}}]

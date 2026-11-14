@@ -1,0 +1,8 @@
+# brio_50_puxar — lote 15/11 · equilíbrio entre exercícios de empurrar e de puxar
+TITLE='[serious] Muito supino e pouca remada é erro.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_50_puxar_tight.mp3','starts':[0.075, 2.536, 6.765, 10.241, 14.104, 16.704, 21.416, 25.742]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MUITO SUPINO,', 't2': 'POUCA REMADA.', 'text': '[serious] Muito supino e pouca remada é erro.'}, {'vis': 'espelho', 'k': '', 't1': 'SÓ O QUE', 't2': 'O ESPELHO MOSTRA.', 'text': 'É o erro mais comum: treinar só o que aparece no espelho, peito e ombro da frente.'}, {'vis': 'desequilibrio', 'k': '', 't1': 'FRENTE FORTE,', 't2': 'COSTAS ATRASADAS.', 'text': 'O treino fica desequilibrado: frente forte, costas atrasadas.'}, {'vis': 'regra', 'k': '', 't1': '1 SÉRIE DE EMPURRAR,', 't2': '1 SÉRIE DE PUXAR.', 'text': 'Uma regra simples: pra cada série de empurrar, faz uma série de puxar.'}, {'vis': 'pares', 'k': '', 't1': 'SUPINO E REMADA,', 't2': 'DESENVOLVIMENTO E PUXADA.', 'text': 'Supino com remada. Desenvolvimento com puxada.'}, {'vis': 'supino', 'k': '', 't1': 'COSTAS FORTES', 't2': 'AJUDAM O SUPINO.', 'text': '[matter-of-fact] E costas fortes ajudam até no supino: elas deixam a barra mais estável na descida.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'EMPURROU, PUXA.', 'text': 'Resumindo: empurrou, puxa. Conta as séries dos dois lados e deixa empatado.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'PUXAR.', 'text': 'Comenta PUXAR que eu te mando como registrar suas séries no Bríu e conferir se empurrar e puxar estão empatados. Link na bio.', 'marks': {'ponte': 0.755, 'fixa': 5.85}}]

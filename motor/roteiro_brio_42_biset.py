@@ -1,0 +1,8 @@
+# brio_42_biset — lote 15/11 · bi-set para treinar o mesmo em menos tempo
+TITLE='[confident] Dá pra treinar o mesmo em menos tempo.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_42_biset_tight.mp3','starts':[0.075, 2.193, 6.14, 10.149, 14.234, 18.172, 22.687, 28.036]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'O MESMO TREINO', 't2': 'EM MENOS TEMPO.', 'text': '[confident] Dá pra treinar o mesmo em menos tempo.'}, {'vis': 'oque', 'k': '', 't1': 'BI-SET:', 't2': '2 EXERCÍCIOS SEGUIDOS.', 'text': 'É o bi-set: dois exercícios seguidos, e só depois o descanso.'}, {'vis': 'par', 'k': '', 't1': 'MÚSCULOS', 't2': 'QUE NÃO COMPETEM.', 'text': 'O segredo é juntar músculos que não competem, como bíceps e tríceps.'}, {'vis': 'descansa', 'k': '', 't1': 'UM TRABALHA,', 't2': 'O OUTRO DESCANSA.', 'text': 'Enquanto um trabalha, o outro descansa. Você não perde força na série seguinte.'}, {'vis': 'tempo', 'k': '', 't1': 'MESMAS SÉRIES,', 't2': 'MENOS MINUTOS.', 'text': 'Estudos mostram que dá pra fazer o mesmo número de séries em bem menos tempo.'}, {'vis': 'evita', 'k': '', 't1': 'EVITE 2 PESADOS', 't2': 'DE PERNA JUNTOS.', 'text': '[matter-of-fact] Só evita juntar dois exercícios pesados de perna. Aí as duas séries pioram.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'CORTA A ESPERA.', 'text': 'Resumindo: com pouco tempo, junta pares que não competem e corta a espera, não as séries.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'BISET.', 'text': 'Comenta BISET que eu te mando como registrar seus pares de exercício no Bríu, série por série. Link na bio.', 'marks': {'ponte': 0.792, 'fixa': 4.809}}]
