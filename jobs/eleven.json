@@ -1,12 +1,12 @@
 {
- "nome": "09-brio-extra-1311",
+ "nome": "10-brio-1411",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_28_desenv",
+   "id": "brio_32_dor",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Se o seu desenvolvimento tá assim, para. Pra subir o peso, você joga o quadril pra frente e arqueia a lombar. Aí o movimento vira um supino inclinado, e a lombar segura uma carga que não é dela. Primeiro: trava o abdômen e aperta o glúteo antes de subir. Depois: a barra sobe reta, passando perto do rosto, e o corpo não mexe. [confident] Se não dá sem arquear, tira peso, ou faz sentado com encosto. Resumindo: no desenvolvimento quem trabalha é o ombro. Se a lombar entrou na conversa, a carga passou do ponto. Comenta OMBRO que eu te mando como anotar sua carga no Bríu e subir sem arquear. Link na bio.",
+   "text": "[curious] Dor no dia seguinte é treino bom? Nem sempre. Essa dor aparece mais quando o exercício é novo, ou quando você muda o treino. Quem treina há anos sente menos dor, e continua crescendo. O que faz o músculo crescer é a carga ou as repetições subindo, semana após semana. E um treino sem dor nenhuma também pode ter funcionado. [matter-of-fact] Agora, dor forte que trava o movimento ou não passa em poucos dias, é caso pra um profissional. Resumindo: dor não mede treino. O que mede é se você levantou mais que na semana passada. Comenta DOR que eu te mando como registrar suas séries no Bríu e comparar com a semana passada. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -19,10 +19,10 @@
   },
   {
    "op": "tts",
-   "id": "brio_29_aquece",
+   "id": "brio_33_sono",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Você chega e já vai direto na carga pesada? A primeira série pesada sai fraca, e a articulação ainda tá fria. Faz assim: primeira série leve, com metade do peso, dez repetições. Segunda: setenta por cento, cinco repetições. Terceira: oitenta e cinco por cento, só duas. Sem cansar. [confident] Agora a série de trabalho. O corpo tá quente, e a carga sai mais fácil. Resumindo: três séries rápidas e leves no primeiro exercício. Cinco minutos que fazem a pesada render mais. Comenta AQUECE que eu te mando como registrar suas séries de aquecimento no Bríu. Link na bio.",
+   "text": "[serious] Dormiu mal? Seu treino sente. Com poucas horas de sono, a força cai e o esforço parece maior, mesmo com o mesmo peso. E é dormindo que o corpo repara o músculo que você treinou. A meta pra maioria dos adultos é de sete a nove horas por noite. Deitar e acordar em horários parecidos ajuda mais do que tentar compensar no fim de semana. [matter-of-fact] E se você dormiu mal, não força a carga máxima. Faz um treino mais leve, e mantém o hábito. Resumindo: sono também é parte do treino. Cuida dele como cuida da série. Comenta SONO que eu te mando como registrar seu treino no Bríu e comparar as semanas de sono bom e ruim. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -35,10 +35,10 @@
   },
   {
    "op": "tts",
-   "id": "brio_30_respira",
+   "id": "brio_34_ordem",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Perde força no meio do agachamento? Pode ser a sua respiração. Muita gente solta o ar enquanto desce. O tronco amolece, e a barra afunda. Faz o contrário: antes de descer, puxa o ar fundo, pra barriga. Trava o abdômen como se fosse levar um soco. Isso vira um cinto natural. Desce e sobe segurando, e solta o ar só perto do final da subida. [confident] Em série longa, respira de novo lá em cima, a cada repetição. Se você tem pressão alta, fala com seu médico antes. Resumindo: ar pra barriga, abdômen travado, desce e sobe firme. A mesma carga fica mais leve. Comenta FIRME que eu te mando como registrar seu agachamento no Bríu e ver a carga subir. Link na bio.",
+   "text": "[curious] A ordem do treino importa? Importa. O primeiro exercício é o que você faz com mais força e mais energia. Então começa pelo exercício que você mais quer evoluir. Os compostos, como agachamento, supino e remada, vêm antes dos isolados. Porque com o corpo cansado, a técnica piora e a carga cai. [matter-of-fact] Tem um músculo atrasado? Treina ele primeiro, quando você está inteiro. Resumindo: o que vem primeiro recebe o melhor de você. Coloca ali o que mais importa. Comenta ORDEM que eu te mando como anotar a carga de cada exercício no Bríu, na ordem do seu treino. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -51,10 +51,42 @@
   },
   {
    "op": "tts",
-   "id": "brio_31_punho",
+   "id": "brio_35_alonga",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Se o seu punho fica assim no supino, para. Com o punho dobrado pra trás, a barra fica longe do antebraço. O peso vira alavanca no punho, dói, e a força escapa antes de chegar no peito. Corrige assim: a barra fica na base da palma, não nos dedos. E o punho fica reto, empilhado em cima do antebraço, do começo ao fim. [confident] Com tudo alinhado, a força vai direto pra barra, e você empurra mais. Resumindo: barra na base da mão e punho em pé. Um ajuste pequeno que muda a série inteira. Comenta PUNHO que eu te mando como registrar seu supino no Bríu e ver a carga subir. Link na bio.",
+   "text": "[curious] Alongar antes de treinar ajuda? Alongar parado, por muito tempo, antes da série, pode reduzir sua força naquela hora. Os estudos mostram essa queda quando o alongamento passa de um minuto no mesmo músculo. Antes, faz o aquecimento dinâmico: os mesmos movimentos, com peso leve. O alongamento parado fica pro fim do treino, se você gosta dele. [matter-of-fact] Ele não é proibido. Só não é o melhor jeito de começar. Resumindo: antes do treino, movimento leve. Alongamento parado, só depois. Comenta ALONGA que eu te mando como registrar seu aquecimento e suas séries no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_36_horario",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Melhor treinar de manhã ou à noite? Alguns estudos mostram pequenas diferenças de força ao longo do dia. Em geral, a força é um pouco maior no fim da tarde. Mas essa diferença é pequena perto do que realmente importa: ir treinar. O melhor horário é o que você consegue repetir toda semana. [matter-of-fact] Escolhe um horário que caiba na sua rotina, e mantém por quatro semanas. Resumindo: horário perfeito não existe. O que existe é o horário que você mantém. Comenta HORA que eu te mando como registrar seu treino no Bríu e ver se o seu horário está rendendo. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_37_semana",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Treinar só uma vez por semana funciona? Funciona, sim. É melhor que zero, e traz ganho, principalmente pra quem está começando. O que conta é o total de séries na semana, não só quantos dias você treina. Mas fazer tudo num dia só cansa, e a qualidade das últimas séries cai. Se der, divide em dois dias, mesmo que curtos. [matter-of-fact] E se só der um dia, faz o corpo todo, com poucos exercícios bem feitos. Resumindo: um dia é melhor que nenhum, e dois é melhor ainda. O que não vale é ficar sem treinar. Comenta SEMANA que eu te mando como registrar suas séries no Bríu e ver o total da sua semana. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
