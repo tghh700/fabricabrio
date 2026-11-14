@@ -85,3 +85,18 @@ def _diagnostico():
 
 
 _diagnostico()
+
+
+def _conteineres():
+    """status de contêineres listados em jobs/conteiner.txt (linhas 'perfil id'); nunca imprime token"""
+    if not os.path.exists("jobs/conteiner.txt"):
+        return
+    for ln in open("jobs/conteiner.txt"):
+        if not ln.strip():
+            continue
+        perfil, cid = ln.split()[:2]
+        tok = os.environ.get("IG_TOKEN_" + perfil.upper(), "")
+        print("conteiner", perfil, cid, _get(cid + "?fields=status_code,status", tok))
+
+
+_conteineres()
