@@ -1,0 +1,8 @@
+# brio_32_dor — extra 14/11 · dor no dia seguinte não mede treino bom
+TITLE='[curious] Dor no dia seguinte é treino bom?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_32_dor_tight.mp3','starts':[0.075, 2.269, 7.224, 10.595, 15.666, 18.762, 24.258, 29.485]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'DOR NO DIA SEGUINTE', 't2': 'É TREINO BOM?', 'text': '[curious] Dor no dia seguinte é treino bom?'}, {'vis': 'nova', 'k': '', 't1': 'NEM SEMPRE.', 't2': 'DOR É NOVIDADE.', 'text': 'Nem sempre. Essa dor aparece mais quando o exercício é novo, ou quando você muda o treino.'}, {'vis': 'veterano', 'k': '', 't1': 'QUEM TREINA HÁ ANOS', 't2': 'SENTE MENOS.', 'text': 'Quem treina há anos sente menos dor, e continua crescendo.'}, {'vis': 'carga', 'k': '', 't1': 'O QUE CRESCE', 't2': 'É A CARGA.', 'text': 'O que faz o músculo crescer é a carga ou as repetições subindo, semana após semana.'}, {'vis': 'semdor', 'k': '', 't1': 'SEM DOR', 't2': 'TAMBÉM VALE.', 'text': 'E um treino sem dor nenhuma também pode ter funcionado.'}, {'vis': 'forte', 'k': '', 't1': 'DOR FORTE', 't2': 'É OUTRA COISA.', 'text': '[matter-of-fact] Agora, dor forte que trava o movimento ou não passa em poucos dias, é caso pra um profissional.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'DOR NÃO MEDE.', 'text': 'Resumindo: dor não mede treino. O que mede é se você levantou mais que na semana passada.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'DOR.', 'text': 'Comenta DOR que eu te mando como registrar suas séries no Bríu e comparar com a semana passada. Link na bio.', 'marks': {'ponte': 0.566, 'fixa': 4.694}}]

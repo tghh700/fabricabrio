@@ -1,0 +1,8 @@
+# brio_37_semana — extra 14/11 · treinar só uma vez por semana funciona
+TITLE='[curious] Treinar só uma vez por semana funciona?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_37_semana_tight.mp3','starts':[0.125, 2.635, 7.202, 11.811, 15.972, 18.687, 22.874, 28.545]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'TREINAR 1 VEZ', 't2': 'POR SEMANA?', 'text': '[curious] Treinar só uma vez por semana funciona?'}, {'vis': 'sim', 'k': '', 't1': 'FUNCIONA.', 't2': 'É MELHOR QUE 0.', 'text': 'Funciona, sim. É melhor que zero, e traz ganho, principalmente pra quem está começando.'}, {'vis': 'total', 'k': '', 't1': 'O QUE CONTA', 't2': 'É O TOTAL.', 'text': 'O que conta é o total de séries na semana, não só quantos dias você treina.'}, {'vis': 'cansa', 'k': '', 't1': 'TUDO NUM DIA', 't2': 'CANSA.', 'text': 'Mas fazer tudo num dia só cansa, e a qualidade das últimas séries cai.'}, {'vis': 'dois', 'k': '', 't1': 'SE DER,', 't2': 'DIVIDE EM 2.', 'text': 'Se der, divide em dois dias, mesmo que curtos.'}, {'vis': 'corpo', 'k': '', 't1': 'SÓ 1 DIA?', 't2': 'CORPO TODO.', 'text': '[matter-of-fact] E se só der um dia, faz o corpo todo, com poucos exercícios bem feitos.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': '1 DIA > NENHUM.', 'text': 'Resumindo: um dia é melhor que nenhum, e dois é melhor ainda. O que não vale é ficar sem treinar.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'SEMANA.', 'text': 'Comenta SEMANA que eu te mando como registrar suas séries no Bríu e ver o total da sua semana. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 4.745}}]

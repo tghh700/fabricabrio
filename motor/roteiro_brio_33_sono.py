@@ -1,0 +1,8 @@
+# brio_33_sono — extra 14/11 · dormir mal derruba o treino
+TITLE='[serious] Dormiu mal? Seu treino sente.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_33_sono_tight.mp3','starts':[0.063, 2.036, 7.191, 10.027, 13.642, 18.076, 23.053, 27.275]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'DORMIU MAL?', 't2': 'O TREINO SENTE.', 'text': '[serious] Dormiu mal? Seu treino sente.'}, {'vis': 'forca', 'k': '', 't1': 'POUCO SONO,', 't2': 'MENOS FORÇA.', 'text': 'Com poucas horas de sono, a força cai e o esforço parece maior, mesmo com o mesmo peso.'}, {'vis': 'repara', 'k': '', 't1': 'É DORMINDO', 't2': 'QUE RECUPERA.', 'text': 'E é dormindo que o corpo repara o músculo que você treinou.'}, {'vis': 'meta', 'k': '', 't1': 'META:', 't2': '7 A 9 HORAS.', 'text': 'A meta pra maioria dos adultos é de sete a nove horas por noite.'}, {'vis': 'horario', 'k': '', 't1': 'HORÁRIO FIXO', 't2': 'AJUDA MAIS.', 'text': 'Deitar e acordar em horários parecidos ajuda mais do que tentar compensar no fim de semana.'}, {'vis': 'leve', 'k': '', 't1': 'DIA RUIM:', 't2': 'TREINO LEVE.', 'text': '[matter-of-fact] E se você dormiu mal, não força a carga máxima. Faz um treino mais leve, e mantém o hábito.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'SONO É TREINO.', 'text': 'Resumindo: sono também é parte do treino. Cuida dele como cuida da série.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'SONO.', 'text': 'Comenta SONO que eu te mando como registrar seu treino no Bríu e comparar as semanas de sono bom e ruim. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 5.427}}]

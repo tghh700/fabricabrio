@@ -30,7 +30,7 @@ V('brio_34_ordem', 'ordem dos exercícios no treino', 'ORDEM', 2, [
  ('composto', 'COMPOSTOS', 'ANTES.', 'Os compostos, como agachamento, supino e remada, vêm antes dos isolados.'),
  ('cansado', 'CANSADO', 'ERRA MAIS.', 'Porque com o corpo cansado, a técnica piora e a carga cai.'),
  ('atrasado', 'MÚSCULO', 'ATRASADO?', '[matter-of-fact] Tem um músculo atrasado? Treina ele primeiro, quando você está inteiro.'),
- ('conc', 'RESUMINDO:', 'O MELHOR VEM 1º.', 'Resumindo: o que vem primeiro recebe o melhor de você. Coloca ali o que mais importa.'),
+ ('conc', 'RESUMINDO:', 'O MELHOR 1º.', 'Resumindo: o que vem primeiro recebe o melhor de você. Coloca ali o que mais importa.'),
  ('cta', 'COMENTA', 'ORDEM.', 'Comenta ORDEM que eu te mando como anotar a carga de cada exercício no Bríu, na ordem do seu treino. Link na bio.'),
 ])
 V('brio_35_alonga', 'alongamento parado antes do treino reduz força', 'ALONGA', 2, [
@@ -50,7 +50,7 @@ V('brio_36_horario', 'melhor horário para treinar: manhã ou noite', 'HORA', 2,
  ('pequena', 'DIFERENÇA', 'PEQUENA.', 'Mas essa diferença é pequena perto do que realmente importa: ir treinar.'),
  ('repetir', 'O MELHOR HORÁRIO', 'É O QUE REPETE.', 'O melhor horário é o que você consegue repetir toda semana.'),
  ('escolhe', 'ESCOLHE UM', 'E MANTÉM.', '[matter-of-fact] Escolhe um horário que caiba na sua rotina, e mantém por quatro semanas.'),
- ('conc', 'RESUMINDO:', 'O QUE VOCÊ MANTÉM.', 'Resumindo: horário perfeito não existe. O que existe é o horário que você mantém.'),
+ ('conc', 'RESUMINDO:', 'O QUE MANTÉM.', 'Resumindo: horário perfeito não existe. O que existe é o horário que você mantém.'),
  ('cta', 'COMENTA', 'HORA.', 'Comenta HORA que eu te mando como registrar seu treino no Bríu e ver se o seu horário está rendendo. Link na bio.'),
 ])
 V('brio_37_semana', 'treinar só uma vez por semana funciona', 'SEMANA', 2, [
