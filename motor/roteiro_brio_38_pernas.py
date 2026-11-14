@@ -1,0 +1,8 @@
+# brio_38_pernas — extra 14/11 · treinar perna toda semana mesmo com pouco tempo
+TITLE='[serious] Você pula o treino de perna?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_38_pernas_tight.mp3','starts':[0.075, 1.69, 4.142, 9.149, 13.663, 18.641, 23.146, 28.333]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'PULA O TREINO', 't2': 'DE PERNA?', 'text': '[serious] Você pula o treino de perna?'}, {'vis': 'maior', 'k': '', 't1': 'MAIORES', 't2': 'MÚSCULOS DO CORPO.', 'text': 'As pernas têm os maiores músculos do corpo.'}, {'vis': 'desp', 'k': '', 't1': 'TRONCO FORTE,', 't2': 'PERNA ATRASADA.', 'text': 'Quem só treina a parte de cima fica desproporcional, com tronco forte e pernas atrasadas.'}, {'vis': 'ajuda', 'k': '', 't1': 'PERNA FORTE', 't2': 'AJUDA EM TUDO.', 'text': 'E perna forte ajuda no agachamento, no terra e até em subir escada sem cansar.'}, {'vis': 'curto', 'k': '', 't1': 'NÃO PRECISA', 't2': 'SER LONGO.', 'text': 'Não precisa de duas horas. Dois exercícios, três séries cada, já mantêm a perna no jogo.'}, {'vis': 'leve', 'k': '', 't1': 'COM MEDO', 't2': 'DA DOR? COMEÇA LEVE.', 'text': '[matter-of-fact] Se você tem medo da dor do dia seguinte, começa com pouca carga e sobe aos poucos.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'PERNA ENTRA NA SEMANA.', 'text': 'Resumindo: perna entra no treino da semana. Poucos exercícios, bem feitos, toda semana.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'PERNAS.', 'text': 'Comenta PERNAS que eu te mando como registrar suas séries de perna no Bríu e acompanhar sua evolução. Link na bio.', 'marks': {'ponte': 0.843, 'fixa': 5.042}}]

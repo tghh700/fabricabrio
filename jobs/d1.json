@@ -1,115 +1,25 @@
 {
- "nome": "agenda-20261114-brio",
+ "nome": "agenda-20261114-brio-pernas",
  "videos": [
   {
-   "id": "brio-32-dor",
+   "id": "brio-38-pernas",
    "perfil": "brio",
-   "tema_canonico": "dor no dia seguinte não mede treino bom",
-   "gancho": "Dor no dia seguinte é treino bom?",
+   "tema_canonico": "treinar perna toda semana mesmo com pouco tempo",
+   "gancho": "Você pula o treino de perna?",
    "gatilho_tipo": "2",
-   "palavra_chave": "DOR",
-   "arquivo": "brio/brio-32-dor.mp4",
-   "legenda": "Dor no dia seguinte não mede se o treino foi bom. 👇\nO que faz o músculo crescer é a carga ou as repetições subindo semana após semana.\n📲 Comenta DOR que eu te mando no direct como registrar suas séries no Brio e comparar com a semana passada.\n\n#brio #musculacao #hipertrofia #dormuscular #treino",
-   "hashtags": "#brio #musculacao #hipertrofia #dormuscular #treino",
-   "duracao_s": 35.37,
-   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
-   "agendado_para": "2026-11-14 12:30:00"
-  },
-  {
-   "id": "brio-33-sono",
-   "perfil": "brio",
-   "tema_canonico": "dormir mal derruba o treino",
-   "gancho": "Dormiu mal? Seu treino sente.",
-   "gatilho_tipo": "2",
-   "palavra_chave": "SONO",
-   "arquivo": "brio/brio-33-sono.mp4",
-   "legenda": "Com pouco sono a força cai e o esforço parece maior. 👇\nMeta pra maioria dos adultos: de 7 a 9 horas por noite. Dia ruim? Treino mais leve, e mantém o hábito.\n📲 Comenta SONO que eu te mando no direct como registrar seu treino no Brio e comparar as semanas.\n\n#brio #sono #musculacao #recuperacao #treino",
-   "hashtags": "#brio #sono #musculacao #recuperacao #treino",
-   "duracao_s": 33.88,
-   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
-   "agendado_para": "2026-11-14 14:00:00"
-  },
-  {
-   "id": "brio-34-ordem",
-   "perfil": "brio",
-   "tema_canonico": "ordem dos exercícios no treino",
-   "gancho": "A ordem do treino importa?",
-   "gatilho_tipo": "2",
-   "palavra_chave": "ORDEM",
-   "arquivo": "brio/brio-34-ordem.mp4",
-   "legenda": "O primeiro exercício é o que você faz com mais força e energia. 👇\nComeça pelo que você mais quer evoluir, com os compostos antes dos isolados.\n📲 Comenta ORDEM que eu te mando no direct como anotar a carga de cada exercício no Brio.\n\n#brio #musculacao #treino #academia #hipertrofia",
-   "hashtags": "#brio #musculacao #treino #academia #hipertrofia",
-   "duracao_s": 31.72,
-   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
-   "agendado_para": "2026-11-14 15:30:00"
-  },
-  {
-   "id": "brio-35-alonga",
-   "perfil": "brio",
-   "tema_canonico": "alongamento parado antes do treino reduz força",
-   "gancho": "Alongar antes de treinar ajuda?",
-   "gatilho_tipo": "2",
-   "palavra_chave": "ALONGA",
-   "arquivo": "brio/brio-35-alonga.mp4",
-   "legenda": "Alongar parado por mais de 1 minuto antes da série pode reduzir sua força na hora. 👇\nAntes: movimento leve. Alongamento parado, só depois.\n📲 Comenta ALONGA que eu te mando no direct como registrar seu aquecimento e suas séries no Brio.\n\n#brio #alongamento #aquecimento #musculacao #treino",
-   "hashtags": "#brio #alongamento #aquecimento #musculacao #treino",
-   "duracao_s": 32.16,
-   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
-   "agendado_para": "2026-11-14 17:00:00"
-  },
-  {
-   "id": "brio-36-horario",
-   "perfil": "brio",
-   "tema_canonico": "melhor horário para treinar: manhã ou noite",
-   "gancho": "Melhor treinar de manhã ou à noite?",
-   "gatilho_tipo": "2",
-   "palavra_chave": "HORA",
-   "arquivo": "brio/brio-36-horario.mp4",
-   "legenda": "A diferença de força entre manhã e noite é pequena. O melhor horário é o que você repete toda semana. 👇\n📲 Comenta HORA que eu te mando no direct como registrar seu treino no Brio e ver se o seu horário está rendendo.\n\n#brio #musculacao #treino #rotina #academia",
-   "hashtags": "#brio #musculacao #treino #rotina #academia",
-   "duracao_s": 30.44,
-   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
-   "agendado_para": "2026-11-14 18:30:00"
-  },
-  {
-   "id": "brio-37-semana",
-   "perfil": "brio",
-   "tema_canonico": "treinar só uma vez por semana funciona",
-   "gancho": "Treinar só uma vez por semana funciona?",
-   "gatilho_tipo": "2",
-   "palavra_chave": "SEMANA",
-   "arquivo": "brio/brio-37-semana.mp4",
-   "legenda": "Funciona, sim: um dia é melhor que nenhum, e dois é melhor ainda. 👇\nO que conta é o total de séries na semana.\n📲 Comenta SEMANA que eu te mando no direct como registrar suas séries no Brio e ver o total da sua semana.\n\n#brio #musculacao #treino #frequencia #hipertrofia",
-   "hashtags": "#brio #musculacao #treino #frequencia #hipertrofia",
-   "duracao_s": 34.49,
+   "palavra_chave": "PERNAS",
+   "arquivo": "brio/brio-38-pernas.mp4",
+   "legenda": "Pular o treino de perna deixa o corpo desproporcional. 👇\nNão precisa de duas horas: 2 exercícios, 3 séries cada, toda semana. Se tem medo da dor, começa leve.\n📲 Comenta PERNAS que eu te mando no direct como registrar suas séries de perna no Brio e acompanhar sua evolução.\n\n#brio #treinodeperna #musculacao #academia #hipertrofia",
+   "hashtags": "#brio #treinodeperna #musculacao #academia #hipertrofia",
+   "duracao_s": 34.56,
    "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
    "agendado_para": "2026-11-14 20:00:00"
   }
  ],
  "creditos": [
   {
-   "video_id": "brio-32-dor",
-   "quantidade": 645
-  },
-  {
-   "video_id": "brio-33-sono",
-   "quantidade": 645
-  },
-  {
-   "video_id": "brio-34-ordem",
-   "quantidade": 591
-  },
-  {
-   "video_id": "brio-35-alonga",
-   "quantidade": 598
-  },
-  {
-   "video_id": "brio-36-horario",
-   "quantidade": 585
-  },
-  {
-   "video_id": "brio-37-semana",
-   "quantidade": 626
+   "video_id": "brio-38-pernas",
+   "quantidade": 643
   }
  ]
 }
