@@ -18,6 +18,9 @@ jobs:
           IG_TOKEN_BRIO: ${{ secrets.IG_TOKEN_BRIO }}
           IG_TOKEN_FIBRA: ${{ secrets.IG_TOKEN_FIBRA }}
           IG_TOKEN_DIAUM: ${{ secrets.IG_TOKEN_DIAUM }}
+          IG_INSIGHTS_BRIO: ${{ secrets.IG_INSIGHTS_BRIO }}
+          IG_INSIGHTS_FIBRA: ${{ secrets.IG_INSIGHTS_FIBRA }}
+          IG_INSIGHTS_DIAUM: ${{ secrets.IG_INSIGHTS_DIAUM }}
         run: python3 scripts/listar_midia.py
       - working-directory: worker
         env:

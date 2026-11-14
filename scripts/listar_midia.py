@@ -4,9 +4,11 @@ IDS = {"brio": "17841418207775427", "fibra": "17841417348851668", "diaum": "1784
 linhas = []
 for perfil, ig in IDS.items():
     tok = os.environ.get("IG_TOKEN_" + perfil.upper(), "")
-    q = urllib.parse.urlencode({"fields": "id,caption,timestamp,permalink,media_type,thumbnail_url,media_url", "limit": 100, "access_token": tok})
+    itok0 = os.environ.get("IG_INSIGHTS_" + perfil.upper(), "")
+    q = urllib.parse.urlencode({"fields": "id,caption,timestamp,permalink,media_type,thumbnail_url,media_url", "limit": 100, "access_token": itok0 or tok})
+    base = "https://graph.instagram.com/v25.0/me" if itok0 else f"https://graph.facebook.com/v25.0/{ig}"
     try:
-        with urllib.request.urlopen(f"https://graph.facebook.com/v25.0/{ig}/media?{q}", timeout=30) as r:
+        with urllib.request.urlopen(f"{base}/media?{q}", timeout=30) as r:
             d = json.loads(r.read().decode())
         itens = [{"id": m["id"], "ts": m.get("timestamp"), "link": m.get("permalink"), "cap": (m.get("caption") or "")[:90]} for m in d.get("data", [])]
         # cópia completa + miniaturas para conferir repetição (vai para o branch previas, sem token)
@@ -18,10 +20,12 @@ for perfil, ig in IDS.items():
             mets = "views,reach,likes,comments,saved,shares,total_interactions"
             if m.get("media_type") == "VIDEO":
                 mets += ",ig_reels_avg_watch_time,ig_reels_video_view_total_time"
+            itok = os.environ.get("IG_INSIGHTS_" + perfil.upper(), "")
+            ihost = "graph.instagram.com" if itok else "graph.facebook.com"
             for tentativa in (mets, "views,reach,likes,comments,saved,shares"):
                 try:
-                    qi = urllib.parse.urlencode({"metric": tentativa, "access_token": tok})
-                    with urllib.request.urlopen(f"https://graph.facebook.com/v25.0/{m['id']}/insights?{qi}", timeout=30) as r2:
+                    qi = urllib.parse.urlencode({"metric": tentativa, "access_token": itok or tok})
+                    with urllib.request.urlopen(f"https://{ihost}/v25.0/{m['id']}/insights?{qi}", timeout=30) as r2:
                         di = json.loads(r2.read().decode())
                     item["metricas"] = {x["name"]: (x.get("values") or [{}])[0].get("value", x.get("total_value", {}).get("value")) for x in di.get("data", [])}
                     item.pop("metricas_erro", None)
