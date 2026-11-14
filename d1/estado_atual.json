@@ -1,13 +1,8 @@
 {
  "relatorio": {
-  "nome": "agenda-20261114-brio",
+  "nome": "agenda-20261114-brio-pernas",
   "gravados": [
-   "brio-32-dor",
-   "brio-33-sono",
-   "brio-34-ordem",
-   "brio-35-alonga",
-   "brio-36-horario",
-   "brio-37-semana"
+   "brio-38-pernas"
   ],
   "recusados": []
  },
@@ -274,24 +269,24 @@
     "tema_canonico": "rosca direta com balanço do tronco (erro encenado e correção)"
    },
    {
-    "id": 37,
-    "video_id": "brio-32-dor",
+    "id": 38,
+    "video_id": "brio-33-sono",
     "perfil": "brio",
     "agendado_para": "2026-11-14 12:30:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
-    "tema_canonico": "dor no dia seguinte não mede treino bom"
+    "tema_canonico": "dormir mal derruba o treino"
    },
    {
-    "id": 38,
-    "video_id": "brio-33-sono",
+    "id": 39,
+    "video_id": "brio-34-ordem",
     "perfil": "brio",
     "agendado_para": "2026-11-14 14:00:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
-    "tema_canonico": "dormir mal derruba o treino"
+    "tema_canonico": "ordem dos exercícios no treino"
    },
    {
     "id": 28,
@@ -314,20 +309,10 @@
     "tema_canonico": "músculos que trabalham no agachamento"
    },
    {
-    "id": 39,
-    "video_id": "brio-34-ordem",
-    "perfil": "brio",
-    "agendado_para": "2026-11-14 15:30:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "ordem dos exercícios no treino"
-   },
-   {
     "id": 40,
     "video_id": "brio-35-alonga",
     "perfil": "brio",
-    "agendado_para": "2026-11-14 17:00:00",
+    "agendado_para": "2026-11-14 15:30:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
@@ -337,7 +322,7 @@
     "id": 41,
     "video_id": "brio-36-horario",
     "perfil": "brio",
-    "agendado_para": "2026-11-14 18:30:00",
+    "agendado_para": "2026-11-14 17:00:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
@@ -347,11 +332,21 @@
     "id": 42,
     "video_id": "brio-37-semana",
     "perfil": "brio",
-    "agendado_para": "2026-11-14 20:00:00",
+    "agendado_para": "2026-11-14 18:30:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
     "tema_canonico": "treinar só uma vez por semana funciona"
+   },
+   {
+    "id": 43,
+    "video_id": "brio-38-pernas",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo"
    },
    {
     "id": 25,
@@ -639,7 +634,7 @@
     "id": "brio-32-dor",
     "perfil": "brio",
     "tema_canonico": "dor no dia seguinte não mede treino bom",
-    "status": "pronto"
+    "status": "descartado"
    },
    {
     "id": "brio-33-sono",
@@ -670,6 +665,12 @@
     "perfil": "brio",
     "tema_canonico": "treinar só uma vez por semana funciona",
     "status": "pronto"
+   },
+   {
+    "id": "brio-38-pernas",
+    "perfil": "brio",
+    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -691,14 +692,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 19874
+    "total": 20517
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-14T11:40:28.420Z"
+    "valor": "2026-11-14T11:50:28.493Z"
    },
    {
     "chave": "escala",
