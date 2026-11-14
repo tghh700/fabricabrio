@@ -1,12 +1,188 @@
 {
- "nome": "11-brio-pernas",
+ "nome": "12-brio-1511",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_38_pernas",
+   "id": "brio_39_descida",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Você pula o treino de perna? As pernas têm os maiores músculos do corpo. Quem só treina a parte de cima fica desproporcional, com tronco forte e pernas atrasadas. E perna forte ajuda no agachamento, no terra e até em subir escada sem cansar. Não precisa de duas horas. Dois exercícios, três séries cada, já mantêm a perna no jogo. [matter-of-fact] Se você tem medo da dor do dia seguinte, começa com pouca carga e sobe aos poucos. Resumindo: perna entra no treino da semana. Poucos exercícios, bem feitos, toda semana. Comenta PERNAS que eu te mando como registrar suas séries de perna no Bríu e acompanhar sua evolução. Link na bio.",
+   "text": "[serious] Você deixa o peso cair? A descida é metade da repetição. E muita gente desperdiça essa metade. Quando o peso cai rápido, quem trabalha é a gravidade, não o seu músculo. E o tranco no final vai pra articulação, não pro músculo. O certo: sobe com firmeza e desce contando dois segundos. [matter-of-fact] Não precisa ser em câmera lenta. Precisa ser controlado, do começo ao fim. Não consegue controlar a descida? O peso está alto demais pra hoje. Resumindo: quem manda na descida é você, não a gravidade. Dois segundos, sempre controlado. Comenta DESCIDA que eu te mando como registrar suas séries no Bríu e ver a carga subir. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_40_maquina",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Máquina dá músculo, sim. Muita gente acha que só barra e halter fazem crescer. Isso é mito. Uma revisão de dois mil e vinte e três comparou os dois. O ganho de músculo foi parecido. E a máquina é mais fácil de aprender e de levar perto do limite com segurança. O peso livre também é ótimo, e ainda treina equilíbrio e coordenação. [matter-of-fact] Então usa os dois. Escolhe o que você faz com boa técnica e consegue progredir. Resumindo: o músculo não sabe se é máquina ou barra. Ele sente esforço e carga subindo. Comenta MÁQUINA que eu te mando como registrar a carga de cada aparelho no Bríu e ver ela subir. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_41_dropset",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[confident] Drop set economiza tempo de treino. Você vai até quase não aguentar, tira um pouco de peso, e continua sem descansar. Exemplo: rosca com quatorze quilos até perto da falha. Troca pra dez e faz mais repetições. Estudos mostram resultado parecido com séries normais, em menos tempo. Por isso ele funciona melhor na última série do exercício, não em todas. [matter-of-fact] E prefira máquinas e isolados. No agachamento pesado, a técnica quebra. Resumindo: drop set é atalho pra quem tem pouco tempo. Uma vez por exercício, com técnica. Comenta DROP que eu te mando como registrar cada etapa do seu drop set no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_42_biset",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[confident] Dá pra treinar o mesmo em menos tempo. É o bi-set: dois exercícios seguidos, e só depois o descanso. O segredo é juntar músculos que não competem, como bíceps e tríceps. Enquanto um trabalha, o outro descansa. Você não perde força na série seguinte. Estudos mostram que dá pra fazer o mesmo número de séries em bem menos tempo. [matter-of-fact] Só evita juntar dois exercícios pesados de perna. Aí as duas séries pioram. Resumindo: com pouco tempo, junta pares que não competem e corta a espera, não as séries. Comenta BISET que eu te mando como registrar seus pares de exercício no Bríu, série por série. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_43_lado",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Um braço mais forte que o outro? Calma, isso é normal. Quase todo mundo tem um lado dominante. Na barra, o lado forte ajuda o fraco, e a diferença continua. Com halter, ou um lado por vez, cada lado tem que levantar sozinho. O truque: começa pelo lado fraco, e o forte faz o mesmo número de repetições. Nem uma a mais. [matter-of-fact] Em algumas semanas, a diferença costuma diminuir. Resumindo: inclui exercícios de um lado só, e deixa o lado fraco ditar o ritmo. Comenta LADO que eu te mando como registrar as repetições de cada lado no Bríu e acompanhar a diferença. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_44_menos",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Cinco exercícios de bíceps é exagero. Depois de algumas séries duras, cada série a mais rende cada vez menos. O músculo já está cansado. Você acumula cansaço e quase não soma estímulo. Uma referência comum: seis a oito séries duras por músculo, no mesmo treino. Quer mais volume? Coloca em outro dia da semana, em vez de empilhar tudo num treino só. [matter-of-fact] E dois exercícios bem feitos valem mais que cinco no automático. Resumindo: mais exercício não é mais músculo. Poucas séries duras, e o resto vai pra outro dia. Comenta MENOS que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_45_barra",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Não consegue fazer nem uma barra? Normal. A barra levanta o seu corpo inteiro, e quase ninguém consegue de primeira. O caminho é a negativa: sobe com um banco, e desce devagar, contando cinco segundos. Também vale ficar pendurado, com os braços esticados, segurando o máximo que der. Faz isso duas ou três vezes por semana, com três a cinco descidas por vez. [matter-of-fact] E a puxada na máquina fortalece as costas enquanto isso. Resumindo: primeiro você aprende a descer, depois a subir. A primeira barra vem. Comenta BARRA que eu te mando como registrar suas descidas no Bríu até a primeira barra. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_46_musica",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Treinar com fone te deixa mais forte? Uma revisão com mais de cem estudos achou que a música melhora o desempenho no exercício. Com música, o mesmo esforço parece um pouco mais leve. E vale mais a música que você gosta, animada, na hora da série pesada. Monta a playlist antes, pra não perder tempo escolhendo no meio do treino. [matter-of-fact] Só não espera milagre. A diferença é pequena. Quem faz o resultado ainda é a carga. Resumindo: música ajuda, mas é tempero. O prato principal é a carga subindo. Comenta MÚSICA que eu te mando como registrar suas séries no Bríu e ver se a carga está subindo. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_47_oscila",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[matter-of-fact] Um treino fraco não é regressão. A força varia de um treino pro outro. Num dia rende, no outro não. Sono, comida, estresse, até o horário mudam o seu rendimento naquele dia. Por isso, um treino ruim isolado não diz nada sobre a sua evolução. O que importa é a tendência: compara as últimas quatro semanas com as quatro anteriores. [serious] Agora, se a carga cai quatro semanas seguidas, aí é hora de rever sono, treino e descanso. Resumindo: não julga o treino pelo dia. Julga pelo mês. Comenta OSCILA que eu te mando como acompanhar sua evolução no Bríu, semana a semana, sem se assustar com um dia ruim. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_48_cinto",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Cinto na academia: precisa? O cinto dá uma parede pro abdômen empurrar, e o tronco fica mais firme. Ele ajuda no agachamento e no levantamento terra com carga alta, perto do seu máximo. Na rosca, no supino ou na série leve, ele não muda quase nada. [matter-of-fact] E primeiro aprende a travar o abdômen sem ele. O cinto não substitui a técnica. Aperta firme, mas dá pra respirar. Se não consegue puxar o ar, está apertado demais. Resumindo: cinto é ferramenta pra série pesada, não acessório pro treino inteiro. Comenta CINTO que eu te mando como registrar suas séries pesadas no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_49_pegada",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Sua mão cansa antes das costas? Na remada e no terra pesado, a pegada costuma falhar antes do músculo que você quer treinar. Aí a série acaba cedo, e as costas ficam com repetições sobrando. A solução é a fita de pegada, o strap. Ela prende a mão na barra. Usa só nas séries pesadas de puxar. No aquecimento e nas leves, mão livre. [matter-of-fact] E se quiser uma pegada mais forte, treina ela à parte: segura a barra parado, o máximo que aguentar. Resumindo: não deixa a mão decidir quando acaba a série das costas. Comenta PEGADA que eu te mando como registrar sua remada no Bríu e ver a carga subir. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_50_puxar",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Muito supino e pouca remada é erro. É o erro mais comum: treinar só o que aparece no espelho, peito e ombro da frente. O treino fica desequilibrado: frente forte, costas atrasadas. Uma regra simples: pra cada série de empurrar, faz uma série de puxar. Supino com remada. Desenvolvimento com puxada. [matter-of-fact] E costas fortes ajudam até no supino: elas deixam a barra mais estável na descida. Resumindo: empurrou, puxa. Conta as séries dos dois lados e deixa empatado. Comenta PUXAR que eu te mando como registrar suas séries no Bríu e conferir se empurrar e puxar estão empatados. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
