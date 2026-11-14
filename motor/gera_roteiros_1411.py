@@ -2,7 +2,9 @@ import json, re, os
 import pauta_1411 as PA
 from apertar import apertar
 out = {}
+import sys
 for k, v in PA.P.items():
+    if len(sys.argv) > 1 and k not in sys.argv[1:]: continue
     al = json.load(open(f"audio/{k}.json")); chars = "".join(al["characters"]); st = al["character_start_times_seconds"]
     _, mapa = apertar(f"audio/{k}.mp3", f"audio/{k}_tight.mp3")
     starts, pos = [], 0
@@ -16,4 +18,4 @@ for k, v in PA.P.items():
     src = (f"# {k} — extra 14/11 · {v['tema']}\nTITLE={v['beats'][0][3]!r}\nVOICE='plASsyS7JE6GCAvx9uIc'\nTHEME='brio'\nBRAND='brio'\nGATILHO_TIPO={v['gat']}\n"
            f"NARRATION={{'file':'audio/{k}_tight.mp3','starts':{starts}}}\nBEATS={beats!r}\n")
     open(f"roteiro_{k}.py", "w").write(src); out[k] = starts; print(k, starts)
-json.dump(out, open("starts_1411.json", "w"))
+_o = json.load(open("starts_1411.json")); _o.update(out); json.dump(_o, open("starts_1411.json", "w"))

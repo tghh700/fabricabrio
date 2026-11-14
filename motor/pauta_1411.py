@@ -63,3 +63,13 @@ V('brio_37_semana', 'treinar só uma vez por semana funciona', 'SEMANA', 2, [
  ('conc', 'RESUMINDO:', '1 DIA > NENHUM.', 'Resumindo: um dia é melhor que nenhum, e dois é melhor ainda. O que não vale é ficar sem treinar.'),
  ('cta', 'COMENTA', 'SEMANA.', 'Comenta SEMANA que eu te mando como registrar suas séries no Bríu e ver o total da sua semana. Link na bio.'),
 ])
+V('brio_38_pernas', 'treinar perna toda semana mesmo com pouco tempo', 'PERNAS', 2, [
+ ('hook', 'PULA O TREINO', 'DE PERNA?', '[serious] Você pula o treino de perna?'),
+ ('maior', 'MAIORES', 'MÚSCULOS DO CORPO.', 'As pernas têm os maiores músculos do corpo.'),
+ ('desp', 'TRONCO FORTE,', 'PERNA ATRASADA.', 'Quem só treina a parte de cima fica desproporcional, com tronco forte e pernas atrasadas.'),
+ ('ajuda', 'PERNA FORTE', 'AJUDA EM TUDO.', 'E perna forte ajuda no agachamento, no terra e até em subir escada sem cansar.'),
+ ('curto', 'NÃO PRECISA', 'SER LONGO.', 'Não precisa de duas horas. Dois exercícios, três séries cada, já mantêm a perna no jogo.'),
+ ('leve', 'COM MEDO', 'DA DOR? COMEÇA LEVE.', '[matter-of-fact] Se você tem medo da dor do dia seguinte, começa com pouca carga e sobe aos poucos.'),
+ ('conc', 'RESUMINDO:', 'PERNA ENTRA NA SEMANA.', 'Resumindo: perna entra no treino da semana. Poucos exercícios, bem feitos, toda semana.'),
+ ('cta', 'COMENTA', 'PERNAS.', 'Comenta PERNAS que eu te mando como registrar suas séries de perna no Bríu e acompanhar sua evolução. Link na bio.'),
+])

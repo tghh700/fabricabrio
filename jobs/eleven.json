@@ -1,92 +1,12 @@
 {
- "nome": "10-brio-1411",
+ "nome": "11-brio-pernas",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_32_dor",
+   "id": "brio_38_pernas",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Dor no dia seguinte é treino bom? Nem sempre. Essa dor aparece mais quando o exercício é novo, ou quando você muda o treino. Quem treina há anos sente menos dor, e continua crescendo. O que faz o músculo crescer é a carga ou as repetições subindo, semana após semana. E um treino sem dor nenhuma também pode ter funcionado. [matter-of-fact] Agora, dor forte que trava o movimento ou não passa em poucos dias, é caso pra um profissional. Resumindo: dor não mede treino. O que mede é se você levantou mais que na semana passada. Comenta DOR que eu te mando como registrar suas séries no Bríu e comparar com a semana passada. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_33_sono",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[serious] Dormiu mal? Seu treino sente. Com poucas horas de sono, a força cai e o esforço parece maior, mesmo com o mesmo peso. E é dormindo que o corpo repara o músculo que você treinou. A meta pra maioria dos adultos é de sete a nove horas por noite. Deitar e acordar em horários parecidos ajuda mais do que tentar compensar no fim de semana. [matter-of-fact] E se você dormiu mal, não força a carga máxima. Faz um treino mais leve, e mantém o hábito. Resumindo: sono também é parte do treino. Cuida dele como cuida da série. Comenta SONO que eu te mando como registrar seu treino no Bríu e comparar as semanas de sono bom e ruim. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_34_ordem",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] A ordem do treino importa? Importa. O primeiro exercício é o que você faz com mais força e mais energia. Então começa pelo exercício que você mais quer evoluir. Os compostos, como agachamento, supino e remada, vêm antes dos isolados. Porque com o corpo cansado, a técnica piora e a carga cai. [matter-of-fact] Tem um músculo atrasado? Treina ele primeiro, quando você está inteiro. Resumindo: o que vem primeiro recebe o melhor de você. Coloca ali o que mais importa. Comenta ORDEM que eu te mando como anotar a carga de cada exercício no Bríu, na ordem do seu treino. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_35_alonga",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Alongar antes de treinar ajuda? Alongar parado, por muito tempo, antes da série, pode reduzir sua força naquela hora. Os estudos mostram essa queda quando o alongamento passa de um minuto no mesmo músculo. Antes, faz o aquecimento dinâmico: os mesmos movimentos, com peso leve. O alongamento parado fica pro fim do treino, se você gosta dele. [matter-of-fact] Ele não é proibido. Só não é o melhor jeito de começar. Resumindo: antes do treino, movimento leve. Alongamento parado, só depois. Comenta ALONGA que eu te mando como registrar seu aquecimento e suas séries no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_36_horario",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Melhor treinar de manhã ou à noite? Alguns estudos mostram pequenas diferenças de força ao longo do dia. Em geral, a força é um pouco maior no fim da tarde. Mas essa diferença é pequena perto do que realmente importa: ir treinar. O melhor horário é o que você consegue repetir toda semana. [matter-of-fact] Escolhe um horário que caiba na sua rotina, e mantém por quatro semanas. Resumindo: horário perfeito não existe. O que existe é o horário que você mantém. Comenta HORA que eu te mando como registrar seu treino no Bríu e ver se o seu horário está rendendo. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_37_semana",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Treinar só uma vez por semana funciona? Funciona, sim. É melhor que zero, e traz ganho, principalmente pra quem está começando. O que conta é o total de séries na semana, não só quantos dias você treina. Mas fazer tudo num dia só cansa, e a qualidade das últimas séries cai. Se der, divide em dois dias, mesmo que curtos. [matter-of-fact] E se só der um dia, faz o corpo todo, com poucos exercícios bem feitos. Resumindo: um dia é melhor que nenhum, e dois é melhor ainda. O que não vale é ficar sem treinar. Comenta SEMANA que eu te mando como registrar suas séries no Bríu e ver o total da sua semana. Link na bio.",
+   "text": "[serious] Você pula o treino de perna? As pernas têm os maiores músculos do corpo. Quem só treina a parte de cima fica desproporcional, com tronco forte e pernas atrasadas. E perna forte ajuda no agachamento, no terra e até em subir escada sem cansar. Não precisa de duas horas. Dois exercícios, três séries cada, já mantêm a perna no jogo. [matter-of-fact] Se você tem medo da dor do dia seguinte, começa com pouca carga e sobe aos poucos. Resumindo: perna entra no treino da semana. Poucos exercícios, bem feitos, toda semana. Comenta PERNAS que eu te mando como registrar suas séries de perna no Bríu e acompanhar sua evolução. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
