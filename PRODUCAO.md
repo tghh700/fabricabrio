@@ -31,6 +31,17 @@ Use `estado.metricas` para decidir a pauta: formatos com views acima da média d
 - **Antes de fechar a pauta, compare com o que já foi ao ar** — inclusive os 27 vídeos antigos do BRIO em `referencia/brio_data_painel_antigo.json` (o BRIO 32 "dor no dia seguinte" foi descartado em 14/11 por repetir o BRIO 01): rode o workflow `listar-midia` (push em `jobs/listar.txt`) e leia `midia/<perfil>.json` no branch `previas` (legendas completas de tudo que está publicado) e os roteiros em `referencia/brio_data_painel_antigo.json`. Não pode repetir vídeo nem a ideia central de um vídeo já postado em qualquer perfil (ex.: "força sobe antes do músculo" já saiu no BRIO 03 e 10).
 - `tema_canonico` curto e único: **nunca** repetir um tema que exista em `estado.temas` (qualquer perfil). O d1-job recusa tema repetido de outro perfil.
 
+### Desempenho real do BRIO (informado pelo usuário em 14/11 — use até as métricas da API voltarem)
+| vídeo | views |
+|---|---|
+| Quanto tempo pra ver resultado? (BRIO 03) | 3.645 |
+| 30 dias de treino, e agora? (BRIO 10) | 3.238 |
+| Treino em jejum queima mais? (BRIO 14) | 2.390 |
+| Treina pesado e não cresce? (BRIO 15) | 1.958 |
+| Ficou sem treinar? (BRIO 12) | 1.912 |
+| demais | ~1.300–1.400, e os mais recentes abaixo de 1.000 |
+Padrão: o que performa é **pergunta sobre resultado/tempo/perda** ("quanto tempo", "o que muda", "perdi?") e **mito popular** (jejum). Técnica de exercício e organização de treino ficam na média ou abaixo. Pauta: ≥60% nesse padrão (variações novas, sem repetir tema).
+
 ## 4. Roteiro (30–40 s)
 - 480–620 caracteres de narração. 1ª frase com até 8 palavras, gancho nos 2 primeiros segundos.
 - 7 a 9 beats (`t1`/`t2` curtos na tela; `text` = fala).
