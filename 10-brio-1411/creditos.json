@@ -1,0 +1,42 @@
+{
+ "gastos": [
+  {
+   "id": "brio_32_dor",
+   "caracteres": 645,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_33_sono",
+   "caracteres": 645,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_34_ordem",
+   "caracteres": 591,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_35_alonga",
+   "caracteres": 598,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_36_horario",
+   "caracteres": 585,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_37_semana",
+   "caracteres": 626,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 3690
+}
