@@ -1,0 +1,78 @@
+{
+ "gastos": [
+  {
+   "id": "brio_39_descida",
+   "caracteres": 647,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_40_maquina",
+   "caracteres": 635,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_41_dropset",
+   "caracteres": 638,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_42_biset",
+   "caracteres": 630,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_43_lado",
+   "caracteres": 593,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_44_menos",
+   "caracteres": 642,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_45_barra",
+   "caracteres": 625,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_46_musica",
+   "caracteres": 626,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_47_oscila",
+   "caracteres": 636,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_48_cinto",
+   "caracteres": 609,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_49_pegada",
+   "caracteres": 626,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_50_puxar",
+   "caracteres": 610,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 7517
+}
