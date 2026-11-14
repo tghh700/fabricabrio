@@ -41,10 +41,11 @@ def fat_cell(c, x, y, r, t, p=1.0, shrink=0.0):
 
 
 def molecules(c, x, y, t, n, p, label="CO2", col=PINK, spread=260, rise=520, seed=3):
-    rnd = random.Random(seed)
+    """moléculas subindo em faixas separadas (sem rótulos sobrepostos — QA 14/11)"""
+    n = min(n, 6)
     for k in range(n):
-        f = (t * 0.45 + rnd.random()) % 1
-        xx = x + rnd.uniform(-spread, spread) * (0.3 + 0.7 * f)
+        f = (t * 0.45 + ((k * 0.618) % 1)) % 1
+        xx = x - spread + 2 * spread * (k + 0.5) / n
         yy = y - rise * f
         a = p * (1 - f) * 1.2
         mono(c, label, xx, yy, 28, col, clamp(a), align="center")

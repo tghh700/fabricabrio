@@ -9,7 +9,7 @@ Este repositório é só código. Roteiros, pauta, métricas e tarefas ficam no 
 | fibra | @fibratreino | 2 (só estoque) | o que acontece dentro do corpo |
 | diaum | @diaumtreino | 2 (só estoque) | começar, hábito, iniciantes |
 
-Escala desde 12/11 (decisão do usuário): BRIO 12/dia; FIBRA e DIA UM 2/dia cada, usando SÓ o estoque já pronto. NÃO produzir vídeo novo para FIBRA nem DIA UM até o usuário liberar — se o estoque acabar, eles ficam sem post e o resumo avisa. Volta a 5/3 quando um post de cada perfil passar de ~300 views — só com aval do usuário. A escala fica em `config.escala` no D1.
+Escala (config.escala no D1): BRIO 12/dia; FIBRA 2/dia; DIA UM 2/dia. Desde 14/11 (decisão do usuário) a fábrica voltou a produzir vídeo NOVO para os 3 perfis — FIBRA e DIA UM não dependem mais só do estoque. Aumentar FIBRA/DIA UM acima de 2/dia só com aval do usuário.
 
 ## Regras fixas
 - Nunca imprimir, commitar ou gravar no D1 um token, chave ou segredo.
@@ -17,7 +17,8 @@ Escala desde 12/11 (decisão do usuário): BRIO 12/dia; FIBRA e DIA UM 2/dia cad
 - Narração: "Bríu" na fala; na escrita, "Brio" — legenda, DM, hashtags e texto na tela NUNCA levam "Bríu" (o Worker e o d1-job corrigem, mas é erro).
 - Todo vídeo tem conclusão antes do CTA. O CTA cita o Brio e termina em "Link na bio.", mas a frase é livre (não há frase fixa).
 - Só citar funções reais do app (registrar séries, acompanhar evolução, orientação após o treino).
-- Nada vai ao ar sem passar pelos 7 portões de QA (ver docs do projeto).
+- Nada vai ao ar sem passar pelos 7 portões de QA (ver PRODUCAO.md §7).
+- Qualidade mínima de animação (usuário, 14/11): cena "boneco parado + ícone" é simples demais. Use `motor/cenas_v2.py` (boneco executando o movimento, painéis errado/certo, contadores, cenário de academia, transição entre cenas). Nunca dois bonecos sem motivo; nunca caracteres que a fonte não tem (✓ ✦ viram quadradinho — desenhe com check_mark).
 
 ## Protocolo de tarefas (tabela `tasks` no D1)
 - Pegue tarefa só com reserva (`claimed_by`, `lease_until` = agora + 30 min).

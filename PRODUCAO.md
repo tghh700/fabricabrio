@@ -10,7 +10,7 @@ cd <repo fabricabrio> && git pull -q && bash motor/instalar.sh
 O render roda dentro de `motor/` (`python3 build2s.py ...` para BRIO, `python3 build3.py ...` para FIBRA e DIA UM). Saída em `motor/out/`.
 
 ## 1. Quanto produzir (para AMANHÃ)
-- Escala atual (`config.escala`, desde 12/11): **BRIO 12/dia**; **FIBRA 2/dia e DIA UM 2/dia só com o estoque já agendado**. **Não produza vídeo novo para FIBRA nem DIA UM** até o usuário liberar; quando o estoque acabar, só avise no resumo.
+- Escala atual (`config.escala`): **BRIO 12/dia, FIBRA 2/dia, DIA UM 2/dia**. Desde 14/11 a produção de vídeo **novo** voltou para os 3 perfis: complete o que faltar para amanhã em cada um (descontando o estoque agendado).
 - Desconte o que já está agendado para amanhã (ver estado no passo 2).
 - Horários (Brasília; no D1 grave em **UTC = BRT + 3 h**):
   - BRIO: 07:00, 08:30, 10:00, 11:30, 12:30, 14:00, 15:30, 17:00, 18:30, 19:30, 20:30, 22:00
@@ -28,7 +28,7 @@ Use `estado.metricas` para decidir a pauta: formatos com views acima da média d
 - Cada vídeo precisa de **evidência** (formato com 2×+ a média de contas do nicho, ou um dos nossos que performou). Sem evidência, não gaste crédito.
 - Mix: 60% variações do que performou em nós, 30% formatos modelados ainda não testados, 10% experimento.
 - Território: BRIO = técnica, erros, progressão · FIBRA = o que acontece dentro do corpo · DIA UM = começar, hábito, vergonha, idade.
-- **Antes de fechar a pauta, compare com o que já foi ao ar**: rode o workflow `listar-midia` (push em `jobs/listar.txt`) e leia `midia/<perfil>.json` no branch `previas` (legendas completas de tudo que está publicado) e os roteiros em `referencia/brio_data_painel_antigo.json`. Não pode repetir vídeo nem a ideia central de um vídeo já postado em qualquer perfil (ex.: "força sobe antes do músculo" já saiu no BRIO 03 e 10).
+- **Antes de fechar a pauta, compare com o que já foi ao ar** — inclusive os 27 vídeos antigos do BRIO em `referencia/brio_data_painel_antigo.json` (o BRIO 32 "dor no dia seguinte" foi descartado em 14/11 por repetir o BRIO 01): rode o workflow `listar-midia` (push em `jobs/listar.txt`) e leia `midia/<perfil>.json` no branch `previas` (legendas completas de tudo que está publicado) e os roteiros em `referencia/brio_data_painel_antigo.json`. Não pode repetir vídeo nem a ideia central de um vídeo já postado em qualquer perfil (ex.: "força sobe antes do músculo" já saiu no BRIO 03 e 10).
 - `tema_canonico` curto e único: **nunca** repetir um tema que exista em `estado.temas` (qualquer perfil). O d1-job recusa tema repetido de outro perfil.
 
 ## 4. Roteiro (30–40 s)
@@ -71,6 +71,11 @@ for b in BEATS:
 - Siga `motor/GUIA_ANIMACAO.md`. O que fica na frente é desenhado por último; nada atravessa texto; sem quadradinho/kicker no topo.
 - Força/evolução: boneco fazendo rosca com halter (`curl_up`/`curl_down` + `dumbbell`) ou carga subindo. **Não** use pose de braço atrás da cabeça.
 - Teste rápido: `python3 build3.py roteiro_x scenes_x --stills` (2 quadros por beat) antes do render completo.
+
+## 6b. Padrão visual mínimo (usuário, 14/11)
+- Nada de cena "boneco parado + ícone". Cada beat tem ação: boneco executando (act_curl, act_squat, act_press, act_walk, act_tired em `cenas_v2.py`), painel comparativo (`split`), contador/bateria/semana animados, cenário de academia ao fundo e entrada com transição (`wipe_in`). Modelo: `v2_34_ordem.py` … `v2_38_pernas.py`.
+- Uma figura por cena, salvo comparação explícita. Cama = só `sleeper()` (o vídeo 33 v1 tinha um boneco em pé ao lado de outro deitado e foi apagado pelo usuário).
+- **Glifos:** Anton/Space Mono não têm ✓ ✦ — saem como quadradinho. Rode antes do render: `grep -n "✓\|✦" scenes_*.py v2_*.py` tem que dar vazio em texto desenhado (use `check_mark`).
 
 ## 7. QA — 7 portões (nada vai ao ar sem passar)
 1. Anti-repetição: tema canônico novo; gancho não repete a fórmula do vídeo anterior do mesmo perfil.
