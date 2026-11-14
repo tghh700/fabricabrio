@@ -1,7 +1,20 @@
 {
  "relatorio": {
-  "nome": "estado-20261114-1653",
-  "gravados": [],
+  "nome": "agenda-20261115-brio",
+  "gravados": [
+   "brio-39-descida",
+   "brio-40-maquina",
+   "brio-41-dropset",
+   "brio-42-biset",
+   "brio-43-lado",
+   "brio-44-menos",
+   "brio-45-barra",
+   "brio-46-musica",
+   "brio-47-oscila",
+   "brio-48-cinto",
+   "brio-49-pegada",
+   "brio-50-puxar"
+  ],
   "recusados": []
  },
  "estado": {
@@ -377,6 +390,36 @@
     "tema_canonico": "dormir mal derruba o treino"
    },
    {
+    "id": 46,
+    "video_id": "brio-40-maquina",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 10:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "máquina constrói músculo igual a peso livre"
+   },
+   {
+    "id": 45,
+    "video_id": "brio-39-descida",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 11:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "controlar a descida do peso (fase excêntrica)"
+   },
+   {
+    "id": 47,
+    "video_id": "brio-41-dropset",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 13:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "drop set: tirar peso e continuar a série"
+   },
+   {
     "id": 30,
     "video_id": "diaum-07-preguica",
     "perfil": "diaum",
@@ -387,6 +430,16 @@
     "tema_canonico": "preguiça na hora de sair pro treino"
    },
    {
+    "id": 49,
+    "video_id": "brio-43-lado",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "um lado mais forte que o outro: exercício unilateral"
+   },
+   {
     "id": 26,
     "video_id": "fibra-08-barra-musculos",
     "perfil": "fibra",
@@ -395,6 +448,56 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "músculos que trabalham na barra fixa"
+   },
+   {
+    "id": 50,
+    "video_id": "brio-44-menos",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "muitos exercícios para o mesmo músculo no mesmo treino"
+   },
+   {
+    "id": 51,
+    "video_id": "brio-45-barra",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "primeira barra fixa: progressão com negativas"
+   },
+   {
+    "id": 56,
+    "video_id": "brio-50-puxar",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar"
+   },
+   {
+    "id": 52,
+    "video_id": "brio-46-musica",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "música no treino melhora o desempenho"
+   },
+   {
+    "id": 53,
+    "video_id": "brio-47-oscila",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 21:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
    },
    {
     "id": 27,
@@ -415,6 +518,36 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "magro de 19 anos que quer ganhar massa: por onde começar"
+   },
+   {
+    "id": 54,
+    "video_id": "brio-48-cinto",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "cinto de musculação: quando usar"
+   },
+   {
+    "id": 48,
+    "video_id": "brio-42-biset",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 23:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "bi-set para treinar o mesmo em menos tempo"
+   },
+   {
+    "id": 55,
+    "video_id": "brio-49-pegada",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "a mão cansa antes das costas: pegada e strap"
    },
    {
     "id": 32,
@@ -679,6 +812,78 @@
     "perfil": "brio",
     "tema_canonico": "treinar perna toda semana mesmo com pouco tempo",
     "status": "pronto"
+   },
+   {
+    "id": "brio-39-descida",
+    "perfil": "brio",
+    "tema_canonico": "controlar a descida do peso (fase excêntrica)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-40-maquina",
+    "perfil": "brio",
+    "tema_canonico": "máquina constrói músculo igual a peso livre",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-41-dropset",
+    "perfil": "brio",
+    "tema_canonico": "drop set: tirar peso e continuar a série",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-42-biset",
+    "perfil": "brio",
+    "tema_canonico": "bi-set para treinar o mesmo em menos tempo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-43-lado",
+    "perfil": "brio",
+    "tema_canonico": "um lado mais forte que o outro: exercício unilateral",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-44-menos",
+    "perfil": "brio",
+    "tema_canonico": "muitos exercícios para o mesmo músculo no mesmo treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-45-barra",
+    "perfil": "brio",
+    "tema_canonico": "primeira barra fixa: progressão com negativas",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-46-musica",
+    "perfil": "brio",
+    "tema_canonico": "música no treino melhora o desempenho",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-47-oscila",
+    "perfil": "brio",
+    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-48-cinto",
+    "perfil": "brio",
+    "tema_canonico": "cinto de musculação: quando usar",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-49-pegada",
+    "perfil": "brio",
+    "tema_canonico": "a mão cansa antes das costas: pegada e strap",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-50-puxar",
+    "perfil": "brio",
+    "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -700,14 +905,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 20517
+    "total": 28034
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-14T16:50:28.147Z"
+    "valor": "2026-11-14T17:25:27.821Z"
    },
    {
     "chave": "escala",
