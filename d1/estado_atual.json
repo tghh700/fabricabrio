@@ -1,9 +1,7 @@
 {
  "relatorio": {
-  "nome": "agenda-20261114-brio-pernas",
-  "gravados": [
-   "brio-38-pernas"
-  ],
+  "nome": "estado-20261114-1653",
+  "gravados": [],
   "recusados": []
  },
  "estado": {
@@ -273,20 +271,10 @@
     "video_id": "brio-33-sono",
     "perfil": "brio",
     "agendado_para": "2026-11-14 12:30:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
+    "status": "apagado",
+    "permalink": "https://www.instagram.com/reel/DfuLKkhFx_f/",
+    "erro": "apagado pelo usuário (erro de animação); refeito v2",
     "tema_canonico": "dormir mal derruba o treino"
-   },
-   {
-    "id": 39,
-    "video_id": "brio-34-ordem",
-    "perfil": "brio",
-    "agendado_para": "2026-11-14 14:00:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "ordem dos exercícios no treino"
    },
    {
     "id": 28,
@@ -299,6 +287,16 @@
     "tema_canonico": "prancha em 3 níveis para iniciante"
    },
    {
+    "id": 40,
+    "video_id": "brio-35-alonga",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 15:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "alongamento parado antes do treino reduz força"
+   },
+   {
     "id": 21,
     "video_id": "fibra-05-agacha",
     "perfil": "fibra",
@@ -309,44 +307,24 @@
     "tema_canonico": "músculos que trabalham no agachamento"
    },
    {
-    "id": 40,
-    "video_id": "brio-35-alonga",
+    "id": 39,
+    "video_id": "brio-34-ordem",
     "perfil": "brio",
-    "agendado_para": "2026-11-14 15:30:00",
+    "agendado_para": "2026-11-14 16:30:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
-    "tema_canonico": "alongamento parado antes do treino reduz força"
-   },
-   {
-    "id": 41,
-    "video_id": "brio-36-horario",
-    "perfil": "brio",
-    "agendado_para": "2026-11-14 17:00:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "melhor horário para treinar: manhã ou noite"
+    "tema_canonico": "ordem dos exercícios no treino"
    },
    {
     "id": 42,
     "video_id": "brio-37-semana",
     "perfil": "brio",
-    "agendado_para": "2026-11-14 18:30:00",
+    "agendado_para": "2026-11-14 21:00:00",
     "status": "agendado",
     "permalink": null,
     "erro": null,
     "tema_canonico": "treinar só uma vez por semana funciona"
-   },
-   {
-    "id": 43,
-    "video_id": "brio-38-pernas",
-    "perfil": "brio",
-    "agendado_para": "2026-11-14 20:00:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo"
    },
    {
     "id": 25,
@@ -367,6 +345,36 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "não sei usar os aparelhos da academia"
+   },
+   {
+    "id": 43,
+    "video_id": "brio-38-pernas",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo"
+   },
+   {
+    "id": 41,
+    "video_id": "brio-36-horario",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "melhor horário para treinar: manhã ou noite"
+   },
+   {
+    "id": 44,
+    "video_id": "brio-33-sono",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 01:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "dormir mal derruba o treino"
    },
    {
     "id": 30,
@@ -699,7 +707,7 @@
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-14T11:50:28.493Z"
+    "valor": "2026-11-14T16:50:28.147Z"
    },
    {
     "chave": "escala",
@@ -707,7 +715,7 @@
    },
    {
     "chave": "pausa_global",
-    "valor": "0"
+    "valor": "1"
    }
   ]
  }
