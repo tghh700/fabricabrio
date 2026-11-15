@@ -1,17 +1,16 @@
 {
- "nome": "12-brio-1511",
+ "nome": "15-3perfis-1611",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_39_descida",
+   "id": "brio_51_mes",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Você deixa o peso cair? A descida é metade da repetição. E muita gente desperdiça essa metade. Quando o peso cai rápido, quem trabalha é a gravidade, não o seu músculo. E o tranco no final vai pra articulação, não pro músculo. O certo: sobe com firmeza e desce contando dois segundos. [matter-of-fact] Não precisa ser em câmera lenta. Precisa ser controlado, do começo ao fim. Não consegue controlar a descida? O peso está alto demais pra hoje. Resumindo: quem manda na descida é você, não a gravidade. Dois segundos, sempre controlado. Comenta DESCIDA que eu te mando como registrar suas séries no Bríu e ver a carga subir. Link na bio.",
+   "text": "[curious] Quanto músculo dá pra ganhar por mês? Pra quem começa do zero e treina direito, algo perto de meio quilo a um quilo por mês. No segundo ano, isso cai mais ou menos pela metade. E fica mais lento a cada ano. Por isso a balança engana. Ela mistura músculo, água, comida e gordura. [serious] Cinco quilos de músculo em um mês? Isso é água e gordura, não músculo. Um jeito melhor de acompanhar é a carga. Se ela sobe mês a mês, você está no caminho. Resumindo: músculo vem devagar, mas vem. Um quilo por mês no começo já é ótimo. Comenta QUILO que eu te mando como registrar suas cargas no Bríu e ver o mês a mês. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -19,15 +18,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_40_maquina",
+   "id": "brio_52_vira",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Máquina dá músculo, sim. Muita gente acha que só barra e halter fazem crescer. Isso é mito. Uma revisão de dois mil e vinte e três comparou os dois. O ganho de músculo foi parecido. E a máquina é mais fácil de aprender e de levar perto do limite com segurança. O peso livre também é ótimo, e ainda treina equilíbrio e coordenação. [matter-of-fact] Então usa os dois. Escolhe o que você faz com boa técnica e consegue progredir. Resumindo: o músculo não sabe se é máquina ou barra. Ele sente esforço e carga subindo. Comenta MÁQUINA que eu te mando como registrar a carga de cada aparelho no Bríu e ver ela subir. Link na bio.",
+   "text": "[serious] Músculo não vira gordura. São tecidos diferentes. Um não se transforma no outro, nunca. Quando alguém para de treinar, acontecem duas coisas ao mesmo tempo. Primeiro, sem o estímulo do treino, o músculo vai diminuindo. Segundo, a pessoa continua comendo igual, mas gasta menos. A sobra vira gordura. [matter-of-fact] Como as duas coisas acontecem juntas, parece que um virou o outro. Se for parar ou diminuir o treino, ajusta a comida junto. Resumindo: músculo não vira gordura. Você perde um e ganha o outro, por motivos diferentes. Comenta VIRA que eu te mando como acompanhar sua evolução no Bríu, semana a semana. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -35,15 +33,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_41_dropset",
+   "id": "brio_53_pesado",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[confident] Drop set economiza tempo de treino. Você vai até quase não aguentar, tira um pouco de peso, e continua sem descansar. Exemplo: rosca com quatorze quilos até perto da falha. Troca pra dez e faz mais repetições. Estudos mostram resultado parecido com séries normais, em menos tempo. Por isso ele funciona melhor na última série do exercício, não em todas. [matter-of-fact] E prefira máquinas e isolados. No agachamento pesado, a técnica quebra. Resumindo: drop set é atalho pra quem tem pouco tempo. Uma vez por exercício, com técnica. Comenta DROP que eu te mando como registrar cada etapa do seu drop set no Bríu. Link na bio.",
+   "text": "[curious] Mulher que treina pesado fica bombada? Não. Pelo menos não do jeito que muita gente tem medo. O corpo da mulher tem bem menos testosterona, e o músculo cresce mais devagar. Ganhar muito volume leva anos de treino focado nisso, e muita comida pra isso. O que o peso alto traz é força, firmeza e forma. [matter-of-fact] E peso leve com mil repetições não tonifica mais. Tonificar é ganhar músculo e perder gordura. Resumindo: pode pegar peso sem medo. O resultado é ficar mais forte, não maior do dia pra noite. Comenta PESADO que eu te mando como registrar suas cargas no Bríu e ver sua força subir. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -51,15 +48,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_42_biset",
+   "id": "brio_54_whey",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[confident] Dá pra treinar o mesmo em menos tempo. É o bi-set: dois exercícios seguidos, e só depois o descanso. O segredo é juntar músculos que não competem, como bíceps e tríceps. Enquanto um trabalha, o outro descansa. Você não perde força na série seguinte. Estudos mostram que dá pra fazer o mesmo número de séries em bem menos tempo. [matter-of-fact] Só evita juntar dois exercícios pesados de perna. Aí as duas séries pioram. Resumindo: com pouco tempo, junta pares que não competem e corta a espera, não as séries. Comenta BISET que eu te mando como registrar seus pares de exercício no Bríu, série por série. Link na bio.",
+   "text": "[curious] Precisa correr pro whey depois do treino? Muita gente acha que tem uma janela de trinta minutos, senão perde o treino. Os estudos mostram que essa janela é bem maior: de várias horas, antes e depois. O que mais conta é a proteína do dia inteiro, dividida em umas três ou quatro refeições. [matter-of-fact] E whey não é mágico. É proteína do leite, prática. Comida resolve igual. Gosta do whey? Toma na hora que for mais prática pra você. Resumindo: sem correria. Bate a proteína do dia e foca em treinar bem. Comenta WHEY que eu te mando como registrar seus treinos no Bríu e acompanhar o que importa: a carga subindo. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -67,15 +63,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_43_lado",
+   "id": "brio_55_altura",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Um braço mais forte que o outro? Calma, isso é normal. Quase todo mundo tem um lado dominante. Na barra, o lado forte ajuda o fraco, e a diferença continua. Com halter, ou um lado por vez, cada lado tem que levantar sozinho. O truque: começa pelo lado fraco, e o forte faz o mesmo número de repetições. Nem uma a mais. [matter-of-fact] Em algumas semanas, a diferença costuma diminuir. Resumindo: inclui exercícios de um lado só, e deixa o lado fraco ditar o ritmo. Comenta LADO que eu te mando como registrar as repetições de cada lado no Bríu e acompanhar a diferença. Link na bio.",
+   "text": "[serious] Musculação não deixa ninguém baixo. O mito vem do medo de machucar a placa de crescimento, a parte do osso que ainda cresce. Mas os estudos com jovens treinando com orientação não mostram prejuízo no crescimento. Correr e pular já colocam mais impacto no osso que uma série bem feita. [matter-of-fact] O risco de verdade é técnica ruim e peso alto demais, sem ninguém olhando. E o treino ainda deixa o osso mais forte. Resumindo: com orientação e boa técnica, jovem pode treinar. Altura vem da genética, não da academia. Comenta ALTURA que eu te mando como registrar seus treinos no Bríu, com a carga subindo aos poucos. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -83,15 +78,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_44_menos",
+   "id": "brio_56_junto",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Cinco exercícios de bíceps é exagero. Depois de algumas séries duras, cada série a mais rende cada vez menos. O músculo já está cansado. Você acumula cansaço e quase não soma estímulo. Uma referência comum: seis a oito séries duras por músculo, no mesmo treino. Quer mais volume? Coloca em outro dia da semana, em vez de empilhar tudo num treino só. [matter-of-fact] E dois exercícios bem feitos valem mais que cinco no automático. Resumindo: mais exercício não é mais músculo. Poucas séries duras, e o resto vai pra outro dia. Comenta MENOS que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.",
+   "text": "[curious] Dá pra secar e crescer ao mesmo tempo? Dá, sim. Tem até nome: recomposição corporal. Funciona melhor pra quem está começando, voltando de uma pausa, ou tem mais gordura pra perder. A receita: treino de força pesado, proteína alta e só um pouco menos de comida. O detalhe: a balança quase não mexe, porque sai gordura e entra músculo. [matter-of-fact] O sinal certo é a cintura diminuindo enquanto a carga sobe. Resumindo: dá pra fazer os dois, principalmente no começo. Olha a cintura e a carga, não a balança. Comenta JUNTO que eu te mando como registrar suas cargas no Bríu e ver a força subir enquanto você seca. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -99,15 +93,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_45_barra",
+   "id": "brio_57_secar",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Não consegue fazer nem uma barra? Normal. A barra levanta o seu corpo inteiro, e quase ninguém consegue de primeira. O caminho é a negativa: sobe com um banco, e desce devagar, contando cinco segundos. Também vale ficar pendurado, com os braços esticados, segurando o máximo que der. Faz isso duas ou três vezes por semana, com três a cinco descidas por vez. [matter-of-fact] E a puxada na máquina fortalece as costas enquanto isso. Resumindo: primeiro você aprende a descer, depois a subir. A primeira barra vem. Comenta BARRA que eu te mando como registrar suas descidas no Bríu até a primeira barra. Link na bio.",
+   "text": "[serious] Musculação emagrece, sim. Muita gente acha que só esteira emagrece, e musculação é só pra crescer. Uma hora de musculação gasta energia, parecido com uma caminhada rápida. E o músculo que você ganha gasta um pouco de energia o dia todo, até parado. [matter-of-fact] Mas quem decide se o peso cai é o quanto você come. Treino nenhum vence prato cheio. O melhor resultado vem de comer um pouco menos e treinar força. Caminhada entra de bônus. Resumindo: musculação ajuda a emagrecer, e muda o formato do corpo que a esteira não muda. Comenta SECAR que eu te mando como registrar seus treinos no Bríu e acompanhar sua evolução. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -115,15 +108,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_46_musica",
+   "id": "brio_58_cafe",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Treinar com fone te deixa mais forte? Uma revisão com mais de cem estudos achou que a música melhora o desempenho no exercício. Com música, o mesmo esforço parece um pouco mais leve. E vale mais a música que você gosta, animada, na hora da série pesada. Monta a playlist antes, pra não perder tempo escolhendo no meio do treino. [matter-of-fact] Só não espera milagre. A diferença é pequena. Quem faz o resultado ainda é a carga. Resumindo: música ajuda, mas é tempero. O prato principal é a carga subindo. Comenta MÚSICA que eu te mando como registrar suas séries no Bríu e ver se a carga está subindo. Link na bio.",
+   "text": "[curious] Café antes do treino funciona? Funciona. A cafeína é dos poucos suplementos com muita prova de efeito. Ela ajuda a render um pouco mais na série e a demorar mais pra cansar. O melhor é tomar uns trinta a sessenta minutos antes de treinar. Pra maioria, duas xícaras já chegam perto da dose dos estudos. Exagerar não aumenta o efeito. [matter-of-fact] Mas se você treina à noite, cuidado: café tarde atrapalha o sono, e o sono pesa mais no resultado. Resumindo: café ajuda, sim. Duas xícaras, meia hora antes, e longe da hora de dormir. Comenta CAFÉ que eu te mando como registrar suas séries no Bríu e ver se você rende mais. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -131,15 +123,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_47_oscila",
+   "id": "brio_59_confunde",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[matter-of-fact] Um treino fraco não é regressão. A força varia de um treino pro outro. Num dia rende, no outro não. Sono, comida, estresse, até o horário mudam o seu rendimento naquele dia. Por isso, um treino ruim isolado não diz nada sobre a sua evolução. O que importa é a tendência: compara as últimas quatro semanas com as quatro anteriores. [serious] Agora, se a carga cai quatro semanas seguidas, aí é hora de rever sono, treino e descanso. Resumindo: não julga o treino pelo dia. Julga pelo mês. Comenta OSCILA que eu te mando como acompanhar sua evolução no Bríu, semana a semana, sem se assustar com um dia ruim. Link na bio.",
+   "text": "[serious] Trocar o treino toda semana? Não confunde o músculo. A ideia de surpreender o músculo pra ele crescer é um mito antigo. O que faz crescer é a carga e as repetições subindo, semana após semana. Se você troca tudo toda semana, não sabe se está progredindo. Sempre começa do zero. O melhor: mantém os principais exercícios por quatro a oito semanas. [matter-of-fact] Trocar pode, mas com motivo: travou, dói, ou enjoou de verdade. Resumindo: músculo não se confunde. Ele responde a carga subindo no mesmo exercício. Comenta TROCA que eu te mando como registrar cada exercício no Bríu e ver a carga subir semana a semana. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -147,15 +138,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_48_cinto",
+   "id": "brio_60_shape",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Cinto na academia: precisa? O cinto dá uma parede pro abdômen empurrar, e o tronco fica mais firme. Ele ajuda no agachamento e no levantamento terra com carga alta, perto do seu máximo. Na rosca, no supino ou na série leve, ele não muda quase nada. [matter-of-fact] E primeiro aprende a travar o abdômen sem ele. O cinto não substitui a técnica. Aperta firme, mas dá pra respirar. Se não consegue puxar o ar, está apertado demais. Resumindo: cinto é ferramenta pra série pesada, não acessório pro treino inteiro. Comenta CINTO que eu te mando como registrar suas séries pesadas no Bríu. Link na bio.",
+   "text": "[curious] Aquele shape em noventa dias é real? Parte é treino. Mas parte é truque de foto. Luz de cima marca o abdômen. Na foto do antes, luz de frente e barriga solta. Uns minutos de flexão antes da foto incham o músculo por meia hora. Postura reta, abdômen contraído, e a pele mais escura. Tudo no mesmo dia. [matter-of-fact] Então não compara o seu começo com a foto editada de alguém. Resumindo: noventa dias mudam muito, mas não tudo. Compara você com você, nos números. Comenta REAL que eu te mando como acompanhar sua evolução no Bríu, com números de verdade. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -163,15 +153,14 @@
   },
   {
    "op": "tts",
-   "id": "brio_49_pegada",
+   "id": "brio_61_foco",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Sua mão cansa antes das costas? Na remada e no terra pesado, a pegada costuma falhar antes do músculo que você quer treinar. Aí a série acaba cedo, e as costas ficam com repetições sobrando. A solução é a fita de pegada, o strap. Ela prende a mão na barra. Usa só nas séries pesadas de puxar. No aquecimento e nas leves, mão livre. [matter-of-fact] E se quiser uma pegada mais forte, treina ela à parte: segura a barra parado, o máximo que aguentar. Resumindo: não deixa a mão decidir quando acaba a série das costas. Comenta PEGADA que eu te mando como registrar sua remada no Bríu e ver a carga subir. Link na bio.",
+   "text": "[curious] Pensar no músculo faz ele crescer mais? Um estudo de dois mil e dezoito testou isso na rosca e na cadeira extensora. Quem pensava no músculo durante a série ganhou mais bíceps do que quem só pensava em levantar o peso. Na perna, a diferença foi pequena. Como fazer: peso que você controla, mais devagar, e a atenção no músculo apertando. [matter-of-fact] No pesado, perto do máximo, o foco volta pro movimento. Aí é técnica. Resumindo: nos exercícios isolados, sentir o músculo ajuda. É de graça e só pede atenção. Comenta FOCO que eu te mando como registrar suas séries no Bríu e ver seu bíceps responder. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
    },
    "timestamps": true,
@@ -179,16 +168,60 @@
   },
   {
    "op": "tts",
-   "id": "brio_50_puxar",
+   "id": "brio_62_rapido",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Muito supino e pouca remada é erro. É o erro mais comum: treinar só o que aparece no espelho, peito e ombro da frente. O treino fica desequilibrado: frente forte, costas atrasadas. Uma regra simples: pra cada série de empurrar, faz uma série de puxar. Supino com remada. Desenvolvimento com puxada. [matter-of-fact] E costas fortes ajudam até no supino: elas deixam a barra mais estável na descida. Resumindo: empurrou, puxa. Conta as séries dos dois lados e deixa empatado. Comenta PUXAR que eu te mando como registrar suas séries no Bríu e conferir se empurrar e puxar estão empatados. Link na bio.",
+   "text": "[curious] Emagrecer rápido demais leva músculo junto? Pode. Quanto mais rápido o peso cai, mais músculo tende a sair junto. Num estudo com atletas, quem emagreceu mais devagar perdeu gordura e ainda ganhou músculo. Um ritmo seguro: meio a um por cento do seu peso por semana. [matter-of-fact] E na dieta, não troca a carga por peso leve. É a carga que avisa o corpo pra guardar o músculo. Junto com proteína alta, em todas as refeições. Resumindo: devagar e com carga, o que sai é gordura. Rápido demais, o músculo vai junto. Comenta DEVAGAR que eu te mando como registrar suas cargas no Bríu e ver se elas seguram na dieta. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
     "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_10_supino",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Um supino. Três músculos empurrando a barra. O principal é o peitoral maior: traz o braço pra frente e empurra a barra. O deltoide da frente, no ombro, ajuda a subida inteira. E o tríceps estica o cotovelo. Ele trabalha mais no final, quando o braço trava. [matter-of-fact] Banco inclinado? Mais a parte de cima do peito, e mais ombro. E as costas seguram as escápulas firmes no banco. Sem isso, a barra balança. [warm] Resumindo: supino é peito, ombro e tríceps juntos. Quer mais a parte de cima do peito? Inclina o banco. Comenta SUPINO que eu te mando como registrar sua carga no Bríu e ver o supino subir semana a semana. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_11_descanso",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] O músculo não cresce durante o treino. No treino, a fibra é estressada: tensão alta, energia gasta e pequenas lesões. Esse estresse é um aviso. Ele diz pro corpo que aquilo foi pesado demais. Depois, a fabricação de proteína no músculo sobe, e fica alta por um a dois dias. É aí que a fibra é reforçada, e fica um pouquinho mais grossa do que antes. [matter-of-fact] Pra essa obra acontecer, ela precisa de proteína na comida e de sono. [warm] Resumindo: o treino faz o pedido, o descanso faz a obra. Um sem o outro não cresce. Comenta DESCANSO que eu te mando como registrar seus treinos no Bríu e ver a evolução de cada semana. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_09_agacha",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] Agachar parece difícil? Começa pela cadeira. O agachamento é um dos exercícios mais úteis da vida, e dá pra aprender por níveis. Nível um: senta e levanta da cadeira, sem usar as mãos. Pés firmes no chão. Nível dois: o mesmo movimento, sem a cadeira. Quadril pra trás e peito aberto. Nível três: desce, segura três segundos lá embaixo, e sobe. Quando fizer três séries de doze, todas bem feitas, passa pro próximo nível. [encouraging] Então: começa na cadeira, e sobe um nível de cada vez. Sem pressa. Comenta AGACHA que eu te mando como registrar suas séries no Bríu e ver sua evolução. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.05
    },
    "timestamps": true,
    "seed": 7
