@@ -1,28 +1,10 @@
 {
  "relatorio": {
-  "nome": "agenda-20261116",
+  "nome": "agenda-20261116-diaum",
   "gravados": [
-   "brio-51-mes",
-   "brio-52-vira",
-   "brio-53-pesado",
-   "brio-54-whey",
-   "brio-55-altura",
-   "brio-56-junto",
-   "brio-57-secar",
-   "brio-58-cafe",
-   "brio-59-confunde",
-   "brio-60-shape",
-   "brio-61-foco",
-   "brio-62-rapido",
-   "fibra-10-supino",
-   "fibra-11-descanso"
+   "diaum-09-agacha"
   ],
-  "recusados": [
-   {
-    "id": "diaum-09-agacha",
-    "motivo": "arquivo não está no branch midia"
-   }
-  ]
+  "recusados": []
  },
  "estado": {
   "posts": [
@@ -687,6 +669,16 @@
     "tema_canonico": "transformação de 90 dias da internet: os truques da foto"
    },
    {
+    "id": 71,
+    "video_id": "diaum-09-agacha",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-16 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "agachamento em 3 níveis para iniciante"
+   },
+   {
     "id": 67,
     "video_id": "brio-61-foco",
     "perfil": "brio",
@@ -1115,6 +1107,12 @@
     "perfil": "fibra",
     "tema_canonico": "síntese de proteína: o músculo cresce no descanso",
     "status": "pronto"
+   },
+   {
+    "id": "diaum-09-agacha",
+    "perfil": "diaum",
+    "tema_canonico": "agachamento em 3 níveis para iniciante",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -1136,14 +1134,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 37535
+    "total": 38142
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-15T17:15:27.800Z"
+    "valor": "2026-11-15T17:20:27.893Z"
    },
    {
     "chave": "escala",
