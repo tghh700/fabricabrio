@@ -1,0 +1,96 @@
+{
+ "gastos": [
+  {
+   "id": "brio_51_mes",
+   "caracteres": 632,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_52_vira",
+   "caracteres": 640,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_53_pesado",
+   "caracteres": 621,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_54_whey",
+   "caracteres": 641,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_55_altura",
+   "caracteres": 643,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_56_junto",
+   "caracteres": 638,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_57_secar",
+   "caracteres": 647,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_58_cafe",
+   "caracteres": 647,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_59_confunde",
+   "caracteres": 640,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_60_shape",
+   "caracteres": 579,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_61_foco",
+   "caracteres": 629,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_62_rapido",
+   "caracteres": 637,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_10_supino",
+   "caracteres": 648,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_11_descanso",
+   "caracteres": 652,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_09_agacha",
+   "caracteres": 607,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 9501
+}
