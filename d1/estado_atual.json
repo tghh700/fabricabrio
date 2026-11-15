@@ -1,20 +1,7 @@
 {
  "relatorio": {
-  "nome": "agenda-20261115-brio",
-  "gravados": [
-   "brio-39-descida",
-   "brio-40-maquina",
-   "brio-41-dropset",
-   "brio-42-biset",
-   "brio-43-lado",
-   "brio-44-menos",
-   "brio-45-barra",
-   "brio-46-musica",
-   "brio-47-oscila",
-   "brio-48-cinto",
-   "brio-49-pegada",
-   "brio-50-puxar"
-  ],
+  "nome": "estado-20261115-1648",
+  "gravados": [],
   "recusados": []
  },
  "estado": {
@@ -892,7 +879,7 @@
     "perfil": "brio",
     "video_id": "brio-25-evoluindo",
     "origem": "dm",
-    "n": 6
+    "n": 8
    }
   ],
   "dms": [
@@ -912,7 +899,7 @@
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-14T17:25:27.821Z"
+    "valor": "2026-11-15T16:45:28.650Z"
    },
    {
     "chave": "escala",
