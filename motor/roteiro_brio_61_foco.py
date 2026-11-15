@@ -1,0 +1,8 @@
+# brio_61_foco — lote 16/11 · foco mental no músculo durante a série
+TITLE='[curious] Pensar no músculo faz ele crescer mais?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_61_foco_tight.mp3','starts':[0.063, 2.544, 6.657, 12.013, 13.976, 18.889, 23.282, 28.552]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'PENSAR NO MÚSCULO', 't2': 'FAZ CRESCER?', 'text': '[curious] Pensar no músculo faz ele crescer mais?'}, {'vis': 'estudo', 'k': '', 't1': 'UM ESTUDO', 't2': 'TESTOU.', 'text': 'Um estudo de dois mil e dezoito testou isso na rosca e na cadeira extensora.'}, {'vis': 'braco', 'k': '', 't1': 'NO BÍCEPS:', 't2': 'CRESCEU MAIS.', 'text': 'Quem pensava no músculo durante a série ganhou mais bíceps do que quem só pensava em levantar o peso.'}, {'vis': 'perna', 'k': '', 't1': 'NA PERNA:', 't2': 'QUASE IGUAL.', 'text': 'Na perna, a diferença foi pequena.'}, {'vis': 'como', 'k': '', 't1': 'SENTE', 't2': 'O MÚSCULO.', 'text': 'Como fazer: peso que você controla, mais devagar, e a atenção no músculo apertando.'}, {'vis': 'pesado', 'k': '', 't1': 'NO PESADO,', 't2': 'FOCA NO MOVIMENTO.', 'text': '[matter-of-fact] No pesado, perto do máximo, o foco volta pro movimento. Aí é técnica.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'ATENÇÃO CONTA.', 'text': 'Resumindo: nos exercícios isolados, sentir o músculo ajuda. É de graça e só pede atenção.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'FOCO.', 'text': 'Comenta FOCO que eu te mando como registrar suas séries no Bríu e ver seu bíceps responder. Link na bio.', 'marks': {'ponte': 0.818, 'fixa': 4.706}}]

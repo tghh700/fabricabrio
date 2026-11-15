@@ -1,0 +1,8 @@
+# brio_62_rapido — lote 16/11 · emagrecer rápido demais leva músculo junto
+TITLE='[curious] Emagrecer rápido demais leva músculo junto?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_62_rapido_tight.mp3','starts':[0.125, 2.863, 6.861, 11.99, 15.614, 21.074, 23.864, 29.222]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'EMAGRECER RÁPIDO', 't2': 'LEVA MÚSCULO?', 'text': '[curious] Emagrecer rápido demais leva músculo junto?'}, {'vis': 'sim', 'k': '', 't1': 'PODE', 't2': 'LEVAR.', 'text': 'Pode. Quanto mais rápido o peso cai, mais músculo tende a sair junto.'}, {'vis': 'estudo', 'k': '', 't1': 'ESTUDO COM', 't2': 'ATLETAS.', 'text': 'Num estudo com atletas, quem emagreceu mais devagar perdeu gordura e ainda ganhou músculo.'}, {'vis': 'ritmo', 'k': '', 't1': 'RITMO:', 't2': 'MEIO A 1% POR SEMANA.', 'text': 'Um ritmo seguro: meio a um por cento do seu peso por semana.'}, {'vis': 'treino', 'k': '', 't1': 'NÃO TIRA', 't2': 'O PESO PESADO.', 'text': '[matter-of-fact] E na dieta, não troca a carga por peso leve. É a carga que avisa o corpo pra guardar o músculo.'}, {'vis': 'proteina', 'k': '', 't1': 'PROTEÍNA', 't2': 'ALTA.', 'text': 'Junto com proteína alta, em todas as refeições.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'DEVAGAR SEGURA.', 'text': 'Resumindo: devagar e com carga, o que sai é gordura. Rápido demais, o músculo vai junto.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'DEVAGAR.', 'text': 'Comenta DEVAGAR que eu te mando como registrar suas cargas no Bríu e ver se elas seguram na dieta. Link na bio.', 'marks': {'ponte': 0.906, 'fixa': 4.928}}]

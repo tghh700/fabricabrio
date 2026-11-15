@@ -1,0 +1,8 @@
+# brio_56_junto — lote 16/11 · recomposição corporal: perder gordura e ganhar músculo junto
+TITLE='[curious] Dá pra secar e crescer ao mesmo tempo?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_56_junto_tight.mp3','starts':[0.075, 2.463, 5.501, 10.328, 15.183, 19.566, 22.781, 28.248]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'SECAR E CRESCER', 't2': 'AO MESMO TEMPO?', 'text': '[curious] Dá pra secar e crescer ao mesmo tempo?'}, {'vis': 'sim', 'k': '', 't1': 'DÁ, SIM.', 't2': 'TEM NOME.', 'text': 'Dá, sim. Tem até nome: recomposição corporal.'}, {'vis': 'quem', 'k': '', 't1': 'QUEM CONSEGUE', 't2': 'MAIS FÁCIL?', 'text': 'Funciona melhor pra quem está começando, voltando de uma pausa, ou tem mais gordura pra perder.'}, {'vis': 'receita', 'k': '', 't1': 'FORÇA PESADA', 't2': '+ PROTEÍNA.', 'text': 'A receita: treino de força pesado, proteína alta e só um pouco menos de comida.'}, {'vis': 'balanca', 'k': '', 't1': 'A BALANÇA', 't2': 'QUASE NÃO MEXE.', 'text': 'O detalhe: a balança quase não mexe, porque sai gordura e entra músculo.'}, {'vis': 'sinal', 'k': '', 't1': 'CINTURA CAI,', 't2': 'CARGA SOBE.', 'text': '[matter-of-fact] O sinal certo é a cintura diminuindo enquanto a carga sobe.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'DÁ, NO COMEÇO.', 'text': 'Resumindo: dá pra fazer os dois, principalmente no começo. Olha a cintura e a carga, não a balança.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'JUNTO.', 'text': 'Comenta JUNTO que eu te mando como registrar suas cargas no Bríu e ver a força subir enquanto você seca. Link na bio.', 'marks': {'ponte': 0.604, 'fixa': 5.406}}]

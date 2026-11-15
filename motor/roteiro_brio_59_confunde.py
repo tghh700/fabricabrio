@@ -1,0 +1,8 @@
+# brio_59_confunde — lote 16/11 · confusão muscular: trocar o treino toda semana
+TITLE='[serious] Trocar o treino toda semana? Não confunde o músculo.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_59_confunde_tight.mp3','starts':[0.189, 3.311, 6.718, 11.08, 15.716, 19.887, 24.159, 29.008]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'TROCAR TODA SEMANA', 't2': 'NÃO CONFUNDE.', 'text': '[serious] Trocar o treino toda semana? Não confunde o músculo.'}, {'vis': 'mito', 'k': '', 't1': 'CONFUSÃO', 't2': 'MUSCULAR?', 'text': 'A ideia de surpreender o músculo pra ele crescer é um mito antigo.'}, {'vis': 'sinal', 'k': '', 't1': 'O SINAL É', 't2': 'A CARGA SUBINDO.', 'text': 'O que faz crescer é a carga e as repetições subindo, semana após semana.'}, {'vis': 'perde', 'k': '', 't1': 'TROCOU TUDO?', 't2': 'PERDEU A CONTA.', 'text': 'Se você troca tudo toda semana, não sabe se está progredindo. Sempre começa do zero.'}, {'vis': 'quando', 'k': '', 't1': 'MANTÉM', 't2': '4 A 8 SEMANAS.', 'text': 'O melhor: mantém os principais exercícios por quatro a oito semanas.'}, {'vis': 'varia', 'k': '', 't1': 'VARIAR', 't2': 'COM MOTIVO.', 'text': '[matter-of-fact] Trocar pode, mas com motivo: travou, dói, ou enjoou de verdade.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'REPETE E SOBE.', 'text': 'Resumindo: músculo não se confunde. Ele responde a carga subindo no mesmo exercício.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'TROCA.', 'text': 'Comenta TROCA que eu te mando como registrar cada exercício no Bríu e ver a carga subir semana a semana. Link na bio.', 'marks': {'ponte': 0.691, 'fixa': 5.302}}]

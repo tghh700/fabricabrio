@@ -1,0 +1,8 @@
+# brio_52_vira — lote 16/11 · músculo não vira gordura quando a pessoa para de treinar
+TITLE='[serious] Músculo não vira gordura.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_52_vira_tight.mp3','starts':[0.075, 1.908, 5.555, 9.173, 12.531, 17.682, 21.174, 24.55, 30.15]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MÚSCULO', 't2': 'NÃO VIRA GORDURA.', 'text': '[serious] Músculo não vira gordura.'}, {'vis': 'tecido', 'k': '', 't1': 'SÃO TECIDOS', 't2': 'DIFERENTES.', 'text': 'São tecidos diferentes. Um não se transforma no outro, nunca.'}, {'vis': 'duas', 'k': '', 't1': 'QUEM PARA:', 't2': 'DUAS COISAS.', 'text': 'Quando alguém para de treinar, acontecem duas coisas ao mesmo tempo.'}, {'vis': 'encolhe', 'k': '', 't1': 'O MÚSCULO', 't2': 'DIMINUI.', 'text': 'Primeiro, sem o estímulo do treino, o músculo vai diminuindo.'}, {'vis': 'sobra', 'k': '', 't1': 'COME IGUAL,', 't2': 'GASTA MENOS.', 'text': 'Segundo, a pessoa continua comendo igual, mas gasta menos. A sobra vira gordura.'}, {'vis': 'parece', 'k': '', 't1': 'PARECE QUE', 't2': 'VIROU.', 'text': '[matter-of-fact] Como as duas coisas acontecem juntas, parece que um virou o outro.'}, {'vis': 'ajusta', 'k': '', 't1': 'VAI PARAR?', 't2': 'AJUSTA A COMIDA.', 'text': 'Se for parar ou diminuir o treino, ajusta a comida junto.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'NÃO VIRA.', 'text': 'Resumindo: músculo não vira gordura. Você perde um e ganha o outro, por motivos diferentes.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'VIRA.', 'text': 'Comenta VIRA que eu te mando como acompanhar sua evolução no Bríu, semana a semana. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 4.109}}]

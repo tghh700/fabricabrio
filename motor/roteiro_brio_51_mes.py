@@ -1,0 +1,8 @@
+# brio_51_mes — lote 16/11 · quanto músculo dá pra ganhar por mês
+TITLE='[curious] Quanto músculo dá pra ganhar por mês?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_51_mes_tight.mp3','starts':[0.063, 2.002, 6.971, 11.364, 15.878, 20.103, 24.87, 29.575]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'QUANTO MÚSCULO', 't2': 'POR MÊS?', 'text': '[curious] Quanto músculo dá pra ganhar por mês?'}, {'vis': 'real', 'k': '', 't1': 'INICIANTE:', 't2': 'ATÉ 1 KG POR MÊS.', 'text': 'Pra quem começa do zero e treina direito, algo perto de meio quilo a um quilo por mês.'}, {'vis': 'cai', 'k': '', 't1': 'DEPOIS,', 't2': 'DESACELERA.', 'text': 'No segundo ano, isso cai mais ou menos pela metade. E fica mais lento a cada ano.'}, {'vis': 'balanca', 'k': '', 't1': 'A BALANÇA', 't2': 'MISTURA TUDO.', 'text': 'Por isso a balança engana. Ela mistura músculo, água, comida e gordura.'}, {'vis': 'promessa', 'k': '', 't1': '5 KG EM 1 MÊS?', 't2': 'NÃO É MÚSCULO.', 'text': '[serious] Cinco quilos de músculo em um mês? Isso é água e gordura, não músculo.'}, {'vis': 'medida', 'k': '', 't1': 'OLHA A', 't2': 'CARGA.', 'text': 'Um jeito melhor de acompanhar é a carga. Se ela sobe mês a mês, você está no caminho.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'LENTO, MAS VEM.', 'text': 'Resumindo: músculo vem devagar, mas vem. Um quilo por mês no começo já é ótimo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'QUILO.', 'text': 'Comenta QUILO que eu te mando como registrar suas cargas no Bríu e ver o mês a mês. Link na bio.', 'marks': {'ponte': 0.755, 'fixa': 4.442}}]

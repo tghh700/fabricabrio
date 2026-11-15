@@ -1,0 +1,8 @@
+# brio_55_altura — lote 16/11 · musculação não atrapalha o crescimento de jovens
+TITLE='[serious] Musculação não deixa ninguém baixo.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_55_altura_tight.mp3','starts':[0.125, 2.169, 6.729, 11.178, 15.005, 19.578, 22.01, 28.363]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MUSCULAÇÃO', 't2': 'DEIXA BAIXO?', 'text': '[serious] Musculação não deixa ninguém baixo.'}, {'vis': 'origem', 'k': '', 't1': 'O MEDO:', 't2': 'A PLACA DO OSSO.', 'text': 'O mito vem do medo de machucar a placa de crescimento, a parte do osso que ainda cresce.'}, {'vis': 'estudos', 'k': '', 't1': 'ESTUDOS:', 't2': 'SEM PREJUÍZO.', 'text': 'Mas os estudos com jovens treinando com orientação não mostram prejuízo no crescimento.'}, {'vis': 'impacto', 'k': '', 't1': 'CORRER E PULAR', 't2': 'TÊM MAIS IMPACTO.', 'text': 'Correr e pular já colocam mais impacto no osso que uma série bem feita.'}, {'vis': 'risco', 'k': '', 't1': 'O RISCO REAL:', 't2': 'TÉCNICA RUIM.', 'text': '[matter-of-fact] O risco de verdade é técnica ruim e peso alto demais, sem ninguém olhando.'}, {'vis': 'osso', 'k': '', 't1': 'O OSSO', 't2': 'FICA MAIS FORTE.', 'text': 'E o treino ainda deixa o osso mais forte.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'COM ORIENTAÇÃO, PODE.', 'text': 'Resumindo: com orientação e boa técnica, jovem pode treinar. Altura vem da genética, não da academia.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'ALTURA.', 'text': 'Comenta ALTURA que eu te mando como registrar seus treinos no Bríu, com a carga subindo aos poucos. Link na bio.', 'marks': {'ponte': 0.68, 'fixa': 4.854}}]

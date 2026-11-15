@@ -1,0 +1,8 @@
+# brio_57_secar — lote 16/11 · musculação também emagrece
+TITLE='[serious] Musculação emagrece, sim.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_57_secar_tight.mp3','starts':[0.125, 1.772, 5.788, 9.694, 13.889, 18.561, 23.425, 28.49]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MUSCULAÇÃO', 't2': 'EMAGRECE, SIM.', 'text': '[serious] Musculação emagrece, sim.'}, {'vis': 'mito', 'k': '', 't1': 'SÓ CARDIO', 't2': 'EMAGRECE?', 'text': 'Muita gente acha que só esteira emagrece, e musculação é só pra crescer.'}, {'vis': 'gasto', 'k': '', 't1': 'O TREINO', 't2': 'GASTA ENERGIA.', 'text': 'Uma hora de musculação gasta energia, parecido com uma caminhada rápida.'}, {'vis': 'musculo', 'k': '', 't1': 'MAIS MÚSCULO,', 't2': 'MAIS GASTO.', 'text': 'E o músculo que você ganha gasta um pouco de energia o dia todo, até parado.'}, {'vis': 'prato', 'k': '', 't1': 'QUEM DECIDE:', 't2': 'O PRATO.', 'text': '[matter-of-fact] Mas quem decide se o peso cai é o quanto você come. Treino nenhum vence prato cheio.'}, {'vis': 'junto', 'k': '', 't1': 'O MELHOR:', 't2': 'FORÇA + DIETA.', 'text': 'O melhor resultado vem de comer um pouco menos e treinar força. Caminhada entra de bônus.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'AJUDA, E MUITO.', 'text': 'Resumindo: musculação ajuda a emagrecer, e muda o formato do corpo que a esteira não muda.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'SECAR.', 'text': 'Comenta SECAR que eu te mando como registrar seus treinos no Bríu e acompanhar sua evolução. Link na bio.', 'marks': {'ponte': 0.679, 'fixa': 4.521}}]

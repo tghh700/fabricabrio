@@ -1,0 +1,8 @@
+# brio_53_pesado — lote 16/11 · mulher que treina pesado fica bombada
+TITLE='[curious] Mulher que treina pesado fica bombada?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_53_pesado_tight.mp3','starts':[0.075, 2.434, 5.35, 9.906, 14.821, 18.319, 24.224, 29.712]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'TREINO PESADO', 't2': 'DEIXA BOMBADA?', 'text': '[curious] Mulher que treina pesado fica bombada?'}, {'vis': 'nao', 'k': '', 't1': 'NÃO', 't2': 'DO NADA.', 'text': 'Não. Pelo menos não do jeito que muita gente tem medo.'}, {'vis': 'hormonio', 'k': '', 't1': 'MENOS', 't2': 'TESTOSTERONA.', 'text': 'O corpo da mulher tem bem menos testosterona, e o músculo cresce mais devagar.'}, {'vis': 'anos', 'k': '', 't1': 'MUITO VOLUME', 't2': 'LEVA ANOS.', 'text': 'Ganhar muito volume leva anos de treino focado nisso, e muita comida pra isso.'}, {'vis': 'forma', 'k': '', 't1': 'O PESO', 't2': 'DÁ FORMA.', 'text': 'O que o peso alto traz é força, firmeza e forma.'}, {'vis': 'leve', 'k': '', 't1': 'PESO LEVE', 't2': 'NÃO TONIFICA MAIS.', 'text': '[matter-of-fact] E peso leve com mil repetições não tonifica mais. Tonificar é ganhar músculo e perder gordura.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'PODE PEGAR PESADO.', 'text': 'Resumindo: pode pegar peso sem medo. O resultado é ficar mais forte, não maior do dia pra noite.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'PESADO.', 'text': 'Comenta PESADO que eu te mando como registrar suas cargas no Bríu e ver sua força subir. Link na bio.', 'marks': {'ponte': 0.943, 'fixa': 4.743}}]

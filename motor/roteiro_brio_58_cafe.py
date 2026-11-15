@@ -1,0 +1,8 @@
+# brio_58_cafe — lote 16/11 · café antes do treino melhora o desempenho
+TITLE='[curious] Café antes do treino funciona?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_58_cafe_tight.mp3','starts':[0.063, 1.937, 6.227, 9.798, 13.396, 18.687, 24.442, 29.811]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'CAFÉ ANTES', 't2': 'DO TREINO?', 'text': '[curious] Café antes do treino funciona?'}, {'vis': 'sim', 'k': '', 't1': 'FUNCIONA.', 't2': 'TEM ESTUDO.', 'text': 'Funciona. A cafeína é dos poucos suplementos com muita prova de efeito.'}, {'vis': 'rende', 'k': '', 't1': 'RENDE MAIS,', 't2': 'CANSA DEPOIS.', 'text': 'Ela ajuda a render um pouco mais na série e a demorar mais pra cansar.'}, {'vis': 'quando', 'k': '', 't1': '30 A 60 MIN', 't2': 'ANTES.', 'text': 'O melhor é tomar uns trinta a sessenta minutos antes de treinar.'}, {'vis': 'dose', 'k': '', 't1': '2 XÍCARAS', 't2': 'JÁ BASTAM.', 'text': 'Pra maioria, duas xícaras já chegam perto da dose dos estudos. Exagerar não aumenta o efeito.'}, {'vis': 'noite', 'k': '', 't1': 'TREINA À NOITE?', 't2': 'CUIDADO COM O SONO.', 'text': '[matter-of-fact] Mas se você treina à noite, cuidado: café tarde atrapalha o sono, e o sono pesa mais no resultado.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'AJUDA, COM HORA.', 'text': 'Resumindo: café ajuda, sim. Duas xícaras, meia hora antes, e longe da hora de dormir.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'CAFÉ.', 'text': 'Comenta CAFÉ que eu te mando como registrar suas séries no Bríu e ver se você rende mais. Link na bio.', 'marks': {'ponte': 0.68, 'fixa': 4.417}}]

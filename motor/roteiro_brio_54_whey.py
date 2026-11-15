@@ -1,0 +1,8 @@
+# brio_54_whey — lote 16/11 · janela anabólica: whey logo depois do treino
+TITLE='[curious] Precisa correr pro whey depois do treino?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_54_whey_tight.mp3','starts':[0.189, 2.107, 6.05, 11.062, 16.143, 20.352, 23.056, 27.364]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'WHEY CORRENDO', 't2': 'DEPOIS DO TREINO?', 'text': '[curious] Precisa correr pro whey depois do treino?'}, {'vis': 'janela', 'k': '', 't1': 'JANELA DE', 't2': '30 MINUTOS?', 'text': 'Muita gente acha que tem uma janela de trinta minutos, senão perde o treino.'}, {'vis': 'horas', 'k': '', 't1': 'A JANELA', 't2': 'É DE HORAS.', 'text': 'Os estudos mostram que essa janela é bem maior: de várias horas, antes e depois.'}, {'vis': 'total', 'k': '', 't1': 'O QUE CONTA:', 't2': 'O TOTAL DO DIA.', 'text': 'O que mais conta é a proteína do dia inteiro, dividida em umas três ou quatro refeições.'}, {'vis': 'comida', 'k': '', 't1': 'WHEY', 't2': 'É COMIDA.', 'text': '[matter-of-fact] E whey não é mágico. É proteína do leite, prática. Comida resolve igual.'}, {'vis': 'quando', 'k': '', 't1': 'GOSTA?', 't2': 'TOMA QUANDO DER.', 'text': 'Gosta do whey? Toma na hora que for mais prática pra você.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'SEM CORRERIA.', 'text': 'Resumindo: sem correria. Bate a proteína do dia e foca em treinar bem.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'WHEY.', 'text': 'Comenta WHEY que eu te mando como registrar seus treinos no Bríu e acompanhar o que importa: a carga subindo. Link na bio.', 'marks': {'ponte': 0.641, 'fixa': 5.696}}]

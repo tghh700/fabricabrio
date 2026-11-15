@@ -117,7 +117,7 @@ V('brio_58_cafe', 'brio', 'café antes do treino melhora o desempenho', 'CAFÉ',
  ('conc', 'RESUMINDO:', 'AJUDA, COM HORA.', 'Resumindo: café ajuda, sim. Duas xícaras, meia hora antes, e longe da hora de dormir.'),
  ('cta', 'COMENTA', 'CAFÉ.', 'Comenta CAFÉ que eu te mando como registrar suas séries no Bríu e ver se você rende mais. Link na bio.'),
 ], '17:00', "Café antes do treino funciona? 👇\nFunciona: duas xícaras, 30 a 60 minutos antes. Treina à noite? Cuidado com o sono.",
-  "como registrar suas séries no Brio e ver se você rende mais", "#brio #cafe #preTreino #musculacao #academia")
+  "como registrar suas séries no Brio e ver se você rende mais", "#brio #cafe #pretreino #musculacao #academia")
 
 V('brio_59_confunde', 'brio', 'confusão muscular: trocar o treino toda semana', 'TROCA', [
  ('hook', 'TROCAR TODA SEMANA', 'NÃO CONFUNDE.', '[serious] Trocar o treino toda semana? Não confunde o músculo.'),

@@ -92,11 +92,11 @@ def headline(c, t, t1, t2):
     for ln in l1:
         p = ease_out(prog(t, 0.04 + i * 0.07, 0.28))
         if p > 0:
-            draw_text(c, ln, LEFT, y + size * 1.0 * (i + 1) + (1 - p) * 40, size, INK, TITLE, p)
+            draw_text(c, ln, LEFT, y + size * 1.12 * (i + 1) + (1 - p) * 40, size, INK, TITLE, p)
         i += 1
     for ln in l2:
         p = ease_out(prog(t, 0.04 + i * 0.07, 0.28))
-        yy = y + size * 1.0 * (i + 1)
+        yy = y + size * 1.12 * (i + 1)
         font(c, TITLE, size); w = c.text_extents(ln).x_advance
         highlight(c, LEFT - 10, yy - size * 0.62, w + 20, size * 0.62, prog(t, 0.12 + i * 0.07, 0.35))
         if p > 0:
