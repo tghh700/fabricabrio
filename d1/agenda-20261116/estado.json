@@ -1,0 +1,1158 @@
+{
+ "relatorio": {
+  "nome": "agenda-20261116",
+  "gravados": [
+   "brio-51-mes",
+   "brio-52-vira",
+   "brio-53-pesado",
+   "brio-54-whey",
+   "brio-55-altura",
+   "brio-56-junto",
+   "brio-57-secar",
+   "brio-58-cafe",
+   "brio-59-confunde",
+   "brio-60-shape",
+   "brio-61-foco",
+   "brio-62-rapido",
+   "fibra-10-supino",
+   "fibra-11-descanso"
+  ],
+  "recusados": [
+   {
+    "id": "diaum-09-agacha",
+    "motivo": "arquivo não está no branch midia"
+   }
+  ]
+ },
+ "estado": {
+  "posts": [
+   {
+    "id": 1,
+    "video_id": "brio-16-abdominal",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 15:00:00",
+    "status": "apagado",
+    "permalink": "https://www.instagram.com/reel/DfpSvWihZ7n/",
+    "erro": "apagado pelo usuário: barra de rodapé",
+    "tema_canonico": "abdominal todo dia não tira barriga"
+   },
+   {
+    "id": 22,
+    "video_id": "brio-16-abdominal",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 15:32:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfpXXxboTjj/",
+    "erro": null,
+    "tema_canonico": "abdominal todo dia não tira barriga"
+   },
+   {
+    "id": 2,
+    "video_id": "brio-24-tempo-de-treino",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 17:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfpj-P-qEp1/",
+    "erro": null,
+    "tema_canonico": "tempo de treino por dia"
+   },
+   {
+    "id": 16,
+    "video_id": "fibra-02-pump",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-12 18:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfpnWElO6C_/",
+    "erro": null,
+    "tema_canonico": "pump: por que o músculo incha no treino"
+   },
+   {
+    "id": 17,
+    "video_id": "diaum-03-flexao",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-12 18:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfpqx4jRha0/",
+    "erro": null,
+    "tema_canonico": "flexão para iniciantes em 3 níveis"
+   },
+   {
+    "id": 18,
+    "video_id": "fibra-03-tremor",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-12 19:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfpxpePqzQL/",
+    "erro": null,
+    "tema_canonico": "tremor muscular no fim da série"
+   },
+   {
+    "id": 3,
+    "video_id": "brio-20-deload",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 20:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfp1HYiB-gG/",
+    "erro": null,
+    "tema_canonico": "semana leve / deload"
+   },
+   {
+    "id": 4,
+    "video_id": "brio-17-amplitude-alongada",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 21:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfp_YAKS_E-/",
+    "erro": null,
+    "tema_canonico": "A parte do movimento que você corta é a que mais faz crescer"
+   },
+   {
+    "id": 5,
+    "video_id": "brio-21-sem-carga",
+    "perfil": "brio",
+    "agendado_para": "2026-11-12 23:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfqNGypNo_d/",
+    "erro": null,
+    "tema_canonico": "Dá pra ganhar músculo sem peso?"
+   },
+   {
+    "id": 6,
+    "video_id": "brio-25-evoluindo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 01:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfqXd9Sh0Fb/",
+    "erro": null,
+    "tema_canonico": "Como saber se você está evoluindo (sem espelho nem balança)"
+   },
+   {
+    "id": 9,
+    "video_id": "brio-22-erros-iniciante",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 10:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfrVRvZudqn/",
+    "erro": null,
+    "tema_canonico": "5 erros de quem começou na academia agora"
+   },
+   {
+    "id": 33,
+    "video_id": "brio-28-desenvolvimento",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 11:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfrfhE0S74-/",
+    "erro": null,
+    "tema_canonico": "desenvolvimento com a lombar arqueada"
+   },
+   {
+    "id": 10,
+    "video_id": "brio-18-supino-10kg",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 13:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfrpzs5A_fX/",
+    "erro": null,
+    "tema_canonico": "Quanto tempo pro supino subir 10 kg?"
+   },
+   {
+    "id": 20,
+    "video_id": "diaum-02-idade",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 14:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfr0M8oub5m/",
+    "erro": null,
+    "tema_canonico": "começar a treinar depois dos 40"
+   },
+   {
+    "id": 34,
+    "video_id": "brio-29-aquecimento",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 14:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfr0G1kx_TT/",
+    "erro": null,
+    "tema_canonico": "séries de aquecimento antes da carga pesada"
+   },
+   {
+    "id": 11,
+    "video_id": "brio-19-plato-supino",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 15:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfr6-mkCyMF/",
+    "erro": null,
+    "tema_canonico": "Travou no supino? 3 saídas pra voltar a subir"
+   },
+   {
+    "id": 23,
+    "video_id": "fibra-06-caibra",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 15:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfr6-ZlNGsE/",
+    "erro": null,
+    "tema_canonico": "cãibra no treino: o que causa"
+   },
+   {
+    "id": 12,
+    "video_id": "brio-23-braco-triceps",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 17:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsFVRZNysz/",
+    "erro": null,
+    "tema_canonico": "Por que seu braço não cresce (e não é o bíceps)"
+   },
+   {
+    "id": 35,
+    "video_id": "brio-30-respiracao",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 18:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsPkkpv8pN/",
+    "erro": null,
+    "tema_canonico": "respiração e abdômen travado no agachamento"
+   },
+   {
+    "id": 13,
+    "video_id": "brio-08-cardio",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 20:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsZ-1vyztH/",
+    "erro": null,
+    "tema_canonico": "Cardio está matando seu ganho de massa?"
+   },
+   {
+    "id": 14,
+    "video_id": "brio-26-joelho-ponta-pe",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 21:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfskK1Lqnqs/",
+    "erro": null,
+    "tema_canonico": "O joelho pode passar da ponta do pé no agachamento?"
+   },
+   {
+    "id": 7,
+    "video_id": "fibra-p1-queimacao",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-13 22:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsnssbBKl7/",
+    "erro": null,
+    "tema_canonico": "queimação na série não é ácido lático"
+   },
+   {
+    "id": 8,
+    "video_id": "diaum-p1-vergonha",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-13 22:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsrCZ6hpsX/",
+    "erro": null,
+    "tema_canonico": "vergonha de ir pra academia"
+   },
+   {
+    "id": 36,
+    "video_id": "brio-31-punho-supino",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 22:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DfsrCP0J6Yz/",
+    "erro": null,
+    "tema_canonico": "punho dobrado no supino"
+   },
+   {
+    "id": 15,
+    "video_id": "brio-13-repeticoes",
+    "perfil": "brio",
+    "agendado_para": "2026-11-13 23:30:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfsx8qLpyRn/",
+    "erro": null,
+    "tema_canonico": "Quantas repetições pra crescer? Não é só 8 a 12"
+   },
+   {
+    "id": 24,
+    "video_id": "brio-27-rosca-embalo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 01:00:00",
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Dfs8M01ubyT/",
+    "erro": null,
+    "tema_canonico": "rosca direta com balanço do tronco (erro encenado e correção)"
+   },
+   {
+    "id": 38,
+    "video_id": "brio-33-sono",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 12:30:00",
+    "status": "apagado",
+    "permalink": "https://www.instagram.com/reel/DfuLKkhFx_f/",
+    "erro": "apagado pelo usuário (erro de animação); refeito v2",
+    "tema_canonico": "dormir mal derruba o treino"
+   },
+   {
+    "id": 28,
+    "video_id": "diaum-06-prancha-niveis",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-14 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "prancha em 3 níveis para iniciante"
+   },
+   {
+    "id": 40,
+    "video_id": "brio-35-alonga",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 15:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "alongamento parado antes do treino reduz força"
+   },
+   {
+    "id": 21,
+    "video_id": "fibra-05-agacha",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-14 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham no agachamento"
+   },
+   {
+    "id": 39,
+    "video_id": "brio-34-ordem",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 16:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "ordem dos exercícios no treino"
+   },
+   {
+    "id": 42,
+    "video_id": "brio-37-semana",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar só uma vez por semana funciona"
+   },
+   {
+    "id": 25,
+    "video_id": "fibra-07-gordura-pulmao",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-14 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "para onde vai a gordura: sai pela respiração, não pelo suor"
+   },
+   {
+    "id": 29,
+    "video_id": "diaum-04-aparelhos",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-14 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "não sei usar os aparelhos da academia"
+   },
+   {
+    "id": 43,
+    "video_id": "brio-38-pernas",
+    "perfil": "brio",
+    "agendado_para": "2026-11-14 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo"
+   },
+   {
+    "id": 41,
+    "video_id": "brio-36-horario",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "melhor horário para treinar: manhã ou noite"
+   },
+   {
+    "id": 44,
+    "video_id": "brio-33-sono",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 01:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "dormir mal derruba o treino"
+   },
+   {
+    "id": 46,
+    "video_id": "brio-40-maquina",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 10:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "máquina constrói músculo igual a peso livre"
+   },
+   {
+    "id": 45,
+    "video_id": "brio-39-descida",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 11:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "controlar a descida do peso (fase excêntrica)"
+   },
+   {
+    "id": 47,
+    "video_id": "brio-41-dropset",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 13:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "drop set: tirar peso e continuar a série"
+   },
+   {
+    "id": 30,
+    "video_id": "diaum-07-preguica",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-15 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "preguiça na hora de sair pro treino"
+   },
+   {
+    "id": 49,
+    "video_id": "brio-43-lado",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "um lado mais forte que o outro: exercício unilateral"
+   },
+   {
+    "id": 26,
+    "video_id": "fibra-08-barra-musculos",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-15 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham na barra fixa"
+   },
+   {
+    "id": 50,
+    "video_id": "brio-44-menos",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "muitos exercícios para o mesmo músculo no mesmo treino"
+   },
+   {
+    "id": 51,
+    "video_id": "brio-45-barra",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "primeira barra fixa: progressão com negativas"
+   },
+   {
+    "id": 56,
+    "video_id": "brio-50-puxar",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar"
+   },
+   {
+    "id": 52,
+    "video_id": "brio-46-musica",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "música no treino melhora o desempenho"
+   },
+   {
+    "id": 53,
+    "video_id": "brio-47-oscila",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 21:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
+   },
+   {
+    "id": 27,
+    "video_id": "fibra-09-enjoo-perna",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-15 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "enjoo no treino de perna: o sangue sai da digestão"
+   },
+   {
+    "id": 31,
+    "video_id": "diaum-05-magro-19",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-15 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "magro de 19 anos que quer ganhar massa: por onde começar"
+   },
+   {
+    "id": 54,
+    "video_id": "brio-48-cinto",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "cinto de musculação: quando usar"
+   },
+   {
+    "id": 48,
+    "video_id": "brio-42-biset",
+    "perfil": "brio",
+    "agendado_para": "2026-11-15 23:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "bi-set para treinar o mesmo em menos tempo"
+   },
+   {
+    "id": 55,
+    "video_id": "brio-49-pegada",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "a mão cansa antes das costas: pegada e strap"
+   },
+   {
+    "id": 57,
+    "video_id": "brio-51-mes",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 10:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "quanto músculo dá pra ganhar por mês"
+   },
+   {
+    "id": 58,
+    "video_id": "brio-52-vira",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 11:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculo não vira gordura quando a pessoa para de treinar"
+   },
+   {
+    "id": 59,
+    "video_id": "brio-53-pesado",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 13:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "mulher que treina pesado fica bombada"
+   },
+   {
+    "id": 32,
+    "video_id": "diaum-08-semana-dois",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-16 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "por que iniciantes desistem na segunda semana"
+   },
+   {
+    "id": 60,
+    "video_id": "brio-54-whey",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "janela anabólica: whey logo depois do treino"
+   },
+   {
+    "id": 61,
+    "video_id": "brio-55-altura",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação não atrapalha o crescimento de jovens"
+   },
+   {
+    "id": 69,
+    "video_id": "fibra-10-supino",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-16 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham no supino"
+   },
+   {
+    "id": 62,
+    "video_id": "brio-56-junto",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
+   },
+   {
+    "id": 63,
+    "video_id": "brio-57-secar",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação também emagrece"
+   },
+   {
+    "id": 64,
+    "video_id": "brio-58-cafe",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "café antes do treino melhora o desempenho"
+   },
+   {
+    "id": 65,
+    "video_id": "brio-59-confunde",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 21:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "confusão muscular: trocar o treino toda semana"
+   },
+   {
+    "id": 70,
+    "video_id": "fibra-11-descanso",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-16 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "síntese de proteína: o músculo cresce no descanso"
+   },
+   {
+    "id": 66,
+    "video_id": "brio-60-shape",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "transformação de 90 dias da internet: os truques da foto"
+   },
+   {
+    "id": 67,
+    "video_id": "brio-61-foco",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 23:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "foco mental no músculo durante a série"
+   },
+   {
+    "id": 68,
+    "video_id": "brio-62-rapido",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "emagrecer rápido demais leva músculo junto"
+   }
+  ],
+  "temas": [
+   {
+    "id": "brio-16-abdominal",
+    "perfil": "brio",
+    "tema_canonico": "abdominal todo dia não tira barriga",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-20-deload",
+    "perfil": "brio",
+    "tema_canonico": "semana leve / deload",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-24-tempo-de-treino",
+    "perfil": "brio",
+    "tema_canonico": "tempo de treino por dia",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-17-amplitude-alongada",
+    "perfil": "brio",
+    "tema_canonico": "A parte do movimento que você corta é a que mais faz crescer",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-18-supino-10kg",
+    "perfil": "brio",
+    "tema_canonico": "Quanto tempo pro supino subir 10 kg?",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-19-plato-supino",
+    "perfil": "brio",
+    "tema_canonico": "Travou no supino? 3 saídas pra voltar a subir",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-21-sem-carga",
+    "perfil": "brio",
+    "tema_canonico": "Dá pra ganhar músculo sem peso?",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-22-erros-iniciante",
+    "perfil": "brio",
+    "tema_canonico": "5 erros de quem começou na academia agora",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-08-cardio",
+    "perfil": "brio",
+    "tema_canonico": "Cardio está matando seu ganho de massa?",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-25-evoluindo",
+    "perfil": "brio",
+    "tema_canonico": "Como saber se você está evoluindo (sem espelho nem balança)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-26-joelho-ponta-pe",
+    "perfil": "brio",
+    "tema_canonico": "O joelho pode passar da ponta do pé no agachamento?",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-13-repeticoes",
+    "perfil": "brio",
+    "tema_canonico": "Quantas repetições pra crescer? Não é só 8 a 12",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-23-braco-triceps",
+    "perfil": "brio",
+    "tema_canonico": "Por que seu braço não cresce (e não é o bíceps)",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-p1-queimacao",
+    "perfil": "fibra",
+    "tema_canonico": "queimação na série não é ácido lático",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-p1-vergonha",
+    "perfil": "diaum",
+    "tema_canonico": "vergonha de ir pra academia",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-02-pump",
+    "perfil": "fibra",
+    "tema_canonico": "pump: por que o músculo incha no treino",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-03-tremor",
+    "perfil": "fibra",
+    "tema_canonico": "tremor muscular no fim da série",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-04-neural",
+    "perfil": "fibra",
+    "tema_canonico": "adaptação neural: força antes do tamanho",
+    "status": "descartado"
+   },
+   {
+    "id": "fibra-05-agacha",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham no agachamento",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-02-idade",
+    "perfil": "diaum",
+    "tema_canonico": "começar a treinar depois dos 40",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-03-flexao",
+    "perfil": "diaum",
+    "tema_canonico": "flexão para iniciantes em 3 níveis",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-06-caibra",
+    "perfil": "fibra",
+    "tema_canonico": "cãibra no treino: o que causa",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-27-rosca-embalo",
+    "perfil": "brio",
+    "tema_canonico": "rosca direta com balanço do tronco (erro encenado e correção)",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-07-gordura-pulmao",
+    "perfil": "fibra",
+    "tema_canonico": "para onde vai a gordura: sai pela respiração, não pelo suor",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-08-barra-musculos",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham na barra fixa",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-09-enjoo-perna",
+    "perfil": "fibra",
+    "tema_canonico": "enjoo no treino de perna: o sangue sai da digestão",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-06-prancha-niveis",
+    "perfil": "diaum",
+    "tema_canonico": "prancha em 3 níveis para iniciante",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-04-aparelhos",
+    "perfil": "diaum",
+    "tema_canonico": "não sei usar os aparelhos da academia",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-07-preguica",
+    "perfil": "diaum",
+    "tema_canonico": "preguiça na hora de sair pro treino",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-05-magro-19",
+    "perfil": "diaum",
+    "tema_canonico": "magro de 19 anos que quer ganhar massa: por onde começar",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-08-semana-dois",
+    "perfil": "diaum",
+    "tema_canonico": "por que iniciantes desistem na segunda semana",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-28-desenvolvimento",
+    "perfil": "brio",
+    "tema_canonico": "desenvolvimento com a lombar arqueada",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-29-aquecimento",
+    "perfil": "brio",
+    "tema_canonico": "séries de aquecimento antes da carga pesada",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-30-respiracao",
+    "perfil": "brio",
+    "tema_canonico": "respiração e abdômen travado no agachamento",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-31-punho-supino",
+    "perfil": "brio",
+    "tema_canonico": "punho dobrado no supino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-32-dor",
+    "perfil": "brio",
+    "tema_canonico": "dor no dia seguinte não mede treino bom",
+    "status": "descartado"
+   },
+   {
+    "id": "brio-33-sono",
+    "perfil": "brio",
+    "tema_canonico": "dormir mal derruba o treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-34-ordem",
+    "perfil": "brio",
+    "tema_canonico": "ordem dos exercícios no treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-35-alonga",
+    "perfil": "brio",
+    "tema_canonico": "alongamento parado antes do treino reduz força",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-36-horario",
+    "perfil": "brio",
+    "tema_canonico": "melhor horário para treinar: manhã ou noite",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-37-semana",
+    "perfil": "brio",
+    "tema_canonico": "treinar só uma vez por semana funciona",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-38-pernas",
+    "perfil": "brio",
+    "tema_canonico": "treinar perna toda semana mesmo com pouco tempo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-39-descida",
+    "perfil": "brio",
+    "tema_canonico": "controlar a descida do peso (fase excêntrica)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-40-maquina",
+    "perfil": "brio",
+    "tema_canonico": "máquina constrói músculo igual a peso livre",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-41-dropset",
+    "perfil": "brio",
+    "tema_canonico": "drop set: tirar peso e continuar a série",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-42-biset",
+    "perfil": "brio",
+    "tema_canonico": "bi-set para treinar o mesmo em menos tempo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-43-lado",
+    "perfil": "brio",
+    "tema_canonico": "um lado mais forte que o outro: exercício unilateral",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-44-menos",
+    "perfil": "brio",
+    "tema_canonico": "muitos exercícios para o mesmo músculo no mesmo treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-45-barra",
+    "perfil": "brio",
+    "tema_canonico": "primeira barra fixa: progressão com negativas",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-46-musica",
+    "perfil": "brio",
+    "tema_canonico": "música no treino melhora o desempenho",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-47-oscila",
+    "perfil": "brio",
+    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-48-cinto",
+    "perfil": "brio",
+    "tema_canonico": "cinto de musculação: quando usar",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-49-pegada",
+    "perfil": "brio",
+    "tema_canonico": "a mão cansa antes das costas: pegada e strap",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-50-puxar",
+    "perfil": "brio",
+    "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-51-mes",
+    "perfil": "brio",
+    "tema_canonico": "quanto músculo dá pra ganhar por mês",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-52-vira",
+    "perfil": "brio",
+    "tema_canonico": "músculo não vira gordura quando a pessoa para de treinar",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-53-pesado",
+    "perfil": "brio",
+    "tema_canonico": "mulher que treina pesado fica bombada",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-54-whey",
+    "perfil": "brio",
+    "tema_canonico": "janela anabólica: whey logo depois do treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-55-altura",
+    "perfil": "brio",
+    "tema_canonico": "musculação não atrapalha o crescimento de jovens",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-56-junto",
+    "perfil": "brio",
+    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-57-secar",
+    "perfil": "brio",
+    "tema_canonico": "musculação também emagrece",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-58-cafe",
+    "perfil": "brio",
+    "tema_canonico": "café antes do treino melhora o desempenho",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-59-confunde",
+    "perfil": "brio",
+    "tema_canonico": "confusão muscular: trocar o treino toda semana",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-60-shape",
+    "perfil": "brio",
+    "tema_canonico": "transformação de 90 dias da internet: os truques da foto",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-61-foco",
+    "perfil": "brio",
+    "tema_canonico": "foco mental no músculo durante a série",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-62-rapido",
+    "perfil": "brio",
+    "tema_canonico": "emagrecer rápido demais leva músculo junto",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-10-supino",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham no supino",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-11-descanso",
+    "perfil": "fibra",
+    "tema_canonico": "síntese de proteína: o músculo cresce no descanso",
+    "status": "pronto"
+   }
+  ],
+  "metricas": [],
+  "cliques": [
+   {
+    "perfil": "brio",
+    "video_id": "brio-25-evoluindo",
+    "origem": "dm",
+    "n": 8
+   }
+  ],
+  "dms": [
+   {
+    "perfil": "brio",
+    "status": "enviada",
+    "n": 1
+   }
+  ],
+  "creditos": [
+   {
+    "servico": "elevenlabs",
+    "total": 37535
+   }
+  ],
+  "logs": [],
+  "config": [
+   {
+    "chave": "cron_ultimo",
+    "valor": "2026-11-15T17:15:27.800Z"
+   },
+   {
+    "chave": "escala",
+    "valor": "{\"brio\":12,\"fibra\":2,\"diaum\":2,\"obs\":\"desde 12/11 19h45: FIBRA e DIA UM 2/dia usando só o estoque; NÃO produzir vídeo novo para eles até o usuário liberar\"}"
+   },
+   {
+    "chave": "pausa_global",
+    "valor": "1"
+   }
+  ]
+ }
+}

@@ -1,8 +1,28 @@
 {
  "relatorio": {
-  "nome": "estado-20261115-1648",
-  "gravados": [],
-  "recusados": []
+  "nome": "agenda-20261116",
+  "gravados": [
+   "brio-51-mes",
+   "brio-52-vira",
+   "brio-53-pesado",
+   "brio-54-whey",
+   "brio-55-altura",
+   "brio-56-junto",
+   "brio-57-secar",
+   "brio-58-cafe",
+   "brio-59-confunde",
+   "brio-60-shape",
+   "brio-61-foco",
+   "brio-62-rapido",
+   "fibra-10-supino",
+   "fibra-11-descanso"
+  ],
+  "recusados": [
+   {
+    "id": "diaum-09-agacha",
+    "motivo": "arquivo não está no branch midia"
+   }
+  ]
  },
  "estado": {
   "posts": [
@@ -537,6 +557,36 @@
     "tema_canonico": "a mão cansa antes das costas: pegada e strap"
    },
    {
+    "id": 57,
+    "video_id": "brio-51-mes",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 10:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "quanto músculo dá pra ganhar por mês"
+   },
+   {
+    "id": 58,
+    "video_id": "brio-52-vira",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 11:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculo não vira gordura quando a pessoa para de treinar"
+   },
+   {
+    "id": 59,
+    "video_id": "brio-53-pesado",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 13:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "mulher que treina pesado fica bombada"
+   },
+   {
     "id": 32,
     "video_id": "diaum-08-semana-dois",
     "perfil": "diaum",
@@ -545,6 +595,116 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "por que iniciantes desistem na segunda semana"
+   },
+   {
+    "id": 60,
+    "video_id": "brio-54-whey",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "janela anabólica: whey logo depois do treino"
+   },
+   {
+    "id": 61,
+    "video_id": "brio-55-altura",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação não atrapalha o crescimento de jovens"
+   },
+   {
+    "id": 69,
+    "video_id": "fibra-10-supino",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-16 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculos que trabalham no supino"
+   },
+   {
+    "id": 62,
+    "video_id": "brio-56-junto",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
+   },
+   {
+    "id": 63,
+    "video_id": "brio-57-secar",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação também emagrece"
+   },
+   {
+    "id": 64,
+    "video_id": "brio-58-cafe",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "café antes do treino melhora o desempenho"
+   },
+   {
+    "id": 65,
+    "video_id": "brio-59-confunde",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 21:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "confusão muscular: trocar o treino toda semana"
+   },
+   {
+    "id": 70,
+    "video_id": "fibra-11-descanso",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-16 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "síntese de proteína: o músculo cresce no descanso"
+   },
+   {
+    "id": 66,
+    "video_id": "brio-60-shape",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "transformação de 90 dias da internet: os truques da foto"
+   },
+   {
+    "id": 67,
+    "video_id": "brio-61-foco",
+    "perfil": "brio",
+    "agendado_para": "2026-11-16 23:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "foco mental no músculo durante a série"
+   },
+   {
+    "id": 68,
+    "video_id": "brio-62-rapido",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "emagrecer rápido demais leva músculo junto"
    }
   ],
   "temas": [
@@ -871,6 +1031,90 @@
     "perfil": "brio",
     "tema_canonico": "equilíbrio entre exercícios de empurrar e de puxar",
     "status": "pronto"
+   },
+   {
+    "id": "brio-51-mes",
+    "perfil": "brio",
+    "tema_canonico": "quanto músculo dá pra ganhar por mês",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-52-vira",
+    "perfil": "brio",
+    "tema_canonico": "músculo não vira gordura quando a pessoa para de treinar",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-53-pesado",
+    "perfil": "brio",
+    "tema_canonico": "mulher que treina pesado fica bombada",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-54-whey",
+    "perfil": "brio",
+    "tema_canonico": "janela anabólica: whey logo depois do treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-55-altura",
+    "perfil": "brio",
+    "tema_canonico": "musculação não atrapalha o crescimento de jovens",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-56-junto",
+    "perfil": "brio",
+    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-57-secar",
+    "perfil": "brio",
+    "tema_canonico": "musculação também emagrece",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-58-cafe",
+    "perfil": "brio",
+    "tema_canonico": "café antes do treino melhora o desempenho",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-59-confunde",
+    "perfil": "brio",
+    "tema_canonico": "confusão muscular: trocar o treino toda semana",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-60-shape",
+    "perfil": "brio",
+    "tema_canonico": "transformação de 90 dias da internet: os truques da foto",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-61-foco",
+    "perfil": "brio",
+    "tema_canonico": "foco mental no músculo durante a série",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-62-rapido",
+    "perfil": "brio",
+    "tema_canonico": "emagrecer rápido demais leva músculo junto",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-10-supino",
+    "perfil": "fibra",
+    "tema_canonico": "músculos que trabalham no supino",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-11-descanso",
+    "perfil": "fibra",
+    "tema_canonico": "síntese de proteína: o músculo cresce no descanso",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -892,14 +1136,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 28034
+    "total": 37535
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-15T16:45:28.650Z"
+    "valor": "2026-11-15T17:15:27.800Z"
    },
    {
     "chave": "escala",
