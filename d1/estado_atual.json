@@ -1,7 +1,24 @@
 {
  "relatorio": {
-  "nome": "estado-20261116-1648",
-  "gravados": [],
+  "nome": "agenda-20261117",
+  "gravados": [
+   "brio-63-proteina",
+   "brio-64-cerveja",
+   "brio-65-genetica",
+   "brio-66-balanca",
+   "brio-67-memoria",
+   "brio-68-carbo",
+   "brio-69-pesa",
+   "brio-70-bcaa",
+   "brio-71-abdomen",
+   "brio-72-falsomagro",
+   "brio-73-bulking",
+   "brio-74-menstrual",
+   "fibra-12-fibras",
+   "fibra-13-estalo",
+   "diaum-10-ponte",
+   "diaum-11-medo"
+  ],
   "recusados": []
  },
  "estado": {
@@ -695,6 +712,166 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "emagrecer rápido demais leva músculo junto"
+   },
+   {
+    "id": 72,
+    "video_id": "brio-63-proteina",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 10:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "quanta proteína por dia para ganhar músculo"
+   },
+   {
+    "id": 73,
+    "video_id": "brio-64-cerveja",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 11:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "cerveja no fim de semana atrapalha o ganho de músculo"
+   },
+   {
+    "id": 74,
+    "video_id": "brio-65-genetica",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 13:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "genética: por que uns crescem mais rápido com o mesmo treino"
+   },
+   {
+    "id": 75,
+    "video_id": "brio-66-balanca",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "a balança sobe nas primeiras semanas de treino"
+   },
+   {
+    "id": 86,
+    "video_id": "diaum-10-ponte",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-17 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "ponte de glúteo em 3 níveis para iniciante"
+   },
+   {
+    "id": 76,
+    "video_id": "brio-67-memoria",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "memória muscular: recuperar o que perdeu é mais rápido"
+   },
+   {
+    "id": 84,
+    "video_id": "fibra-12-fibras",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-17 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "fibras rápidas e lentas: velocista x maratonista"
+   },
+   {
+    "id": 77,
+    "video_id": "brio-68-carbo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "cortar carboidrato não seca mais que outra dieta"
+   },
+   {
+    "id": 78,
+    "video_id": "brio-69-pesa",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 18:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "músculo não pesa mais que gordura: ocupa menos espaço"
+   },
+   {
+    "id": 79,
+    "video_id": "brio-70-bcaa",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 20:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "BCAA não faz diferença para quem come proteína suficiente"
+   },
+   {
+    "id": 80,
+    "video_id": "brio-71-abdomen",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 21:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "com quanto de gordura o abdômen aparece"
+   },
+   {
+    "id": 85,
+    "video_id": "fibra-13-estalo",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-17 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "estalo na articulação durante o treino"
+   },
+   {
+    "id": 81,
+    "video_id": "brio-72-falsomagro",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "falso magro: magro com barriga precisa de músculo"
+   },
+   {
+    "id": 87,
+    "video_id": "diaum-11-medo",
+    "perfil": "diaum",
+    "agendado_para": "2026-11-17 22:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "medo de se machucar ao começar a musculação"
+   },
+   {
+    "id": 82,
+    "video_id": "brio-73-bulking",
+    "perfil": "brio",
+    "agendado_para": "2026-11-17 23:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "bulking sujo: comer de tudo para ganhar massa"
+   },
+   {
+    "id": 83,
+    "video_id": "brio-74-menstrual",
+    "perfil": "brio",
+    "agendado_para": "2026-11-18 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar durante a menstruação e o ciclo menstrual"
    }
   ],
   "temas": [
@@ -1111,6 +1288,102 @@
     "perfil": "diaum",
     "tema_canonico": "agachamento em 3 níveis para iniciante",
     "status": "pronto"
+   },
+   {
+    "id": "brio-63-proteina",
+    "perfil": "brio",
+    "tema_canonico": "quanta proteína por dia para ganhar músculo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-64-cerveja",
+    "perfil": "brio",
+    "tema_canonico": "cerveja no fim de semana atrapalha o ganho de músculo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-65-genetica",
+    "perfil": "brio",
+    "tema_canonico": "genética: por que uns crescem mais rápido com o mesmo treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-66-balanca",
+    "perfil": "brio",
+    "tema_canonico": "a balança sobe nas primeiras semanas de treino",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-67-memoria",
+    "perfil": "brio",
+    "tema_canonico": "memória muscular: recuperar o que perdeu é mais rápido",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-68-carbo",
+    "perfil": "brio",
+    "tema_canonico": "cortar carboidrato não seca mais que outra dieta",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-69-pesa",
+    "perfil": "brio",
+    "tema_canonico": "músculo não pesa mais que gordura: ocupa menos espaço",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-70-bcaa",
+    "perfil": "brio",
+    "tema_canonico": "BCAA não faz diferença para quem come proteína suficiente",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-71-abdomen",
+    "perfil": "brio",
+    "tema_canonico": "com quanto de gordura o abdômen aparece",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-72-falsomagro",
+    "perfil": "brio",
+    "tema_canonico": "falso magro: magro com barriga precisa de músculo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-73-bulking",
+    "perfil": "brio",
+    "tema_canonico": "bulking sujo: comer de tudo para ganhar massa",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-74-menstrual",
+    "perfil": "brio",
+    "tema_canonico": "treinar durante a menstruação e o ciclo menstrual",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-12-fibras",
+    "perfil": "fibra",
+    "tema_canonico": "fibras rápidas e lentas: velocista x maratonista",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-13-estalo",
+    "perfil": "fibra",
+    "tema_canonico": "estalo na articulação durante o treino",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-10-ponte",
+    "perfil": "diaum",
+    "tema_canonico": "ponte de glúteo em 3 níveis para iniciante",
+    "status": "pronto"
+   },
+   {
+    "id": "diaum-11-medo",
+    "perfil": "diaum",
+    "tema_canonico": "medo de se machucar ao começar a musculação",
+    "status": "pronto"
    }
   ],
   "metricas": [],
@@ -1132,14 +1405,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 38142
+    "total": 48090
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-16T16:45:28.493Z"
+    "valor": "2026-11-16T17:20:28.809Z"
    },
    {
     "chave": "escala",
