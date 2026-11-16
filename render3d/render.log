@@ -1,13 +1,34 @@
 WebGL: ANGLE (Google, Vulkan 1.3.0 (SwiftShader Device (Subzero) (0x0000C0DE)), SwiftShader driver)
-quadro 0/300  1.7 s
-quadro 30/300  37.8 s
-quadro 60/300  73.3 s
-quadro 90/300  107.6 s
-quadro 120/300  141.8 s
-quadro 150/300  177.2 s
-quadro 180/300  214.4 s
-quadro 210/300  251.9 s
-quadro 240/300  289.3 s
-quadro 270/300  326.3 s
-RENDER: 300 quadros em 360.9 s (1.20 s/quadro) -> piloto_brio_3d.mp4
-tempo_total_s=364
+quadro 0/916  1.8 s
+quadro 30/916  34.3 s
+quadro 60/916  65.5 s
+quadro 90/916  96.4 s
+quadro 120/916  127.7 s
+quadro 150/916  160.6 s
+quadro 180/916  195.0 s
+quadro 210/916  230.4 s
+quadro 240/916  261.4 s
+quadro 270/916  291.1 s
+quadro 300/916  321.2 s
+quadro 330/916  351.8 s
+quadro 360/916  382.8 s
+quadro 390/916  417.8 s
+quadro 420/916  455.2 s
+quadro 450/916  493.0 s
+quadro 480/916  530.7 s
+quadro 510/916  565.3 s
+quadro 540/916  597.8 s
+quadro 570/916  629.2 s
+quadro 600/916  659.6 s
+quadro 630/916  690.6 s
+quadro 660/916  721.7 s
+quadro 690/916  752.4 s
+quadro 720/916  782.4 s
+quadro 750/916  812.3 s
+quadro 780/916  841.4 s
+quadro 810/916  870.7 s
+quadro 840/916  899.7 s
+quadro 870/916  928.3 s
+quadro 900/916  956.5 s
+RENDER: 916 quadros em 971.2 s (1.06 s/quadro) -> piloto_brio_3d.mp4
+tempo_total_s=974
