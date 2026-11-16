@@ -1,0 +1,49 @@
+name: render-3d
+# Renderiza cenas 3D (Three.js) na nuvem do GitHub, sem depender de nenhum computador local.
+# Gatilho: push em render3d/** ou manual. Saída: branch previas, pasta render3d/<nome>.mp4 (+ artefato do workflow).
+on:
+  push:
+    branches: [main]
+    paths: ["render3d/**", ".github/workflows/render-3d.yml"]
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  render:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "22"
+      - name: Chrome e ffmpeg
+        id: chrome
+        uses: browser-actions/setup-chrome@v1
+      - run: sudo apt-get update -qq && sudo apt-get install -y -qq ffmpeg fonts-noto-color-emoji > /dev/null
+      - name: Dependências
+        working-directory: render3d
+        run: npm ci || npm install
+      - name: Renderizar
+        working-directory: render3d
+        env:
+          CHROME_PATH: ${{ steps.chrome.outputs.chrome-path }}
+        run: |
+          nproc; start=$(date +%s)
+          node render.mjs piloto_brio_3d.mp4 | tee render.log
+          echo "tempo_total_s=$(( $(date +%s) - start ))" | tee -a render.log
+      - uses: actions/upload-artifact@v4
+        with:
+          name: render3d
+          path: |
+            render3d/piloto_brio_3d.mp4
+            render3d/render.log
+      - name: Publicar no branch previas
+        run: |
+          mkdir -p /tmp/o && cp render3d/piloto_brio_3d.mp4 render3d/render.log /tmp/o/
+          git config user.name "fabrica-bot"; git config user.email "fabrica-bot@users.noreply.github.com"
+          git fetch --depth 1 origin previas && git checkout -B previas FETCH_HEAD
+          mkdir -p render3d && cp /tmp/o/* render3d/
+          git add render3d && (git diff --cached --quiet || (git commit -qm "render3d: piloto" && git push origin previas))
