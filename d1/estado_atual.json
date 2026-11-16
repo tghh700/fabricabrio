@@ -1,9 +1,7 @@
 {
  "relatorio": {
-  "nome": "agenda-20261116-diaum",
-  "gravados": [
-   "diaum-09-agacha"
-  ],
+  "nome": "estado-20261116-1648",
+  "gravados": [],
   "recusados": []
  },
  "estado": {
@@ -1141,7 +1139,7 @@
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-15T17:20:27.893Z"
+    "valor": "2026-11-16T16:45:28.493Z"
    },
    {
     "chave": "escala",
