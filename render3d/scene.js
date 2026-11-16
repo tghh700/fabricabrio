@@ -20,7 +20,7 @@ const ease = (x) => { x = clamp(x); return x * x * (3 - 2 * x); };
 const eo = (x) => { x = clamp(x); return 1 - (1 - x) ** 3; };
 const bo = (x) => { x = clamp(x); const c = 1.7; return 1 + (c + 1) * (x - 1) ** 3 + c * (x - 1) ** 2; };
 const prog = (t, s, d) => clamp((t - s) / d);
-const C = { coral: 0xff5c3d, cream: 0xefe6da, navy: 0x2b2f5c, ink: 0x15151c, steel: 0xc9ccd4, rubber: 0x1d1e24, bench: 0x262833, lilac: 0x9c8cff };
+const C = { coral: 0xff5c3d, cream: 0xefe6da, navy: 0x2b2f5c, ink: 0x15151c, steel: 0xc9ccd4, rubber: 0x1d1e24, bench: 0x1b1c22, lilac: 0x9c8cff };
 
 // ------------------------------------------------------------------ pose (vista lateral em px → mundo em m)
 function ik(s, h, L1, L2) {
@@ -100,79 +100,169 @@ Object.assign(key.shadow.camera, { left: -5, right: 5, top: 5, bottom: -3, near:
 const rim = new THREE.PointLight(C.coral, 30, 12, 2); rim.position.set(1.5, 3.2, -2.6); scene.add(rim);
 const fill = new THREE.PointLight(C.lilac, 12, 12, 2); fill.position.set(-4, 2.5, 3); scene.add(fill);
 
-// ------------------------------------------------------------------ peças do boneco
-const cylG = new THREE.CylinderGeometry(1, 1, 1, 28, 1, true), sphG = new THREE.SphereGeometry(1, 32, 20);
-class Limb {
-  constructor(r, mat) { this.r = r; this.c = add(new THREE.Mesh(cylG, mat)); this.a = add(new THREE.Mesh(sphG, mat)); this.b = add(new THREE.Mesh(sphG, mat));
-    this.a.scale.setScalar(r); this.b.scale.setScalar(r); }
+const sphG = new THREE.SphereGeometry(1, 40, 24);
+// ------------------------------------------------------------------ personagem "Brio" (corpo esculpido por primitivas)
+const PAL = { skin: 0xd8a07c, hair: 0x2a1e1a, top: 0x262a52, shorts: 0x5b5e70, shoe: 0xf1efea, sole: 0xff5c3d, band: 0xff5c3d };
+const MC = {
+  skin: new THREE.MeshPhysicalMaterial({ color: PAL.skin, roughness: 0.5, sheen: 0.5, sheenRoughness: 0.5, sheenColor: 0xffc9a8, clearcoat: 0.08 }),
+  hair: new THREE.MeshStandardMaterial({ color: PAL.hair, roughness: 0.85 }),
+  top: new THREE.MeshPhysicalMaterial({ color: PAL.top, roughness: 0.75, sheen: 0.6, sheenColor: 0x6a6fd0 }),
+  shorts: new THREE.MeshStandardMaterial({ color: PAL.shorts, roughness: 0.8 }),
+  shoe: new THREE.MeshStandardMaterial({ color: PAL.shoe, roughness: 0.55 }),
+  sole: new THREE.MeshStandardMaterial({ color: PAL.sole, roughness: 0.5 }),
+  band: new THREE.MeshStandardMaterial({ color: PAL.band, roughness: 0.7 }),
+  eye: new THREE.MeshStandardMaterial({ color: 0x141418, roughness: 0.2 }),
+  glow: new THREE.MeshBasicMaterial({ color: new THREE.Color(C.coral).multiplyScalar(1.6), transparent: true, opacity: 0.6, blending: THREE.AdditiveBlending, depthWrite: false }),
+};
+const Y = new THREE.Vector3(0, 1, 0);
+const mk = (geo, mat) => add(new THREE.Mesh(geo, mat));
+class Seg { // segmento afinado (cilindro de raio r1→r2) + juntas esféricas + músculo opcional
+  constructor(r1, r2, mat, bulge = null) {
+    this.c = mk(new THREE.CylinderGeometry(r2, r1, 1, 32, 1, true), mat);
+    this.j1 = mk(sphG, mat); this.j1.scale.setScalar(r1); this.j2 = mk(sphG, mat); this.j2.scale.setScalar(r2);
+    this.b = bulge ? mk(sphG, bulge.mat || mat) : null; this.bulge = bulge;
+  }
   set(p1, p2) {
-    const d = new THREE.Vector3().subVectors(p2, p1), L = d.length();
-    this.c.position.copy(p1).addScaledVector(d, 0.5); this.c.scale.set(this.r, L, this.r);
-    this.c.quaternion.setFromUnitVectors(new THREE.Vector3(0, 1, 0), d.normalize());
-    this.a.position.copy(p1); this.b.position.copy(p2);
+    const d = new THREE.Vector3().subVectors(p2, p1), L = d.length(); const q = new THREE.Quaternion().setFromUnitVectors(Y, d.clone().normalize());
+    this.c.position.copy(p1).addScaledVector(d, 0.5); this.c.scale.set(1, L, 1); this.c.quaternion.copy(q);
+    this.j1.position.copy(p1); this.j2.position.copy(p2);
+    if (this.b) { const B = this.bulge; this.b.position.copy(p1).addScaledVector(d, B.f); if (B.off) this.b.position.add(B.off.clone().applyQuaternion(q));
+      this.b.quaternion.copy(q); this.b.scale.set(B.r[0], L * B.len, B.r[1]); }
   }
 }
-const body = {
-  torso: new Limb(0.3, M.skin), head: add(new THREE.Mesh(sphG, M.skin)),
-  thighL: new Limb(0.17, M.short), thighR: new Limb(0.17, M.short), shinL: new Limb(0.125, M.skin), shinR: new Limb(0.125, M.skin),
-  uarmL: new Limb(0.12, M.skin), uarmR: new Limb(0.12, M.skin), farmL: new Limb(0.105, M.skin), farmR: new Limb(0.105, M.skin),
-  pecL: add(new THREE.Mesh(sphG, M.coral)), pecR: add(new THREE.Mesh(sphG, M.coral)),
-  shorts: add(new THREE.Mesh(sphG, M.short)),
+const char = {
+  thighL: new Seg(0.185, 0.165, MC.shorts), thighR: new Seg(0.185, 0.165, MC.shorts),
+  thigh2L: new Seg(0.15, 0.115, MC.skin), thigh2R: new Seg(0.15, 0.115, MC.skin),
+  shinL: new Seg(0.115, 0.075, MC.skin, { f: 0.32, len: 0.5, r: [0.13, 0.125] }), shinR: new Seg(0.115, 0.075, MC.skin, { f: 0.32, len: 0.5, r: [0.13, 0.125] }),
+  uarmL: new Seg(0.13, 0.1, MC.skin, { f: 0.5, len: 0.62, r: [0.135, 0.13] }), uarmR: new Seg(0.13, 0.1, MC.skin, { f: 0.5, len: 0.62, r: [0.135, 0.13] }),
+  farmL: new Seg(0.1, 0.075, MC.skin, { f: 0.3, len: 0.55, r: [0.108, 0.104] }), farmR: new Seg(0.1, 0.075, MC.skin, { f: 0.3, len: 0.55, r: [0.108, 0.104] }),
+  neck: new Seg(0.15, 0.14, MC.skin),
+  torso: new THREE.Group(), head: new THREE.Group(),
+  fists: [mk(new RoundedBoxGeometry(0.2, 0.2, 0.22, 4, 0.08), MC.skin), mk(new RoundedBoxGeometry(0.2, 0.2, 0.22, 4, 0.08), MC.skin)],
+  bands: [mk(new THREE.CylinderGeometry(0.1, 0.1, 0.09, 24), MC.band), mk(new THREE.CylinderGeometry(0.1, 0.1, 0.09, 24), MC.band)],
+  shoes: [new THREE.Group(), new THREE.Group()],
+  pecs: [new THREE.Mesh(sphG, MC.glow), new THREE.Mesh(sphG, MC.glow), new THREE.Mesh(sphG, MC.glow), new THREE.Mesh(sphG, MC.glow)],
 };
-body.head.scale.setScalar(0.34);
+// tronco esculpido em coordenadas locais (x = do quadril ao ombro, y = frente do peito, z = largura); L = 1,5
+const TL = 1.5;
+for (const [x, s, mat] of [
+  [0.02, [0.34, 0.3, 0.44], MC.shorts],      // quadril/short
+  [0.42, [0.42, 0.27, 0.42], MC.top],        // cintura
+  [0.92, [0.5, 0.31, 0.5], MC.top],          // peito
+  [1.3, [0.3, 0.27, 0.56], MC.top],          // ombros/trapézio
+]) { const m = new THREE.Mesh(sphG, mat); m.position.x = x; m.scale.set(...s); m.castShadow = m.receiveShadow = true; char.torso.add(m); }
+for (const z of [-1, 1]) { // deltoides
+  const d = new THREE.Mesh(sphG, MC.skin); d.position.set(1.38, 0.0, z * 0.6); d.scale.set(0.2, 0.19, 0.19); d.castShadow = true; char.torso.add(d);
+}
+scene.add(char.torso);
+// cabeça: x = topo da cabeça, y = para onde o rosto olha
+{
+  const g = char.head;
+  const sk = new THREE.Mesh(sphG, MC.skin); sk.scale.set(0.36, 0.34, 0.31); g.add(sk); g.scale.setScalar(0.86);
+  const hair = new THREE.Mesh(new THREE.SphereGeometry(1, 32, 20, 0, Math.PI * 2, 0, 1.75), MC.hair);
+  hair.scale.set(0.375, 0.355, 0.325); hair.quaternion.setFromUnitVectors(Y, new THREE.Vector3(0.75, -0.66, 0).normalize()); g.add(hair);
+  for (const z of [-1, 1]) {
+    const e = new THREE.Mesh(sphG, MC.eye); e.position.set(0.06, 0.31, z * 0.11); e.scale.set(0.05, 0.03, 0.034); g.add(e); e.name = "eye";
+    const b = new THREE.Mesh(new RoundedBoxGeometry(0.035, 0.03, 0.12, 2, 0.012), MC.hair); b.position.set(0.15, 0.3, z * 0.11); b.name = z < 0 ? "browL" : "browR"; g.add(b);
+    const ear = new THREE.Mesh(sphG, MC.skin); ear.position.set(-0.02, 0.0, z * 0.31); ear.scale.set(0.08, 0.06, 0.04); g.add(ear);
+  }
+  const nose = new THREE.Mesh(sphG, MC.skin); nose.position.set(-0.03, 0.34, 0); nose.scale.set(0.06, 0.05, 0.045); g.add(nose);
+  const mouth = new THREE.Mesh(new RoundedBoxGeometry(0.03, 0.02, 0.1, 2, 0.008), MC.eye); mouth.position.set(-0.15, 0.3, 0); mouth.name = "mouth"; g.add(mouth);
+  g.traverse((o) => { o.castShadow = true; o.receiveShadow = true; }); scene.add(g);
+}
+for (const sh of char.shoes) {
+  const up = new THREE.Mesh(new RoundedBoxGeometry(0.4, 0.17, 0.2, 4, 0.07), MC.shoe); up.position.set(0.06, 0.1, 0); sh.add(up);
+  const so = new THREE.Mesh(new RoundedBoxGeometry(0.43, 0.05, 0.22, 3, 0.02), MC.sole); so.position.set(0.06, 0.025, 0); sh.add(so);
+  sh.traverse((o) => { o.castShadow = true; o.receiveShadow = true; }); scene.add(sh);
+}
+for (const p of char.pecs) scene.add(p);
+
 // banco
-const seat = add(new THREE.Mesh(new RoundedBoxGeometry(0.85, 0.18, 0.62, 4, 0.06), M.pad));
-const back = add(new THREE.Mesh(new RoundedBoxGeometry(2.2, 0.18, 0.62, 4, 0.06), M.pad));
-const legF = add(new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 1, 16), M.steel));
-const legB = add(new THREE.Mesh(new THREE.CylinderGeometry(0.05, 0.05, 1, 16), M.steel));
-const footF = add(new THREE.Mesh(new RoundedBoxGeometry(0.12, 0.06, 0.7, 2, 0.02), M.steel));
-const footB = add(new THREE.Mesh(new RoundedBoxGeometry(0.12, 0.06, 0.7, 2, 0.02), M.steel));
-// barra
+const seat = add(new THREE.Mesh(new RoundedBoxGeometry(0.85, 0.2, 0.78, 5, 0.08), M.pad));
+const back = add(new THREE.Mesh(new RoundedBoxGeometry(2.2, 0.2, 0.78, 5, 0.08), M.pad));
+const matte = new THREE.MeshStandardMaterial({ color: 0x8a8d96, metalness: 0.5, roughness: 0.55 });
+const legF = add(new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 1, 16), matte));
+const legB = add(new THREE.Mesh(new THREE.CylinderGeometry(0.055, 0.055, 1, 16), matte));
+const footF = add(new THREE.Mesh(new RoundedBoxGeometry(0.14, 0.07, 0.9, 2, 0.025), matte));
+const footB = add(new THREE.Mesh(new RoundedBoxGeometry(0.14, 0.07, 0.9, 2, 0.025), matte));
+// barra olímpica
 const bar = new THREE.Group();
-const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 2.6, 20), M.steel); shaft.rotation.x = Math.PI / 2; bar.add(shaft);
-for (const z of [-1.0, 1.0]) for (const [r, th, dz] of [[0.44, 0.09, 0], [0.34, 0.07, 0.08]]) {
-  const pl = new THREE.Mesh(new THREE.CylinderGeometry(r, r, th, 48), M.rubber); pl.rotation.x = Math.PI / 2; pl.position.z = z + Math.sign(z) * dz; bar.add(pl);
-  const hub = new THREE.Mesh(new THREE.CylinderGeometry(0.07, 0.07, th + 0.01, 20), M.steel); hub.rotation.x = Math.PI / 2; hub.position.z = pl.position.z; bar.add(hub);
+const shaft = new THREE.Mesh(new THREE.CylinderGeometry(0.035, 0.035, 3.2, 20), M.steel); shaft.rotation.x = Math.PI / 2; bar.add(shaft);
+for (const z of [-1.22, 1.22]) {
+  for (const [r, th, dz, mat] of [[0.5, 0.1, 0, M.rubber], [0.4, 0.08, 0.1, M.rubber]]) {
+    const pl = new THREE.Mesh(new THREE.CylinderGeometry(r, r, th, 56), mat); pl.rotation.x = Math.PI / 2; pl.position.z = z + Math.sign(z) * dz; bar.add(pl);
+    const lip = new THREE.Mesh(new THREE.TorusGeometry(r * 0.8, 0.012, 8, 48), new THREE.MeshBasicMaterial({ color: new THREE.Color(C.coral).multiplyScalar(0.9) }));
+    lip.position.z = pl.position.z + Math.sign(z) * (th / 2 + 0.002); bar.add(lip);
+  }
+  const col = new THREE.Mesh(new THREE.CylinderGeometry(0.06, 0.06, 0.08, 20), M.steel); col.rotation.x = Math.PI / 2; col.position.z = z - Math.sign(z) * 0.1; bar.add(col);
 }
 bar.traverse((o) => { o.castShadow = o.receiveShadow = true; }); scene.add(bar);
 
+function basis(x, y) { // quaternion de uma base ortonormal (x, y)
+  const X = x.clone().normalize(), Z = new THREE.Vector3().crossVectors(X, y).normalize(), Yv = new THREE.Vector3().crossVectors(Z, X);
+  return new THREE.Quaternion().setFromRotationMatrix(new THREE.Matrix4().makeBasis(X, Yv, Z));
+}
 function placeBody(t, inclDeg, u) {
   const p = pose(inclDeg, u);
-  const J = V(p.J), S = V(p.S), K = V(p.K), F = V(p.F);
-  body.torso.set(J, S);
-  body.shorts.position.copy(J); body.shorts.scale.set(0.32, 0.31, 0.33);
-  for (const [s, th, sh] of [[-1, body.thighL, body.shinL], [1, body.thighR, body.shinR]]) {
-    th.set(V(p.J, s * 0.17), V(p.K, s * 0.22)); sh.set(V(p.K, s * 0.22), V(p.F, s * 0.26));
+  const nrm = new THREE.Vector3(p.n[0], -p.n[1], 0);
+  const J = V(p.J), S = V(p.S);
+  const axis = new THREE.Vector3().subVectors(S, J);
+  char.torso.position.copy(J); char.torso.quaternion.copy(basis(axis, nrm)); char.torso.scale.setScalar(axis.length() / TL);
+  // pernas (pés afastados, firmes no chão)
+  for (const [i, s] of [[0, -1], [1, 1]]) {
+    const hip = V(p.J, s * 0.24), knee = V(p.K, s * 0.36), ank = V([p.F[0], p.F[1] - 34], s * 0.44);
+    const mid = hip.clone().lerp(knee, 0.55);
+    (i ? char.thighR : char.thighL).set(hip, mid); (i ? char.thigh2R : char.thigh2L).set(mid, knee); (i ? char.shinR : char.shinL).set(knee, ank);
+    char.shoes[i].position.set(ank.x - 0.02, 0, ank.z); char.shoes[i].rotation.y = -s * 0.15;
   }
-  for (const [s, ua, fa] of [[-1, body.uarmL, body.farmL], [1, body.uarmR, body.farmR]]) {
-    ua.set(V(p.S, s * 0.36), V(p.E, s * 0.56)); fa.set(V(p.E, s * 0.56), V(p.hand, s * 0.5));
+  // braços: pegada mais larga que os ombros, cotovelos abertos
+  const grip = 0.78;
+  for (const [i, s] of [[0, -1], [1, 1]]) {
+    const sh = V(p.S, s * 0.58), el = V(p.E, s * 0.76), hd = V(p.hand, s * grip);
+    (i ? char.uarmR : char.uarmL).set(sh, el); (i ? char.farmR : char.farmL).set(el, hd);
+    char.fists[i].position.copy(hd); char.fists[i].quaternion.copy(basis(new THREE.Vector3().subVectors(hd, el), new THREE.Vector3(0, 0, 1)));
+    char.bands[i].position.copy(el).lerp(hd, 0.82); char.bands[i].quaternion.setFromUnitVectors(Y, new THREE.Vector3().subVectors(hd, el).normalize());
   }
-  body.head.position.copy(V(p.head));
-  const m = V(p.musc), nrm = new THREE.Vector3(p.n[0], -p.n[1], 0);
-  const glow = 1.2 + 3.5 * u * (inclDeg > 15 ? 1.4 : 1.0);
-  M.coral.emissiveIntensity = glow;
-  for (const [s, pec] of [[-1, body.pecL], [1, body.pecR]]) {
-    pec.position.copy(m).addScaledVector(nrm, 0.07); pec.position.z = s * 0.15;
-    pec.scale.set(0.27, 0.12, 0.15); pec.rotation.set(0, 0, p.ang + Math.PI);
-  }
+  // cabeça e pescoço
+  const hc = V(p.head); const top = axis.clone().normalize();
+  char.neck.set(S.clone().addScaledVector(top, 0.05), hc.clone().addScaledVector(top, -0.12));
+  char.head.position.copy(hc).addScaledVector(top, -0.04); char.head.quaternion.copy(basis(top, nrm));
+  const effort = clamp(u * 1.4 - 0.2);
+  char.head.children.forEach((o) => {
+    if (o.name === "browL") o.rotation.y = 0.35 * effort; if (o.name === "browR") o.rotation.y = -0.35 * effort;
+    if (o.name === "eye") o.scale.y = 0.03 * (1 - 0.6 * effort); if (o.name === "mouth") o.scale.z = 1 + 0.6 * effort;
+  });
+  // músculo trabalhado (holograma coral por cima da regata)
+  const upper = inclDeg > 15;
+  const glow = upper ? 0.35 + 0.65 * u : 0.25 + 0.5 * u;
+  MC.glow.opacity = glow;
+  const pos = (f, h, z) => J.clone().addScaledVector(axis, f).addScaledVector(nrm, h).add(new THREE.Vector3(0, 0, z));
+  const q = basis(axis, nrm);
+  [[0.66, -1], [0.66, 1], [0.8, -1], [0.8, 1]].forEach(([f, s], k) => {
+    const pc = char.pecs[k]; const isUp = k >= 2;
+    pc.visible = upper ? true : !isUp || true;
+    pc.position.copy(pos(f, isUp ? 0.25 : 0.27, s * (isUp ? 0.24 : 0.25))); pc.quaternion.copy(q);
+    const k2 = isUp ? (upper ? 1.0 : 0.45) : (upper ? 0.35 : 1.0);
+    pc.scale.set(isUp ? 0.17 : 0.24, 0.07, isUp ? 0.2 : 0.23); pc.material = MC.glow; pc.userData.k = k2;
+    pc.scale.multiplyScalar(0.85 + 0.15 * k2);
+  });
   // banco
   const Hw = V(p.H), Bw = V(p.back), Sw = V(p.seat);
   const tilt = Math.atan2(Bw.y - Hw.y, Bw.x - Hw.x);
-  back.position.copy(Hw).lerp(Bw, 0.5).add(new THREE.Vector3(Math.sin(tilt) * 0.09, -Math.cos(tilt) * 0.09, 0)); back.rotation.z = tilt + Math.PI;
-  seat.position.set((Hw.x + Sw.x) / 2 + 0.05, Hw.y - 0.09, 0);
-  const lf = Sw.x - 0.08; legF.position.set(lf, (Hw.y - 0.18) / 2, 0); legF.scale.y = Hw.y - 0.18; footF.position.set(lf, 0.03, 0);
-  const mid = V(p.mid); const lb = inclDeg < 5 ? Bw.x + 0.25 : mid.x + 0.05; const top = inclDeg < 5 ? Hw.y - 0.18 : lerp(Hw.y, mid.y, 0.8) - 0.18;
-  legB.position.set(lb, top / 2, 0); legB.scale.y = top; footB.position.set(lb, 0.03, 0);
-  // barra nas mãos
+  back.position.copy(Hw).lerp(Bw, 0.5).add(new THREE.Vector3(Math.sin(tilt) * 0.1, -Math.cos(tilt) * 0.1, 0)); back.rotation.z = tilt + Math.PI;
+  seat.position.set((Hw.x + Sw.x) / 2 + 0.05, Hw.y - 0.1, 0);
+  const lf = Sw.x - 0.08; legF.position.set(lf, (Hw.y - 0.2) / 2, 0); legF.scale.y = Hw.y - 0.2; footF.position.set(lf, 0.035, 0);
+  const mid = V(p.mid); const lb = inclDeg < 5 ? Bw.x + 0.25 : mid.x + 0.05; const topy = inclDeg < 5 ? Hw.y - 0.2 : lerp(Hw.y, mid.y, 0.8) - 0.2;
+  legB.position.set(lb, topy / 2, 0); legB.scale.y = topy; footB.position.set(lb, 0.035, 0);
   const hp = V(p.hand); bar.position.set(hp.x, hp.y, 0);
   return p;
 }
 
 // ------------------------------------------------------------------ câmera (planos)
 const keys = [ // t, ângulo (rad, 0 = de lado), distância, altura, alvo x, alvo y
-  [0.0, -0.8, 11.6, 4.0, -0.25, 2.05], [3.6, -0.5, 10.9, 3.8, -0.3, 2.0],
-  [4.8, -1.15, 10.6, 4.1, -0.45, 2.2], [8.2, -0.95, 9.4, 3.8, -0.6, 2.2],
-  [10.0, -0.55, 12.4, 4.6, -0.3, 2.3],
+  [0.0, -0.75, 11.6, 4.8, -0.25, 1.95], [3.6, -0.45, 10.9, 4.6, -0.3, 1.9],
+  [4.8, -0.5, 9.6, 4.9, -0.55, 1.95], [8.2, -0.3, 8.6, 4.6, -0.7, 2.0],
+  [10.0, -0.75, 11.8, 5.4, -0.35, 2.05],
 ];
 function cam(t) {
   let i = 0; while (i < keys.length - 2 && t > keys[i + 1][0]) i++;
@@ -220,7 +310,7 @@ function incl(t) { return 30 * ease((t - 3.8) / 1.0); }
 window.renderFrame = (f, fmt = "image/jpeg", q = 0.93) => {
   const t = f / FPS, a = incl(t), u = 0.5 - 0.5 * Math.cos(t * 2.7);
   placeBody(t, a, u); cam(t);
-  rim.intensity = 30 + 18 * u;
+  rim.intensity = 16 + 10 * u;
   composer.render();
   ctx.drawImage(renderer.domElement, 0, 0, W, H);
   overlay(t);
