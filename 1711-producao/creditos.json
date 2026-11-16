@@ -1,0 +1,102 @@
+{
+ "gastos": [
+  {
+   "id": "brio_63_proteina",
+   "caracteres": 642,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_64_cerveja",
+   "caracteres": 597,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_65_genetica",
+   "caracteres": 638,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_66_balanca",
+   "caracteres": 604,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_67_memoria",
+   "caracteres": 642,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_68_carbo",
+   "caracteres": 627,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_69_pesa",
+   "caracteres": 591,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_70_bcaa",
+   "caracteres": 587,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_71_abdomen",
+   "caracteres": 618,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_72_falsomagro",
+   "caracteres": 606,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_73_bulking",
+   "caracteres": 615,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_74_menstrual",
+   "caracteres": 641,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_12_fibras",
+   "caracteres": 653,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_13_estalo",
+   "caracteres": 653,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_10_ponte",
+   "caracteres": 595,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "diaum_11_medo",
+   "caracteres": 639,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 9948
+}
