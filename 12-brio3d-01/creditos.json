@@ -1,0 +1,12 @@
+{
+ "gastos": [
+  {
+   "id": "brio3d_01",
+   "caracteres": 602,
+   "chave": 1,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 602
+}
