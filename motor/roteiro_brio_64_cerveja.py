@@ -1,0 +1,8 @@
+# brio_64_cerveja — lote 17/11 · cerveja no fim de semana atrapalha o ganho de músculo
+TITLE='[curious] Cerveja no fim de semana estraga o treino?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_64_cerveja_tight.mp3','starts':[0.113, 2.677, 4.144, 9.739, 12.049, 15.548, 20.149, 25.517]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'CERVEJA NO SÁBADO', 't2': 'ESTRAGA O TREINO?', 'text': '[curious] Cerveja no fim de semana estraga o treino?'}, {'vis': 'depende', 'k': '', 't1': 'DEPENDE', 't2': 'DA DOSE.', 'text': 'Depende muito da dose.'}, {'vis': 'estudo', 'k': '', 't1': 'UM PORRE', 't2': 'DEPOIS DO TREINO:', 'text': 'Num estudo, quem bebeu muito depois do treino fabricou bem menos músculo, mesmo tomando proteína.'}, {'vis': 'numero', 'k': '', 't1': 'ATÉ 37%', 't2': 'A MENOS.', 'text': 'A queda chegou a trinta e sete por cento.'}, {'vis': 'sono', 'k': '', 't1': 'E AINDA', 't2': 'PIORA O SONO.', 'text': 'E o álcool ainda piora o sono, que é quando o corpo se recupera.'}, {'vis': 'uma', 'k': '', 't1': 'UMA OU DUAS?', 't2': 'EFEITO PEQUENO.', 'text': '[matter-of-fact] Agora, uma ou duas no fim de semana? O efeito é pequeno. O problema é o porre.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'O PORRE ATRAPALHA.', 'text': 'Resumindo: não precisa virar abstêmio. Mas porre no dia do treino joga parte do esforço fora.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'CERVEJA.', 'text': 'Comenta CERVEJA que eu te mando como registrar seus treinos no Bríu e ver se a carga cai depois do fim de semana. Link na bio.', 'marks': {'ponte': 0.793, 'fixa': 5.684}}]

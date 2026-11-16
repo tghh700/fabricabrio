@@ -1,0 +1,8 @@
+# brio_67_memoria — lote 17/11 · memória muscular: recuperar o que perdeu é mais rápido
+TITLE='[serious] Parou de treinar e perdeu tudo? Volta mais rápido do que você pensa.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_67_memoria_tight.mp3','starts':[0.125, 3.686, 5.65, 9.344, 13.024, 17.316, 21.097, 26.249]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'PAROU E PERDEU?', 't2': 'VOLTA RÁPIDO.', 'text': '[serious] Parou de treinar e perdeu tudo? Volta mais rápido do que você pensa.'}, {'vis': 'nome', 'k': '', 't1': 'TEM NOME:', 't2': 'MEMÓRIA MUSCULAR.', 'text': 'Isso tem nome: memória muscular.'}, {'vis': 'nervo', 'k': '', 't1': 'O CÉREBRO', 't2': 'LEMBRA O MOVIMENTO.', 'text': 'Primeiro, o cérebro não esquece o movimento. A técnica volta rápido.'}, {'vis': 'musculo', 'k': '', 't1': 'O MÚSCULO', 't2': 'GUARDA MARCAS.', 'text': 'E o músculo guarda marcas do treino antigo, que ajudam a crescer de novo.'}, {'vis': 'estudo', 'k': '', 't1': 'NA 2ª VEZ,', 't2': 'CRESCE MAIS RÁPIDO.', 'text': 'Nos estudos, quem já tinha treinado recuperou o tamanho mais rápido que da primeira vez.'}, {'vis': 'volta', 'k': '', 't1': 'VOLTA LEVE,', 't2': 'SOBE RÁPIDO.', 'text': '[matter-of-fact] Só não volta com a carga antiga. Começa mais leve e sobe toda semana.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'NADA FOI PERDIDO.', 'text': 'Resumindo: o tempo que você treinou não foi perdido. Voltar é sempre mais rápido que começar.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'VOLTA.', 'text': 'Comenta VOLTA que eu te mando como registrar suas cargas no Bríu e ver a força voltando semana a semana. Link na bio.', 'marks': {'ponte': 0.793, 'fixa': 5.449}}]

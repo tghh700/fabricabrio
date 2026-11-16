@@ -1,0 +1,8 @@
+# brio_71_abdomen — lote 17/11 · com quanto de gordura o abdômen aparece
+TITLE='[curious] Com quanto de gordura o abdômen aparece?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_71_abdomen_tight.mp3','starts':[0.189, 2.3, 6.539, 10.699, 13.422, 15.887, 20.615, 26.507]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'QUANDO O ABDÔMEN', 't2': 'APARECE?', 'text': '[curious] Com quanto de gordura o abdômen aparece?'}, {'vis': 'todos', 'k': '', 't1': 'TODO MUNDO', 't2': 'TEM.', 'text': 'Todo mundo tem os gomos do abdômen. Eles só ficam escondidos embaixo da gordura.'}, {'vis': 'homem', 'k': '', 't1': 'HOMENS:', 't2': 'UNS 10 A 12%.', 'text': 'Nos homens, eles costumam aparecer perto de dez a doze por cento de gordura.'}, {'vis': 'mulher', 'k': '', 't1': 'MULHERES:', 't2': 'UNS 18 A 20%.', 'text': 'Nas mulheres, perto de dezoito a vinte por cento.'}, {'vis': 'ultimo', 'k': '', 't1': 'A BARRIGA', 't2': 'É A ÚLTIMA.', 'text': 'E a barriga costuma ser o último lugar a secar.'}, {'vis': 'treino', 'k': '', 't1': 'TREINAR O ABDÔMEN', 't2': 'DEIXA MAIS GROSSO.', 'text': '[matter-of-fact] Treinar o abdômen com carga deixa os gomos mais grossos, e eles aparecem um pouco antes.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'É PORCENTAGEM.', 'text': 'Resumindo: tanquinho é porcentagem de gordura, com paciência. O treino só deixa o desenho mais forte.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'TANQUINHO.', 'text': 'Comenta TANQUINHO que eu te mando como acompanhar sua evolução no Bríu enquanto você seca. Link na bio.', 'marks': {'ponte': 0.767, 'fixa': 4.495}}]

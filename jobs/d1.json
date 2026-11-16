@@ -1,1 +1,295 @@
-{"nome": "estado-20261116-1648", "videos": []}
+{
+ "nome": "agenda-20261117",
+ "videos": [
+  {
+   "id": "brio-63-proteina",
+   "perfil": "brio",
+   "tema_canonico": "quanta proteína por dia para ganhar músculo",
+   "gancho": "Quanta proteína você precisa por dia?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "PROTEÍNA",
+   "arquivo": "brio/brio-63-proteina.mp4",
+   "legenda": "Quanta proteína você precisa por dia? 👇\nUns 1,6 g por quilo do seu peso. 70 kg = uns 112 g, divididos em 3 ou 4 refeições. Comer o dobro não faz crescer o dobro.\n📲 Comenta PROTEÍNA que eu te mando no direct como registrar suas cargas no Brio e ver se a comida está virando força.\n\n#brio #proteina #hipertrofia #musculacao #dieta",
+   "hashtags": "#brio #proteina #hipertrofia #musculacao #dieta",
+   "duracao_s": 34.41,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 10:00:00"
+  },
+  {
+   "id": "brio-64-cerveja",
+   "perfil": "brio",
+   "tema_canonico": "cerveja no fim de semana atrapalha o ganho de músculo",
+   "gancho": "Cerveja no fim de semana estraga o treino?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "CERVEJA",
+   "arquivo": "brio/brio-64-cerveja.mp4",
+   "legenda": "Cerveja no fim de semana estraga o treino? 👇\nUma ou duas: efeito pequeno. Porre depois do treino: até 37% menos fabricação de músculo num estudo, mesmo com proteína.\n📲 Comenta CERVEJA que eu te mando no direct como registrar seus treinos no Brio e ver se a carga cai depois do fim de semana.\n\n#brio #cerveja #hipertrofia #musculacao #academia",
+   "hashtags": "#brio #cerveja #hipertrofia #musculacao #academia",
+   "duracao_s": 32.4,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 11:30:00"
+  },
+  {
+   "id": "brio-65-genetica",
+   "perfil": "brio",
+   "tema_canonico": "genética: por que uns crescem mais rápido com o mesmo treino",
+   "gancho": "Seu amigo cresce mais rápido que você?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "GENÉTICA",
+   "arquivo": "brio/brio-65-genetica.mp4",
+   "legenda": "Seu amigo cresce mais rápido que você? 👇\nNum estudo com 585 pessoas no mesmo treino, o braço cresceu de 0% a 59%. Genética muda a velocidade, não o destino.\n📲 Comenta GENÉTICA que eu te mando no direct como acompanhar sua evolução no Brio, só você contra você.\n\n#brio #genetica #hipertrofia #musculacao #academia",
+   "hashtags": "#brio #genetica #hipertrofia #musculacao #academia",
+   "duracao_s": 35.32,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 13:00:00"
+  },
+  {
+   "id": "brio-66-balanca",
+   "perfil": "brio",
+   "tema_canonico": "a balança sobe nas primeiras semanas de treino",
+   "gancho": "Começou a treinar e a balança subiu?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "BALANÇA",
+   "arquivo": "brio/brio-66-balanca.mp4",
+   "legenda": "Começou a treinar e a balança subiu? 👇\nNormal: o músculo guarda glicogênio e cada grama puxa água. 1 a 2 kg nas primeiras semanas, e depois estabiliza.\n📲 Comenta BALANÇA que eu te mando no direct como acompanhar sua evolução no Brio pelo que importa: a carga.\n\n#brio #emagrecimento #iniciante #musculacao #academia",
+   "hashtags": "#brio #emagrecimento #iniciante #musculacao #academia",
+   "duracao_s": 31.66,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 14:30:00"
+  },
+  {
+   "id": "brio-67-memoria",
+   "perfil": "brio",
+   "tema_canonico": "memória muscular: recuperar o que perdeu é mais rápido",
+   "gancho": "Parou de treinar e perdeu tudo? Volta mais rápido do que você pensa.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "VOLTA",
+   "arquivo": "brio/brio-67-memoria.mp4",
+   "legenda": "Parou de treinar e perdeu tudo? Volta mais rápido do que você pensa. 👇\nO cérebro lembra o movimento e o músculo guarda marcas do treino antigo. Volta mais leve e sobe toda semana.\n📲 Comenta VOLTA que eu te mando no direct como registrar suas cargas no Brio e ver a força voltando.\n\n#brio #memoriamuscular #voltaratreinar #musculacao #academia",
+   "hashtags": "#brio #memoriamuscular #voltaratreinar #musculacao #academia",
+   "duracao_s": 32.84,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 15:30:00"
+  },
+  {
+   "id": "brio-68-carbo",
+   "perfil": "brio",
+   "tema_canonico": "cortar carboidrato não seca mais que outra dieta",
+   "gancho": "Cortar carboidrato não seca mais.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "CARBO",
+   "arquivo": "brio/brio-68-carbo.mp4",
+   "legenda": "Cortar carboidrato não seca mais. 👇\nOs primeiros quilos que saem rápido são água. Com as mesmas calorias, a perda de gordura é praticamente igual.\n📲 Comenta CARBO que eu te mando no direct como registrar suas cargas no Brio e ver se a força segura na dieta.\n\n#brio #carboidrato #dieta #emagrecimento #musculacao",
+   "hashtags": "#brio #carboidrato #dieta #emagrecimento #musculacao",
+   "duracao_s": 33.75,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 17:00:00"
+  },
+  {
+   "id": "brio-69-pesa",
+   "perfil": "brio",
+   "tema_canonico": "músculo não pesa mais que gordura: ocupa menos espaço",
+   "gancho": "Músculo pesa mais que gordura?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "ESPAÇO",
+   "arquivo": "brio/brio-69-pesa.mp4",
+   "legenda": "Músculo pesa mais que gordura? 👇\nNão: 1 kg é 1 kg. A diferença é o espaço: o mesmo quilo de gordura ocupa uns 18% a mais. Por isso a roupa folga e o peso não muda.\n📲 Comenta ESPAÇO que eu te mando no direct como acompanhar sua evolução no Brio além da balança.\n\n#brio #mitos #emagrecimento #musculacao #academia",
+   "hashtags": "#brio #mitos #emagrecimento #musculacao #academia",
+   "duracao_s": 32.68,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 18:30:00"
+  },
+  {
+   "id": "brio-70-bcaa",
+   "perfil": "brio",
+   "tema_canonico": "BCAA não faz diferença para quem come proteína suficiente",
+   "gancho": "Bê-cê-a-a vale o dinheiro?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "BCAA",
+   "arquivo": "brio/brio-70-bcaa.mp4",
+   "legenda": "BCAA vale o dinheiro? 👇\nSão só 3 aminoácidos, e toda proteína da comida já tem. Pra quem come proteína suficiente, os estudos não mostram ganho extra.\n📲 Comenta BCAA que eu te mando no direct como registrar suas séries no Brio e ver o que faz sua carga subir.\n\n#brio #bcaa #suplementos #musculacao #academia",
+   "hashtags": "#brio #bcaa #suplementos #musculacao #academia",
+   "duracao_s": 32.37,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 20:00:00"
+  },
+  {
+   "id": "brio-71-abdomen",
+   "perfil": "brio",
+   "tema_canonico": "com quanto de gordura o abdômen aparece",
+   "gancho": "Com quanto de gordura o abdômen aparece?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "TANQUINHO",
+   "arquivo": "brio/brio-71-abdomen.mp4",
+   "legenda": "Com quanto de gordura o abdômen aparece? 👇\nHomens: perto de 10 a 12%. Mulheres: perto de 18 a 20%. A barriga é o último lugar a secar.\n📲 Comenta TANQUINHO que eu te mando no direct como acompanhar sua evolução no Brio enquanto você seca.\n\n#brio #abdomen #tanquinho #musculacao #emagrecimento",
+   "hashtags": "#brio #abdomen #tanquinho #musculacao #emagrecimento",
+   "duracao_s": 32.13,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 21:30:00"
+  },
+  {
+   "id": "brio-72-falsomagro",
+   "perfil": "brio",
+   "tema_canonico": "falso magro: magro com barriga precisa de músculo",
+   "gancho": "Você é magro, mas tem barriga?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "MAGRO",
+   "arquivo": "brio/brio-72-falsomagro.mp4",
+   "legenda": "Magro, mas com barriga? 👇\nTem nome: falso magro. O erro é fazer dieta pesada. O caminho é treino de força e proteína alta, sem passar fome.\n📲 Comenta MAGRO que eu te mando no direct como registrar suas cargas no Brio e ver o músculo chegando.\n\n#brio #falsomagro #hipertrofia #musculacao #academia",
+   "hashtags": "#brio #falsomagro #hipertrofia #musculacao #academia",
+   "duracao_s": 34.25,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 22:30:00"
+  },
+  {
+   "id": "brio-73-bulking",
+   "perfil": "brio",
+   "tema_canonico": "bulking sujo: comer de tudo para ganhar massa",
+   "gancho": "Comer de tudo não te deixa grande.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "BULK",
+   "arquivo": "brio/brio-73-bulking.mp4",
+   "legenda": "Comer de tudo não te deixa grande. 👇\nO músculo cresce devagar e o resto vira gordura. O certo é comer só um pouco a mais: 300 a 500 calorias por dia.\n📲 Comenta BULK que eu te mando no direct como registrar suas cargas no Brio e ver se o peso novo é força.\n\n#brio #bulking #hipertrofia #dieta #musculacao",
+   "hashtags": "#brio #bulking #hipertrofia #dieta #musculacao",
+   "duracao_s": 32.79,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 23:30:00"
+  },
+  {
+   "id": "brio-74-menstrual",
+   "perfil": "brio",
+   "tema_canonico": "treinar durante a menstruação e o ciclo menstrual",
+   "gancho": "Treinar menstruada atrapalha o treino?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "CICLO",
+   "arquivo": "brio/brio-74-menstrual.mp4",
+   "legenda": "Treinar menstruada atrapalha? 👇\nPode treinar. Os estudos mostram diferença bem pequena de força entre as fases. No dia ruim, ajusta a carga, mas vai.\n📲 Comenta CICLO que eu te mando no direct como registrar suas séries no Brio e ver como você rende em cada semana.\n\n#brio #ciclomenstrual #treinofeminino #musculacao #academia",
+   "hashtags": "#brio #ciclomenstrual #treinofeminino #musculacao #academia",
+   "duracao_s": 35.37,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-18 01:00:00"
+  },
+  {
+   "id": "fibra-12-fibras",
+   "perfil": "fibra",
+   "tema_canonico": "fibras rápidas e lentas: velocista x maratonista",
+   "gancho": "Velocista musculoso, maratonista magro. Por quê?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "FIBRA",
+   "arquivo": "fibra/fibra-12-fibras.mp4",
+   "legenda": "Velocista musculoso, maratonista magro. Por quê? 🔬👇\nFibra lenta quase não cansa, mas cresce pouco. Fibra rápida faz força e cresce. O treino pesado faz as rápidas crescerem.\n📲 Comenta FIBRA que eu te mando no direct como registrar suas séries no Brio e ver suas cargas subirem.\n\n#fibratreino #fibramuscular #ciencia #musculacao #hipertrofia",
+   "hashtags": "#fibratreino #fibramuscular #ciencia #musculacao #hipertrofia",
+   "duracao_s": 34.85,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 15:30:00"
+  },
+  {
+   "id": "fibra-13-estalo",
+   "perfil": "fibra",
+   "tema_canonico": "estalo na articulação durante o treino",
+   "gancho": "Aquele estalo no joelho quando você agacha?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "ESTALO",
+   "arquivo": "fibra/fibra-13-estalo.mp4",
+   "legenda": "Aquele estalo no joelho quando você agacha? 🔬👇\nÉ uma bolha de gás no líquido da articulação, ou um tendão deslizando. Sem dor, costuma ser normal. Com dor ou inchaço, avalia.\n📲 Comenta ESTALO que eu te mando no direct como registrar seus treinos no Brio e acompanhar sua evolução.\n\n#fibratreino #articulacao #joelho #ciencia #musculacao",
+   "hashtags": "#fibratreino #articulacao #joelho #ciencia #musculacao",
+   "duracao_s": 34.12,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 22:00:00"
+  },
+  {
+   "id": "diaum-10-ponte",
+   "perfil": "diaum",
+   "tema_canonico": "ponte de glúteo em 3 níveis para iniciante",
+   "gancho": "Quer glúteo forte? Começa deitado no chão.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "PONTE",
+   "arquivo": "diaum/diaum-10-ponte.mp4",
+   "legenda": "Quer glúteo forte? Começa deitado no chão. 📓👇\nNível 1: ponte com os dois pés. Nível 2: pausa de 3 segundos em cima. Nível 3: uma perna só.\n📲 Comenta PONTE que eu te mando no direct como registrar suas séries no Brio e ver sua evolução.\n\n#diaumtreino #gluteo #iniciante #treinoemcasa #comecar",
+   "hashtags": "#diaumtreino #gluteo #iniciante #treinoemcasa #comecar",
+   "duracao_s": 35.32,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 14:30:00"
+  },
+  {
+   "id": "diaum-11-medo",
+   "perfil": "diaum",
+   "tema_canonico": "medo de se machucar ao começar a musculação",
+   "gancho": "Tenho medo de me machucar na academia.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "SEGURO",
+   "arquivo": "diaum/diaum-11-medo.mp4",
+   "legenda": "\"Tenho medo de me machucar na academia.\" 📓👇\nA musculação tem menos lesão que muito esporte com bola. 3 regras: sobram 3 repetições, aprende o movimento, pontada = para.\n📲 Comenta SEGURO que eu te mando no direct como registrar suas séries no Brio e subir a carga aos poucos.\n\n#diaumtreino #iniciante #academia #comecar #musculacao",
+   "hashtags": "#diaumtreino #iniciante #academia #comecar #musculacao",
+   "duracao_s": 38.59,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-17 22:30:00"
+  }
+ ],
+ "creditos": [
+  {
+   "video_id": "brio-63-proteina",
+   "quantidade": 642
+  },
+  {
+   "video_id": "brio-64-cerveja",
+   "quantidade": 597
+  },
+  {
+   "video_id": "brio-65-genetica",
+   "quantidade": 638
+  },
+  {
+   "video_id": "brio-66-balanca",
+   "quantidade": 604
+  },
+  {
+   "video_id": "brio-67-memoria",
+   "quantidade": 642
+  },
+  {
+   "video_id": "brio-68-carbo",
+   "quantidade": 627
+  },
+  {
+   "video_id": "brio-69-pesa",
+   "quantidade": 591
+  },
+  {
+   "video_id": "brio-70-bcaa",
+   "quantidade": 587
+  },
+  {
+   "video_id": "brio-71-abdomen",
+   "quantidade": 618
+  },
+  {
+   "video_id": "brio-72-falsomagro",
+   "quantidade": 606
+  },
+  {
+   "video_id": "brio-73-bulking",
+   "quantidade": 615
+  },
+  {
+   "video_id": "brio-74-menstrual",
+   "quantidade": 641
+  },
+  {
+   "video_id": "fibra-12-fibras",
+   "quantidade": 653
+  },
+  {
+   "video_id": "fibra-13-estalo",
+   "quantidade": 653
+  },
+  {
+   "video_id": "diaum-10-ponte",
+   "quantidade": 595
+  },
+  {
+   "video_id": "diaum-11-medo",
+   "quantidade": 639
+  }
+ ]
+}

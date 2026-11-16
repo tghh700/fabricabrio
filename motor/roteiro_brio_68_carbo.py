@@ -1,0 +1,8 @@
+# brio_68_carbo — lote 17/11 · cortar carboidrato não seca mais que outra dieta
+TITLE='[serious] Cortar carboidrato não seca mais.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_68_carbo_tight.mp3','starts':[0.161, 2.51, 5.568, 10.547, 15.025, 19.292, 22.887, 27.761]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'CORTAR CARBOIDRATO', 't2': 'NÃO SECA MAIS.', 'text': '[serious] Cortar carboidrato não seca mais.'}, {'vis': 'rapido', 'k': '', 't1': 'MAS OS PRIMEIROS', 't2': 'QUILOS SAEM...', 'text': 'Mas, então, por que os primeiros quilos saem tão rápido?'}, {'vis': 'agua', 'k': '', 't1': 'É ÁGUA.', 't2': 'NÃO GORDURA.', 'text': 'Porque sai o estoque de energia do músculo, e a água que vem junto. É água, não gordura.'}, {'vis': 'estudo', 'k': '', 't1': 'MESMAS CALORIAS,', 't2': 'MESMA GORDURA.', 'text': 'Comparando dietas com as mesmas calorias, a perda de gordura fica praticamente igual.'}, {'vis': 'treino', 'k': '', 't1': 'E O TREINO', 't2': 'SENTE.', 'text': 'E no treino pesado, o carboidrato é o combustível. Sem ele, a força cai.'}, {'vis': 'decide', 'k': '', 't1': 'O QUE DECIDE:', 't2': 'O TOTAL.', 'text': '[matter-of-fact] O que decide é o total do dia, e a dieta que você consegue manter.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'NÃO PRECISA CORTAR.', 'text': 'Resumindo: não precisa cortar o arroz. Ajusta a quantidade e mantém proteína alta.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'CARBO.', 'text': 'Comenta CARBO que eu te mando como registrar suas cargas no Bríu e ver se a força segura na dieta. Link na bio.', 'marks': {'ponte': 0.679, 'fixa': 4.849}}]

@@ -1,0 +1,8 @@
+# brio_73_bulking — lote 17/11 · bulking sujo: comer de tudo para ganhar massa
+TITLE='[serious] Comer de tudo não te deixa grande.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_73_bulking_tight.mp3','starts':[0.189, 2.331, 5.795, 9.222, 12.781, 17.43, 22.044, 27.044]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'COMER DE TUDO', 't2': 'NÃO TE DEIXA GRANDE.', 'text': '[serious] Comer de tudo não te deixa grande.'}, {'vis': 'ideia', 'k': '', 't1': 'BULKING', 't2': 'SUJO.', 'text': 'A ideia do bulking sujo é comer tudo o que vê pra ganhar massa.'}, {'vis': 'limite', 'k': '', 't1': 'O MÚSCULO', 't2': 'TEM LIMITE.', 'text': 'Mas o músculo cresce devagar. Ele não usa toda a comida que sobra.'}, {'vis': 'sobra', 'k': '', 't1': 'O RESTO', 't2': 'VIRA GORDURA.', 'text': 'O resto vira gordura. Depois, vai levar meses pra secar.'}, {'vis': 'certo', 'k': '', 't1': 'SÓ UM POUCO', 't2': 'A MAIS.', 'text': 'O certo é comer só um pouco a mais, uns trezentos a quinhentos de calorias por dia.'}, {'vis': 'ritmo', 'k': '', 't1': 'MEIO QUILO', 't2': 'POR MÊS, OU MENOS.', 'text': '[matter-of-fact] Ganhar uns meio quilo a um quilo por mês já é ótimo. Mais rápido que isso, é gordura.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'SOBRA PEQUENA.', 'text': 'Resumindo: pra crescer, sobra pequena de comida e carga subindo. Não precisa comer tudo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'BULK.', 'text': 'Comenta BULK que eu te mando como registrar suas cargas no Bríu e ver se o peso novo é força. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 4.67}}]

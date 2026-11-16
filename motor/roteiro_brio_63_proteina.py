@@ -1,0 +1,8 @@
+# brio_63_proteina — lote 17/11 · quanta proteína por dia para ganhar músculo
+TITLE='[curious] Quanta proteína você precisa por dia?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_63_proteina_tight.mp3','starts':[0.075, 2.099, 8.139, 10.997, 15.62, 19.782, 23.521, 28.292]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'QUANTA PROTEÍNA', 't2': 'POR DIA?', 'text': '[curious] Quanta proteína você precisa por dia?'}, {'vis': 'conta', 'k': '', 't1': '1,6 G', 't2': 'POR QUILO.', 'text': 'Os estudos apontam uns um vírgula seis gramas por quilo do seu peso. Depois disso, o ganho quase para.'}, {'vis': 'exemplo', 'k': '', 't1': '70 KG', 't2': '= 112 G.', 'text': 'Pesa setenta quilos? Uns cento e doze gramas por dia.'}, {'vis': 'prato', 'k': '', 't1': 'NO PRATO,', 't2': 'PARECE MUITO.', 'text': 'Parece muito, mas um filé de frango já tem uns trinta. Ovo, leite e feijão somam.'}, {'vis': 'divide', 'k': '', 't1': 'DIVIDE EM', 't2': '3 OU 4 REFEIÇÕES.', 'text': 'O melhor é dividir em três ou quatro refeições, e não tudo de uma vez.'}, {'vis': 'mais', 'k': '', 't1': 'MAIS QUE ISSO', 't2': 'NÃO CRESCE MAIS.', 'text': '[matter-of-fact] Comer o dobro não faz crescer o dobro. O que sobra vira energia.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': '1,6 G POR QUILO.', 'text': 'Resumindo: um vírgula seis por quilo, espalhado no dia, e treino com carga subindo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'PROTEÍNA.', 'text': 'Comenta PROTEÍNA que eu te mando como registrar suas cargas no Bríu e ver se a comida está virando força. Link na bio.', 'marks': {'ponte': 0.767, 'fixa': 4.889}}]

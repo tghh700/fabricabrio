@@ -1,0 +1,8 @@
+# brio_66_balanca — lote 17/11 · a balança sobe nas primeiras semanas de treino
+TITLE='[curious] Começou a treinar e a balança subiu?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_66_balanca_tight.mp3','starts':[0.189, 2.086, 4.808, 9.274, 12.789, 16.986, 20.769, 25.794]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'COMEÇOU A TREINAR', 't2': 'E A BALANÇA SUBIU?', 'text': '[curious] Começou a treinar e a balança subiu?'}, {'vis': 'calma', 'k': '', 't1': 'CALMA.', 't2': 'É NORMAL.', 'text': 'Calma. Isso é normal, e não é gordura.'}, {'vis': 'estoque', 'k': '', 't1': 'O MÚSCULO', 't2': 'GUARDA ENERGIA.', 'text': 'O músculo que começa a treinar passa a guardar mais energia, em forma de glicogênio.'}, {'vis': 'agua', 'k': '', 't1': 'E CADA GRAMA', 't2': 'PUXA ÁGUA.', 'text': 'E cada grama de glicogênio vem com umas três gramas de água junto.'}, {'vis': 'reparo', 'k': '', 't1': 'O REPARO', 't2': 'TAMBÉM INCHA.', 'text': 'O reparo depois do treino também segura líquido no músculo por uns dias.'}, {'vis': 'quilos', 'k': '', 't1': '1 A 2 KG', 't2': 'A MAIS.', 'text': '[matter-of-fact] Resultado: um a dois quilos a mais nas primeiras semanas. Depois estabiliza.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'NÃO DESISTE.', 'text': 'Resumindo: a balança subir no começo é sinal de músculo trabalhando. Não desiste por isso.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'BALANÇA.', 'text': 'Comenta BALANÇA que eu te mando como acompanhar sua evolução no Bríu pelo que importa: a carga. Link na bio.', 'marks': {'ponte': 0.83, 'fixa': 4.697}}]

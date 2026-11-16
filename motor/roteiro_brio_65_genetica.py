@@ -1,0 +1,8 @@
+# brio_65_genetica — lote 17/11 · genética: por que uns crescem mais rápido com o mesmo treino
+TITLE='[curious] Seu amigo cresce mais rápido que você?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_65_genetica_tight.mp3','starts':[0.075, 2.013, 5.911, 10.561, 14.256, 18.213, 22.922, 29.123]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MESMO TREINO,', 't2': 'RESULTADO DIFERENTE?', 'text': '[curious] Seu amigo cresce mais rápido que você?'}, {'vis': 'estudo', 'k': '', 't1': '585 PESSOAS,', 't2': 'MESMO TREINO.', 'text': 'Um estudo pôs quinhentas e oitenta e cinco pessoas no mesmo treino de braço.'}, {'vis': 'variou', 'k': '', 't1': 'DE 0%', 't2': 'A 59%.', 'text': 'Teve gente que quase não cresceu, e gente que cresceu cinquenta e nove por cento.'}, {'vis': 'gen', 'k': '', 't1': 'GENÉTICA', 't2': 'PESA.', 'text': 'Grande parte disso é genética. Cada corpo responde num ritmo.'}, {'vis': 'mais', 'k': '', 't1': 'RESPONDE POUCO?', 't2': 'MAIS SÉRIES.', 'text': 'Mas quem responde pouco costuma melhorar com mais séries e mais tempo.'}, {'vis': 'compara', 'k': '', 't1': 'COMPARA', 't2': 'VOCÊ COM VOCÊ.', 'text': '[matter-of-fact] Por isso, comparar com o amigo não serve. O que serve é você contra você mesmo.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'SEU RITMO.', 'text': 'Resumindo: genética muda a velocidade, não o destino. Se a sua carga sobe, você está crescendo.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'GENÉTICA.', 'text': 'Comenta GENÉTICA que eu te mando como acompanhar sua evolução no Bríu, só você contra você. Link na bio.', 'marks': {'ponte': 1.019, 'fixa': 5.016}}]

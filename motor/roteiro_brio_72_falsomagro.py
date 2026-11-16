@@ -1,0 +1,8 @@
+# brio_72_falsomagro — lote 17/11 · falso magro: magro com barriga precisa de músculo
+TITLE='[curious] Você é magro, mas tem barriga?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_72_falsomagro_tight.mp3','starts':[0.075, 2.043, 6.695, 11.074, 14.796, 18.614, 23.329, 28.41]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MAGRO,', 't2': 'MAS COM BARRIGA?', 'text': '[curious] Você é magro, mas tem barriga?'}, {'vis': 'nome', 'k': '', 't1': 'TEM NOME:', 't2': 'FALSO MAGRO.', 'text': 'Isso tem nome: falso magro. Peso normal, pouco músculo e gordura sobrando.'}, {'vis': 'erro', 'k': '', 't1': 'O ERRO:', 't2': 'FAZER DIETA.', 'text': 'O erro mais comum é fazer dieta pesada. Aí você perde o pouco músculo que tem.'}, {'vis': 'certo', 'k': '', 't1': 'O CERTO:', 't2': 'GANHAR MÚSCULO.', 'text': 'O caminho é o contrário: ganhar músculo com treino de força.'}, {'vis': 'come', 'k': '', 't1': 'COME NORMAL,', 't2': 'PROTEÍNA ALTA.', 'text': 'Come normal, com proteína em todas as refeições. Sem cortar comida.'}, {'vis': 'muda', 'k': '', 't1': 'O PESO QUASE', 't2': 'NÃO MUDA.', 'text': '[matter-of-fact] O peso quase não muda, mas o corpo muda: a gordura cai e o músculo aparece.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'FORÇA, NÃO FOME.', 'text': 'Resumindo: falso magro não precisa passar fome. Precisa de força, por uns seis meses.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'MAGRO.', 'text': 'Comenta MAGRO que eu te mando como registrar suas cargas no Bríu e ver o músculo chegando. Link na bio.', 'marks': {'ponte': 0.831, 'fixa': 4.697}}]

@@ -1,0 +1,8 @@
+# brio_69_pesa — lote 17/11 · músculo não pesa mais que gordura: ocupa menos espaço
+TITLE='[curious] Músculo pesa mais que gordura?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_69_pesa_tight.mp3','starts':[0.113, 2.179, 6.787, 11.229, 15.196, 18.353, 22.141, 27.154]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'MÚSCULO PESA', 't2': 'MAIS QUE GORDURA?', 'text': '[curious] Músculo pesa mais que gordura?'}, {'vis': 'quilo', 'k': '', 't1': '1 KG', 't2': '= 1 KG.', 'text': 'Não. Um quilo de músculo pesa o mesmo que um quilo de gordura. Um quilo é um quilo.'}, {'vis': 'espaco', 'k': '', 't1': 'A DIFERENÇA:', 't2': 'O ESPAÇO.', 'text': 'A diferença é o espaço. O músculo é mais denso, então ocupa menos lugar.'}, {'vis': 'volume', 'k': '', 't1': 'GORDURA OCUPA', 't2': 'UNS 18% A MAIS.', 'text': 'O mesmo quilo de gordura ocupa uns dezoito por cento a mais de volume.'}, {'vis': 'roupa', 'k': '', 't1': 'MESMO PESO,', 't2': 'ROUPA FOLGADA.', 'text': 'Por isso dá pra ter o mesmo peso e a roupa ficar mais folgada.'}, {'vis': 'sinal', 'k': '', 't1': 'OLHA A CINTURA', 't2': 'E A CARGA.', 'text': '[matter-of-fact] Então, se o peso não muda, olha a cintura e a carga no treino.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'MESMO PESO, MENOS ESPAÇO.', 'text': 'Resumindo: músculo não pesa mais. Ocupa menos. Por isso a balança sozinha engana.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'ESPAÇO.', 'text': 'Comenta ESPAÇO que eu te mando como acompanhar sua evolução no Bríu além da balança. Link na bio.', 'marks': {'ponte': 0.831, 'fixa': 4.34}}]

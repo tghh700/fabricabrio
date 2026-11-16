@@ -1,0 +1,8 @@
+# brio_74_menstrual — lote 17/11 · treinar durante a menstruação e o ciclo menstrual
+TITLE='[curious] Treinar menstruada atrapalha o treino?'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_74_menstrual_tight.mp3','starts':[0.125, 2.28, 5.828, 10.549, 15.005, 19.242, 23.438, 28.768]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'TREINAR MENSTRUADA', 't2': 'ATRAPALHA?', 'text': '[curious] Treinar menstruada atrapalha o treino?'}, {'vis': 'pode', 'k': '', 't1': 'PODE', 't2': 'TREINAR.', 'text': 'Pode treinar, sim. Não faz mal, e pode até aliviar a cólica.'}, {'vis': 'forca', 'k': '', 't1': 'A FORÇA', 't2': 'CAI?', 'text': 'E a força cai? Os estudos mostram uma diferença bem pequena entre as fases do ciclo.'}, {'vis': 'cada', 'k': '', 't1': 'CADA MULHER', 't2': 'É DIFERENTE.', 'text': 'O que pesa mais é como cada mulher se sente. Umas rendem igual, outras não.'}, {'vis': 'ajusta', 'k': '', 't1': 'NO DIA RUIM:', 't2': 'AJUSTA.', 'text': 'No dia ruim, ajusta: menos séries, ou um pouco menos de carga. Mas vai.'}, {'vis': 'anota', 'k': '', 't1': 'ANOTA', 't2': 'O SEU PADRÃO.', 'text': '[matter-of-fact] O melhor jeito de saber é anotar seus treinos por uns meses e ver o seu padrão.'}, {'vis': 'conc', 'k': '', 't1': 'RESUMINDO:', 't2': 'TREINA E AJUSTA.', 'text': 'Resumindo: menstruação não é motivo pra parar. Treina, ouve o corpo e ajusta a carga.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'CICLO.', 'text': 'Comenta CICLO que eu te mando como registrar suas séries no Bríu e ver como você rende em cada semana. Link na bio.', 'marks': {'ponte': 0.717, 'fixa': 5.418}}]
