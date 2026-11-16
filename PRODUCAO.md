@@ -42,9 +42,12 @@ Use `estado.metricas` para decidir a pauta: formatos com views acima da média d
 | demais | ~1.300–1.400, e os mais recentes abaixo de 1.000 |
 Padrão: o que performa é **pergunta sobre resultado/tempo/perda** ("quanto tempo", "o que muda", "perdi?") e **mito popular** (jejum). Técnica de exercício e organização de treino ficam na média ou abaixo. Pauta: ≥60% nesse padrão (variações novas, sem repetir tema).
 
-## 4. Roteiro (30–40 s)
-- 480–620 caracteres de narração. 1ª frase com até 8 palavras, gancho nos 2 primeiros segundos.
-- 7 a 9 beats (`t1`/`t2` curtos na tela; `text` = fala).
+## 4. Roteiro (20–25 s — decisão do usuário em 16/11, pelas métricas)
+- Métricas de 16/11 (33 Reels do BRIO): tempo médio assistido de 13–17 s em vídeos de 30–35 s — a pessoa sai antes da conclusão. O único com retenção alta ("30 dias", 27,5 s) entrega a resposta logo. Comentários ≈ 0; o que espalha é compartilhamento e salvamento.
+- **330–430 caracteres de narração** (≈20–25 s). 1ª frase com até 8 palavras, gancho nos 2 primeiros segundos.
+- **A resposta da pergunta do gancho aparece até os 10 s.** Nada de introdução ("normal", "muita gente acha"): pergunta → resposta → por quê/como → conclusão → CTA.
+- 5 a 6 beats (`t1`/`t2` curtos na tela; `text` = fala). Um único dado ou número forte por vídeo.
+- CTA em no máximo 1 frase (≈3 s). Pode trocar o pedido de comentário por "manda pra quem precisa ouvir isso" ou "salva pra lembrar" quando combinar mais com o tema — mas mantenha a palavra-chave em maiúsculas para a DM.
 - **Conclusão antes do CTA (obrigatória, regra do usuário em 12/11):** o vídeo não pode terminar no meio do raciocínio e pular pro anúncio. Antes do CTA vem um beat de conclusão (1–2 frases: "Resumindo/Então..." amarrando a ideia e dizendo o que a pessoa faz com isso). No FIBRA, a cena `conclusao_factory` (quadro "CONCLUSÃO" com 3 ✓).
 - Final: gatilho específico com **palavra-chave em MAIÚSCULAS** (é ela que dispara a DM com o link) + menção ao Brio ligada ao tema, com uma função real do app + "Link na bio." **Não existe frase fixa**: "Registre e acompanhe seus treinos gratuitamente" é só um exemplo; adapte ao vídeo (ex.: "Comenta PUMP que eu te mando como acompanhar sua carga no Bríu. Link na bio."). Na tela, use `cta_flex(palavra, linhas)` com linhas adaptadas.
 - Funções reais do app: registrar séries, acompanhar evolução, orientação após o treino. Nada além disso.
