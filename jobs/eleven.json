@@ -1,18 +1,258 @@
 {
- "nome": "12-brio3d-01",
+ "nome": "1711-producao",
  "ops": [
   {
    "op": "tts",
-   "id": "brio3d_01",
+   "id": "brio_63_proteina",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Supino reto ou inclinado: qual cresce mais o peito? No reto, o peito trabalha inteiro, principalmente a parte do meio e de baixo. Inclinando o banco uns trinta graus, a parte de cima do peito passa a fazer mais força. É a parte perto da clavícula, que deixa o peito mais cheio quando você olha de frente. [matter-of-fact] Só que no inclinado a carga é menor. É normal tirar uns quilos da barra. Resumindo: os dois crescem o peito. Se a parte de cima tá atrasada, começa o treino pelo inclinado. Comenta RETO ou INCLINADO que eu te mando como registrar a carga de cada um no Bríu. Link na bio.",
+   "text": "[curious] Quanta proteína você precisa por dia? Os estudos apontam uns um vírgula seis gramas por quilo do seu peso. Depois disso, o ganho quase para. Pesa setenta quilos? Uns cento e doze gramas por dia. Parece muito, mas um filé de frango já tem uns trinta. Ovo, leite e feijão somam. O melhor é dividir em três ou quatro refeições, e não tudo de uma vez. [matter-of-fact] Comer o dobro não faz crescer o dobro. O que sobra vira energia. Resumindo: um vírgula seis por quilo, espalhado no dia, e treino com carga subindo. Comenta PROTEÍNA que eu te mando como registrar suas cargas no Bríu e ver se a comida está virando força. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_64_cerveja",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Cerveja no fim de semana estraga o treino? Depende muito da dose. Num estudo, quem bebeu muito depois do treino fabricou bem menos músculo, mesmo tomando proteína. A queda chegou a trinta e sete por cento. E o álcool ainda piora o sono, que é quando o corpo se recupera. [matter-of-fact] Agora, uma ou duas no fim de semana? O efeito é pequeno. O problema é o porre. Resumindo: não precisa virar abstêmio. Mas porre no dia do treino joga parte do esforço fora. Comenta CERVEJA que eu te mando como registrar seus treinos no Bríu e ver se a carga cai depois do fim de semana. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_65_genetica",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Seu amigo cresce mais rápido que você? Um estudo pôs quinhentas e oitenta e cinco pessoas no mesmo treino de braço. Teve gente que quase não cresceu, e gente que cresceu cinquenta e nove por cento. Grande parte disso é genética. Cada corpo responde num ritmo. Mas quem responde pouco costuma melhorar com mais séries e mais tempo. [matter-of-fact] Por isso, comparar com o amigo não serve. O que serve é você contra você mesmo. Resumindo: genética muda a velocidade, não o destino. Se a sua carga sobe, você está crescendo. Comenta GENÉTICA que eu te mando como acompanhar sua evolução no Bríu, só você contra você. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_66_balanca",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Começou a treinar e a balança subiu? Calma. Isso é normal, e não é gordura. O músculo que começa a treinar passa a guardar mais energia, em forma de glicogênio. E cada grama de glicogênio vem com umas três gramas de água junto. O reparo depois do treino também segura líquido no músculo por uns dias. [matter-of-fact] Resultado: um a dois quilos a mais nas primeiras semanas. Depois estabiliza. Resumindo: a balança subir no começo é sinal de músculo trabalhando. Não desiste por isso. Comenta BALANÇA que eu te mando como acompanhar sua evolução no Bríu pelo que importa: a carga. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_67_memoria",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Parou de treinar e perdeu tudo? Volta mais rápido do que você pensa. Isso tem nome: memória muscular. Primeiro, o cérebro não esquece o movimento. A técnica volta rápido. E o músculo guarda marcas do treino antigo, que ajudam a crescer de novo. Nos estudos, quem já tinha treinado recuperou o tamanho mais rápido que da primeira vez. [matter-of-fact] Só não volta com a carga antiga. Começa mais leve e sobe toda semana. Resumindo: o tempo que você treinou não foi perdido. Voltar é sempre mais rápido que começar. Comenta VOLTA que eu te mando como registrar suas cargas no Bríu e ver a força voltando semana a semana. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_68_carbo",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Cortar carboidrato não seca mais. Mas, então, por que os primeiros quilos saem tão rápido? Porque sai o estoque de energia do músculo, e a água que vem junto. É água, não gordura. Comparando dietas com as mesmas calorias, a perda de gordura fica praticamente igual. E no treino pesado, o carboidrato é o combustível. Sem ele, a força cai. [matter-of-fact] O que decide é o total do dia, e a dieta que você consegue manter. Resumindo: não precisa cortar o arroz. Ajusta a quantidade e mantém proteína alta. Comenta CARBO que eu te mando como registrar suas cargas no Bríu e ver se a força segura na dieta. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_69_pesa",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Músculo pesa mais que gordura? Não. Um quilo de músculo pesa o mesmo que um quilo de gordura. Um quilo é um quilo. A diferença é o espaço. O músculo é mais denso, então ocupa menos lugar. O mesmo quilo de gordura ocupa uns dezoito por cento a mais de volume. Por isso dá pra ter o mesmo peso e a roupa ficar mais folgada. [matter-of-fact] Então, se o peso não muda, olha a cintura e a carga no treino. Resumindo: músculo não pesa mais. Ocupa menos. Por isso a balança sozinha engana. Comenta ESPAÇO que eu te mando como acompanhar sua evolução no Bríu além da balança. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_70_bcaa",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Bê-cê-a-a vale o dinheiro? Bê-cê-a-a são só três aminoácidos. O músculo precisa de nove essenciais pra crescer. Com só três, a construção começa e para, porque faltam as outras peças. E toda proteína da comida já tem bê-cê-a-a. Frango, ovo, leite, whey. [matter-of-fact] Pra quem já come proteína suficiente, os estudos não mostram ganho extra. O mesmo dinheiro rende mais em comida de verdade. Resumindo: bate a proteína do dia. Aí o bê-cê-a-a não soma nada. Comenta BCAA que eu te mando como registrar suas séries no Bríu e ver o que de fato faz sua carga subir. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_71_abdomen",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Com quanto de gordura o abdômen aparece? Todo mundo tem os gomos do abdômen. Eles só ficam escondidos embaixo da gordura. Nos homens, eles costumam aparecer perto de dez a doze por cento de gordura. Nas mulheres, perto de dezoito a vinte por cento. E a barriga costuma ser o último lugar a secar. [matter-of-fact] Treinar o abdômen com carga deixa os gomos mais grossos, e eles aparecem um pouco antes. Resumindo: tanquinho é porcentagem de gordura, com paciência. O treino só deixa o desenho mais forte. Comenta TANQUINHO que eu te mando como acompanhar sua evolução no Bríu enquanto você seca. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_72_falsomagro",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Você é magro, mas tem barriga? Isso tem nome: falso magro. Peso normal, pouco músculo e gordura sobrando. O erro mais comum é fazer dieta pesada. Aí você perde o pouco músculo que tem. O caminho é o contrário: ganhar músculo com treino de força. Come normal, com proteína em todas as refeições. Sem cortar comida. [matter-of-fact] O peso quase não muda, mas o corpo muda: a gordura cai e o músculo aparece. Resumindo: falso magro não precisa passar fome. Precisa de força, por uns seis meses. Comenta MAGRO que eu te mando como registrar suas cargas no Bríu e ver o músculo chegando. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_73_bulking",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Comer de tudo não te deixa grande. A ideia do bulking sujo é comer tudo o que vê pra ganhar massa. Mas o músculo cresce devagar. Ele não usa toda a comida que sobra. O resto vira gordura. Depois, vai levar meses pra secar. O certo é comer só um pouco a mais, uns trezentos a quinhentos de calorias por dia. [matter-of-fact] Ganhar uns meio quilo a um quilo por mês já é ótimo. Mais rápido que isso, é gordura. Resumindo: pra crescer, sobra pequena de comida e carga subindo. Não precisa comer tudo. Comenta BULK que eu te mando como registrar suas cargas no Bríu e ver se o peso novo é força. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_74_menstrual",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Treinar menstruada atrapalha o treino? Pode treinar, sim. Não faz mal, e pode até aliviar a cólica. E a força cai? Os estudos mostram uma diferença bem pequena entre as fases do ciclo. O que pesa mais é como cada mulher se sente. Umas rendem igual, outras não. No dia ruim, ajusta: menos séries, ou um pouco menos de carga. Mas vai. [matter-of-fact] O melhor jeito de saber é anotar seus treinos por uns meses e ver o seu padrão. Resumindo: menstruação não é motivo pra parar. Treina, ouve o corpo e ajusta a carga. Comenta CICLO que eu te mando como registrar suas séries no Bríu e ver como você rende em cada semana. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "speed": 1.1,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_12_fibras",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Velocista musculoso, maratonista magro. Por quê? Porque o músculo tem dois tipos principais de fibra. A fibra lenta quase não cansa, mas faz pouca força e cresce pouco. A fibra rápida faz muita força e cresce bem mais. Mas cansa em segundos. Nos estudos, velocistas tinham a maioria de fibras rápidas. Maratonistas, quase oitenta por cento de lentas. [matter-of-fact] Parte disso é genética. Mas o treino pesado faz as fibras rápidas crescerem. [warm] Resumindo: pra crescer, as rápidas precisam de esforço alto, perto do limite da série. Comenta FIBRA que eu te mando como registrar suas séries no Bríu e ver suas cargas subirem. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.08,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_13_estalo",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Aquele estalo no joelho quando você agacha? Dentro da articulação existe um líquido que lubrifica o movimento. Quando a articulação se abre, a pressão cai e nasce uma bolha de gás. É o estalo. Outras vezes, é um tendão deslizando por cima do osso, como um elástico. [matter-of-fact] Estalo sem dor é muito comum, e na maioria das vezes não indica lesão. O alerta é estalo com dor, inchaço, ou o joelho travando. Aí, procura avaliação. [warm] Resumindo: estalo sem dor é gás ou tendão. O que importa é a dor, não o barulho. Comenta ESTALO que eu te mando como registrar seus treinos no Bríu e acompanhar sua evolução com segurança. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.08,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_10_ponte",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] Quer glúteo forte? Começa deitado no chão. É a ponte de glúteo. Dá pra fazer em casa, e tem três níveis. Nível um: deitado, joelhos dobrados, pés no chão. Sobe o quadril e aperta o glúteo lá em cima. Nível dois: o mesmo, mas segura três segundos lá em cima. Nível três: uma perna esticada no ar, e sobe só com a outra. Quando quinze ficarem fáceis, sobe de nível. Sem dor nas costas: quem trabalha é o glúteo. [encouraging] Então: começa com os dois pés, e sobe de nível quando ficar fácil. Comenta PONTE que eu te mando como registrar suas séries no Bríu e ver sua evolução. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.05,
+    "use_speaker_boost": true
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "diaum_11_medo",
+   "voice_id": "PznTnBc8X6pvixs9UkQm",
+   "model_id": "eleven_v4",
+   "text": "[warm] Tenho medo de me machucar na academia. Esse medo é muito comum. E a boa notícia: musculação é das atividades mais seguras. Os estudos mostram menos lesão nela do que em muito esporte com bola. Regra um: escolhe um peso que deixa sobrar umas três repetições no fim. Regra dois: aprende o movimento antes de pôr peso. Pede ajuda, sem vergonha. Regra três: cansaço e queimação são normais. Pontada ou dor na articulação, para. [encouraging] Então: começa leve, sobe aos poucos, e respeita a dor. O medo vai embora com a prática. Comenta SEGURO que eu te mando como registrar suas séries no Bríu e subir a carga aos poucos. Link na bio.",
+   "voice_settings": {
+    "stability": 0.45,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "speed": 1.05,
+    "use_speaker_boost": true
    },
    "timestamps": true,
    "seed": 7
