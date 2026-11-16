@@ -6,7 +6,7 @@ for perfil, ig in IDS.items():
     tok = os.environ.get("IG_TOKEN_" + perfil.upper(), "")
     itok0 = os.environ.get("IG_INSIGHTS_" + perfil.upper(), "")
     q = urllib.parse.urlencode({"fields": "id,caption,timestamp,permalink,media_type,thumbnail_url,media_url", "limit": 100, "access_token": itok0 or tok})
-    base = "https://graph.instagram.com/v25.0/me" if itok0 else f"https://graph.facebook.com/v25.0/{ig}"
+    base = "https://graph.instagram.com/v25.0/me" if itok0.startswith("IG") else f"https://graph.facebook.com/v25.0/{ig}"
     try:
         with urllib.request.urlopen(f"{base}/media?{q}", timeout=30) as r:
             d = json.loads(r.read().decode())
@@ -21,7 +21,7 @@ for perfil, ig in IDS.items():
             if m.get("media_type") == "VIDEO":
                 mets += ",ig_reels_avg_watch_time,ig_reels_video_view_total_time"
             itok = os.environ.get("IG_INSIGHTS_" + perfil.upper(), "")
-            ihost = "graph.instagram.com" if itok else "graph.facebook.com"
+            ihost = "graph.instagram.com" if itok.startswith("IG") else "graph.facebook.com"
             for tentativa in (mets, "views,reach,likes,comments,saved,shares"):
                 try:
                     qi = urllib.parse.urlencode({"metric": tentativa, "access_token": itok or tok})
