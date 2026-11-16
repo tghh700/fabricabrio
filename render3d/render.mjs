@@ -11,6 +11,7 @@ const opt = (k, d) => { const i = args.indexOf(k); return i >= 0 ? args[i + 1] :
 const out = args.find((a) => a.endsWith(".mp4")) || "piloto_brio_3d.mp4";
 const stills = opt("--stills", null);
 const scale = opt("--scale", "1");
+const sceneF = opt("--scene", "scene.js");
 const chrome = opt("--chrome", process.env.CHROME_PATH || "/usr/bin/google-chrome");
 const ROOT = path.dirname(new URL(import.meta.url).pathname);
 
@@ -30,7 +31,7 @@ const page = await browser.newPage();
 page.on("console", (m) => { if (m.type() === "error") console.error("[página]", m.text()); });
 page.on("pageerror", (e) => console.error("[página]", e.message));
 await page.setViewport({ width: 1080, height: 1920 });
-await page.goto(`http://127.0.0.1:${port}/index.html?scale=${scale}`, { waitUntil: "load" });
+await page.goto(`http://127.0.0.1:${port}/index.html?scale=${scale}&scene=${sceneF}`, { waitUntil: "load" });
 await page.waitForFunction("window.ready && window.renderFrame", { timeout: 60000 });
 await page.evaluate("window.ready");
 const N = await page.evaluate("window.FRAMES"), FPS = await page.evaluate("window.FPS");
