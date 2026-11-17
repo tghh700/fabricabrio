@@ -10,11 +10,11 @@ cd <repo fabricabrio> && git pull -q && bash motor/instalar.sh
 O render roda dentro de `motor/` (`python3 build2s.py ...` para BRIO, `python3 build3.py ...` para FIBRA e DIA UM). Saída em `motor/out/`.
 
 ## 1. Quanto produzir (para AMANHÃ)
-- Escala atual (`config.escala`): **BRIO 12/dia, FIBRA 2/dia, DIA UM 2/dia**. Desde 14/11 a produção de vídeo **novo** voltou para os 3 perfis: complete o que faltar para amanhã em cada um (descontando o estoque agendado).
-- Desconte o que já está agendado para amanhã (ver estado no passo 2).
-- Horários (Brasília; no D1 grave em **UTC = BRT + 3 h**):
-  - BRIO: 07:00, 08:30, 10:00, 11:30, 12:30, 14:00, 15:30, 17:00, 18:30, 19:30, 20:30, 22:00
-  - FIBRA: 12:30, 19:00 · DIA UM: 11:30, 19:30
+- Escala (`config.escala`, desde 17/11): **BRIO 4/dia, FIBRA 4/dia. DIA UM pausado** (não produza nem agende).
+- Desconte o que já está agendado para amanhã e reaproveite o estoque com status `pausado` **só se o tema passar na regra do §3**.
+- Horários (Brasília; no D1 grave em **UTC = BRT + 3 h**), intercalados:
+  - BRIO: 11:30, 14:00, 18:00, 21:00
+  - FIBRA: 12:30, 16:00, 19:00, 22:00
 
 ## 2. Ler o estado (posts, métricas, temas, cliques)
 Escreva `jobs/d1.json` = `{"nome": "estado-AAAAMMDD-HHMM", "videos": []}`, commit e push na `main`. O workflow **d1-job** grava `d1/estado_atual.json` no branch `previas` (~1 min):
@@ -24,6 +24,15 @@ git fetch -q origin previas && git show FETCH_HEAD:d1/estado_atual.json > /tmp/e
 Use `estado.metricas` para decidir a pauta: formatos com views acima da média do perfil viram série; formato abaixo de 1k em 2 tentativas sai da pauta.
 
 ## 3. Pauta (só o que tem chance de 10k+)
+### Validação obrigatória (usuário, 17/11)
+Cada tema precisa de **evidência de que já funcionou**: (a) um vídeo nosso acima da média do perfil, ou (b) um Reels/TikTok/Short de outro perfil com views bem acima da média dele, em qualquer idioma (pesquise em PT, EN e ES). Registre a evidência (link ou "nosso: <id> <views>") no comentário do roteiro. Sem evidência, não produz.
+
+### O que foi BEM e o que foi MAL (métricas de 17/11 — releia midia/*.json a cada rodada)
+- **BRIO bem (1.400–3.900 views):** quanto tempo pra ver resultado (3,9k), 30 dias de academia (3,4k), jejum queima mais? (2,3k), mesmo músculo todo dia (1,7k), treina pesado e não cresce (1,7k), parou 2 semanas perdeu? (1,7k), supino +10 kg quanto tempo (1,7k), falha em toda série (1,5k), como saber se está evoluindo (1,5k), ombro não cresce (1,5k), semana leve/deload (1,4k), alongar antes (1,4k), ganhar músculo sem peso (1,4k). → **resultado/tempo/perda, mitos populares, "por que não cresce".**
+- **BRIO mal (< 600):** correção de técnica "se o seu X tá assim, para" (rosca, desenvolvimento, punho, respiração), aquecimento, supino travado, suplementos (whey, proteína, creatina, BCAA), falso magro, genética/amigo cresce mais, carga no chute, tempo de treino por dia. → **não fazer mais esses formatos/temas.**
+- **FIBRA bem:** sensação no corpo explicada — enjoo no treino de perna (2,6k, 37 compartilhamentos), queimação não é ácido lático (1,6k), braço inchado/pump (1,1k), descanso/músculo cresce depois (1,4k).
+- **FIBRA mal:** "músculos que trabalham no X" (agachamento 155, supino 242), tremor (208), cãibra (246). → priorize **"o que é essa sensação?"** (dor, ardência, tontura, falta de ar, coração acelerado, suor, arrepio, fome depois do treino…).
+
 - Pesquise na web os Reels/TikToks de treino que estão performando nas últimas 3 semanas (BR e EUA). Use `claude/meta-sprint-modelagem-qa.md` do projeto (tabela de formatos medidos) e o histórico em `referencia/`.
 - Cada vídeo precisa de **evidência** (formato com 2×+ a média de contas do nicho, ou um dos nossos que performou). Sem evidência, não gaste crédito.
 - Mix: 60% variações do que performou em nós, 30% formatos modelados ainda não testados, 10% experimento.

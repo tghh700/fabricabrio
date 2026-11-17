@@ -5,11 +5,13 @@ Este repositório é só código. Roteiros, pauta, métricas e tarefas ficam no 
 ## Perfis
 | perfil | Instagram | vídeos/dia | território |
 |---|---|---|---|
-| brio | @briotreino | 12 | técnica, erros, progressão |
-| fibra | @fibratreino | 2 (só estoque) | o que acontece dentro do corpo |
-| diaum | @diaumtreino | 2 (só estoque) | começar, hábito, iniciantes |
+| brio | @briotreino | 4 | resultado, tempo, mitos, progressão |
+| fibra | @fibratreino | 4 | o que acontece dentro do corpo |
+| diaum | @diaumtreino | 0 — PAUSADO (17/11) | começar, hábito, iniciantes |
 
-Escala (config.escala no D1): BRIO 12/dia; FIBRA 2/dia; DIA UM 2/dia. Desde 14/11 (decisão do usuário) a fábrica voltou a produzir vídeo NOVO para os 3 perfis — FIBRA e DIA UM não dependem mais só do estoque. Aumentar FIBRA/DIA UM acima de 2/dia só com aval do usuário.
+Escala (config.escala no D1, decisão do usuário em 17/11): **BRIO 4/dia e FIBRA 4/dia** (divididos igualmente). **DIA UM pausado** — não produzir nem agendar até o usuário liberar.
+
+**Regra de pauta (17/11):** todo tema precisa estar validado por um vídeo que JÁ performou — nosso (ver métricas em midia/<perfil>.json no branch previas) ou de outro perfil, em qualquer idioma (PT, EN, ES…), com link/registro da evidência no roteiro. Nada parecido com o que foi mal (lista em PRODUCAO.md §3).
 
 ## Regras fixas
 - Nunca imprimir, commitar ou gravar no D1 um token, chave ou segredo.
