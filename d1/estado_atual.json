@@ -1,7 +1,12 @@
 {
  "relatorio": {
-  "nome": "estado-20261117-1649",
-  "gravados": [],
+  "nome": "agenda-20261118",
+  "gravados": [
+   "fibra-14-tontura",
+   "fibra-15-sangue",
+   "fibra-16-fome",
+   "fibra-17-coracao"
+  ],
   "recusados": []
  },
  "estado": {
@@ -307,16 +312,6 @@
     "tema_canonico": "ordem dos exercícios no treino"
    },
    {
-    "id": 42,
-    "video_id": "brio-37-semana",
-    "perfil": "brio",
-    "agendado_para": "2026-11-14 21:00:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "treinar só uma vez por semana funciona"
-   },
-   {
     "id": 29,
     "video_id": "diaum-04-aparelhos",
     "perfil": "diaum",
@@ -335,16 +330,6 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "treinar perna toda semana mesmo com pouco tempo"
-   },
-   {
-    "id": 41,
-    "video_id": "brio-36-horario",
-    "perfil": "brio",
-    "agendado_para": "2026-11-15 00:00:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "melhor horário para treinar: manhã ou noite"
    },
    {
     "id": 44,
@@ -437,16 +422,6 @@
     "tema_canonico": "música no treino melhora o desempenho"
    },
    {
-    "id": 53,
-    "video_id": "brio-47-oscila",
-    "perfil": "brio",
-    "agendado_para": "2026-11-15 21:30:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
-   },
-   {
     "id": 54,
     "video_id": "brio-48-cinto",
     "perfil": "brio",
@@ -477,16 +452,6 @@
     "tema_canonico": "a mão cansa antes das costas: pegada e strap"
    },
    {
-    "id": 59,
-    "video_id": "brio-53-pesado",
-    "perfil": "brio",
-    "agendado_para": "2026-11-16 13:00:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "mulher que treina pesado fica bombada"
-   },
-   {
     "id": 32,
     "video_id": "diaum-08-semana-dois",
     "perfil": "diaum",
@@ -495,26 +460,6 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "por que iniciantes desistem na segunda semana"
-   },
-   {
-    "id": 61,
-    "video_id": "brio-55-altura",
-    "perfil": "brio",
-    "agendado_para": "2026-11-16 15:30:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "musculação não atrapalha o crescimento de jovens"
-   },
-   {
-    "id": 62,
-    "video_id": "brio-56-junto",
-    "perfil": "brio",
-    "agendado_para": "2026-11-16 17:00:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
    },
    {
     "id": 73,
@@ -597,16 +542,6 @@
     "tema_canonico": "músculos que trabalham na barra fixa"
    },
    {
-    "id": 65,
-    "video_id": "brio-59-confunde",
-    "perfil": "brio",
-    "agendado_para": "2026-11-16 21:30:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "confusão muscular: trocar o treino toda semana"
-   },
-   {
     "id": 66,
     "video_id": "brio-60-shape",
     "perfil": "brio",
@@ -687,16 +622,6 @@
     "tema_canonico": "músculos que trabalham no supino"
    },
    {
-    "id": 68,
-    "video_id": "brio-62-rapido",
-    "perfil": "brio",
-    "agendado_para": "2026-11-17 01:00:00",
-    "status": "pausado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "emagrecer rápido demais leva músculo junto"
-   },
-   {
     "id": 60,
     "video_id": "brio-54-whey",
     "perfil": "brio",
@@ -761,8 +686,8 @@
     "video_id": "brio-67-memoria",
     "perfil": "brio",
     "agendado_para": "2026-11-17 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df2Yc2LNO8c/",
     "erro": null,
     "tema_canonico": "memória muscular: recuperar o que perdeu é mais rápido"
    },
@@ -855,6 +780,126 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "treinar durante a menstruação e o ciclo menstrual"
+   },
+   {
+    "id": 61,
+    "video_id": "brio-55-altura",
+    "perfil": "brio",
+    "agendado_para": "2026-11-18 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação não atrapalha o crescimento de jovens"
+   },
+   {
+    "id": 89,
+    "video_id": "fibra-15-sangue",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-18 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "gosto de sangue na boca no esforço máximo"
+   },
+   {
+    "id": 68,
+    "video_id": "brio-62-rapido",
+    "perfil": "brio",
+    "agendado_para": "2026-11-18 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "emagrecer rápido demais leva músculo junto"
+   },
+   {
+    "id": 90,
+    "video_id": "fibra-16-fome",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-18 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "fome some no treino e volta horas depois"
+   },
+   {
+    "id": 42,
+    "video_id": "brio-37-semana",
+    "perfil": "brio",
+    "agendado_para": "2026-11-18 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar só uma vez por semana funciona"
+   },
+   {
+    "id": 88,
+    "video_id": "fibra-14-tontura",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-18 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "vista escurece ao levantar no treino: queda rápida de pressão"
+   },
+   {
+    "id": 59,
+    "video_id": "brio-53-pesado",
+    "perfil": "brio",
+    "agendado_para": "2026-11-19 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "mulher que treina pesado fica bombada"
+   },
+   {
+    "id": 91,
+    "video_id": "fibra-17-coracao",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-19 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "coração acelera antes do esforço: resposta antecipatória"
+   },
+   {
+    "id": 65,
+    "video_id": "brio-59-confunde",
+    "perfil": "brio",
+    "agendado_para": "2026-11-19 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "confusão muscular: trocar o treino toda semana"
+   },
+   {
+    "id": 62,
+    "video_id": "brio-56-junto",
+    "perfil": "brio",
+    "agendado_para": "2026-11-19 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
+   },
+   {
+    "id": 41,
+    "video_id": "brio-36-horario",
+    "perfil": "brio",
+    "agendado_para": "2026-11-19 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "melhor horário para treinar: manhã ou noite"
+   },
+   {
+    "id": 53,
+    "video_id": "brio-47-oscila",
+    "perfil": "brio",
+    "agendado_para": "2026-11-20 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
    }
   ],
   "temas": [
@@ -1367,6 +1412,30 @@
     "perfil": "diaum",
     "tema_canonico": "medo de se machucar ao começar a musculação",
     "status": "pronto"
+   },
+   {
+    "id": "fibra-14-tontura",
+    "perfil": "fibra",
+    "tema_canonico": "vista escurece ao levantar no treino: queda rápida de pressão",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-15-sangue",
+    "perfil": "fibra",
+    "tema_canonico": "gosto de sangue na boca no esforço máximo",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-16-fome",
+    "perfil": "fibra",
+    "tema_canonico": "fome some no treino e volta horas depois",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-17-coracao",
+    "perfil": "fibra",
+    "tema_canonico": "coração acelera antes do esforço: resposta antecipatória",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1411,7 +1480,7 @@
     "video_id": "fibra-p1-queimacao",
     "perfil": "fibra",
     "views": 1560,
-    "alcance": 1326,
+    "alcance": 1328,
     "curtidas": 55,
     "comentarios": 0,
     "salvamentos": 3,
@@ -1459,7 +1528,7 @@
     "video_id": "brio-64-cerveja",
     "perfil": "brio",
     "views": 1387,
-    "alcance": 1209,
+    "alcance": 1211,
     "curtidas": 37,
     "comentarios": 0,
     "salvamentos": 1,
@@ -1494,9 +1563,9 @@
     "post_id": 63,
     "video_id": "brio-57-secar",
     "perfil": "brio",
-    "views": 1265,
-    "alcance": 1088,
-    "curtidas": 43,
+    "views": 1269,
+    "alcance": 1091,
+    "curtidas": 44,
     "comentarios": 2,
     "salvamentos": 10,
     "compartilhamentos": 9,
@@ -1813,14 +1882,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 48090
+    "total": 49745
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-17T16:45:29.606Z"
+    "valor": "2026-11-17T16:55:29.514Z"
    },
    {
     "chave": "escala",
