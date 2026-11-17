@@ -1,1 +1,89 @@
-{"nome": "estado-20261117-1649", "videos": []}
+{
+ "nome": "agenda-20261118",
+ "videos": [
+  {
+   "id": "fibra-14-tontura",
+   "perfil": "fibra",
+   "tema_canonico": "vista escurece ao levantar no treino: queda rápida de pressão",
+   "gancho": "A vista escurece quando você levanta do banco?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "TONTURA",
+   "arquivo": "fibra/fibra-14-tontura.mp4",
+   "legenda": "A vista escurece quando você levanta do banco? 🔬👇\nÉ a pressão caindo por alguns segundos: o sangue desce pras pernas e falta um pouco na cabeça. Prender o ar piora. Levanta devagar e solta o ar na subida.\n📲 Comenta TONTURA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #tontura #pressao #ciencia #musculacao",
+   "hashtags": "#fibratreino #tontura #pressao #ciencia #musculacao",
+   "duracao_s": 22.26,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-18 22:00:00"
+  },
+  {
+   "id": "fibra-15-sangue",
+   "perfil": "fibra",
+   "tema_canonico": "gosto de sangue na boca no esforço máximo",
+   "gancho": "Gosto de sangue na boca no treino?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "SANGUE",
+   "arquivo": "fibra/fibra-15-sangue.mp4",
+   "legenda": "Gosto de sangue na boca no treino? 🔬👇\nNo esforço máximo, a pressão nos vasinhos do pulmão sobe e escapam alguns glóbulos vermelhos. A garganta seca reforça o gosto. Passa rápido.\n📲 Comenta SANGUE que eu te mando no direct como acompanhar sua evolução no Brio.\n\n#fibratreino #pulmao #cardio #ciencia #treino",
+   "hashtags": "#fibratreino #pulmao #cardio #ciencia #treino",
+   "duracao_s": 21.14,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-18 15:30:00"
+  },
+  {
+   "id": "fibra-16-fome",
+   "perfil": "fibra",
+   "tema_canonico": "fome some no treino e volta horas depois",
+   "gancho": "Treinou pesado e a fome sumiu?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "FOME",
+   "arquivo": "fibra/fibra-16-fome.mp4",
+   "legenda": "Treinou pesado e a fome sumiu? 🔬👇\nNo esforço intenso, o hormônio da fome cai. Uma ou duas horas depois ele volta, às vezes com força: é o músculo pedindo reposição.\n📲 Comenta FOME que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #fome #hormonios #ciencia #musculacao",
+   "hashtags": "#fibratreino #fome #hormonios #ciencia #musculacao",
+   "duracao_s": 20.28,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-18 19:00:00"
+  },
+  {
+   "id": "fibra-17-coracao",
+   "perfil": "fibra",
+   "tema_canonico": "coração acelera antes do esforço: resposta antecipatória",
+   "gancho": "O coração dispara antes de pegar o peso?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "CORAÇÃO",
+   "arquivo": "fibra/fibra-17-coracao.mp4",
+   "legenda": "O coração dispara antes de pegar o peso? 🔬👇\nÉ o cérebro se adiantando: ele solta adrenalina antes do esforço e o sangue já começa a ir pros músculos. É o corpo ligando o motor.\n📲 Comenta CORAÇÃO que eu te mando no direct como registrar suas séries no Brio.\n\n#fibratreino #coracao #adrenalina #ciencia #treino",
+   "hashtags": "#fibratreino #coracao #adrenalina #ciencia #treino",
+   "duracao_s": 20.95,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-19 01:00:00"
+  }
+ ],
+ "creditos": [
+  {
+   "video_id": "fibra-14-tontura",
+   "quantidade": 424
+  },
+  {
+   "video_id": "fibra-15-sangue",
+   "quantidade": 427
+  },
+  {
+   "video_id": "fibra-16-fome",
+   "quantidade": 386
+  },
+  {
+   "video_id": "fibra-17-coracao",
+   "quantidade": 418
+  }
+ ],
+ "sql": [
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-18 14:30:00', erro=NULL WHERE id=61 AND video_id='brio-55-altura' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-18 17:00:00', erro=NULL WHERE id=68 AND video_id='brio-62-rapido' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-18 21:00:00', erro=NULL WHERE id=42 AND video_id='brio-37-semana' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-19 00:00:00', erro=NULL WHERE id=59 AND video_id='brio-53-pesado' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-19 14:30:00', erro=NULL WHERE id=65 AND video_id='brio-59-confunde' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-19 17:00:00', erro=NULL WHERE id=62 AND video_id='brio-56-junto' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-19 21:00:00', erro=NULL WHERE id=41 AND video_id='brio-36-horario' AND status='pausado';",
+  "UPDATE posts SET status='agendado', agendado_para='2026-11-20 00:00:00', erro=NULL WHERE id=53 AND video_id='brio-47-oscila' AND status='pausado';"
+ ]
+}
