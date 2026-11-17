@@ -1,18 +1,66 @@
 {
- "nome": "13-brio3d-02",
+ "nome": "18-fibra",
  "ops": [
   {
    "op": "tts",
-   "id": "brio3d_02",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "id": "fibra_14_tontura",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Quantas calorias uma hora de musculação queima? Bem menos do que parece: entre duzentas e quatrocentas, dependendo do seu peso e do ritmo. Isso dá uns dois ou três pães franceses. O valor do treino tá em outro lugar: mais músculo gasta mais energia o dia inteiro, até parado. Resumindo: treino não é pra queimar a comida. É pra construir o corpo que gasta mais. Comenta PÃO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] A vista escurece quando você levanta do banco? É a pressão caindo por segundos. O sangue desce pras pernas e falta na cabeça. Prender o ar na série piora: menos sangue volta pro coração. Logo o corpo corrige: o coração acelera e as veias apertam. [warm] Então: levanta devagar e solta o ar na subida. Se desmaiar, procura um médico. Comenta TONTURA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
+    "similarity_boost": 0.75,
+    "style": 0,
     "use_speaker_boost": true,
-    "speed": 1.1
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_15_sangue",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Gosto de sangue na boca no treino? Pode vir do pulmão. No esforço máximo, a pressão nos vasinhos de lá sobe muito. Escapam alguns glóbulos vermelhos, que sobem até a boca. E a garganta seca de tanto respirar pela boca reforça o gosto. [matter-of-fact] Então: é sinal de esforço alto e passa rápido. Tosse com sangue, procura um médico. Comenta SANGUE que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_16_fome",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Treinou pesado e a fome sumiu? No esforço intenso, cai a grelina, o hormônio da fome. O sangue vai pros músculos. Uma ou duas horas depois, a fome volta. Às vezes com força. É o músculo pedindo energia pra repor o estoque. [warm] Então: deixa uma refeição com proteína pronta pra depois do treino. Comenta FOME que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_17_coracao",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] O coração dispara antes de pegar o peso? É o cérebro se adiantando: ele sabe que vem esforço e solta adrenalina. O coração bate mais rápido e mais forte, e o sangue já vai pros músculos. É o mesmo frio na barriga de antes de uma prova ou de uma corrida. [warm] Então: não é fraqueza. É o corpo ligando o motor antes da largada. Comenta CORAÇÃO que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0,
+    "use_speaker_boost": true,
+    "speed": 1.08
    },
    "timestamps": true,
    "seed": 7
