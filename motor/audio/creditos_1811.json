@@ -1,0 +1,30 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_14_tontura",
+   "caracteres": 424,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_15_sangue",
+   "caracteres": 427,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_16_fome",
+   "caracteres": 386,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_17_coracao",
+   "caracteres": 418,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 1655
+}
