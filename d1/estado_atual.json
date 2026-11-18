@@ -1,7 +1,12 @@
 {
  "relatorio": {
-  "nome": "estado-20261118-1649",
-  "gravados": [],
+  "nome": "agenda-20261119",
+  "gravados": [
+   "fibra-18-coceira",
+   "fibra-19-cabeca",
+   "fibra-20-vermelho",
+   "fibra-21-pontada"
+  ],
   "recusados": []
  },
  "estado": {
@@ -801,8 +806,8 @@
     "video_id": "brio-62-rapido",
     "perfil": "brio",
     "agendado_para": "2026-11-18 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df49SnboJT2/",
     "erro": null,
     "tema_canonico": "emagrecer rápido demais leva músculo junto"
    },
@@ -867,6 +872,16 @@
     "tema_canonico": "confusão muscular: trocar o treino toda semana"
    },
    {
+    "id": 92,
+    "video_id": "fibra-18-coceira",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-19 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "coceira nas pernas ao começar o cardio: vasinhos se abrindo"
+   },
+   {
     "id": 62,
     "video_id": "brio-56-junto",
     "perfil": "brio",
@@ -875,6 +890,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
+   },
+   {
+    "id": 93,
+    "video_id": "fibra-19-cabeca",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-19 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "dor de cabeça no esforço pesado: pressão disparando"
    },
    {
     "id": 41,
@@ -887,6 +912,16 @@
     "tema_canonico": "melhor horário para treinar: manhã ou noite"
    },
    {
+    "id": 94,
+    "video_id": "fibra-20-vermelho",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-19 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "rosto vermelho no treino: sangue indo pra pele soltar calor"
+   },
+   {
     "id": 53,
     "video_id": "brio-47-oscila",
     "perfil": "brio",
@@ -895,6 +930,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
+   },
+   {
+    "id": 95,
+    "video_id": "fibra-21-pontada",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-20 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "pontada do lado da barriga no cardio: membrana do abdômen irritada"
    }
   ],
   "temas": [
@@ -1431,6 +1476,30 @@
     "perfil": "fibra",
     "tema_canonico": "coração acelera antes do esforço: resposta antecipatória",
     "status": "pronto"
+   },
+   {
+    "id": "fibra-18-coceira",
+    "perfil": "fibra",
+    "tema_canonico": "coceira nas pernas ao começar o cardio: vasinhos se abrindo",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-19-cabeca",
+    "perfil": "fibra",
+    "tema_canonico": "dor de cabeça no esforço pesado: pressão disparando",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-20-vermelho",
+    "perfil": "fibra",
+    "tema_canonico": "rosto vermelho no treino: sangue indo pra pele soltar calor",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-21-pontada",
+    "perfil": "fibra",
+    "tema_canonico": "pontada do lado da barriga no cardio: membrana do abdômen irritada",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1438,9 +1507,9 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 4694,
-    "alcance": 3982,
-    "curtidas": 300,
+    "views": 4718,
+    "alcance": 4003,
+    "curtidas": 301,
     "comentarios": 0,
     "salvamentos": 66,
     "compartilhamentos": 112,
@@ -1642,7 +1711,7 @@
     "post_id": 70,
     "video_id": "fibra-11-descanso",
     "perfil": "fibra",
-    "views": 1039,
+    "views": 1040,
     "alcance": 875,
     "curtidas": 35,
     "comentarios": 2,
@@ -1702,7 +1771,7 @@
     "post_id": 74,
     "video_id": "brio-65-genetica",
     "perfil": "brio",
-    "views": 502,
+    "views": 503,
     "alcance": 418,
     "curtidas": 13,
     "comentarios": 0,
@@ -1883,14 +1952,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 49745
+    "total": 51416
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-18T16:45:30.746Z"
+    "valor": "2026-11-18T17:01:18.864Z"
    },
    {
     "chave": "escala",
