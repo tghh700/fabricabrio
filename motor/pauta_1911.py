@@ -60,7 +60,7 @@ V('fibra_20_vermelho', 'fibra', 'rosto vermelho no treino: sangue indo pra pele 
   conc=['MÚSCULO ESQUENTA', 'PELE SOLTA CALOR', 'NÃO É FRAQUEZA'], cta=['ACOMPANHE SUA EVOLUÇÃO', 'NO BRIO'])
 
 V('fibra_21_pontada', 'fibra', 'pontada do lado da barriga no cardio: membrana do abdômen irritada', 'PONTADA', [
- ('hook', 'PONTADA', 'DO LADO DA BARRIGA?', '[curious] Aquela pontada do lado da barriga no cardio?'),
+ ('hook', 'PONTADA', 'NA BARRIGA?', '[curious] Aquela pontada do lado da barriga no cardio?'),
  ('membrana', 'É UMA MEMBRANA', 'IRRITADA.', 'A explicação mais aceita: a membrana que forra a barriga por dentro fica irritada.'),
  ('sacode', 'CADA PASSADA', 'SACODE TUDO.', 'Cada passada sacode os órgãos, e ela roça e repuxa.'),
  ('cheia', 'BARRIGA CHEIA', 'PIORA.', 'Comer ou beber muito logo antes piora: o estômago cheio estica tudo.'),
