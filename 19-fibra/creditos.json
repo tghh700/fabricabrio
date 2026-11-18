@@ -1,0 +1,30 @@
+{
+ "gastos": [
+  {
+   "id": "fibra_18_coceira",
+   "caracteres": 420,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_19_cabeca",
+   "caracteres": 406,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_20_vermelho",
+   "caracteres": 418,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_21_pontada",
+   "caracteres": 427,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 1671
+}
