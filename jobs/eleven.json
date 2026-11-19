@@ -1,12 +1,76 @@
 {
- "nome": "19-fibra",
+ "nome": "20-lote",
  "ops": [
   {
    "op": "tts",
-   "id": "fibra_18_coceira",
+   "id": "brio_75_peito",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Seu peito não cresce? Quase sempre é pouca série. Três séries de supino por semana não bastam. Os estudos mostram: dez ou mais séries por semana fazem crescer bem mais que menos de cinco. E a carga tem que subir. Mesmo peso há meses? O músculo não tem motivo pra crescer. Resumindo: dez séries por semana, em dois treinos, e carga subindo. Comenta PEITO que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_76_meses",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Seis meses de academia. O que muda? Primeiro a força: em muitos exercícios, a carga pode quase dobrar. O corpo vem junto: a camiseta aperta no ombro e no braço, e a calça na coxa. Aí os outros começam a notar. Você vê menos, porque se olha todo dia. Resumindo: constância muda muito. Compara a carga do primeiro mês com a de hoje. Comenta MESES que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_77_hormonio",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Treinar perna faz o braço crescer? Não. O mito diz que o hormônio da perna faz o corpo todo crescer. Num estudo, a pessoa treinou um braço sozinho e o outro junto com perna, por quinze semanas. Os dois cresceram igual. O pico de hormônio é pequeno e passa rápido. Resumindo: treina perna pela perna. Braço cresce com braço e carga subindo. Comenta PERNA que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_78_flexivel",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[curious] Musculação tira a sua flexibilidade? Pelo contrário. Ela pode deixar você mais flexível. Uma revisão comparou musculação com alongamento. A amplitude melhorou parecido nos dois. O segredo é descer o peso até o fim. O músculo trabalha esticado e ganha amplitude. Resumindo: com movimento completo, você fica mais forte e mais solto. Comenta FLEXÍVEL que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_22_euforia",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Coceira nas pernas quando começa a correr? São os vasinhos se abrindo: o sangue chega rápido na pele. Os nervos em volta sentem esse esticão e mandam sinal de coceira. Por isso quem ficou dias parado sente mais: os vasos desacostumaram. [warm] Então: com treino frequente, passa. Se aparecer placa ou inchaço, procura um médico. Comenta COCEIRA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] Aquela sensação boa depois do treino? Não é só endorfina. Ela é grande demais pra passar do sangue pro cérebro. Quem chega lá são os endocanabinoides, que acalmam e dão prazer. Num estudo, bloquearam a endorfina, e a euforia continuou. [warm] Então: é química de verdade, e uns trinta minutos de treino moderado já costumam liberar. Comenta EUFORIA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -19,10 +83,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_19_cabeca",
+   "id": "fibra_23_folego",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Dor de cabeça no meio da série pesada? No esforço máximo, a pressão do sangue pode chegar perto do triplo do normal. Os vasos da cabeça se dilatam pra aguentar, e isso dói. Calor e pouca água no corpo deixam tudo pior. [warm] Então: solta o ar na subida e bebe água. Se for súbita e muito forte, procura um médico. Comenta CABEÇA que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
+   "text": "[curious] O começo da corrida é a pior parte? Não é falta de preparo. O motor de oxigênio demora pra ligar. Nos primeiros dois, três minutos, o músculo pede mais oxigênio do que chega. Ele cobre a diferença com uma reserva rápida, que cansa e acelera a respiração. [warm] Então: começa devagar e acelera aos poucos. Em uns minutos, o fôlego chega. Comenta FÔLEGO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -35,10 +99,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_20_vermelho",
+   "id": "fibra_24_cansaco",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Seu rosto fica vermelho no treino? É o radiador do corpo ligando. O músculo trabalhando gera muito calor. Os vasos da pele se abrem e o sangue quente sobe pra soltar esse calor. No calor, o sangue que passa pela pele pode aumentar mais de dez vezes. [warm] Então: não é falta de preparo. Bebe água e treina num lugar ventilado. Comenta CALOR que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
+   "text": "[curious] Por que o treino de perna cansa tanto? Perna e glúteo são mais da metade do músculo do seu corpo. Mais músculo trabalhando pede mais sangue: o coração bate forte e a respiração dispara. E gastam muito da energia guardada no músculo. Quando ela baixa, vem o cansaço. [warm] Então: é normal. Come carboidrato e proteína depois e dorme bem. Comenta CANSAÇO que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -51,10 +115,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_21_pontada",
+   "id": "fibra_25_maos",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Aquela pontada do lado da barriga no cardio? A explicação mais aceita: a membrana que forra a barriga por dentro fica irritada. Cada passada sacode os órgãos, e ela roça e repuxa. Comer ou beber muito logo antes piora: o estômago cheio estica tudo. [warm] Então: come umas duas horas antes. Na pontada, diminui o ritmo e respira fundo. Comenta PONTADA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] Suas mãos incham quando você caminha? É comum e quase sempre inofensivo: é o balanço do braço. A cada passo, o braço joga sangue pra ponta dos dedos, e ele demora pra voltar. No calor, os vasinhos da mão se abrem e entra ainda mais líquido. [warm] Então: abre e fecha as mãos enquanto caminha. Se inchar muito ou doer, procura um médico. Comenta MÃOS que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
