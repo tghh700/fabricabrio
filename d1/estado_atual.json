@@ -1,7 +1,16 @@
 {
  "relatorio": {
-  "nome": "estado-20261119-1648",
-  "gravados": [],
+  "nome": "agenda-20261120",
+  "gravados": [
+   "brio-75-peito",
+   "brio-76-meses",
+   "brio-77-hormonio",
+   "brio-78-flexivel",
+   "fibra-22-euforia",
+   "fibra-23-folego",
+   "fibra-24-cansaco",
+   "fibra-25-maos"
+  ],
   "recusados": []
  },
  "estado": {
@@ -881,8 +890,8 @@
     "video_id": "brio-56-junto",
     "perfil": "brio",
     "agendado_para": "2026-11-19 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df7iCZRNyLR/",
     "erro": null,
     "tema_canonico": "recomposição corporal: perder gordura e ganhar músculo junto"
    },
@@ -935,6 +944,86 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "pontada do lado da barriga no cardio: membrana do abdômen irritada"
+   },
+   {
+    "id": 99,
+    "video_id": "brio-78-flexivel",
+    "perfil": "brio",
+    "agendado_para": "2026-11-20 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "musculação não tira a flexibilidade: amplitude melhora igual ao alongamento"
+   },
+   {
+    "id": 103,
+    "video_id": "fibra-25-maos",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-20 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "mãos inchadas na caminhada: balanço do braço empurra sangue"
+   },
+   {
+    "id": 98,
+    "video_id": "brio-77-hormonio",
+    "perfil": "brio",
+    "agendado_para": "2026-11-20 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar perna não faz o braço crescer (mito do hormônio)"
+   },
+   {
+    "id": 101,
+    "video_id": "fibra-23-folego",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-20 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "primeiros minutos de corrida são os piores: déficit de oxigênio"
+   },
+   {
+    "id": 96,
+    "video_id": "brio-75-peito",
+    "perfil": "brio",
+    "agendado_para": "2026-11-20 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "peito não cresce: poucas séries por semana e carga parada"
+   },
+   {
+    "id": 102,
+    "video_id": "fibra-24-cansaco",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-20 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treino de perna cansa mais: metade dos músculos do corpo"
+   },
+   {
+    "id": 97,
+    "video_id": "brio-76-meses",
+    "perfil": "brio",
+    "agendado_para": "2026-11-21 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "seis meses de academia: o que muda de verdade"
+   },
+   {
+    "id": 100,
+    "video_id": "fibra-22-euforia",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-21 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "sensação boa depois do treino: endocanabinoides, não só endorfina"
    }
   ],
   "temas": [
@@ -1495,6 +1584,54 @@
     "perfil": "fibra",
     "tema_canonico": "pontada do lado da barriga no cardio: membrana do abdômen irritada",
     "status": "pronto"
+   },
+   {
+    "id": "brio-75-peito",
+    "perfil": "brio",
+    "tema_canonico": "peito não cresce: poucas séries por semana e carga parada",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-76-meses",
+    "perfil": "brio",
+    "tema_canonico": "seis meses de academia: o que muda de verdade",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-77-hormonio",
+    "perfil": "brio",
+    "tema_canonico": "treinar perna não faz o braço crescer (mito do hormônio)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-78-flexivel",
+    "perfil": "brio",
+    "tema_canonico": "musculação não tira a flexibilidade: amplitude melhora igual ao alongamento",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-22-euforia",
+    "perfil": "fibra",
+    "tema_canonico": "sensação boa depois do treino: endocanabinoides, não só endorfina",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-23-folego",
+    "perfil": "fibra",
+    "tema_canonico": "primeiros minutos de corrida são os piores: déficit de oxigênio",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-24-cansaco",
+    "perfil": "fibra",
+    "tema_canonico": "treino de perna cansa mais: metade dos músculos do corpo",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-25-maos",
+    "perfil": "fibra",
+    "tema_canonico": "mãos inchadas na caminhada: balanço do braço empurra sangue",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1502,12 +1639,12 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 4966,
+    "views": 4967,
     "alcance": 4235,
-    "curtidas": 306,
+    "curtidas": 307,
     "comentarios": 0,
     "salvamentos": 68,
-    "compartilhamentos": 112,
+    "compartilhamentos": 114,
     "tempo_medio_ms": 13124
    },
    {
@@ -1965,14 +2102,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 51416
+    "total": 54825
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-19T16:45:28.593Z"
+    "valor": "2026-11-19T17:05:28.157Z"
    },
    {
     "chave": "escala",
