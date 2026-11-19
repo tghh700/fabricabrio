@@ -1,0 +1,54 @@
+{
+ "gastos": [
+  {
+   "id": "brio_75_peito",
+   "caracteres": 428,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_76_meses",
+   "caracteres": 421,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_77_hormonio",
+   "caracteres": 428,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_78_flexivel",
+   "caracteres": 424,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_22_euforia",
+   "caracteres": 424,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_23_folego",
+   "caracteres": 428,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_24_cansaco",
+   "caracteres": 430,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_25_maos",
+   "caracteres": 426,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 3409
+}

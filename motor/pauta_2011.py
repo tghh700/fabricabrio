@@ -88,7 +88,7 @@ V('fibra_22_euforia', 'fibra', 'sensação boa depois do treino: endocanabinoide
 
 V('fibra_23_folego', 'fibra', 'primeiros minutos de corrida são os piores: déficit de oxigênio', 'FÔLEGO', [
  ('hook', 'O COMEÇO', 'É O PIOR?', '[curious] O começo da corrida é a pior parte?'),
- ('motor', 'O MOTOR DE OXIGÊNIO', 'DEMORA A LIGAR.', 'Não é falta de preparo. O motor de oxigênio demora pra ligar.'),
+ ('motor', 'O MOTOR DE AR', 'DEMORA A LIGAR.', 'Não é falta de preparo. O motor de oxigênio demora pra ligar.'),
  ('deficit', '2 A 3 MINUTOS', 'NO VERMELHO.', 'Nos primeiros dois, três minutos, o músculo pede mais oxigênio do que chega.'),
  ('reserva', 'GASTA A', 'RESERVA RÁPIDA.', 'Ele cobre a diferença com uma reserva rápida, que cansa e acelera a respiração.'),
  ('conc', 'RESUMINDO:', 'COMEÇA DEVAGAR.', '[warm] Então: começa devagar e acelera aos poucos. Em uns minutos, o fôlego chega.'),
