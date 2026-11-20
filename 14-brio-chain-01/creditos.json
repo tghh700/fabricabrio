@@ -1,0 +1,12 @@
+{
+ "gastos": [
+  {
+   "id": "brio_chain_01",
+   "caracteres": 476,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 476
+}
