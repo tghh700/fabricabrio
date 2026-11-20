@@ -1,130 +1,18 @@
 {
- "nome": "21-lote",
+ "nome": "14-brio-chain-01",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_79_gluteo",
+   "id": "brio_chain_01",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Elevação pélvica é o melhor pro glúteo? Num estudo de nove semanas, um grupo só agachou e o outro só fez elevação. O glúteo cresceu parecido nos dois. E o agachamento ainda trabalhou a coxa. O que faz crescer é série puxada e carga subindo, mais do que o exercício. Resumindo: os dois funcionam. Escolhe o que você gosta e sobe a carga. Comenta GLÚTEO que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "text": "[curious] Se você treinar e comer pouco, o corpo não tem material pra construir. Então você come um pouco a mais. Mas se treinar leve, sem esforço, não tem estímulo. Então você treina perto da falha. Mas se desistir na terceira semana, nada aparece. Então você segue firme por oito semanas. [confident] Aí sim: comida, esforço e constância. O primeiro quilo de músculo aparece. Comenta QUILO que eu te mando como registrar seus treinos no Bríu e ver sua evolução. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
     "use_speaker_boost": true,
     "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_80_agua",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Água gelada no treino faz mal? Não. Esse tal choque térmico é mito. Num estudo no calor, quem bebeu água gelada pedalou cerca de dez minutos a mais. Ela esfria o corpo por dentro, e a temperatura demora mais pra subir. Resumindo: gelada ou natural, o que importa é beber água durante o treino. Comenta ÁGUA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_81_gelo",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Banho de gelo depois do treino ajuda? Pode atrapalhar. O frio apaga parte do sinal que faz o músculo crescer. Num estudo de doze semanas, quem fez banho de gelo depois do treino ganhou menos músculo e força. Ele serve pra quem compete e precisa se recuperar rápido. Resumindo: quer crescer? Deixa o gelo longe do treino de força. Comenta GELO que eu te mando como acompanhar sua evolução no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "brio_82_noite",
-   "voice_id": "plASsyS7JE6GCAvx9uIc",
-   "model_id": "eleven_v4",
-   "text": "[curious] Treinar à noite atrapalha o sono? Na maioria das vezes, não. Uma revisão juntou vinte e três estudos. Quem treinou à noite dormiu tão bem quanto, e teve até um pouco mais de sono profundo. A exceção é treino muito intenso, menos de uma hora antes de deitar. Resumindo: se a noite é seu horário, treina. Só termina uma hora antes de dormir. Comenta NOITE que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.8,
-    "style": 0.2,
-    "use_speaker_boost": true,
-    "speed": 1.1
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_26_sentar",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
-   "model_id": "eleven_v4",
-   "text": "[curious] Treinou perna e dói até pra sentar? E piora no segundo dia: o pico vem entre um e três dias depois. A culpa é da descida: o músculo freia o peso e ganha pequenas lesões. Aí o corpo inflama a área pra consertar, e os nervos ficam sensíveis a cada movimento. [warm] Então: passa em poucos dias, e a cada semana treinando, dói menos. Comenta SENTAR que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_27_veias",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
-   "model_id": "eleven_v4",
-   "text": "[curious] Por que as veias saltam no treino? O músculo trabalhando pede muito mais sangue. A veia é o caminho de volta. Com tanto sangue chegando, ela enche e estufa. Com menos gordura embaixo da pele, a veia fica perto da superfície e aparece mais. [warm] Então: é sinal de músculo trabalhando, e minutos depois ela volta ao normal. Comenta VEIA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_28_formiga",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
-   "model_id": "eleven_v4",
-   "text": "[curious] Aquele formigamento depois do pré-treino? É a beta-alanina, um ingrediente comum no pré-treino. Ela liga sensores de nervo na pele, os mesmos da coceira. Por isso pinica no rosto. Quanto maior a dose de uma vez, mais formiga. Em geral passa em uma hora. [warm] Então: é inofensivo, e não quer dizer que o pré-treino tá funcionando. Comenta FORMIGA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
-   },
-   "timestamps": true,
-   "seed": 7
-  },
-  {
-   "op": "tts",
-   "id": "fibra_29_escada",
-   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
-   "model_id": "eleven_v4",
-   "text": "[curious] Treina pesado e cansa na escada? O corpo melhora no que treina. Musculação treina pouco o fôlego. Pra subir sem parar, o músculo precisa de mais usinas de energia. Quem cria isso é o cardio, e o coração passa a bombear mais a cada batida. [warm] Então: junta os dois. Vinte minutos de cardio puxado, três vezes na semana, já ajudam. Comenta ESCADA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
-   "voice_settings": {
-    "stability": 0.5,
-    "similarity_boost": 0.75,
-    "style": 0.0,
-    "use_speaker_boost": true,
-    "speed": 1.08
    },
    "timestamps": true,
    "seed": 7
