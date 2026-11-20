@@ -1,0 +1,54 @@
+{
+ "gastos": [
+  {
+   "id": "brio_79_gluteo",
+   "caracteres": 426,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_80_agua",
+   "caracteres": 382,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_81_gelo",
+   "caracteres": 419,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_82_noite",
+   "caracteres": 429,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_26_sentar",
+   "caracteres": 421,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_27_veias",
+   "caracteres": 412,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_28_formiga",
+   "caracteres": 423,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_29_escada",
+   "caracteres": 423,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 3335
+}
