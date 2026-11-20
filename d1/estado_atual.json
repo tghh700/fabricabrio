@@ -1,16 +1,7 @@
 {
  "relatorio": {
-  "nome": "agenda-20261120",
-  "gravados": [
-   "brio-75-peito",
-   "brio-76-meses",
-   "brio-77-hormonio",
-   "brio-78-flexivel",
-   "fibra-22-euforia",
-   "fibra-23-folego",
-   "fibra-24-cansaco",
-   "fibra-25-maos"
-  ],
+  "nome": "estado-20261120-1700",
+  "gravados": [],
   "recusados": []
  },
  "estado": {
@@ -900,8 +891,8 @@
     "video_id": "fibra-19-cabeca",
     "perfil": "fibra",
     "agendado_para": "2026-11-19 19:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df7v3NviuYX/",
     "erro": null,
     "tema_canonico": "dor de cabeça no esforço pesado: pressão disparando"
    },
@@ -910,8 +901,8 @@
     "video_id": "brio-36-horario",
     "perfil": "brio",
     "agendado_para": "2026-11-19 21:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df79gashI7g/",
     "erro": null,
     "tema_canonico": "melhor horário para treinar: manhã ou noite"
    },
@@ -920,8 +911,8 @@
     "video_id": "fibra-20-vermelho",
     "perfil": "fibra",
     "agendado_para": "2026-11-19 22:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df8EX-QzLuP/",
     "erro": null,
     "tema_canonico": "rosto vermelho no treino: sangue indo pra pele soltar calor"
    },
@@ -930,8 +921,8 @@
     "video_id": "brio-47-oscila",
     "perfil": "brio",
     "agendado_para": "2026-11-20 00:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df8SLrZB0vt/",
     "erro": null,
     "tema_canonico": "força oscila de um treino pro outro: olhar a tendência"
    },
@@ -940,8 +931,8 @@
     "video_id": "fibra-21-pontada",
     "perfil": "fibra",
     "agendado_para": "2026-11-20 01:00:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df8Y-LPSMxH/",
     "erro": null,
     "tema_canonico": "pontada do lado da barriga no cardio: membrana do abdômen irritada"
    },
@@ -950,8 +941,8 @@
     "video_id": "brio-78-flexivel",
     "perfil": "brio",
     "agendado_para": "2026-11-20 14:30:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df91q1TqblF/",
     "erro": null,
     "tema_canonico": "musculação não tira a flexibilidade: amplitude melhora igual ao alongamento"
    },
@@ -960,8 +951,8 @@
     "video_id": "fibra-25-maos",
     "perfil": "fibra",
     "agendado_para": "2026-11-20 15:30:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df98iQxNSR3/",
     "erro": null,
     "tema_canonico": "mãos inchadas na caminhada: balanço do braço empurra sangue"
    },
@@ -970,7 +961,7 @@
     "video_id": "brio-77-hormonio",
     "perfil": "brio",
     "agendado_para": "2026-11-20 17:00:00",
-    "status": "agendado",
+    "status": "contêiner",
     "permalink": null,
     "erro": null,
     "tema_canonico": "treinar perna não faz o braço crescer (mito do hormônio)"
@@ -1639,9 +1630,9 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 4967,
-    "alcance": 4235,
-    "curtidas": 307,
+    "views": 5005,
+    "alcance": 4275,
+    "curtidas": 309,
     "comentarios": 0,
     "salvamentos": 68,
     "compartilhamentos": 114,
@@ -1651,8 +1642,8 @@
     "post_id": 26,
     "video_id": "fibra-08-barra-musculos",
     "perfil": "fibra",
-    "views": 1980,
-    "alcance": 1749,
+    "views": 1982,
+    "alcance": 1751,
     "curtidas": 86,
     "comentarios": 0,
     "salvamentos": 25,
@@ -1663,8 +1654,8 @@
     "post_id": 10,
     "video_id": "brio-18-supino-10kg",
     "perfil": "brio",
-    "views": 1674,
-    "alcance": 1456,
+    "views": 1675,
+    "alcance": 1458,
     "curtidas": 66,
     "comentarios": 0,
     "salvamentos": 8,
@@ -1694,6 +1685,18 @@
     "salvamentos": 25,
     "compartilhamentos": 5,
     "tempo_medio_ms": 18543
+   },
+   {
+    "post_id": 59,
+    "video_id": "brio-53-pesado",
+    "perfil": "brio",
+    "views": 1455,
+    "alcance": 1279,
+    "curtidas": 50,
+    "comentarios": 0,
+    "salvamentos": 6,
+    "compartilhamentos": 17,
+    "tempo_medio_ms": 12378
    },
    {
     "post_id": 3,
@@ -1735,8 +1738,8 @@
     "post_id": 75,
     "video_id": "brio-66-balanca",
     "perfil": "brio",
-    "views": 1387,
-    "alcance": 1189,
+    "views": 1389,
+    "alcance": 1191,
     "curtidas": 34,
     "comentarios": 2,
     "salvamentos": 9,
@@ -1747,7 +1750,7 @@
     "post_id": 15,
     "video_id": "brio-13-repeticoes",
     "perfil": "brio",
-    "views": 1352,
+    "views": 1353,
     "alcance": 1185,
     "curtidas": 51,
     "comentarios": 0,
@@ -1771,8 +1774,8 @@
     "post_id": 63,
     "video_id": "brio-57-secar",
     "perfil": "brio",
-    "views": 1289,
-    "alcance": 1100,
+    "views": 1292,
+    "alcance": 1102,
     "curtidas": 46,
     "comentarios": 2,
     "salvamentos": 10,
@@ -1783,8 +1786,8 @@
     "post_id": 14,
     "video_id": "brio-26-joelho-ponta-pe",
     "perfil": "brio",
-    "views": 1259,
-    "alcance": 1152,
+    "views": 1260,
+    "alcance": 1154,
     "curtidas": 49,
     "comentarios": 0,
     "salvamentos": 6,
@@ -1795,13 +1798,25 @@
     "post_id": 36,
     "video_id": "brio-31-punho-supino",
     "perfil": "brio",
-    "views": 1251,
+    "views": 1253,
     "alcance": 1140,
     "curtidas": 16,
     "comentarios": 0,
     "salvamentos": 3,
     "compartilhamentos": 0,
     "tempo_medio_ms": 9097
+   },
+   {
+    "post_id": 76,
+    "video_id": "brio-67-memoria",
+    "perfil": "brio",
+    "views": 1243,
+    "alcance": 1073,
+    "curtidas": 53,
+    "comentarios": 1,
+    "salvamentos": 9,
+    "compartilhamentos": 6,
+    "tempo_medio_ms": 11158
    },
    {
     "post_id": 22,
@@ -1816,6 +1831,18 @@
     "tempo_medio_ms": 14477
    },
    {
+    "post_id": 78,
+    "video_id": "brio-69-pesa",
+    "perfil": "brio",
+    "views": 1237,
+    "alcance": 1058,
+    "curtidas": 21,
+    "comentarios": 2,
+    "salvamentos": 8,
+    "compartilhamentos": 4,
+    "tempo_medio_ms": 16933
+   },
+   {
     "post_id": 4,
     "video_id": "brio-17-amplitude-alongada",
     "perfil": "brio",
@@ -1828,11 +1855,23 @@
     "tempo_medio_ms": 13770
    },
    {
+    "post_id": 42,
+    "video_id": "brio-37-semana",
+    "perfil": "brio",
+    "views": 1198,
+    "alcance": 1071,
+    "curtidas": 35,
+    "comentarios": 0,
+    "salvamentos": 8,
+    "compartilhamentos": 4,
+    "tempo_medio_ms": 11251
+   },
+   {
     "post_id": 9,
     "video_id": "brio-22-erros-iniciante",
     "perfil": "brio",
-    "views": 1192,
-    "alcance": 1064,
+    "views": 1193,
+    "alcance": 1066,
     "curtidas": 48,
     "comentarios": 0,
     "salvamentos": 10,
@@ -1864,11 +1903,23 @@
     "tempo_medio_ms": 9981
    },
    {
+    "post_id": 91,
+    "video_id": "fibra-17-coracao",
+    "perfil": "fibra",
+    "views": 701,
+    "alcance": 621,
+    "curtidas": 11,
+    "comentarios": 0,
+    "salvamentos": 3,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 7598
+   },
+   {
     "post_id": 60,
     "video_id": "brio-54-whey",
     "perfil": "brio",
-    "views": 679,
-    "alcance": 581,
+    "views": 680,
+    "alcance": 583,
     "curtidas": 28,
     "comentarios": 0,
     "salvamentos": 2,
@@ -1898,6 +1949,18 @@
     "salvamentos": 5,
     "compartilhamentos": 3,
     "tempo_medio_ms": 13747
+   },
+   {
+    "post_id": 85,
+    "video_id": "fibra-13-estalo",
+    "perfil": "fibra",
+    "views": 540,
+    "alcance": 476,
+    "curtidas": 30,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 2,
+    "tempo_medio_ms": 10061
    },
    {
     "post_id": 2,
@@ -1972,6 +2035,18 @@
     "tempo_medio_ms": 12509
    },
    {
+    "post_id": 65,
+    "video_id": "brio-59-confunde",
+    "perfil": "brio",
+    "views": 380,
+    "alcance": 333,
+    "curtidas": 8,
+    "comentarios": 0,
+    "salvamentos": 4,
+    "compartilhamentos": 1,
+    "tempo_medio_ms": 9608
+   },
+   {
     "post_id": 35,
     "video_id": "brio-30-respiracao",
     "perfil": "brio",
@@ -1984,6 +2059,54 @@
     "tempo_medio_ms": 7706
    },
    {
+    "post_id": 68,
+    "video_id": "brio-62-rapido",
+    "perfil": "brio",
+    "views": 325,
+    "alcance": 270,
+    "curtidas": 9,
+    "comentarios": 0,
+    "salvamentos": 3,
+    "compartilhamentos": 7,
+    "tempo_medio_ms": 13022
+   },
+   {
+    "post_id": 89,
+    "video_id": "fibra-15-sangue",
+    "perfil": "fibra",
+    "views": 321,
+    "alcance": 280,
+    "curtidas": 5,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 7182
+   },
+   {
+    "post_id": 92,
+    "video_id": "fibra-18-coceira",
+    "perfil": "fibra",
+    "views": 305,
+    "alcance": 262,
+    "curtidas": 5,
+    "comentarios": 0,
+    "salvamentos": 1,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 6914
+   },
+   {
+    "post_id": 88,
+    "video_id": "fibra-14-tontura",
+    "perfil": "fibra",
+    "views": 264,
+    "alcance": 222,
+    "curtidas": 2,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 8335
+   },
+   {
     "post_id": 69,
     "video_id": "fibra-10-supino",
     "perfil": "fibra",
@@ -1994,6 +2117,18 @@
     "salvamentos": 0,
     "compartilhamentos": 0,
     "tempo_medio_ms": 8716
+   },
+   {
+    "post_id": 58,
+    "video_id": "brio-52-vira",
+    "perfil": "brio",
+    "views": 254,
+    "alcance": 216,
+    "curtidas": 4,
+    "comentarios": 0,
+    "salvamentos": 1,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 9373
    },
    {
     "post_id": 23,
@@ -2020,6 +2155,18 @@
     "tempo_medio_ms": 6082
    },
    {
+    "post_id": 61,
+    "video_id": "brio-55-altura",
+    "perfil": "brio",
+    "views": 170,
+    "alcance": 143,
+    "curtidas": 3,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 9916
+   },
+   {
     "post_id": 21,
     "video_id": "fibra-05-agacha",
     "perfil": "fibra",
@@ -2035,13 +2182,25 @@
     "post_id": 81,
     "video_id": "brio-72-falsomagro",
     "perfil": "brio",
-    "views": 76,
-    "alcance": 58,
+    "views": 78,
+    "alcance": 59,
     "curtidas": 3,
     "comentarios": 0,
     "salvamentos": 1,
     "compartilhamentos": 0,
     "tempo_medio_ms": 11231
+   },
+   {
+    "post_id": 84,
+    "video_id": "fibra-12-fibras",
+    "perfil": "fibra",
+    "views": 24,
+    "alcance": 19,
+    "curtidas": 0,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 6827
    },
    {
     "post_id": 25,
@@ -2054,6 +2213,18 @@
     "salvamentos": 0,
     "compartilhamentos": 1,
     "tempo_medio_ms": 11057
+   },
+   {
+    "post_id": 90,
+    "video_id": "fibra-16-fome",
+    "perfil": "fibra",
+    "views": 3,
+    "alcance": 4,
+    "curtidas": 0,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 2436
    }
   ],
   "cliques": [
@@ -2077,6 +2248,12 @@
    },
    {
     "perfil": "brio",
+    "video_id": "brio-56-junto",
+    "origem": "dm",
+    "n": 1
+   },
+   {
+    "perfil": "brio",
     "video_id": "brio-66-balanca",
     "origem": "dm",
     "n": 1
@@ -2086,7 +2263,7 @@
    {
     "perfil": "brio",
     "status": "enviada",
-    "n": 3
+    "n": 4
    },
    {
     "perfil": "brio",
@@ -2109,7 +2286,7 @@
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-19T17:05:28.157Z"
+    "valor": "2026-11-20T16:45:29.249Z"
    },
    {
     "chave": "escala",
