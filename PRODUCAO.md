@@ -56,16 +56,24 @@ Cada tema precisa de **evidência de que já funcionou**: (a) um vídeo nosso ac
 | demais | ~1.300–1.400, e os mais recentes abaixo de 1.000 |
 Padrão: o que performa é **pergunta sobre resultado/tempo/perda** ("quanto tempo", "o que muda", "perdi?") e **mito popular** (jejum). Técnica de exercício e organização de treino ficam na média ou abaixo. Pauta: ≥60% nesse padrão (variações novas, sem repetir tema).
 
-## 4. Roteiro (20–25 s — decisão do usuário em 16/11, pelas métricas)
-- Métricas de 16/11 (33 Reels do BRIO): tempo médio assistido de 13–17 s em vídeos de 30–35 s — a pessoa sai antes da conclusão. O único com retenção alta ("30 dias", 27,5 s) entrega a resposta logo. Comentários ≈ 0; o que espalha é compartilhamento e salvamento.
-- **330–430 caracteres de narração** (≈20–25 s). 1ª frase com até 8 palavras, gancho nos 2 primeiros segundos.
-- **A resposta da pergunta do gancho aparece até os 10 s.** Nada de introdução ("normal", "muita gente acha"): pergunta → resposta → por quê/como → conclusão → CTA.
-- 5 a 6 beats (`t1`/`t2` curtos na tela; `text` = fala). Um único dado ou número forte por vídeo.
-- CTA em no máximo 1 frase (≈3 s). Pode trocar o pedido de comentário por "manda pra quem precisa ouvir isso" ou "salva pra lembrar" quando combinar mais com o tema — mas mantenha a palavra-chave em maiúsculas para a DM.
-- **Conclusão antes do CTA (obrigatória, regra do usuário em 12/11):** o vídeo não pode terminar no meio do raciocínio e pular pro anúncio. Antes do CTA vem um beat de conclusão (1–2 frases: "Resumindo/Então..." amarrando a ideia e dizendo o que a pessoa faz com isso). No FIBRA, a cena `conclusao_factory` (quadro "CONCLUSÃO" com 3 ✓).
-- Final: gatilho específico com **palavra-chave em MAIÚSCULAS** (é ela que dispara a DM com o link) + menção ao Brio ligada ao tema, com uma função real do app + "Link na bio." **Não existe frase fixa**: "Registre e acompanhe seus treinos gratuitamente" é só um exemplo; adapte ao vídeo (ex.: "Comenta PUMP que eu te mando como acompanhar sua carga no Bríu. Link na bio."). Na tela, use `cta_flex(palavra, linhas)` com linhas adaptadas.
-- Funções reais do app: registrar séries, acompanhar evolução, orientação após o treino. Nada além disso.
-- Narração escreve "Bríu"; tela e legenda escrevem "Brio". Sem promessa médica. FIBRA: anote a fonte de cada afirmação científica no comentário do roteiro.
+## 4. Roteiro do BRIO — fórmula "erro → consequência → volta" (usuário, 20/11)
+Modelo: vídeo de construção (muro de arrimo) que o usuário mandou. Estrutura em **cadeia de ganchos**:
+1. **"Se você fizer X…"** → mostra na tela a **consequência ruim** acontecendo (o boneco trava, a carga não sobe, a barriga não muda, ponteiro da balança parado, X vermelho, tremida).
+2. **Corte com efeito de "voltar a fita"** (◀◀ + linhas horizontais; `rewind_in()` em `motor/cenas_v2.py`).
+3. **"Então você faz Y."** → mostra Y funcionando… **"Mas se você fizer Z…"** → nova consequência → ◀◀ → **"Então…"**
+4. Repete **3 ou 4 ciclos**. O último ciclo fecha certo: **"Aí sim: <resultado>."** (é a conclusão) → CTA em uma frase.
+- Duração: **30–40 s** neste formato (a cadeia de "mas se…" segura a retenção; nada de introdução, o 1º "Se você…" começa no 1º segundo).
+- Narração curta e falada: frases de 5–10 palavras. Use as palavras-gatilho "Se você…", "Então…", "Mas se…", "Aí sim…".
+- Tela: **legenda de UMA palavra por vez**, grande, no centro-baixo (karaokê), com a palavra-chave do ciclo destacada em amarelo/coral (ex.: "DESCANSO", "PROGRESSÃO"). O título fixo do topo é opcional no início e no fim.
+- Cada ciclo é um tema validado (§3). O vídeo inteiro responde UMA pergunta do território que performa (ex.: "por que você não cresce", "como sair do platô", "como perder barriga sem perder músculo").
+- Exemplo ("Por que você não cresce"):
+  - "Se você treinar o mesmo músculo todo dia… ele não recupera e para de crescer." ◀◀
+  - "Então você descansa 48 horas. Mas se repetir sempre o mesmo peso… o corpo acostuma e trava." ◀◀
+  - "Então sobe 1 repetição ou 1 quilo por semana. Mas se dormir 5 horas… a força cai." ◀◀
+  - "Então dorme de 7 a 9. Aí sim: descanso, progressão e sono — o músculo cresce."
+  - "Comenta CRESCER que eu te mando como registrar sua progressão no Bríu. Link na bio."
+- Continua valendo: 1ª frase ≤ 8 palavras, conclusão antes do CTA, só funções reais do app, palavra-chave em maiúsculas para a DM, "Bríu" só na fala.
+- FIBRA mantém a fórmula própria ("o que é essa sensação no corpo?"), 20–25 s.
 
 ## 5. Narração (ElevenLabs v4, via workflow)
 Um único `jobs/eleven.json` com todos os vídeos do dia (`op: "tts"`, `model_id: "eleven_v4"`, `timestamps: true`, `seed: 7`). Vozes:

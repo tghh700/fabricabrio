@@ -193,3 +193,43 @@ def finish(R, VIS, conc_items, cta_word, cta_title, cta_lines, cta_text):
     VIS["conc"] = wipe_in(conc_cards(conc_items))
     VIS["cta"] = wipe_in(cta_factory(cta_word, cta_title, cta_lines, cta_text), slide=0)
     return sfx_for(VIS, R.BEATS[-1])
+
+
+# ------------------------------------------------------------------ fórmula "erro → consequência → volta" (usuário, 20/11)
+def rewind_marks(c, x, y, s=1.0, a=1.0, fwd=False):
+    """◀◀ (ou ▶▶) desenhado com triângulos — nunca como caractere de fonte"""
+    d = 1 if fwd else -1
+    for k in range(2):
+        cx = x + d * k * 46 * s
+        c.new_path(); c.move_to(cx + d * 40 * s, y); c.line_to(cx - d * 4 * s, y - 30 * s); c.line_to(cx - d * 4 * s, y + 30 * s); c.close_path()
+        rgb(c, WHITE, a); c.fill()
+
+
+def rewind_in(fn, prev_fn, prev_dur=3.0, dur=0.55):
+    """entrada da cena 'Então...': primeiros `dur` s mostram a cena anterior voltando rápido (scanlines + ◀◀), depois a cena nova"""
+    def f(c, t, d, b):
+        if t < dur:
+            k = t / dur
+            prev_fn(c, max(0.0, prev_dur * (1 - k)), prev_dur, b)
+            for i in range(0, 1920, 28):  # linhas horizontais de fita voltando
+                y = (i + t * 2600) % 1920
+                cap_line(c, 0, y, 1080, y, WHITE, 3, 0.18)
+            rgb(c, (1, 1, 1), 0.06); c.paint()
+            rewind_marks(c, 820, 360, 1.3, 0.95)
+        else:
+            fn(c, t - dur, d - dur, b)
+    return f
+
+
+def consequence(c, t, kind="x", x=740, y=1100, t0=0.4):
+    """impacto visual do erro: tremida + marca vermelha"""
+    p = prog(t, t0, 0.25)
+    if p <= 0:
+        return
+    if kind == "x":
+        icon_x(c, x, y, 1.4, p)
+    elif kind == "drop":  # barra/linha despencando
+        arrow(c, x, y - 200, x, y + 150 * ease(p), RED, 18, p)
+    for k in range(6):
+        a = k * 1.05 + t * 3
+        cap_line(c, x + 90 * math.cos(a), y + 90 * math.sin(a), x + 140 * math.cos(a), y + 140 * math.sin(a), RED, 8, p * 0.8)
