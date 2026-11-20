@@ -1,1 +1,151 @@
-{"nome": "estado-20261120-1700", "videos": []}
+{
+ "nome": "agenda-20261121",
+ "videos": [
+  {
+   "id": "brio-79-gluteo",
+   "perfil": "brio",
+   "tema_canonico": "elevação pélvica x agachamento: glúteo cresce igual",
+   "gancho": "Elevação pélvica é o melhor pro glúteo?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "GLÚTEO",
+   "arquivo": "brio/brio-79-gluteo.mp4",
+   "legenda": "Elevação pélvica é o melhor pro glúteo? 👇\nNum estudo de 9 semanas, agachamento e elevação pélvica fizeram o glúteo crescer parecido. O que manda é série puxada e carga subindo.\n📲 Comenta GLÚTEO que eu te mando no direct como registrar suas séries no Brio.\n\n#brio #gluteo #agachamento #musculacao #academia",
+   "hashtags": "#brio #gluteo #agachamento #musculacao #academia",
+   "duracao_s": 23.7,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 17:00:00"
+  },
+  {
+   "id": "brio-80-agua",
+   "perfil": "brio",
+   "tema_canonico": "água gelada no treino não faz mal (choque térmico é mito)",
+   "gancho": "Água gelada no treino faz mal?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "ÁGUA",
+   "arquivo": "brio/brio-80-agua.mp4",
+   "legenda": "Água gelada no treino faz mal? 👇\nNão: o choque térmico é mito. Num estudo no calor, quem bebeu água gelada pedalou cerca de 10 minutos a mais. Gelada ou natural, beba água no treino.\n📲 Comenta ÁGUA que eu te mando no direct como registrar seus treinos no Brio.\n\n#brio #mitos #agua #treino #academia",
+   "hashtags": "#brio #mitos #agua #treino #academia",
+   "duracao_s": 21.97,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 14:30:00"
+  },
+  {
+   "id": "brio-81-gelo",
+   "perfil": "brio",
+   "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo",
+   "gancho": "Banho de gelo depois do treino ajuda?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "GELO",
+   "arquivo": "brio/brio-81-gelo.mp4",
+   "legenda": "Banho de gelo depois do treino ajuda? 👇\nPode atrapalhar: num estudo de 12 semanas, quem entrou na água gelada depois da musculação ganhou menos músculo e menos força. Quer crescer? Gelo longe do treino.\n📲 Comenta GELO que eu te mando no direct como acompanhar sua evolução no Brio.\n\n#brio #mitos #hipertrofia #musculacao #academia",
+   "hashtags": "#brio #mitos #hipertrofia #musculacao #academia",
+   "duracao_s": 22.97,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 21:00:00"
+  },
+  {
+   "id": "brio-82-noite",
+   "perfil": "brio",
+   "tema_canonico": "treinar à noite não atrapalha o sono (só intenso 1 h antes)",
+   "gancho": "Treinar à noite atrapalha o sono?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "NOITE",
+   "arquivo": "brio/brio-82-noite.mp4",
+   "legenda": "Treinar à noite atrapalha o sono? 👇\nNa maioria das vezes, não: numa revisão de 23 estudos, quem treinou à noite dormiu tão bem quanto. Só evite treino muito intenso menos de 1 hora antes de deitar.\n📲 Comenta NOITE que eu te mando no direct como registrar seus treinos no Brio.\n\n#brio #sono #treinoanoite #musculacao #academia",
+   "hashtags": "#brio #sono #treinoanoite #musculacao #academia",
+   "duracao_s": 23.2,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-22 00:00:00"
+  },
+  {
+   "id": "fibra-26-sentar",
+   "perfil": "fibra",
+   "tema_canonico": "dor muscular tardia: piora no segundo dia depois do treino de perna",
+   "gancho": "Treinou perna e dói até pra sentar?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "SENTAR",
+   "arquivo": "fibra/fibra-26-sentar.mp4",
+   "legenda": "Treinou perna e dói até pra sentar? 🔬👇\nA dor chega ao máximo de 1 a 3 dias depois. A descida do agachamento cria pequenas lesões, o corpo inflama pra consertar e os nervos ficam sensíveis. Passa, e dói menos a cada semana.\n📲 Comenta SENTAR que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #dormuscular #treinodeperna #ciencia #musculacao",
+   "hashtags": "#fibratreino #dormuscular #treinodeperna #ciencia #musculacao",
+   "duracao_s": 22.94,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 22:00:00"
+  },
+  {
+   "id": "fibra-27-veias",
+   "perfil": "fibra",
+   "tema_canonico": "veias saltando no treino: mais sangue chegando e pouca gordura",
+   "gancho": "Por que as veias saltam no treino?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "VEIA",
+   "arquivo": "fibra/fibra-27-veias.mp4",
+   "legenda": "Por que as veias saltam no treino? 🔬👇\nO músculo trabalhando pede muito mais sangue, e a veia, que é o caminho de volta, enche e estufa. Com menos gordura embaixo da pele, aparece mais. Minutos depois, volta ao normal.\n📲 Comenta VEIA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #veias #pump #ciencia #musculacao",
+   "hashtags": "#fibratreino #veias #pump #ciencia #musculacao",
+   "duracao_s": 21.4,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 15:30:00"
+  },
+  {
+   "id": "fibra-28-formiga",
+   "perfil": "fibra",
+   "tema_canonico": "formigamento do pré-treino: beta-alanina ativa sensores de coceira",
+   "gancho": "Aquele formigamento depois do pré-treino?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "FORMIGA",
+   "arquivo": "fibra/fibra-28-formiga.mp4",
+   "legenda": "Aquele formigamento depois do pré-treino? 🔬👇\nÉ a beta-alanina: ela liga sensores de nervo da pele, os mesmos da coceira. Quanto maior a dose de uma vez, mais formiga, e em geral passa em uma hora. Não quer dizer que o pré-treino tá funcionando.\n📲 Comenta FORMIGA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #pretreino #betaalanina #ciencia #academia",
+   "hashtags": "#fibratreino #pretreino #betaalanina #ciencia #academia",
+   "duracao_s": 20.9,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-21 19:00:00"
+  },
+  {
+   "id": "fibra-29-escada",
+   "perfil": "fibra",
+   "tema_canonico": "forte na musculação e sem fôlego na escada: especificidade do treino",
+   "gancho": "Treina pesado e cansa na escada?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "ESCADA",
+   "arquivo": "fibra/fibra-29-escada.mp4",
+   "legenda": "Treina pesado e cansa na escada? 🔬👇\nO corpo melhora no que você treina. Fôlego pede mais usinas de energia no músculo e um coração que bombeia mais a cada batida. Quem cria isso é o cardio.\n📲 Comenta ESCADA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #folego #cardio #ciencia #musculacao",
+   "hashtags": "#fibratreino #folego #cardio #ciencia #musculacao",
+   "duracao_s": 22.08,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-22 01:00:00"
+  }
+ ],
+ "creditos": [
+  {
+   "video_id": "brio-79-gluteo",
+   "quantidade": 426
+  },
+  {
+   "video_id": "brio-80-agua",
+   "quantidade": 382
+  },
+  {
+   "video_id": "brio-81-gelo",
+   "quantidade": 419
+  },
+  {
+   "video_id": "brio-82-noite",
+   "quantidade": 429
+  },
+  {
+   "video_id": "fibra-26-sentar",
+   "quantidade": 421
+  },
+  {
+   "video_id": "fibra-27-veias",
+   "quantidade": 412
+  },
+  {
+   "video_id": "fibra-28-formiga",
+   "quantidade": 423
+  },
+  {
+   "video_id": "fibra-29-escada",
+   "quantidade": 423
+  }
+ ]
+}
