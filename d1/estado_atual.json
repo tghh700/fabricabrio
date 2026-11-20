@@ -1,7 +1,16 @@
 {
  "relatorio": {
-  "nome": "estado-20261120-1700",
-  "gravados": [],
+  "nome": "agenda-20261121",
+  "gravados": [
+   "brio-79-gluteo",
+   "brio-80-agua",
+   "brio-81-gelo",
+   "brio-82-noite",
+   "fibra-26-sentar",
+   "fibra-27-veias",
+   "fibra-28-formiga",
+   "fibra-29-escada"
+  ],
   "recusados": []
  },
  "estado": {
@@ -961,8 +970,8 @@
     "video_id": "brio-77-hormonio",
     "perfil": "brio",
     "agendado_para": "2026-11-20 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/Df-G1X-uP8c/",
     "erro": null,
     "tema_canonico": "treinar perna não faz o braço crescer (mito do hormônio)"
    },
@@ -1015,6 +1024,86 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "sensação boa depois do treino: endocanabinoides, não só endorfina"
+   },
+   {
+    "id": 105,
+    "video_id": "brio-80-agua",
+    "perfil": "brio",
+    "agendado_para": "2026-11-21 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "água gelada no treino não faz mal (choque térmico é mito)"
+   },
+   {
+    "id": 109,
+    "video_id": "fibra-27-veias",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-21 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "veias saltando no treino: mais sangue chegando e pouca gordura"
+   },
+   {
+    "id": 104,
+    "video_id": "brio-79-gluteo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-21 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "elevação pélvica x agachamento: glúteo cresce igual"
+   },
+   {
+    "id": 110,
+    "video_id": "fibra-28-formiga",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-21 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "formigamento do pré-treino: beta-alanina ativa sensores de coceira"
+   },
+   {
+    "id": 106,
+    "video_id": "brio-81-gelo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-21 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo"
+   },
+   {
+    "id": 108,
+    "video_id": "fibra-26-sentar",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-21 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "dor muscular tardia: piora no segundo dia depois do treino de perna"
+   },
+   {
+    "id": 107,
+    "video_id": "brio-82-noite",
+    "perfil": "brio",
+    "agendado_para": "2026-11-22 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "treinar à noite não atrapalha o sono (só intenso 1 h antes)"
+   },
+   {
+    "id": 111,
+    "video_id": "fibra-29-escada",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-22 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "forte na musculação e sem fôlego na escada: especificidade do treino"
    }
   ],
   "temas": [
@@ -1623,6 +1712,54 @@
     "perfil": "fibra",
     "tema_canonico": "mãos inchadas na caminhada: balanço do braço empurra sangue",
     "status": "pronto"
+   },
+   {
+    "id": "brio-79-gluteo",
+    "perfil": "brio",
+    "tema_canonico": "elevação pélvica x agachamento: glúteo cresce igual",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-80-agua",
+    "perfil": "brio",
+    "tema_canonico": "água gelada no treino não faz mal (choque térmico é mito)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-81-gelo",
+    "perfil": "brio",
+    "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-82-noite",
+    "perfil": "brio",
+    "tema_canonico": "treinar à noite não atrapalha o sono (só intenso 1 h antes)",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-26-sentar",
+    "perfil": "fibra",
+    "tema_canonico": "dor muscular tardia: piora no segundo dia depois do treino de perna",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-27-veias",
+    "perfil": "fibra",
+    "tema_canonico": "veias saltando no treino: mais sangue chegando e pouca gordura",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-28-formiga",
+    "perfil": "fibra",
+    "tema_canonico": "formigamento do pré-treino: beta-alanina ativa sensores de coceira",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-29-escada",
+    "perfil": "fibra",
+    "tema_canonico": "forte na musculação e sem fôlego na escada: especificidade do treino",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1630,9 +1767,9 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 5005,
-    "alcance": 4275,
-    "curtidas": 309,
+    "views": 5010,
+    "alcance": 4283,
+    "curtidas": 310,
     "comentarios": 0,
     "salvamentos": 68,
     "compartilhamentos": 114,
@@ -1690,13 +1827,13 @@
     "post_id": 59,
     "video_id": "brio-53-pesado",
     "perfil": "brio",
-    "views": 1455,
+    "views": 1456,
     "alcance": 1279,
     "curtidas": 50,
     "comentarios": 0,
     "salvamentos": 6,
     "compartilhamentos": 17,
-    "tempo_medio_ms": 12378
+    "tempo_medio_ms": 12391
    },
    {
     "post_id": 3,
@@ -2086,8 +2223,8 @@
     "post_id": 92,
     "video_id": "fibra-18-coceira",
     "perfil": "fibra",
-    "views": 305,
-    "alcance": 262,
+    "views": 306,
+    "alcance": 264,
     "curtidas": 5,
     "comentarios": 0,
     "salvamentos": 1,
@@ -2279,14 +2416,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 54825
+    "total": 58160
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-20T16:45:29.249Z"
+    "valor": "2026-11-20T17:05:28.080Z"
    },
    {
     "chave": "escala",
