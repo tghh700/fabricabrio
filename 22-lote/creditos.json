@@ -1,0 +1,48 @@
+{
+ "gastos": [
+  {
+   "id": "brio_83_forca",
+   "caracteres": 514,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_84_tres",
+   "caracteres": 526,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_85_perna",
+   "caracteres": 511,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_30_barra",
+   "caracteres": 443,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_31_alonga",
+   "caracteres": 423,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_32_legpress",
+   "caracteres": 444,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_33_descida",
+   "caracteres": 429,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 3290
+}
