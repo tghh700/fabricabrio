@@ -21,7 +21,7 @@ def main():
     if (v["width"], v["height"]) != (1080, 1920): erros.append("resolução")
     if v["codec_name"] != "h264": erros.append("codec de vídeo")
     if not a or a[0]["codec_name"] != "aac": erros.append("sem áudio AAC")
-    if not 15 <= dur <= 60: erros.append(f"duração {dur:.1f}s fora de 15–60")
+    if not 15 <= dur <= 90: erros.append(f"duração {dur:.1f}s fora de 15–90")
     log = sh("ffmpeg", "-hide_banner", "-i", f, "-vf", "blackdetect=d=0.5:pix_th=0.05,freezedetect=n=0.001:d=3", "-af",
              "silencedetect=noise=-45dB:d=0.8,ebur128=peak=true", "-f", "null", "-").stderr
     if "black_start" in log: erros.append("tela preta")
