@@ -23,10 +23,18 @@ def plate(c, t, x, y, fill, junk=False, r=150):
 
 
 def belly_fig(c, t, x, belly, s=0.95):
-    """boneco em pé com barriga crescendo (elipse do mesmo creme na frente do tronco)"""
-    act_pose(c, t, "idle", x, s)
-    by = FLOOR_Y - 400 * s
-    c.save(); c.translate(x + 30 * s, by); c.scale((70 + 70 * belly) * s, (80 + 40 * belly) * s); disk(c, 0, 0, 1, L_BODY); c.restore()
+    """boneco em pé com barriga presa ao tronco (atrás do braço da frente)"""
+    bob = 10 * math.sin(t * 3.2)
+    hx, hy = chunky(c, x, FLOOR_Y, s, "idle", bob=bob)
+    # barriga: elipse colada na frente do tronco (mesma cor), sem flutuar
+    c.save(); c.translate(x, FLOOR_Y); c.scale(s, s); c.translate(0, bob)
+    c.save(); c.translate(40 + 25 * belly, -385); c.scale(55 + 50 * belly, 85 + 25 * belly); disk(c, 0, 0, 1, L_BODY); c.restore()
+    # braço da frente redesenhado por cima da barriga
+    base = (10, -510); a1 = math.radians(14 + 18 * belly)
+    el = (base[0] + 120 * math.sin(a1), base[1] + 120 * math.cos(a1))
+    a2 = math.radians(14 + 18 * belly + 30); hd = (el[0] + 110 * math.sin(a2), el[1] + 110 * math.cos(a2))
+    poly(c, [base, el, hd], L_FRONT, 50)
+    c.restore()
 
 
 def tape_arm(c, t, x, y, val, col=None, label_="BRAÇO"):
