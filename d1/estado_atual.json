@@ -1,9 +1,7 @@
 {
  "relatorio": {
-  "nome": "agenda-brio-75",
-  "gravados": [
-   "brio-75-cresce"
-  ],
+  "nome": "estado-20261121-1649",
+  "gravados": [],
   "recusados": []
  },
  "estado": {
@@ -1023,8 +1021,8 @@
     "video_id": "brio-80-agua",
     "perfil": "brio",
     "agendado_para": "2026-11-21 14:30:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DgAade7yIHJ/",
     "erro": null,
     "tema_canonico": "água gelada no treino não faz mal (choque térmico é mito)"
    },
@@ -1033,8 +1031,8 @@
     "video_id": "fibra-27-veias",
     "perfil": "fibra",
     "agendado_para": "2026-11-21 15:30:00",
-    "status": "agendado",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DgAhVSyxaNh/",
     "erro": null,
     "tema_canonico": "veias saltando no treino: mais sangue chegando e pouca gordura"
    },
@@ -1043,7 +1041,7 @@
     "video_id": "brio-79-gluteo",
     "perfil": "brio",
     "agendado_para": "2026-11-21 17:00:00",
-    "status": "agendado",
+    "status": "contêiner",
     "permalink": null,
     "erro": null,
     "tema_canonico": "elevação pélvica x agachamento: glúteo cresce igual"
@@ -1057,16 +1055,6 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "formigamento do pré-treino: beta-alanina ativa sensores de coceira"
-   },
-   {
-    "id": 106,
-    "video_id": "brio-81-gelo",
-    "perfil": "brio",
-    "agendado_para": "2026-11-21 21:00:00",
-    "status": "agendado",
-    "permalink": null,
-    "erro": null,
-    "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo"
    },
    {
     "id": 112,
@@ -1107,6 +1095,16 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "forte na musculação e sem fôlego na escada: especificidade do treino"
+   },
+   {
+    "id": 106,
+    "video_id": "brio-81-gelo",
+    "perfil": "brio",
+    "agendado_para": "2026-11-22 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo"
    }
   ],
   "temas": [
@@ -1776,11 +1774,11 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 5025,
-    "alcance": 4299,
+    "views": 5034,
+    "alcance": 4307,
     "curtidas": 310,
     "comentarios": 0,
-    "salvamentos": 68,
+    "salvamentos": 69,
     "compartilhamentos": 115,
     "tempo_medio_ms": 13124
    },
@@ -1812,8 +1810,8 @@
     "post_id": 62,
     "video_id": "brio-56-junto",
     "perfil": "brio",
-    "views": 1618,
-    "alcance": 1301,
+    "views": 1624,
+    "alcance": 1303,
     "curtidas": 59,
     "comentarios": 2,
     "salvamentos": 19,
@@ -1848,13 +1846,13 @@
     "post_id": 59,
     "video_id": "brio-53-pesado",
     "perfil": "brio",
-    "views": 1459,
+    "views": 1464,
     "alcance": 1280,
     "curtidas": 50,
     "comentarios": 0,
     "salvamentos": 6,
     "compartilhamentos": 17,
-    "tempo_medio_ms": 12391
+    "tempo_medio_ms": 12432
    },
    {
     "post_id": 3,
@@ -1884,8 +1882,8 @@
     "post_id": 73,
     "video_id": "brio-64-cerveja",
     "perfil": "brio",
-    "views": 1400,
-    "alcance": 1227,
+    "views": 1401,
+    "alcance": 1229,
     "curtidas": 37,
     "comentarios": 0,
     "salvamentos": 1,
@@ -1896,7 +1894,7 @@
     "post_id": 75,
     "video_id": "brio-66-balanca",
     "perfil": "brio",
-    "views": 1396,
+    "views": 1397,
     "alcance": 1196,
     "curtidas": 34,
     "comentarios": 2,
@@ -1920,8 +1918,8 @@
     "post_id": 57,
     "video_id": "brio-51-mes",
     "perfil": "brio",
-    "views": 1333,
-    "alcance": 1162,
+    "views": 1334,
+    "alcance": 1164,
     "curtidas": 30,
     "comentarios": 0,
     "salvamentos": 2,
@@ -1929,10 +1927,22 @@
     "tempo_medio_ms": 14814
    },
    {
+    "post_id": 98,
+    "video_id": "brio-77-hormonio",
+    "perfil": "brio",
+    "views": 1299,
+    "alcance": 1130,
+    "curtidas": 24,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 0,
+    "tempo_medio_ms": 9418
+   },
+   {
     "post_id": 63,
     "video_id": "brio-57-secar",
     "perfil": "brio",
-    "views": 1296,
+    "views": 1297,
     "alcance": 1105,
     "curtidas": 46,
     "comentarios": 2,
@@ -1968,8 +1978,8 @@
     "post_id": 76,
     "video_id": "brio-67-memoria",
     "perfil": "brio",
-    "views": 1245,
-    "alcance": 1074,
+    "views": 1248,
+    "alcance": 1078,
     "curtidas": 53,
     "comentarios": 1,
     "salvamentos": 9,
@@ -1992,8 +2002,8 @@
     "post_id": 78,
     "video_id": "brio-69-pesa",
     "perfil": "brio",
-    "views": 1241,
-    "alcance": 1059,
+    "views": 1242,
+    "alcance": 1061,
     "curtidas": 21,
     "comentarios": 2,
     "salvamentos": 8,
@@ -2016,8 +2026,8 @@
     "post_id": 53,
     "video_id": "brio-47-oscila",
     "perfil": "brio",
-    "views": 1215,
-    "alcance": 1078,
+    "views": 1217,
+    "alcance": 1083,
     "curtidas": 41,
     "comentarios": 0,
     "salvamentos": 6,
@@ -2028,8 +2038,8 @@
     "post_id": 42,
     "video_id": "brio-37-semana",
     "perfil": "brio",
-    "views": 1204,
-    "alcance": 1073,
+    "views": 1205,
+    "alcance": 1074,
     "curtidas": 35,
     "comentarios": 0,
     "salvamentos": 8,
@@ -2064,11 +2074,11 @@
     "post_id": 70,
     "video_id": "fibra-11-descanso",
     "perfil": "fibra",
-    "views": 1042,
-    "alcance": 879,
+    "views": 1043,
+    "alcance": 881,
     "curtidas": 35,
     "comentarios": 2,
-    "salvamentos": 3,
+    "salvamentos": 4,
     "compartilhamentos": 6,
     "tempo_medio_ms": 9981
    },
@@ -2076,8 +2086,8 @@
     "post_id": 41,
     "video_id": "brio-36-horario",
     "perfil": "brio",
-    "views": 752,
-    "alcance": 652,
+    "views": 754,
+    "alcance": 654,
     "curtidas": 22,
     "comentarios": 0,
     "salvamentos": 3,
@@ -2100,8 +2110,8 @@
     "post_id": 60,
     "video_id": "brio-54-whey",
     "perfil": "brio",
-    "views": 682,
-    "alcance": 585,
+    "views": 683,
+    "alcance": 587,
     "curtidas": 28,
     "comentarios": 0,
     "salvamentos": 2,
@@ -2160,13 +2170,25 @@
     "post_id": 74,
     "video_id": "brio-65-genetica",
     "perfil": "brio",
-    "views": 506,
-    "alcance": 420,
+    "views": 507,
+    "alcance": 422,
     "curtidas": 13,
     "comentarios": 0,
     "salvamentos": 5,
     "compartilhamentos": 3,
     "tempo_medio_ms": 27334
+   },
+   {
+    "post_id": 95,
+    "video_id": "fibra-21-pontada",
+    "perfil": "fibra",
+    "views": 433,
+    "alcance": 371,
+    "curtidas": 5,
+    "comentarios": 0,
+    "salvamentos": 3,
+    "compartilhamentos": 1,
+    "tempo_medio_ms": 8051
    },
    {
     "post_id": 24,
@@ -2181,23 +2203,11 @@
     "tempo_medio_ms": 7522
    },
    {
-    "post_id": 95,
-    "video_id": "fibra-21-pontada",
-    "perfil": "fibra",
-    "views": 430,
-    "alcance": 366,
-    "curtidas": 4,
-    "comentarios": 0,
-    "salvamentos": 3,
-    "compartilhamentos": 1,
-    "tempo_medio_ms": 8049
-   },
-   {
     "post_id": 72,
     "video_id": "brio-63-proteina",
     "perfil": "brio",
-    "views": 405,
-    "alcance": 344,
+    "views": 406,
+    "alcance": 345,
     "curtidas": 7,
     "comentarios": 0,
     "salvamentos": 2,
@@ -2220,13 +2230,13 @@
     "post_id": 65,
     "video_id": "brio-59-confunde",
     "perfil": "brio",
-    "views": 383,
-    "alcance": 334,
+    "views": 386,
+    "alcance": 336,
     "curtidas": 8,
     "comentarios": 0,
     "salvamentos": 4,
     "compartilhamentos": 1,
-    "tempo_medio_ms": 9691
+    "tempo_medio_ms": 9728
    },
    {
     "post_id": 11,
@@ -2256,13 +2266,13 @@
     "post_id": 68,
     "video_id": "brio-62-rapido",
     "perfil": "brio",
-    "views": 333,
+    "views": 334,
     "alcance": 273,
     "curtidas": 9,
     "comentarios": 0,
     "salvamentos": 3,
     "compartilhamentos": 7,
-    "tempo_medio_ms": 16222
+    "tempo_medio_ms": 16408
    },
    {
     "post_id": 89,
@@ -2301,6 +2311,18 @@
     "tempo_medio_ms": 8335
    },
    {
+    "post_id": 93,
+    "video_id": "fibra-19-cabeca",
+    "perfil": "fibra",
+    "views": 264,
+    "alcance": 234,
+    "curtidas": 6,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 1,
+    "tempo_medio_ms": 7390
+   },
+   {
     "post_id": 69,
     "video_id": "fibra-10-supino",
     "perfil": "fibra",
@@ -2313,23 +2335,11 @@
     "tempo_medio_ms": 8716
    },
    {
-    "post_id": 93,
-    "video_id": "fibra-19-cabeca",
-    "perfil": "fibra",
-    "views": 257,
-    "alcance": 228,
-    "curtidas": 6,
-    "comentarios": 0,
-    "salvamentos": 0,
-    "compartilhamentos": 1,
-    "tempo_medio_ms": 7351
-   },
-   {
     "post_id": 58,
     "video_id": "brio-52-vira",
     "perfil": "brio",
-    "views": 256,
-    "alcance": 218,
+    "views": 257,
+    "alcance": 219,
     "curtidas": 4,
     "comentarios": 0,
     "salvamentos": 1,
@@ -2361,16 +2371,28 @@
     "tempo_medio_ms": 6082
    },
    {
+    "post_id": 103,
+    "video_id": "fibra-25-maos",
+    "perfil": "fibra",
+    "views": 202,
+    "alcance": 173,
+    "curtidas": 4,
+    "comentarios": 0,
+    "salvamentos": 0,
+    "compartilhamentos": 1,
+    "tempo_medio_ms": 8439
+   },
+   {
     "post_id": 61,
     "video_id": "brio-55-altura",
     "perfil": "brio",
-    "views": 172,
-    "alcance": 145,
+    "views": 174,
+    "alcance": 146,
     "curtidas": 3,
     "comentarios": 0,
     "salvamentos": 0,
     "compartilhamentos": 0,
-    "tempo_medio_ms": 9993
+    "tempo_medio_ms": 10103
    },
    {
     "post_id": 21,
@@ -2388,11 +2410,11 @@
     "post_id": 99,
     "video_id": "brio-78-flexivel",
     "perfil": "brio",
-    "views": 131,
-    "alcance": 114,
+    "views": 133,
+    "alcance": 115,
     "curtidas": 4,
     "comentarios": 0,
-    "salvamentos": 0,
+    "salvamentos": 1,
     "compartilhamentos": 0,
     "tempo_medio_ms": 5288
    },
@@ -2400,8 +2422,8 @@
     "post_id": 81,
     "video_id": "brio-72-falsomagro",
     "perfil": "brio",
-    "views": 82,
-    "alcance": 63,
+    "views": 83,
+    "alcance": 64,
     "curtidas": 3,
     "comentarios": 0,
     "salvamentos": 1,
@@ -2431,18 +2453,6 @@
     "salvamentos": 0,
     "compartilhamentos": 0,
     "tempo_medio_ms": 6827
-   },
-   {
-    "post_id": 103,
-    "video_id": "fibra-25-maos",
-    "perfil": "fibra",
-    "views": 19,
-    "alcance": 13,
-    "curtidas": 0,
-    "comentarios": 0,
-    "salvamentos": 0,
-    "compartilhamentos": 0,
-    "tempo_medio_ms": 6552
    },
    {
     "post_id": 25,
@@ -2534,7 +2544,7 @@
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-21T01:30:27.827Z"
+    "valor": "2026-11-21T16:45:29.932Z"
    },
    {
     "chave": "escala",
