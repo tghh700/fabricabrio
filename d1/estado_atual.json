@@ -1,7 +1,15 @@
 {
  "relatorio": {
-  "nome": "estado-20261121-1649",
-  "gravados": [],
+  "nome": "agenda-20261122",
+  "gravados": [
+   "brio-83-forca",
+   "brio-84-tres",
+   "brio-85-perna",
+   "fibra-30-barra",
+   "fibra-31-alonga",
+   "fibra-32-legpress",
+   "fibra-33-descida"
+  ],
   "recusados": []
  },
  "estado": {
@@ -1041,8 +1049,8 @@
     "video_id": "brio-79-gluteo",
     "perfil": "brio",
     "agendado_para": "2026-11-21 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DgAroK8htzM/",
     "erro": null,
     "tema_canonico": "elevação pélvica x agachamento: glúteo cresce igual"
    },
@@ -1097,6 +1105,46 @@
     "tema_canonico": "forte na musculação e sem fôlego na escada: especificidade do treino"
    },
    {
+    "id": 113,
+    "video_id": "brio-83-forca",
+    "perfil": "brio",
+    "agendado_para": "2026-11-22 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "por que a força para de subir: carga leve, descanso curto e troca de exercício"
+   },
+   {
+    "id": 116,
+    "video_id": "fibra-30-barra",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-22 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "barra fixa é difícil porque você levanta quase o corpo inteiro"
+   },
+   {
+    "id": 114,
+    "video_id": "brio-84-tres",
+    "perfil": "brio",
+    "agendado_para": "2026-11-22 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "crescer treinando só 3 vezes por semana: corpo todo, treino curto e dias fixos"
+   },
+   {
+    "id": 117,
+    "video_id": "fibra-31-alonga",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-22 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "alongar depois do treino não evita a dor muscular do dia seguinte"
+   },
+   {
     "id": 106,
     "video_id": "brio-81-gelo",
     "perfil": "brio",
@@ -1105,6 +1153,36 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "banho de gelo depois da musculação atrapalha o ganho de músculo"
+   },
+   {
+    "id": 118,
+    "video_id": "fibra-32-legpress",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-22 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "leg press parece mais leve que o agachamento: trenó inclinado, tronco e equilíbrio"
+   },
+   {
+    "id": 115,
+    "video_id": "brio-85-perna",
+    "perfil": "brio",
+    "agendado_para": "2026-11-23 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "por que a perna não cresce: carga perto da falha, descida funda e 2×/semana"
+   },
+   {
+    "id": 119,
+    "video_id": "fibra-33-descida",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-23 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "o músculo é mais forte na descida (excêntrica): pontes seguram e a titina ajuda"
    }
   ],
   "temas": [
@@ -1767,6 +1845,48 @@
     "perfil": "brio",
     "tema_canonico": "jornada de erros de quem não cresce: descanso, comida, proteína, sono e progressão de carga",
     "status": "pronto"
+   },
+   {
+    "id": "brio-83-forca",
+    "perfil": "brio",
+    "tema_canonico": "por que a força para de subir: carga leve, descanso curto e troca de exercício",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-84-tres",
+    "perfil": "brio",
+    "tema_canonico": "crescer treinando só 3 vezes por semana: corpo todo, treino curto e dias fixos",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-85-perna",
+    "perfil": "brio",
+    "tema_canonico": "por que a perna não cresce: carga perto da falha, descida funda e 2×/semana",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-30-barra",
+    "perfil": "fibra",
+    "tema_canonico": "barra fixa é difícil porque você levanta quase o corpo inteiro",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-31-alonga",
+    "perfil": "fibra",
+    "tema_canonico": "alongar depois do treino não evita a dor muscular do dia seguinte",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-32-legpress",
+    "perfil": "fibra",
+    "tema_canonico": "leg press parece mais leve que o agachamento: trenó inclinado, tronco e equilíbrio",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-33-descida",
+    "perfil": "fibra",
+    "tema_canonico": "o músculo é mais forte na descida (excêntrica): pontes seguram e a titina ajuda",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1774,12 +1894,12 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 5034,
+    "views": 5039,
     "alcance": 4307,
-    "curtidas": 310,
+    "curtidas": 311,
     "comentarios": 0,
     "salvamentos": 69,
-    "compartilhamentos": 115,
+    "compartilhamentos": 117,
     "tempo_medio_ms": 13124
    },
    {
@@ -1930,13 +2050,13 @@
     "post_id": 98,
     "video_id": "brio-77-hormonio",
     "perfil": "brio",
-    "views": 1299,
-    "alcance": 1130,
+    "views": 1302,
+    "alcance": 1131,
     "curtidas": 24,
     "comentarios": 0,
     "salvamentos": 0,
     "compartilhamentos": 0,
-    "tempo_medio_ms": 9418
+    "tempo_medio_ms": 9431
    },
    {
     "post_id": 63,
@@ -2026,7 +2146,7 @@
     "post_id": 53,
     "video_id": "brio-47-oscila",
     "perfil": "brio",
-    "views": 1217,
+    "views": 1218,
     "alcance": 1083,
     "curtidas": 41,
     "comentarios": 0,
@@ -2038,8 +2158,8 @@
     "post_id": 42,
     "video_id": "brio-37-semana",
     "perfil": "brio",
-    "views": 1205,
-    "alcance": 1074,
+    "views": 1206,
+    "alcance": 1075,
     "curtidas": 35,
     "comentarios": 0,
     "salvamentos": 8,
@@ -2374,8 +2494,8 @@
     "post_id": 103,
     "video_id": "fibra-25-maos",
     "perfil": "fibra",
-    "views": 202,
-    "alcance": 173,
+    "views": 203,
+    "alcance": 174,
     "curtidas": 4,
     "comentarios": 0,
     "salvamentos": 0,
@@ -2537,14 +2657,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 59378
+    "total": 62668
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-21T16:45:29.932Z"
+    "valor": "2026-11-21T17:10:27.702Z"
    },
    {
     "chave": "escala",
