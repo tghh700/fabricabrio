@@ -1,18 +1,18 @@
 {
- "nome": "14-brio-chain-01",
+ "nome": "15-brio-75-cresce",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_chain_01",
+   "id": "brio_75_cresce",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[curious] Se você treinar e comer pouco, o corpo não tem material pra construir. Então você come um pouco a mais. Mas se treinar leve, sem esforço, não tem estímulo. Então você treina perto da falha. Mas se desistir na terceira semana, nada aparece. Então você segue firme por oito semanas. [confident] Aí sim: comida, esforço e constância. O primeiro quilo de músculo aparece. Comenta QUILO que eu te mando como registrar seus treinos no Bríu e ver sua evolução. Link na bio.",
+   "text": "[serious] Você corta as besteiras e começa a treinar todo dia. Mas depois de dois meses, o espelho é o mesmo. O músculo não cresce no treino. Cresce no descanso. E treinando todo dia, ele nunca termina de se recuperar. Então você treina quatro vezes por semana. Mas continua comendo pouco, e o corpo não tem material pra construir. Então você come mais. Mas come de tudo, e a barriga cresce antes do braço. Então você conta as calorias, só uns trezentos a mais por dia. A barriga para. Mas o braço também. Então você sobe a proteína pra quase dois gramas por quilo. Agora o músculo tem material. Mas você dorme cinco horas por noite e chega no treino sem força. Então você dorme sete, oito horas, e a força volta. Mas o peso na barra é o mesmo de três meses atrás. Porque você não anota. Chega na academia e pega o mesmo peso de sempre. Sem carga subindo, o músculo não tem motivo pra crescer. Então você começa a anotar cada série. Toda semana, uma repetição ou um quilo a mais. E o braço finalmente começa a aparecer. Resumindo: descanso, comida na medida, proteína, sono, e carga subindo. Era essa a peça que faltava. Comenta CARGA que eu te mando como anotar suas séries no Bríu e ver sua carga subir. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
     "use_speaker_boost": true,
-    "speed": 1.1
+    "speed": 1.05
    },
    "timestamps": true,
    "seed": 7
