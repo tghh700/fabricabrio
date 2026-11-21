@@ -1,18 +1,114 @@
 {
- "nome": "15-brio-75-cresce",
+ "nome": "22-lote",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_75_cresce",
+   "id": "brio_83_forca",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Você corta as besteiras e começa a treinar todo dia. Mas depois de dois meses, o espelho é o mesmo. O músculo não cresce no treino. Cresce no descanso. E treinando todo dia, ele nunca termina de se recuperar. Então você treina quatro vezes por semana. Mas continua comendo pouco, e o corpo não tem material pra construir. Então você come mais. Mas come de tudo, e a barriga cresce antes do braço. Então você conta as calorias, só uns trezentos a mais por dia. A barriga para. Mas o braço também. Então você sobe a proteína pra quase dois gramas por quilo. Agora o músculo tem material. Mas você dorme cinco horas por noite e chega no treino sem força. Então você dorme sete, oito horas, e a força volta. Mas o peso na barra é o mesmo de três meses atrás. Porque você não anota. Chega na academia e pega o mesmo peso de sempre. Sem carga subindo, o músculo não tem motivo pra crescer. Então você começa a anotar cada série. Toda semana, uma repetição ou um quilo a mais. E o braço finalmente começa a aparecer. Resumindo: descanso, comida na medida, proteína, sono, e carga subindo. Era essa a peça que faltava. Comenta CARGA que eu te mando como anotar suas séries no Bríu e ver sua carga subir. Link na bio.",
+   "text": "[serious] Se você só treina leve, a força trava. Quinze repetições fáceis, todo treino. Então você pega pesado, de cinco a oito repetições. Mas se descansar só trinta segundos, a próxima série despenca. Então você descansa de dois a três minutos. Mas se trocar de exercício todo mês, nunca pega o jeito. Então você repete os mesmos por dois meses, e anota a carga. [confident] Aí sim: peso, descanso e repetição. A força volta a subir. Comenta FORÇA que eu te mando como registrar suas séries no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
     "style": 0.2,
     "use_speaker_boost": true,
-    "speed": 1.05
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_84_tres",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Se você faz um músculo por treino. Em três dias, cada um trabalha uma vez só. Então você treina o corpo todo, em cada treino. Mas se fizer dez exercícios, o treino passa de duas horas. Então você faz cinco exercícios, em quarenta e cinco minutos. Mas se faltar um dia, perde um terço da semana. Então você deixa os três dias fixos, como compromisso. [confident] Aí sim: corpo todo, treino curto e dias fixos. Três vezes dá pra crescer. Comenta TREINO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "brio_85_perna",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Se você treina perna leve, ela não cresce. Vinte repetições fáceis não bastam. Então você coloca carga no agachamento, perto da falha. Mas se descer só até a metade, o glúteo cresce menos. Então você desce fundo, até onde controla. Mas se treinar perna só a cada quinze dias, ela fica pra trás. Então você treina perna duas vezes por semana. [confident] Aí sim: carga, descida funda e duas vezes na semana. A perna cresce. Comenta PERNA que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_30_barra",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Por que a barra fixa é tão difícil? Você puxa quase o corpo inteiro. Quem pesa oitenta quilos sobe uns setenta e cinco. E cada quilo a mais no corpo entra na conta. Na barra, vale a força pelo seu peso. Quem puxa são as costas e o bíceps, bem menores que a perna que te carrega o dia todo. [warm] Então: não é fraqueza. É o peso do corpo numa puxada só. Comenta BARRA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_31_alonga",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Alongar depois do treino evita a dor? Não evita. Uma revisão de doze estudos achou quase nenhuma diferença. A dor vem de pequenas lesões na fibra e do corpo consertando. Esticar não desfaz isso. Alongar continua bom pra ganhar flexibilidade. Só não serve pra dor. [warm] Então: alonga se você gosta. Pra dor, quem resolve é o tempo. Comenta ALONGA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_32_legpress",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Por que o leg press parece tão leve? Primeiro: o trenó é inclinado. Só parte do peso das anilhas pesa contra a perna. Segundo: no agachamento, a perna também levanta o seu tronco, que não entra na conta. E no leg press ninguém se equilibra: costas e abdômen ficam encostados. [warm] Então: os números não se comparam. Compara o leg press só com ele mesmo. Comenta PESO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_33_descida",
+   "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
+   "model_id": "eleven_v4",
+   "text": "[curious] Por que você aguenta mais peso na descida? Na descida, o músculo não levanta. Ele freia o peso. As pontes dentro da fibra seguram esticadas, e uma mola gigante, a titina, ajuda a segurar. Por isso você controla cerca de um terço a mais na descida do que na subida. [warm] Então: não é impressão. Na descida, o músculo é mais forte mesmo. Comenta DESCIDA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.75,
+    "style": 0.0,
+    "use_speaker_boost": true,
+    "speed": 1.08
    },
    "timestamps": true,
    "seed": 7
