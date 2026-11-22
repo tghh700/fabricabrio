@@ -1,7 +1,16 @@
 {
  "relatorio": {
-  "nome": "estado-20261122-1649",
-  "gravados": [],
+  "nome": "agenda-20261123",
+  "gravados": [
+   "brio-86-volta",
+   "brio-87-verao",
+   "brio-88-ano",
+   "brio-89-ferias",
+   "fibra-34-joelho",
+   "fibra-35-primeiro",
+   "fibra-36-falha",
+   "fibra-37-segundos"
+  ],
   "recusados": []
  },
  "estado": {
@@ -1101,8 +1110,8 @@
     "video_id": "brio-84-tres",
     "perfil": "brio",
     "agendado_para": "2026-11-22 17:00:00",
-    "status": "contêiner",
-    "permalink": null,
+    "status": "publicado",
+    "permalink": "https://www.instagram.com/reel/DgDQcN4hhsy/",
     "erro": null,
     "tema_canonico": "crescer treinando só 3 vezes por semana: corpo todo, treino curto e dias fixos"
    },
@@ -1155,6 +1164,86 @@
     "permalink": null,
     "erro": null,
     "tema_canonico": "o músculo é mais forte na descida (excêntrica): pontes seguram e a titina ajuda"
+   },
+   {
+    "id": 120,
+    "video_id": "brio-86-volta",
+    "perfil": "brio",
+    "agendado_para": "2026-11-23 14:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "voltar a treinar depois de meses parado: metade da carga e subir toda semana"
+   },
+   {
+    "id": 124,
+    "video_id": "fibra-34-joelho",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-23 15:30:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "agachar fundo não estraga o joelho: cartilagem gosta de carga e a coxa apoia na panturrilha"
+   },
+   {
+    "id": 121,
+    "video_id": "brio-87-verao",
+    "perfil": "brio",
+    "agendado_para": "2026-11-23 17:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "atalhos pra chegar no verão com mais músculo: o plano simples vence a pressa"
+   },
+   {
+    "id": 125,
+    "video_id": "fibra-35-primeiro",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-23 19:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "o primeiro treino de perna dói muito mais: efeito da carga repetida protege o músculo"
+   },
+   {
+    "id": 122,
+    "video_id": "brio-88-ano",
+    "perfil": "brio",
+    "agendado_para": "2026-11-23 21:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "um ano de academia: o que muda de verdade (força, músculo, espelho, rotina)"
+   },
+   {
+    "id": 126,
+    "video_id": "fibra-36-falha",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-23 22:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "por que a última repetição não sobe: todas as fibras recrutadas e sem energia rápida"
+   },
+   {
+    "id": 123,
+    "video_id": "brio-89-ferias",
+    "perfil": "brio",
+    "agendado_para": "2026-11-24 00:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "manter o músculo nas férias de fim de ano: dois treinos curtos por semana"
+   },
+   {
+    "id": 127,
+    "video_id": "fibra-37-segundos",
+    "perfil": "fibra",
+    "agendado_para": "2026-11-24 01:00:00",
+    "status": "agendado",
+    "permalink": null,
+    "erro": null,
+    "tema_canonico": "o que acontece no corpo numa série de agachamento de 40 segundos, segundo a segundo"
    }
   ],
   "temas": [
@@ -1859,6 +1948,54 @@
     "perfil": "fibra",
     "tema_canonico": "o músculo é mais forte na descida (excêntrica): pontes seguram e a titina ajuda",
     "status": "pronto"
+   },
+   {
+    "id": "brio-86-volta",
+    "perfil": "brio",
+    "tema_canonico": "voltar a treinar depois de meses parado: metade da carga e subir toda semana",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-87-verao",
+    "perfil": "brio",
+    "tema_canonico": "atalhos pra chegar no verão com mais músculo: o plano simples vence a pressa",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-88-ano",
+    "perfil": "brio",
+    "tema_canonico": "um ano de academia: o que muda de verdade (força, músculo, espelho, rotina)",
+    "status": "pronto"
+   },
+   {
+    "id": "brio-89-ferias",
+    "perfil": "brio",
+    "tema_canonico": "manter o músculo nas férias de fim de ano: dois treinos curtos por semana",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-34-joelho",
+    "perfil": "fibra",
+    "tema_canonico": "agachar fundo não estraga o joelho: cartilagem gosta de carga e a coxa apoia na panturrilha",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-35-primeiro",
+    "perfil": "fibra",
+    "tema_canonico": "o primeiro treino de perna dói muito mais: efeito da carga repetida protege o músculo",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-36-falha",
+    "perfil": "fibra",
+    "tema_canonico": "por que a última repetição não sobe: todas as fibras recrutadas e sem energia rápida",
+    "status": "pronto"
+   },
+   {
+    "id": "fibra-37-segundos",
+    "perfil": "fibra",
+    "tema_canonico": "o que acontece no corpo numa série de agachamento de 40 segundos, segundo a segundo",
+    "status": "pronto"
    }
   ],
   "metricas": [
@@ -1866,7 +2003,7 @@
     "post_id": 27,
     "video_id": "fibra-09-enjoo-perna",
     "perfil": "fibra",
-    "views": 5074,
+    "views": 5076,
     "alcance": 4332,
     "curtidas": 312,
     "comentarios": 0,
@@ -2022,8 +2159,8 @@
     "post_id": 98,
     "video_id": "brio-77-hormonio",
     "perfil": "brio",
-    "views": 1304,
-    "alcance": 1135,
+    "views": 1305,
+    "alcance": 1136,
     "curtidas": 24,
     "comentarios": 0,
     "salvamentos": 0,
@@ -2082,7 +2219,7 @@
     "post_id": 78,
     "video_id": "brio-69-pesa",
     "perfil": "brio",
-    "views": 1243,
+    "views": 1244,
     "alcance": 1061,
     "curtidas": 21,
     "comentarios": 2,
@@ -2635,14 +2772,14 @@
   "creditos": [
    {
     "servico": "elevenlabs",
-    "total": 62668
+    "total": 68137
    }
   ],
   "logs": [],
   "config": [
    {
     "chave": "cron_ultimo",
-    "valor": "2026-11-22T16:45:28.543Z"
+    "valor": "2026-11-22T17:15:28.834Z"
    },
    {
     "chave": "escala",
