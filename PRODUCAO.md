@@ -57,24 +57,20 @@ Cada tema precisa de **evidência de que já funcionou**: (a) um vídeo nosso ac
 | demais | ~1.300–1.400, e os mais recentes abaixo de 1.000 |
 Padrão: o que performa é **pergunta sobre resultado/tempo/perda** ("quanto tempo", "o que muda", "perdi?") e **mito popular** (jejum). Técnica de exercício e organização de treino ficam na média ou abaixo. Pauta: ≥60% nesse padrão (variações novas, sem repetir tema).
 
-## 4. Roteiro do BRIO — fórmula "erro → consequência → volta" (usuário, 20/11)
-Modelo: vídeo de construção (muro de arrimo) que o usuário mandou. Estrutura em **cadeia de ganchos**:
-1. **"Se você fizer X…"** → mostra na tela a **consequência ruim** acontecendo (o boneco trava, a carga não sobe, a barriga não muda, ponteiro da balança parado, X vermelho, tremida).
-2. **Corte com efeito de "voltar a fita"** (◀◀ + linhas horizontais; `rewind_in()` em `motor/cenas_v2.py`).
-3. **"Então você faz Y."** → mostra Y funcionando… **"Mas se você fizer Z…"** → nova consequência → ◀◀ → **"Então…"**
-4. Repete **3 ou 4 ciclos**. O último ciclo fecha certo: **"Aí sim: <resultado>."** (é a conclusão) → CTA em uma frase.
-- Duração: **30–40 s** neste formato (a cadeia de "mas se…" segura a retenção; nada de introdução, o 1º "Se você…" começa no 1º segundo).
-- Narração curta e falada: frases de 5–10 palavras. Use as palavras-gatilho "Se você…", "Então…", "Mas se…", "Aí sim…".
-- Tela: **legenda de UMA palavra por vez**, grande, no centro-baixo (karaokê), com a palavra-chave do ciclo destacada em amarelo/coral (ex.: "DESCANSO", "PROGRESSÃO"). O título fixo do topo é opcional no início e no fim.
-- Cada ciclo é um tema validado (§3). O vídeo inteiro responde UMA pergunta do território que performa (ex.: "por que você não cresce", "como sair do platô", "como perder barriga sem perder músculo").
-- Exemplo ("Por que você não cresce"):
-  - "Se você treinar o mesmo músculo todo dia… ele não recupera e para de crescer." ◀◀
-  - "Então você descansa 48 horas. Mas se repetir sempre o mesmo peso… o corpo acostuma e trava." ◀◀
-  - "Então sobe 1 repetição ou 1 quilo por semana. Mas se dormir 5 horas… a força cai." ◀◀
-  - "Então dorme de 7 a 9. Aí sim: descanso, progressão e sono — o músculo cresce."
-  - "Comenta CRESCER que eu te mando como registrar sua progressão no Bríu. Link na bio."
-- Continua valendo: 1ª frase ≤ 8 palavras, conclusão antes do CTA, só funções reais do app, palavra-chave em maiúsculas para a DM, "Bríu" só na fala.
-- FIBRA mantém a fórmula própria ("o que é essa sensação no corpo?"), 20–25 s.
+## 4. Roteiro do BRIO — "jornada de erros" (usuário, 20–21/11; substitui a cadeia com ◀◀)
+Modelo aprovado: `motor/v2_75_cresce.py` + `roteiro_brio_75_cresce.py` ("Por que você não cresce", 67 s).
+- Uma pessoa tenta resolver UM problema e erra em sequência: **"Você faz X, mas ainda <problema>. Então você faz Y, mas <novo problema>. Então você ajusta Z…"** até o acerto. Exemplo do usuário: "Você corta as besteiras e treina todos os dias, mas ainda não cresce. Então conta as calorias e monta um treino novo, mas ganha gordura em vez de músculo. Então ajusta a proteína para 2× o peso e divide as séries…"
+- **≥ 1 min** (60–75 s), 9–12 beats, 1ª frase ≤ 8 palavras e já dentro do problema. Último beat = **conclusão** ("o que fez crescer foi…") → CTA.
+- Animação 2D atual (`cenas_v2.py`, o mesmo boneco do mesmo cenário evoluindo entre os beats). Sem efeito de voltar a fita. Alimentação é permitida dentro da história.
+- Quando o usuário estiver na conversa, **mande o roteiro para aprovação antes de produzir**.
+- Continua valendo: conclusão antes do CTA, só funções reais do app, palavra-chave em maiúsculas para a DM, "Bríu" só na fala.
+- FIBRA mantém a fórmula própria (§3), 20–25 s.
+
+### 4b. Antes de CADA roteiro novo: últimos 10 + teste de modelo (usuário, 22/11)
+1. Rode `listar-midia` e abra `midia/<perfil>.json`. Pegue os **10 posts mais recentes** do perfil e monte a tabela: id · modelo de roteiro · gancho · duração · views · watch time médio · compartilhamentos · salvos. Ordene por views e por watch time.
+2. Escreva no topo do roteiro (comentário `# ANALISE_10:`) os 3 melhores, os 3 piores e o que os separa (gancho, modelo, tema, duração).
+3. **Sempre testando:** todo dia, por perfil, **1 dos 4 vídeos é EXPERIMENTO** de um modelo de roteiro ainda não testado (ex.: jornada de erros, lista "3 coisas", antes/depois, pergunta + resposta seca, "o que acontece se…", diálogo, ranking, desafio de 30 dias). Marque `formato='teste:<modelo>'` no D1 e mantenha o tema validado (§3).
+4. Registro em `referencia/testes_roteiro.md`: data · perfil · id · modelo · views 48 h · watch time · veredito. Modelo que passa a média do perfil em 2 testes vira padrão (entra na rotina); abaixo da média em 2 testes sai.
 
 ## 5. Narração (ElevenLabs v4, via workflow)
 Um único `jobs/eleven.json` com todos os vídeos do dia (`op: "tts"`, `model_id: "eleven_v4"`, `timestamps: true`, `seed: 7`). Vozes:
@@ -118,14 +114,14 @@ for b in BEATS:
 1. Anti-repetição: tema canônico novo; gancho não repete a fórmula do vídeo anterior do mesmo perfil.
 2. Roteiro e legenda: faixa de caracteres, 1ª frase ≤ 8 palavras, conclusão antes do CTA, CTA menciona o Brio e termina em "Link na bio.", só funções reais, "Bríu" só na fala; legenda, DM e tela com "Brio" (`grep -i "br[íi]u"` na legenda tem que dar vazio).
 3. Cenas: tudo entre y 250 e 1570 e com 120 px livres à direita; textos cabem na caixa.
-4. Arquivo: `python3 qa_video.py out/<id>.mp4 --starts <starts>` (resolução, codec, 15–60 s, tela preta, congelado > 3 s, buraco de áudio, volume).
+4. Arquivo: `python3 qa_video.py out/<id>.mp4 --starts <starts>` (resolução, codec, 15–90 s, tela preta, congelado > 3 s, buraco de áudio, volume).
 5. Áudio: ouça/inspecione o alinhamento — "Bríu" e números certos; nenhuma palavra cortada.
 6. Visual: abra `out/<id>_folha.png` e `out/<id>_cortes.png` com a ferramenta Read e procure texto sobreposto/cortado, membro solto, objeto atravessando, cor errada do perfil.
 7. Revisão final (você, como Opus): 1 em cada 4 vídeos assistidos quadro a quadro em 5 pontos + todo vídeo que algum portão marcou.
 Falhou → conserte e repita. Na 3ª falha do mesmo vídeo, descarte-o, registre o motivo no resumo e siga.
 
 ## 8. Publicar e agendar
-1. Copie o mp4 aprovado para o branch `midia` como `<perfil>/<id>.mp4` (worktree: `git worktree add ../midia midia`), commit e push.
+1. Copie o mp4 aprovado para o branch `midia` como `<perfil>/<id>.mp4` (worktree: `git worktree add ../midia midia`) **e gere a capa junto**: `python3 motor/capa.py ../midia/<perfil>/<id>.mp4` → `<perfil>/<id>.jpg` (quadro mais nítido entre 1,2 e 3,2 s, com o título na tela). Abra o .jpg com Read: título legível e boneco visível. Commit dos dois e push. O Worker manda o .jpg como `cover_url`; sem .jpg, usa `thumb_offset` 1,8 s — a capa nunca deve sair escura/sem título (usuário, 22/11).
 2. Escreva `jobs/d1.json`:
 ```json
 {"nome": "agenda-AAAAMMDD", "videos": [{"id": "fibra-07-xxx", "perfil": "fibra", "tema_canonico": "...", "gancho": "...", "gatilho_tipo": "2",
