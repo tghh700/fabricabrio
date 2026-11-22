@@ -1,12 +1,12 @@
 {
- "nome": "22-lote",
+ "nome": "23-lote",
  "ops": [
   {
    "op": "tts",
-   "id": "brio_83_forca",
+   "id": "brio_86_volta",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Se você só treina leve, a força trava. Quinze repetições fáceis, todo treino. Então você pega pesado, de cinco a oito repetições. Mas se descansar só trinta segundos, a próxima série despenca. Então você descansa de dois a três minutos. Mas se trocar de exercício todo mês, nunca pega o jeito. Então você repete os mesmos por dois meses, e anota a carga. [confident] Aí sim: peso, descanso e repetição. A força volta a subir. Comenta FORÇA que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "text": "[serious] Você ficou três meses parado. Aí volta pra academia com tudo, e pega a mesma carga de antes. Termina o treino se achando. No dia seguinte, não consegue nem descer a escada. A dor dura cinco dias. E você falta a semana inteira esperando passar. Então você volta leve demais, com medo da dor. Duas semanas depois, a carga é a mesma do primeiro dia. Então você tenta compensar o tempo perdido e treina todo dia. Mas na segunda semana está exausto, e a força cai. Então você faz diferente. Começa com metade da carga de antes, e metade das séries. Toda semana, sobe um pouco. A dor vem fraca, passa em dois dias, e você não falta mais. E em poucas semanas, a carga de antes volta. O músculo lembra o caminho, e reconstrói mais rápido do que da primeira vez. [confident] O que te trouxe de volta foi começar pela metade, e subir um pouco toda semana, sem pressa. Comenta VOLTA que eu te mando como registrar suas séries no Bríu e ver a carga voltar. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -19,10 +19,10 @@
   },
   {
    "op": "tts",
-   "id": "brio_84_tres",
+   "id": "brio_87_verao",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Se você faz um músculo por treino. Em três dias, cada um trabalha uma vez só. Então você treina o corpo todo, em cada treino. Mas se fizer dez exercícios, o treino passa de duas horas. Então você faz cinco exercícios, em quarenta e cinco minutos. Mas se faltar um dia, perde um terço da semana. Então você deixa os três dias fixos, como compromisso. [confident] Aí sim: corpo todo, treino curto e dias fixos. Três vezes dá pra crescer. Comenta TREINO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[serious] Faltam oito semanas pro verão. E você quer chegar com mais braço e mais ombro. Então você treina duas vezes por dia. Na segunda semana, o corpo não recupera, e a força começa a cair. Então você vai até a falha em todas as séries, pra compensar. Mas sai do treino destruído, e a carga não sobe. Então você copia um treino novo da internet toda semana. Só que nunca repete nada, e não dá pra saber se evoluiu. E pra caber tudo, dorme cinco horas por noite. O braço fica igual, e o cansaço só aumenta. Então você faz o simples. Quatro treinos por semana, e o mesmo plano por oito semanas. Em cada treino, tenta uma repetição ou um quilo a mais que na semana anterior. E dorme sete horas. Oito semanas depois, a carga subiu em quase todos os exercícios, e o braço e o ombro aparecem mais na camiseta. [confident] O que funcionou não foi o atalho. Foi o mesmo plano, carga subindo e descanso. Comenta VERÃO que eu te mando como registrar suas séries no Bríu e acompanhar sua evolução. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -35,10 +35,10 @@
   },
   {
    "op": "tts",
-   "id": "brio_85_perna",
+   "id": "brio_88_ano",
    "voice_id": "plASsyS7JE6GCAvx9uIc",
    "model_id": "eleven_v4",
-   "text": "[serious] Se você treina perna leve, ela não cresce. Vinte repetições fáceis não bastam. Então você coloca carga no agachamento, perto da falha. Mas se descer só até a metade, o glúteo cresce menos. Então você desce fundo, até onde controla. Mas se treinar perna só a cada quinze dias, ela fica pra trás. Então você treina perna duas vezes por semana. [confident] Aí sim: carga, descida funda e duas vezes na semana. A perna cresce. Comenta PERNA que eu te mando como registrar suas séries no Bríu. Link na bio.",
+   "text": "[curious] Um ano de academia. O que muda de verdade? Força. Antes, trinta quilos no supino tremiam. Depois de um ano, dá pra chegar perto do dobro. Músculo. Treinando e comendo direito, o primeiro ano dá de dois a cinco quilos. É o ano em que mais se cresce. Espelho. Antes, a manga da camiseta ficava solta. Depois, ela aperta no braço. Rotina. Antes, ir pra academia era esforço. Depois de um ano, estranho é faltar. [confident] O primeiro ano é o que mais muda. Só não vale parar no meio. Comenta ANO que eu te mando como registrar suas séries no Bríu e comparar seu antes e depois. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.8,
@@ -51,10 +51,26 @@
   },
   {
    "op": "tts",
-   "id": "fibra_30_barra",
+   "id": "brio_89_ferias",
+   "voice_id": "plASsyS7JE6GCAvx9uIc",
+   "model_id": "eleven_v4",
+   "text": "[serious] Chegou dezembro, e vem a viagem. Você pensa: duas semanas sem treino, depois eu recupero. Então você para tudo. Mas a viagem vira festa, depois ano novo, e duas semanas viram cinco. Então você tenta compensar: duas horas na academia do hotel no primeiro dia. No segundo, não aguenta, e desiste. Então faz flexão quando lembra, sem contar nada. Um dia faz, três dias não. Então você faz o mínimo, mas fixo. Dois treinos por semana, de trinta minutos, com o que tiver. Agachamento, flexão, remada com a mochila cheia. Poucas séries, mas perto do limite. E funciona: com um terço do treino de sempre, dá pra manter a força e o músculo por meses. Em janeiro, você volta pra academia sem começar do zero. A carga de antes está lá, te esperando. [confident] O que salvou as férias não foi treinar muito. Foi o mínimo, toda semana. Comenta FÉRIAS que eu te mando como registrar seus treinos no Bríu e não perder o que ganhou. Link na bio.",
+   "voice_settings": {
+    "stability": 0.5,
+    "similarity_boost": 0.8,
+    "style": 0.2,
+    "use_speaker_boost": true,
+    "speed": 1.1
+   },
+   "timestamps": true,
+   "seed": 7
+  },
+  {
+   "op": "tts",
+   "id": "fibra_34_joelho",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Por que a barra fixa é tão difícil? Você puxa quase o corpo inteiro. Quem pesa oitenta quilos sobe uns setenta e cinco. E cada quilo a mais no corpo entra na conta. Na barra, vale a força pelo seu peso. Quem puxa são as costas e o bíceps, bem menores que a perna que te carrega o dia todo. [warm] Então: não é fraqueza. É o peso do corpo numa puxada só. Comenta BARRA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] Agachar fundo estraga o joelho? Não, se a carga é controlada. A cartilagem se alimenta de pressão, como uma esponja. Levantadores de peso têm a cartilagem atrás da patela mais grossa, não mais fina. E lá embaixo, a coxa encosta na panturrilha e divide parte da força do joelho. [warm] Então: com carga que você controla, descer fundo não é o vilão. Comenta JOELHO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -67,10 +83,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_31_alonga",
+   "id": "fibra_35_primeiro",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Alongar depois do treino evita a dor? Não evita. Uma revisão de doze estudos achou quase nenhuma diferença. A dor vem de pequenas lesões na fibra e do corpo consertando. Esticar não desfaz isso. Alongar continua bom pra ganhar flexibilidade. Só não serve pra dor. [warm] Então: alonga se você gosta. Pra dor, quem resolve é o tempo. Comenta ALONGA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] Por que o primeiro treino de perna dói? No primeiro, a descida do agachamento é novidade, e abre pequenas lesões em muitas fibras. Mas depois de um treino só, o corpo já se protege. O cérebro espalha o esforço por mais fibras, e elas ganham reforço por dentro. O mesmo treino, uma semana depois, dói bem menos. E essa proteção dura semanas. [warm] Então: a dor caiu porque o corpo aprendeu, não porque o treino ficou fraco. Comenta PERNA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -83,10 +99,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_32_legpress",
+   "id": "fibra_36_falha",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Por que o leg press parece tão leve? Primeiro: o trenó é inclinado. Só parte do peso das anilhas pesa contra a perna. Segundo: no agachamento, a perna também levanta o seu tronco, que não entra na conta. E no leg press ninguém se equilibra: costas e abdômen ficam encostados. [warm] Então: os números não se comparam. Compara o leg press só com ele mesmo. Comenta PESO que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] Por que a última repetição não sobe? No começo da série, o cérebro usa poucas fibras. Conforme elas cansam, ele chama as outras. Na última, todas já estão trabalhando, e cada uma rende menos: falta energia rápida, e sobra fosfato dentro dela. Por isso a barra fica lenta antes de parar. A velocidade cai a cada repetição. [warm] Então: não é falta de vontade. É fibra sem reserva. Comenta SÉRIE que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
@@ -99,10 +115,10 @@
   },
   {
    "op": "tts",
-   "id": "fibra_33_descida",
+   "id": "fibra_37_segundos",
    "voice_id": "r3KkFedJ4n8aabIZ0RFQ",
    "model_id": "eleven_v4",
-   "text": "[curious] Por que você aguenta mais peso na descida? Na descida, o músculo não levanta. Ele freia o peso. As pontes dentro da fibra seguram esticadas, e uma mola gigante, a titina, ajuda a segurar. Por isso você controla cerca de um terço a mais na descida do que na subida. [warm] Então: não é impressão. Na descida, o músculo é mais forte mesmo. Comenta DESCIDA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
+   "text": "[curious] O que acontece numa série de agachamento? Nos primeiros dez segundos, a energia vem de uma reserva pronta no músculo, a creatina fosfato. Aos vinte, essa reserva já caiu. O músculo queima açúcar rápido, e começa a ardência. Aos trinta, o coração acelera, e a coxa enche de sangue. Aos quarenta, as fibras cansadas chamam reforço, e a perna começa a tremer. [warm] Então: em quarenta segundos, sua perna troca de combustível e chama todas as fibras. Comenta AGACHA que eu te mando como registrar seus treinos no Bríu. Link na bio.",
    "voice_settings": {
     "stability": 0.5,
     "similarity_boost": 0.75,
