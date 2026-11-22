@@ -126,10 +126,11 @@ async function clique(url, env, request) {
 }
 async function video(url) {
   const nome = url.pathname.slice(3);
-  if (!/^[a-z0-9_\-\/]+\.mp4$/i.test(nome)) return new Response("not found", { status: 404 });
+  if (!/^[a-z0-9_\-\/]+\.(mp4|jpg)$/i.test(nome)) return new Response("not found", { status: 404 });
   const r = await fetch(RAW + nome);
   if (!r.ok) return new Response("not found", { status: 404 });
-  return new Response(r.body, { headers: { "content-type": "video/mp4", "cache-control": "public, max-age=3600" } });
+  const ct = nome.endsWith(".jpg") ? "image/jpeg" : "video/mp4";
+  return new Response(r.body, { headers: { "content-type": ct, "cache-control": "public, max-age=3600" } });
 }
 
 // ------------------------------------------------------------------ publicador
@@ -145,9 +146,12 @@ async function publicador(env) {
   for (const p of novos) {
     const c = contas[p.perfil];
     if (!c || !c.ig_user_id || c.pausado) continue;
-    const r = await graph("POST", `${c.ig_user_id}/media`, token(env, p.perfil), {
-      media_type: "REELS", video_url: `${base}/v/${p.arquivo}`, caption: escrita(p.legenda), share_to_feed: "true",
-    });
+    // capa: <arquivo>.jpg no branch midia (gerada na produção); sem ela, usa o quadro de 1,8 s (título já na tela)
+    const capa = p.arquivo.replace(/\.mp4$/i, ".jpg");
+    const temCapa = (await fetch(RAW + capa, { method: "HEAD" })).ok;
+    const params = { media_type: "REELS", video_url: `${base}/v/${p.arquivo}`, caption: escrita(p.legenda), share_to_feed: "true" };
+    if (temCapa) params.cover_url = `${base}/v/${capa}`; else params.thumb_offset = "1800";
+    const r = await graph("POST", `${c.ig_user_id}/media`, token(env, p.perfil), params);
     if (r.ok) await env.DB.prepare("UPDATE posts SET status = 'contêiner', container_id = ?, erro = NULL WHERE id = ?").bind(r.j.id, p.id).run();
     else await env.DB.prepare("UPDATE posts SET status = 'erro', erro = ? WHERE id = ?").bind(JSON.stringify(r.j.error || r.j).slice(0, 500), p.id).run();
   }
