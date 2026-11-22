@@ -1,1 +1,161 @@
-{"nome": "estado-20261122-1649", "videos": []}
+{
+ "nome": "agenda-20261123",
+ "videos": [
+  {
+   "id": "brio-86-volta",
+   "perfil": "brio",
+   "tema_canonico": "voltar a treinar depois de meses parado: metade da carga e subir toda semana",
+   "gancho": "Você ficou três meses parado.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "VOLTA",
+   "arquivo": "brio/brio-86-volta.mp4",
+   "legenda": "Ficou meses parado e voltou com tudo? 👇\nMesma carga de antes = 5 dias de dor e semana perdida. Leve demais não sobe, todo dia esgota. O que funciona: metade da carga e das séries, subindo um pouco toda semana. Em poucas semanas a força de antes volta.\n📲 Comenta VOLTA que eu te mando no direct como registrar suas séries no Brio.\n\n#brio #voltaratreinar #musculacao #treino #academia",
+   "hashtags": "#brio #voltaratreinar #musculacao #treino #academia",
+   "duracao_s": 60.27,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 14:30:00"
+  },
+  {
+   "id": "brio-87-verao",
+   "perfil": "brio",
+   "tema_canonico": "atalhos pra chegar no verão com mais músculo: o plano simples vence a pressa",
+   "gancho": "Faltam oito semanas pro verão.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "VERÃO",
+   "arquivo": "brio/brio-87-verao.mp4",
+   "legenda": "8 semanas pro verão: o que funciona? 👇\nTreino 2×/dia, falha em tudo, treino novo toda semana e 5 h de sono só travam. Quatro treinos por semana, o mesmo plano, uma repetição ou um quilo a mais por semana e 7 h de sono: a carga sobe e o braço aparece.\n📲 Comenta VERÃO que eu te mando no direct como registrar suas séries no Brio.\n\n#brio #projetoverao #hipertrofia #musculacao #academia",
+   "hashtags": "#brio #projetoverao #hipertrofia #musculacao #academia",
+   "duracao_s": 61.05,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 17:00:00"
+  },
+  {
+   "id": "brio-88-ano",
+   "perfil": "brio",
+   "tema_canonico": "um ano de academia: o que muda de verdade (força, músculo, espelho, rotina)",
+   "gancho": "Um ano de academia.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "ANO",
+   "arquivo": "brio/brio-88-ano.mp4",
+   "legenda": "Um ano de academia: o que muda? 👇\nForça: perto do dobro no supino. Músculo: de 2 a 5 kg no primeiro ano, o ano em que mais se cresce. Espelho: a manga aperta. Rotina: estranho é faltar.\n📲 Comenta ANO que eu te mando no direct como registrar suas séries no Brio.\n\n#brio #antesedepois #musculacao #treino #academia",
+   "hashtags": "#brio #antesedepois #musculacao #treino #academia",
+   "duracao_s": 39.74,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 21:00:00"
+  },
+  {
+   "id": "brio-89-ferias",
+   "perfil": "brio",
+   "tema_canonico": "manter o músculo nas férias de fim de ano: dois treinos curtos por semana",
+   "gancho": "Chegou dezembro, e vem a viagem.",
+   "gatilho_tipo": "2",
+   "palavra_chave": "FÉRIAS",
+   "arquivo": "brio/brio-89-ferias.mp4",
+   "legenda": "Vai viajar nas férias? 👇\nParar tudo vira 5 semanas, 2 horas no hotel cansa no 2º dia e flexão solta não conta. Dois treinos de 30 minutos por semana, poucas séries perto do limite: com um terço do treino dá pra manter força e músculo por meses.\n📲 Comenta FÉRIAS que eu te mando no direct como registrar seus treinos no Brio.\n\n#brio #ferias #treinoemcasa #musculacao #academia",
+   "hashtags": "#brio #ferias #treinoemcasa #musculacao #academia",
+   "duracao_s": 60.97,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-24 00:00:00"
+  },
+  {
+   "id": "fibra-34-joelho",
+   "perfil": "fibra",
+   "tema_canonico": "agachar fundo não estraga o joelho: cartilagem gosta de carga e a coxa apoia na panturrilha",
+   "gancho": "Agachar fundo estraga o joelho?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "JOELHO",
+   "arquivo": "fibra/fibra-34-joelho.mp4",
+   "legenda": "Agachar fundo estraga o joelho? 🔬👇\nCom carga controlada, não: a cartilagem se alimenta de pressão, levantadores têm a cartilagem da patela mais grossa e, lá embaixo, a coxa apoia na panturrilha e divide a força.\n📲 Comenta JOELHO que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #agachamento #joelho #ciencia #musculacao",
+   "hashtags": "#fibratreino #agachamento #joelho #ciencia #musculacao",
+   "duracao_s": 23.07,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 15:30:00"
+  },
+  {
+   "id": "fibra-35-primeiro",
+   "perfil": "fibra",
+   "tema_canonico": "o primeiro treino de perna dói muito mais: efeito da carga repetida protege o músculo",
+   "gancho": "Por que o primeiro treino de perna dói?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "PERNA",
+   "arquivo": "fibra/fibra-35-primeiro.mp4",
+   "legenda": "Por que o primeiro treino de perna dói tanto? 🔬👇\nA descida é novidade e abre pequenas lesões em muitas fibras. Depois de um treino só, o corpo se protege: o mesmo treino na semana seguinte dói bem menos. Não é treino fraco, é o corpo que aprendeu.\n📲 Comenta PERNA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #treinodeperna #dormuscular #ciencia #musculacao",
+   "hashtags": "#fibratreino #treinodeperna #dormuscular #ciencia #musculacao",
+   "duracao_s": 26.57,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 19:00:00"
+  },
+  {
+   "id": "fibra-36-falha",
+   "perfil": "fibra",
+   "tema_canonico": "por que a última repetição não sobe: todas as fibras recrutadas e sem energia rápida",
+   "gancho": "Por que a última repetição não sobe?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "SÉRIE",
+   "arquivo": "fibra/fibra-36-falha.mp4",
+   "legenda": "Por que a última repetição não sobe? 🔬👇\nO cérebro começa com poucas fibras e vai chamando as outras. No fim, estão todas trabalhando e cada uma rende menos: falta energia rápida e sobra fosfato. Por isso a barra fica lenta antes de parar.\n📲 Comenta SÉRIE que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #falhamuscular #forca #ciencia #musculacao",
+   "hashtags": "#fibratreino #falhamuscular #forca #ciencia #musculacao",
+   "duracao_s": 24.92,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-23 22:00:00"
+  },
+  {
+   "id": "fibra-37-segundos",
+   "perfil": "fibra",
+   "tema_canonico": "o que acontece no corpo numa série de agachamento de 40 segundos, segundo a segundo",
+   "gancho": "O que acontece numa série de agachamento?",
+   "gatilho_tipo": "2",
+   "palavra_chave": "AGACHA",
+   "arquivo": "fibra/fibra-37-segundos.mp4",
+   "legenda": "O que acontece numa série de agachamento? 🔬👇\n10 s: reserva pronta (creatina fosfato). 20 s: a reserva cai e o músculo queima açúcar rápido, vem a ardência. 30 s: coração acelera e a coxa enche de sangue. 40 s: as fibras cansadas chamam reforço e a perna treme.\n📲 Comenta AGACHA que eu te mando no direct como registrar seus treinos no Brio.\n\n#fibratreino #agachamento #treinodeperna #ciencia #musculacao",
+   "hashtags": "#fibratreino #agachamento #treinodeperna #ciencia #musculacao",
+   "duracao_s": 28.37,
+   "dm_texto": "Aqui está o link do Brio, onde você registra suas séries e acompanha sua evolução de graça: {link}",
+   "agendado_para": "2026-11-24 01:00:00"
+  }
+ ],
+ "creditos": [
+  {
+   "video_id": "brio-86-volta",
+   "quantidade": 967
+  },
+  {
+   "video_id": "brio-87-verao",
+   "quantidade": 1002
+  },
+  {
+   "video_id": "brio-88-ano",
+   "quantidade": 598
+  },
+  {
+   "video_id": "brio-89-ferias",
+   "quantidade": 941
+  },
+  {
+   "video_id": "fibra-34-joelho",
+   "quantidade": 439
+  },
+  {
+   "video_id": "fibra-35-primeiro",
+   "quantidade": 513
+  },
+  {
+   "video_id": "fibra-36-falha",
+   "quantidade": 470
+  },
+  {
+   "video_id": "fibra-37-segundos",
+   "quantidade": 539
+  }
+ ],
+ "sql": [
+  "UPDATE videos SET formato='jornada' WHERE id='brio-86-volta';",
+  "UPDATE videos SET formato='jornada' WHERE id='brio-87-verao';",
+  "UPDATE videos SET formato='teste:antes-depois' WHERE id='brio-88-ano';",
+  "UPDATE videos SET formato='jornada' WHERE id='brio-89-ferias';",
+  "UPDATE videos SET formato='fibra-padrao' WHERE id='fibra-34-joelho';",
+  "UPDATE videos SET formato='fibra-padrao' WHERE id='fibra-35-primeiro';",
+  "UPDATE videos SET formato='fibra-padrao' WHERE id='fibra-36-falha';",
+  "UPDATE videos SET formato='teste:linha-do-tempo' WHERE id='fibra-37-segundos';"
+ ]
+}

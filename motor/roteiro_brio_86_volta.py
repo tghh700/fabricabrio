@@ -1,0 +1,14 @@
+# brio_86_volta — produção 23/11 · voltar a treinar depois de meses parado: metade da carga e subir toda semana
+# ANALISE_10: melhores = seis meses 1.580 (wt 12,8 s) · jornada brio-75 1.406 (wt 17,2 s, 18 salvos) · força parou 1.364 (wt 12,6 s);
+#   piores = flexibilidade 137 (wt 5,2 s) · peito não cresce 146 (wt 5,1 s) · água gelada 231 (wt 6,2 s).
+#   separa: situação de resultado/tempo que a pessoa vive + história longa seguram 12–17 s; mito pontual e músculo isolado caem em 5–6 s.
+# modelo: jornada
+# evidência: nosso: parou 2 semanas 1,9k (1,8×), parou e perdeu tudo 1.224; jornada 75 1.406 (wt 17,2 s)
+# fonte: Nosaka K et al. 2001 (efeito da carga repetida: menos dor nas sessões seguintes); Staron RS et al. J Appl Physiol 1991;70(2):631-40 (retreino recupera mais rápido); Ogasawara R et al. 2013 (pausa e retorno)
+TITLE='[serious] Você ficou três meses parado. Aí volta pra academia com tudo, e pega a mesma carga de antes.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_86_volta_tight.mp3','starts':[0.08, 6.627, 11.527, 16.461, 23.181, 30.541, 35.634, 41.341, 48.541, 54.248]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'PAROU 3 MESES', 't2': 'E VOLTOU COM TUDO?', 'text': '[serious] Você ficou três meses parado. Aí volta pra academia com tudo, e pega a mesma carga de antes.'}, {'vis': 'dor', 'k': '', 't1': 'NO DIA SEGUINTE,', 't2': 'NEM ANDA.', 'text': 'Termina o treino se achando. No dia seguinte, não consegue nem descer a escada.'}, {'vis': 'falta', 'k': '', 't1': 'CINCO DIAS', 't2': 'DE DOR.', 'text': 'A dor dura cinco dias. E você falta a semana inteira esperando passar.'}, {'vis': 'leve', 'k': '', 't1': 'VOLTOU LEVE', 't2': 'DEMAIS.', 'text': 'Então você volta leve demais, com medo da dor. Duas semanas depois, a carga é a mesma do primeiro dia.'}, {'vis': 'todo', 'k': '', 't1': 'TODO DIA', 't2': 'PRA COMPENSAR.', 'text': 'Então você tenta compensar o tempo perdido e treina todo dia. Mas na segunda semana está exausto, e a força cai.'}, {'vis': 'metade', 'k': '', 't1': 'METADE DA', 't2': 'CARGA.', 'text': 'Então você faz diferente. Começa com metade da carga de antes, e metade das séries.'}, {'vis': 'sobe', 'k': '', 't1': 'UM POUCO', 't2': 'POR SEMANA.', 'text': 'Toda semana, sobe um pouco. A dor vem fraca, passa em dois dias, e você não falta mais.'}, {'vis': 'memoria', 'k': '', 't1': 'O MÚSCULO', 't2': 'LEMBRA.', 'text': 'E em poucas semanas, a carga de antes volta. O músculo lembra o caminho, e reconstrói mais rápido do que da primeira vez.'}, {'vis': 'conc', 'k': '', 't1': 'O QUE TE', 't2': 'TROUXE DE VOLTA', 'text': '[confident] O que te trouxe de volta foi começar pela metade, e subir um pouco toda semana, sem pressa.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'VOLTA.', 'text': 'Comenta VOLTA que eu te mando como registrar suas séries no Bríu e ver a carga voltar. Link na bio.', 'marks': {'ponte': 0.88, 'fixa': 4.773}}]

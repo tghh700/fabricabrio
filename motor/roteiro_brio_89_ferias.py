@@ -1,0 +1,14 @@
+# brio_89_ferias — produção 23/11 · manter o músculo nas férias de fim de ano: dois treinos curtos por semana
+# ANALISE_10: melhores = seis meses 1.580 (wt 12,8 s) · jornada brio-75 1.406 (wt 17,2 s, 18 salvos) · força parou 1.364 (wt 12,6 s);
+#   piores = flexibilidade 137 (wt 5,2 s) · peito não cresce 146 (wt 5,1 s) · água gelada 231 (wt 6,2 s).
+#   separa: situação de resultado/tempo que a pessoa vive + história longa seguram 12–17 s; mito pontual e músculo isolado caem em 5–6 s.
+# modelo: jornada
+# evidência: nosso: parou 2 semanas 1,9k (1,8×), 1×/semana funciona 1.207 (1,2×)
+# fonte: Bickel CS, Cross JM, Bamman MM. MSSE 2011;43(7):1177-87 (1/9 a 1/3 do volume mantém músculo e força por 32 semanas); Spiering BA et al. JSCR 2021 (manutenção com volume reduzido)
+TITLE='[serious] Chegou dezembro, e vem a viagem. Você pensa: duas semanas sem treino, depois eu recupero.'
+VOICE='plASsyS7JE6GCAvx9uIc'
+THEME='brio'
+BRAND='brio'
+GATILHO_TIPO=2
+NARRATION={'file':'audio/brio_89_ferias_tight.mp3','starts':[0.08, 6.385, 13.12, 20.32, 25.755, 31.795, 37.742, 43.675, 50.024, 54.715]}
+BEATS=[{'vis': 'hook', 'k': '', 't1': 'DEZEMBRO', 't2': 'CHEGOU.', 'text': '[serious] Chegou dezembro, e vem a viagem. Você pensa: duas semanas sem treino, depois eu recupero.'}, {'vis': 'para', 'k': '', 't1': 'DUAS SEMANAS', 't2': 'VIRARAM CINCO.', 'text': 'Então você para tudo. Mas a viagem vira festa, depois ano novo, e duas semanas viram cinco.'}, {'vis': 'hotel', 'k': '', 't1': 'DUAS HORAS', 't2': 'NO HOTEL.', 'text': 'Então você tenta compensar: duas horas na academia do hotel no primeiro dia. No segundo, não aguenta, e desiste.'}, {'vis': 'solto', 'k': '', 't1': 'FLEXÃO', 't2': 'QUANDO LEMBRA.', 'text': 'Então faz flexão quando lembra, sem contar nada. Um dia faz, três dias não.'}, {'vis': 'minimo', 'k': '', 't1': 'DOIS TREINOS', 't2': 'DE 30 MINUTOS.', 'text': 'Então você faz o mínimo, mas fixo. Dois treinos por semana, de trinta minutos, com o que tiver.'}, {'vis': 'como', 'k': '', 't1': 'POUCAS SÉRIES,', 't2': 'PERTO DO LIMITE.', 'text': 'Agachamento, flexão, remada com a mochila cheia. Poucas séries, mas perto do limite.'}, {'vis': 'mantem', 'k': '', 't1': '1/3 DO TREINO', 't2': 'MANTÉM.', 'text': 'E funciona: com um terço do treino de sempre, dá pra manter a força e o músculo por meses.'}, {'vis': 'janeiro', 'k': '', 't1': 'JANEIRO:', 't2': 'SEM VOLTAR DO ZERO.', 'text': 'Em janeiro, você volta pra academia sem começar do zero. A carga de antes está lá, te esperando.'}, {'vis': 'conc', 'k': '', 't1': 'O QUE SALVOU', 't2': 'FOI O MÍNIMO.', 'text': '[confident] O que salvou as férias não foi treinar muito. Foi o mínimo, toda semana.'}, {'vis': 'cta', 'k': '', 't1': 'COMENTA', 't2': 'FÉRIAS.', 'text': 'Comenta FÉRIAS que eu te mando como registrar seus treinos no Bríu e não perder o que ganhou. Link na bio.', 'marks': {'ponte': 0.88, 'fixa': 5.04}}]

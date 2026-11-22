@@ -51,7 +51,7 @@ V('brio_86_volta', 'brio', 'voltar a treinar depois de meses parado: metade da c
   app='VOLTA', app_lines=[("SEM 1 · 20 KG", None), ("SEM 2 · 25 KG", None), ("SEM 4 · 40 KG", None)], cta_lines=('REGISTRE SUAS SÉRIES', 'NO BRIO'))
 
 V('brio_87_verao', 'brio', 'atalhos pra chegar no verão com mais músculo: o plano simples vence a pressa', 'VERÃO', [
- ('hook', 'FALTAM 8', 'SEMANAS PRO VERÃO', '[serious] Faltam oito semanas pro verão. E você quer chegar com mais braço e mais ombro.'),
+ ('hook', '8 SEMANAS', 'PRO VERÃO.', '[serious] Faltam oito semanas pro verão. E você quer chegar com mais braço e mais ombro.'),
  ('duas', 'TREINO DUAS', 'VEZES POR DIA.', 'Então você treina duas vezes por dia. Na segunda semana, o corpo não recupera, e a força começa a cair.'),
  ('falha', 'FALHA EM', 'TODA SÉRIE.', 'Então você vai até a falha em todas as séries, pra compensar. Mas sai do treino destruído, e a carga não sobe.'),
  ('troca', 'TREINO NOVO', 'TODA SEMANA.', 'Então você copia um treino novo da internet toda semana. Só que nunca repete nada, e não dá pra saber se evoluiu.'),
@@ -69,7 +69,7 @@ V('brio_87_verao', 'brio', 'atalhos pra chegar no verão com mais músculo: o pl
 
 V('brio_88_ano', 'brio', 'um ano de academia: o que muda de verdade (força, músculo, espelho, rotina)', 'ANO', [
  ('hook', 'UM ANO DE', 'ACADEMIA.', '[curious] Um ano de academia. O que muda de verdade?'),
- ('forca', 'FORÇA:', 'QUASE O DOBRO.', 'Força. Antes, trinta quilos no supino tremiam. Depois de um ano, dá pra chegar perto do dobro.'),
+ ('forca', 'CARGA:', 'QUASE O DOBRO.', 'Força. Antes, trinta quilos no supino tremiam. Depois de um ano, dá pra chegar perto do dobro.'),
  ('musculo', 'MÚSCULO:', '+2 A 5 KG.', 'Músculo. Treinando e comendo direito, o primeiro ano dá de dois a cinco quilos. É o ano em que mais se cresce.'),
  ('espelho', 'ESPELHO:', 'A CAMISETA APERTA.', 'Espelho. Antes, a manga da camiseta ficava solta. Depois, ela aperta no braço.'),
  ('rotina', 'ROTINA:', 'VIRA HÁBITO.', 'Rotina. Antes, ir pra academia era esforço. Depois de um ano, estranho é faltar.'),
@@ -88,7 +88,7 @@ V('brio_89_ferias', 'brio', 'manter o músculo nas férias de fim de ano: dois t
  ('solto', 'FLEXÃO', 'QUANDO LEMBRA.', 'Então faz flexão quando lembra, sem contar nada. Um dia faz, três dias não.'),
  ('minimo', 'DOIS TREINOS', 'DE 30 MINUTOS.', 'Então você faz o mínimo, mas fixo. Dois treinos por semana, de trinta minutos, com o que tiver.'),
  ('como', 'POUCAS SÉRIES,', 'PERTO DO LIMITE.', 'Agachamento, flexão, remada com a mochila cheia. Poucas séries, mas perto do limite.'),
- ('mantem', 'UM TERÇO', 'MANTÉM.', 'E funciona: com um terço do treino de sempre, dá pra manter a força e o músculo por meses.'),
+ ('mantem', '1/3 DO TREINO', 'MANTÉM.', 'E funciona: com um terço do treino de sempre, dá pra manter a força e o músculo por meses.'),
  ('janeiro', 'JANEIRO:', 'SEM VOLTAR DO ZERO.', 'Em janeiro, você volta pra academia sem começar do zero. A carga de antes está lá, te esperando.'),
  ('conc', 'O QUE SALVOU', 'FOI O MÍNIMO.', '[confident] O que salvou as férias não foi treinar muito. Foi o mínimo, toda semana.'),
  ('cta', 'COMENTA', 'FÉRIAS.', 'Comenta FÉRIAS que eu te mando como registrar seus treinos no Bríu e não perder o que ganhou. Link na bio.'),
