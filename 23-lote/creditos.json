@@ -1,0 +1,54 @@
+{
+ "gastos": [
+  {
+   "id": "brio_86_volta",
+   "caracteres": 967,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_87_verao",
+   "caracteres": 1002,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_88_ano",
+   "caracteres": 598,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "brio_89_ferias",
+   "caracteres": 941,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_34_joelho",
+   "caracteres": 439,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_35_primeiro",
+   "caracteres": 513,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_36_falha",
+   "caracteres": 470,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  },
+  {
+   "id": "fibra_37_segundos",
+   "caracteres": 539,
+   "chave": 2,
+   "modelo": "eleven_v4"
+  }
+ ],
+ "erros": [],
+ "total": 5469
+}
