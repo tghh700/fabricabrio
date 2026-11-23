@@ -5,6 +5,7 @@ Sem narração, os tempos são estimados pelo número de caracteres (para quadro
 import sys, os, re, json, math, subprocess, importlib
 import cairo
 import engine2 as E
+import legenda
 from build2 import ensure_sfx, music_bed, parse_at, SFXD
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -58,14 +59,24 @@ def main():
     print(f"duração: {total:.1f}s", "(estimada, sem narração)" if not mp3 else "")
     surf = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H); c = cairo.Context(surf)
 
+    LEG = None
+    if mp3 and getattr(mod, "LEGENDA", True):
+        LEG = legenda.carregar(mod, [it["start"] + 0.08 for it in tl[1:]])
+
     def draw(it, T):
         b = it["b"]; t = T - it["start"]; d = it["dur"]
         T_.background(c, T)
+        if LEG:  # encolhe a cena (y 560–1540 → 560–1422) para a faixa da legenda (22/11)
+            c.save(); c.translate(540, 560); c.scale(0.88, 0.88); c.translate(-540, -560)
         sc.VIS[b["vis"]](c, t, d, b)
+        if LEG:
+            c.restore()
         if mod.THEME == "fibra":
             T_.headline(c, t, b.get("t1", ""), b.get("t2", ""), b.get("fig"))
         else:
             T_.headline(c, t, b.get("t1", ""), b.get("t2", ""))
+        if LEG and not b.get("vis", "").endswith("cta"):
+            legenda.desenhar(c, T, LEG, mod.THEME)
 
     if "--stills" in sys.argv:
         sd = os.path.join(OUT, name + "_stills"); os.makedirs(sd, exist_ok=True)

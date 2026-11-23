@@ -111,6 +111,12 @@ for b in BEATS:
 - Uma figura por cena, salvo comparação explícita. Cama = só `sleeper()` (o vídeo 33 v1 tinha um boneco em pé ao lado de outro deitado e foi apagado pelo usuário).
 - **Glifos:** Anton/Space Mono não têm ✓ ✦ — saem como quadradinho. Rode antes do render: `grep -n "✓\|✦" scenes_*.py v2_*.py` tem que dar vazio em texto desenhado (use `check_mark`).
 
+## 6c. Legenda falada (usuário, 22/11)
+- Todo vídeo narrado sai com legenda, desenhada pelo próprio builder (`motor/legenda.py`; `build2s.py` e `build3.py` já chamam): frases de 1–3 palavras num cartão na faixa y 1488–1568, palavra dita destacada na cor do perfil. BRIO = cartão grafite arredondado, Anton, destaque coral. FIBRA = etiqueta de prancha (marinho, contorno ciano com cantoneiras), Barlow Condensed, destaque ciano. Some no beat do CTA.
+- A cena é encolhida automaticamente para caber acima da faixa: não posicione nada da cena abaixo de y 1450 (já em coordenadas finais).
+- Os tempos vêm de `audio/<id>.json` + o mesmo `apertar` da produção. Se mudar os parâmetros do `apertar`, grave `APERTAR = dict(max_pausa=…, tempo=…)` no roteiro (padrão BRIO 0,45 s/1,0; FIBRA padrão). Confira: o "Comenta" da legenda tem que cair no último valor de `NARRATION['starts']`.
+- Não use mais a legenda de uma palavra branca com contorno (`cenas_2211.caption`, desativada).
+
 ## 7. QA — 7 portões (nada vai ao ar sem passar)
 1. Anti-repetição: tema canônico novo; gancho não repete a fórmula do vídeo anterior do mesmo perfil.
 2. Roteiro e legenda: faixa de caracteres, 1ª frase ≤ 8 palavras, conclusão antes do CTA, CTA menciona o Brio e termina em "Link na bio.", só funções reais, "Bríu" só na fala; legenda, DM e tela com "Brio" (`grep -i "br[íi]u"` na legenda tem que dar vazio).

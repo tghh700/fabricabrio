@@ -3,6 +3,7 @@ uso: python3 build2.py roteiro_short_01 scenes_short01 [--stills]"""
 import sys, os, subprocess, importlib, math
 import cairo
 import engine2 as E
+import legenda
 from tts import path_for, duration
 
 HERE = os.path.dirname(os.path.abspath(__file__))
@@ -79,18 +80,25 @@ def parse_at(v, d):
     return eval(s)
 
 SAFE_K = 0.7245  # conteúdo (y 820–1800) encolhido para caber em y 790–1500: área visível do Reels (12/11)
+SAFE_K_LEG = 0.673  # com legenda: conteúdo cabe em y 790–1452 e a faixa da legenda fica em 1478–1566 (22/11)
+LEG = None; PERFIL = "brio"
 def draw(c, sc, it, T, total):
     b = it["b"]; t = T - it["start"]; d = it["dur"]
     E.background(c, T)
-    c.save(); c.translate(540, 1500); c.scale(SAFE_K, SAFE_K); c.translate(-540, -1800)
+    if LEG:
+        c.save(); c.translate(540, 1452); c.scale(SAFE_K_LEG, SAFE_K_LEG); c.translate(-540, -1800)
+    else:
+        c.save(); c.translate(540, 1500); c.scale(SAFE_K, SAFE_K); c.translate(-540, -1800)
     sc.VIS[b["vis"]](c, t, d, b)
     c.restore()
     E.headline(c, t, "", b.get("t1", ""), b.get("t2", ""))  # sem kicker (pedido do usuário, 09/11)
+    if LEG and not b.get("vis", "").endswith("cta"):
+        legenda.desenhar(c, T, LEG, PERFIL)
     # sem logo e sem barra de progresso no rodapé (pedido do usuário em 12/11: a faixa competia com a legenda do Reels)
 
 BRAND = None
 def main():
-    global BRAND
+    global BRAND, LEG, PERFIL
     mod = importlib.import_module(sys.argv[1])
     BRAND = getattr(mod, "BRAND", None)
     if getattr(mod, "THEME", None): E.set_theme(mod.THEME)
@@ -98,6 +106,9 @@ def main():
     os.makedirs(OUT, exist_ok=True); ensure_sfx()
     tl, total = plan(mod)
     print(f"duração: {total:.1f}s")
+    PERFIL = getattr(mod, "THEME", None) or getattr(mod, "BRAND", None) or "brio"
+    if getattr(mod, "LEGENDA", True) and getattr(mod, "NARRATION", None):
+        LEG = legenda.carregar(mod, [it["start"] + 0.08 for it in tl[1:]])
     surf = cairo.ImageSurface(cairo.FORMAT_RGB24, W, H); c = cairo.Context(surf)
     if "--stills" in sys.argv:
         sd = os.path.join(OUT, name + "_stills"); os.makedirs(sd, exist_ok=True)

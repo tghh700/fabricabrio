@@ -134,7 +134,9 @@ def words_from_alignment(al, mapa):
 
 
 def caption(c, T, words, hot_words, y=1505):
-    """legenda de UMA palavra por vez (coordenadas reais)"""
+    """(22/11) substituída pela legenda.py desenhada pelo build2s — mantida só para os vídeos já publicados"""
+    if True:
+        return
     cur = None
     for i, (a, b, w) in enumerate(words):
         nxt = words[i + 1][0] if i + 1 < len(words) else b + 0.6
